@@ -1,0 +1,18 @@
+2025-06-20 18:16:01,001 - INFO - Iniciando o script de scraping...
+2025-06-20 18:16:01,100 - INFO - Conexão com o banco de dados estabelecida!
+2025-06-20 18:16:01,210 - INFO - Tabela 'advogados' recriada com sucesso!
+2025-06-20 18:16:01,211 - INFO - Tabela 'sociedades' verificada/criada com sucesso!
+2025-06-20 18:16:01,212 - INFO - Tabela 'estagiarios' verificada/criada com sucesso!
+2025-06-20 18:16:01,212 - INFO - Tabela 'estagiarios' verificada/criada com sucesso!
+2025-06-20 18:16:01,212 - INFO - Tabela 'agentes_execucao' verificada/criada com sucesso!
+2025-06-20 18:16:01,212 - INFO - ====== WebDriver manager ======
+2025-06-20 18:16:02,427 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 18:16:02,519 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 18:16:02,552 - INFO - There is no [win64] chromedriver "137.0.7151.119" for browser google-chrome "137.0.7151" in cache
+2025-06-20 18:16:02,552 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 18:16:02,635 - INFO - WebDriver version 137.0.7151.119 selected
+2025-06-20 18:16:02,636 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/137.0.7151.119/win32/chromedriver-win32.zip
+2025-06-20 18:16:02,636 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/137.0.7151.119/win32/chromedriver-win32.zip
+2025-06-20 18:16:02,738 - INFO - Driver downloading response is 200
+2025-06-20 18:16:02,944 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-20 18:16:03,724 - INFO - Driver has been saved in cache [C:\Users\david\.wdm\drivers\chromedriver\win64\137.0.7151.119]

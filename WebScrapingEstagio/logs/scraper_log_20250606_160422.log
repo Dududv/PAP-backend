@@ -1,0 +1,33 @@
+2025-06-06 16:04:22,747 - INFO - Iniciando o script de scraping...
+2025-06-06 16:04:22,759 - INFO - Conexão com o banco de dados estabelecida!
+2025-06-06 16:04:22,760 - INFO - Tabela 'advogados' verificada/criada com sucesso!
+2025-06-06 16:04:22,760 - INFO - Tabela 'sociedades' verificada/criada com sucesso!
+2025-06-06 16:04:22,760 - INFO - Tabela 'estagiarios' verificada/criada com sucesso!
+2025-06-06 16:04:22,760 - INFO - ====== WebDriver manager ======
+2025-06-06 16:04:23,646 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-06 16:04:23,689 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-06 16:04:23,723 - INFO - Driver [C:\Users\david\.wdm\drivers\chromedriver\win64\137.0.7151.68\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-06 16:04:28,299 - ERROR - Erro ao configurar o WebDriver: Message: session not created: probably user data directory is already in use, please specify a unique value for --user-data-dir argument, or don't use --user-data-dir
+Stacktrace:
+	GetHandleVerifier [0x0x933763+63299]
+	GetHandleVerifier [0x0x9337a4+63364]
+	(No symbol) [0x0x761113]
+	(No symbol) [0x0x794648]
+	(No symbol) [0x0x790459]
+	(No symbol) [0x0x7da3c2]
+	(No symbol) [0x0x7d9c5a]
+	(No symbol) [0x0x7ce376]
+	(No symbol) [0x0x79d6e0]
+	(No symbol) [0x0x79e544]
+	GetHandleVerifier [0x0xb8e033+2531347]
+	GetHandleVerifier [0x0xb89332+2511634]
+	GetHandleVerifier [0x0x959eda+220858]
+	GetHandleVerifier [0x0x94a528+156936]
+	GetHandleVerifier [0x0x950c5d+183357]
+	GetHandleVerifier [0x0x93b6c8+95912]
+	GetHandleVerifier [0x0x93b870+96336]
+	GetHandleVerifier [0x0x92664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+

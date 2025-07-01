@@ -1,0 +1,339 @@
+2025-06-05 18:09:52,089 - INFO - Iniciando o script de scraping...
+2025-06-05 18:09:52,158 - INFO - Conexão com o banco de dados estabelecida!
+2025-06-05 18:09:52,165 - INFO - ====== WebDriver manager ======
+2025-06-05 18:09:53,043 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-05 18:09:53,126 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-05 18:09:53,161 - INFO - Driver [C:\Users\david\.wdm\drivers\chromedriver\win64\137.0.7151.68\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-05 18:09:55,160 - INFO - Iniciando: coletar_sociedades
+2025-06-05 18:09:55,160 - INFO - Iniciando scraping de sociedades de advogados...
+2025-06-05 18:10:15,626 - ERROR - Erro ao clicar no botão de pesquisa para https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/: Message: 
+
+2025-06-05 18:10:15,633 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-05 18:10:54,600 - ERROR - Tentativa 1 falhou: Message: 
+
+2025-06-05 18:11:11,826 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (“WL – Work in Law, Albuquerque da Fonseca, Maria João Pereira, Tomaz Cameira, Sandra Torres e Associados, Sociedade de Advogados, SP, RL, N/D, Lisboa, Av. 5 de Outubro, n.º 15 - r/c, N/D, +351211390406, mariajoaopereira-6715l@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/, sociedade)
+        
+2025-06-05 18:11:11,864 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (A. BORGES PIRES, SANTOS PEREIRA & ASSOCIADOS, SOCIEDADE DE ADVOGADOS SP, RL, N/D, Lisboa, R. Tierno Galvan, Amoreiras, Torre 3 - 5º.Piso - Sala  511, N/D, +351212454262, geral@abpa.pt, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/, sociedade)
+        
+2025-06-05 18:11:11,872 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (A. ESPÍRITO SANTO, F. ARAÚJO BARRIGAS & ASSOCIADOS-SOCIEDADE DE ADVOGADOS RL, N/D, Lisboa, Av. Fontes Pereira de Melo, n.º 25 - 5º esquerdo, N/D, +351213121140, advogados@sbm-advogados.com.pt, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/, sociedade)
+        
+2025-06-05 18:11:11,877 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (A. J. MARTINS, T. DUARTE, M. RESENDE & ASSOCIADOS-SOCIEDADE DE ADVOGADOS, SP, RL, N/D, Lisboa, Av. da República, n.º 49 - 2º, N/D, +351213584110, atmj@atmj.pt, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/, sociedade)
+        
+2025-06-05 18:11:11,884 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (A. M. MOURA & ASSOCIADOS - SOCIEDADE DE ADVOGADOS, SP, RL, N/D, Lisboa, Rua Tierno Galvan, Torre 3, 7º - 705, N/D, N/D, adelaide.moura-7463l@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/, sociedade)
+        
+2025-06-05 18:11:11,891 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (A. PAIVA & ASSOCIADOS - SOCIEDADE DE ADVOGADOS, SP, RL, N/D, Lisboa, Av. Marginal, 6068, N/D, +351214669317, a.paiva.lawyers@mail.telepac.pt, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/, sociedade)
+        
+2025-06-05 18:11:11,897 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (A. PAULO SANTOS, MARIA DOS ANJOS REIS & ASSOCIADOS - SOCIEDADE DE ADVOGADOS, SP, RL, N/D, Lisboa, Rua Andrade Corvo, 29 - 4º, N/D, +351213174159, geral@apsmar.com, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/, sociedade)
+        
+2025-06-05 18:11:11,903 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (A. R. MONTALVO & ASSOCIADOS-SOCIEDADE DE ADVOGADOS RL, N/D, Lisboa, Av. da República, 56 - 6º.  drtº., N/D, +351217979058, geral@armontalvo.pt, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/, sociedade)
+        
+2025-06-05 18:11:11,910 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (A. RAPOSO - O. CARREIRA & ASSOCIADOS, SOCIEDADE DE ADVOGADOS, SP, RL, N/D, Lisboa, Av 5 de Outubro, 63, r/c esq., N/D, +351219011850, adelino.raposo-20937l@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/, sociedade)
+        
+2025-06-05 18:11:11,916 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (ABALADA MATOS, MORAES CARDOSO E ASSOCIADOS - SOCIEDADE DE ADVOGADOS, RL, N/D, Lisboa, Edifício Alto das Amoreiras, Rua Joshua Benoliel, n.º 6 . 2º B, N/D, N/D, iam-8826l@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/, sociedade)
+        
+2025-06-05 18:11:24,987 - ERROR - Erro ao processar página 2: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=137.0.7151.57)
+Stacktrace:
+	GetHandleVerifier [0x0x1013763+63299]
+	GetHandleVerifier [0x0x10137a4+63364]
+	(No symbol) [0x0xe41113]
+	(No symbol) [0x0xe308a0]
+	(No symbol) [0x0xe4e8c2]
+	(No symbol) [0x0xeb519c]
+	(No symbol) [0x0xecf359]
+	(No symbol) [0x0xeae376]
+	(No symbol) [0x0xe7d6e0]
+	(No symbol) [0x0xe7e544]
+	GetHandleVerifier [0x0x126e033+2531347]
+	GetHandleVerifier [0x0x1269332+2511634]
+	GetHandleVerifier [0x0x1039eda+220858]
+	GetHandleVerifier [0x0x102a528+156936]
+	GetHandleVerifier [0x0x1030c5d+183357]
+	GetHandleVerifier [0x0x101b6c8+95912]
+	GetHandleVerifier [0x0x101b870+96336]
+	GetHandleVerifier [0x0x100664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-05 18:11:25,147 - ERROR - Erro ao processar página 3: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x1013763+63299]
+	GetHandleVerifier [0x0x10137a4+63364]
+	(No symbol) [0x0xe40f70]
+	(No symbol) [0x0xe7c9a8]
+	(No symbol) [0x0xeae436]
+	(No symbol) [0x0xea9f05]
+	(No symbol) [0x0xea9486]
+	(No symbol) [0x0xe13a05]
+	(No symbol) [0x0xe13f5e]
+	(No symbol) [0x0xe143ed]
+	GetHandleVerifier [0x0x126e033+2531347]
+	GetHandleVerifier [0x0x1269332+2511634]
+	GetHandleVerifier [0x0x1039eda+220858]
+	GetHandleVerifier [0x0x102a528+156936]
+	GetHandleVerifier [0x0x1030c5d+183357]
+	(No symbol) [0x0xe136d0]
+	(No symbol) [0x0xe12edd]
+	GetHandleVerifier [0x0x13a7edc+3817148]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-05 18:11:25,149 - ERROR - Erro ao processar página 4: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x1013763+63299]
+	GetHandleVerifier [0x0x10137a4+63364]
+	(No symbol) [0x0xe40f70]
+	(No symbol) [0x0xe7c9a8]
+	(No symbol) [0x0xeae436]
+	(No symbol) [0x0xea9f05]
+	(No symbol) [0x0xea9486]
+	(No symbol) [0x0xe13a05]
+	(No symbol) [0x0xe13f5e]
+	(No symbol) [0x0xe143ed]
+	GetHandleVerifier [0x0x126e033+2531347]
+	GetHandleVerifier [0x0x1269332+2511634]
+	GetHandleVerifier [0x0x1039eda+220858]
+	GetHandleVerifier [0x0x102a528+156936]
+	GetHandleVerifier [0x0x1030c5d+183357]
+	(No symbol) [0x0xe136d0]
+	(No symbol) [0x0xe12edd]
+	GetHandleVerifier [0x0x13a7edc+3817148]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-05 18:11:25,152 - INFO - Dados salvos em CSV: dados_pesquisa-de-sociedades-de-advogados_20250605_181125.csv
+2025-06-05 18:11:25,152 - INFO - coletar_sociedades completado com 10 registros
+2025-06-05 18:11:25,152 - INFO - Iniciando: coletar_estagiarios
+2025-06-05 18:11:25,152 - INFO - Iniciando scraping de estagiários...
+2025-06-05 18:11:25,156 - ERROR - Erro em coletar_estagiarios: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x1013763+63299]
+	GetHandleVerifier [0x0x10137a4+63364]
+	(No symbol) [0x0xe40f70]
+	(No symbol) [0x0xe7c9a8]
+	(No symbol) [0x0xeae436]
+	(No symbol) [0x0xea9f05]
+	(No symbol) [0x0xea9486]
+	(No symbol) [0x0xe13a05]
+	(No symbol) [0x0xe13f5e]
+	(No symbol) [0x0xe143ed]
+	GetHandleVerifier [0x0x126e033+2531347]
+	GetHandleVerifier [0x0x1269332+2511634]
+	GetHandleVerifier [0x0x1039eda+220858]
+	GetHandleVerifier [0x0x102a528+156936]
+	GetHandleVerifier [0x0x1030c5d+183357]
+	(No symbol) [0x0xe136d0]
+	(No symbol) [0x0xe12edd]
+	GetHandleVerifier [0x0x13a7edc+3817148]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-05 18:11:25,156 - INFO - Iniciando: coletar_tribunais
+2025-06-05 18:11:25,156 - INFO - Iniciando scraping de tribunais...
+2025-06-05 18:11:25,159 - ERROR - Erro em coletar_tribunais: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x1013763+63299]
+	GetHandleVerifier [0x0x10137a4+63364]
+	(No symbol) [0x0xe40f70]
+	(No symbol) [0x0xe7c9a8]
+	(No symbol) [0x0xeae436]
+	(No symbol) [0x0xea9f05]
+	(No symbol) [0x0xea9486]
+	(No symbol) [0x0xe13a05]
+	(No symbol) [0x0xe13f5e]
+	(No symbol) [0x0xe143ed]
+	GetHandleVerifier [0x0x126e033+2531347]
+	GetHandleVerifier [0x0x1269332+2511634]
+	GetHandleVerifier [0x0x1039eda+220858]
+	GetHandleVerifier [0x0x102a528+156936]
+	GetHandleVerifier [0x0x1030c5d+183357]
+	(No symbol) [0x0xe136d0]
+	(No symbol) [0x0xe12edd]
+	GetHandleVerifier [0x0x13a7edc+3817148]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-05 18:11:25,159 - INFO - Iniciando: coletar_julgados
+2025-06-05 18:11:25,159 - INFO - Iniciando scraping de julgados de paz...
+2025-06-05 18:11:25,161 - ERROR - Erro em coletar_julgados: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x1013763+63299]
+	GetHandleVerifier [0x0x10137a4+63364]
+	(No symbol) [0x0xe40f70]
+	(No symbol) [0x0xe7c9a8]
+	(No symbol) [0x0xeae436]
+	(No symbol) [0x0xea9f05]
+	(No symbol) [0x0xea9486]
+	(No symbol) [0x0xe13a05]
+	(No symbol) [0x0xe13f5e]
+	(No symbol) [0x0xe143ed]
+	GetHandleVerifier [0x0x126e033+2531347]
+	GetHandleVerifier [0x0x1269332+2511634]
+	GetHandleVerifier [0x0x1039eda+220858]
+	GetHandleVerifier [0x0x102a528+156936]
+	GetHandleVerifier [0x0x1030c5d+183357]
+	(No symbol) [0x0xe136d0]
+	(No symbol) [0x0xe12edd]
+	GetHandleVerifier [0x0x13a7edc+3817148]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-05 18:11:25,161 - INFO - Iniciando: coletar_osae
+2025-06-05 18:11:25,161 - INFO - Iniciando scraping do OSAE...
+2025-06-05 18:11:25,162 - ERROR - Erro em coletar_osae: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x1013763+63299]
+	GetHandleVerifier [0x0x10137a4+63364]
+	(No symbol) [0x0xe40f70]
+	(No symbol) [0x0xe7c9a8]
+	(No symbol) [0x0xeae436]
+	(No symbol) [0x0xea9f05]
+	(No symbol) [0x0xea9486]
+	(No symbol) [0x0xe13a05]
+	(No symbol) [0x0xe13f5e]
+	(No symbol) [0x0xe143ed]
+	GetHandleVerifier [0x0x126e033+2531347]
+	GetHandleVerifier [0x0x1269332+2511634]
+	GetHandleVerifier [0x0x1039eda+220858]
+	GetHandleVerifier [0x0x102a528+156936]
+	GetHandleVerifier [0x0x1030c5d+183357]
+	(No symbol) [0x0xe136d0]
+	(No symbol) [0x0xe12edd]
+	GetHandleVerifier [0x0x13a7edc+3817148]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-05 18:11:25,162 - INFO - Iniciando: coletar_advogados_angola
+2025-06-05 18:11:25,162 - INFO - Iniciando scraping de advogados de Angola...
+2025-06-05 18:11:25,163 - ERROR - Erro ao carregar dados de advogados de Angola: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x1013763+63299]
+	GetHandleVerifier [0x0x10137a4+63364]
+	(No symbol) [0x0xe40f70]
+	(No symbol) [0x0xe7c9a8]
+	(No symbol) [0x0xeae436]
+	(No symbol) [0x0xea9f05]
+	(No symbol) [0x0xea9486]
+	(No symbol) [0x0xe13a05]
+	(No symbol) [0x0xe13f5e]
+	(No symbol) [0x0xe143ed]
+	GetHandleVerifier [0x0x126e033+2531347]
+	GetHandleVerifier [0x0x1269332+2511634]
+	GetHandleVerifier [0x0x1039eda+220858]
+	GetHandleVerifier [0x0x102a528+156936]
+	GetHandleVerifier [0x0x1030c5d+183357]
+	(No symbol) [0x0xe136d0]
+	(No symbol) [0x0xe12edd]
+	GetHandleVerifier [0x0x13a7edc+3817148]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-05 18:11:25,167 - ERROR - Erro em coletar_advogados_angola: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x1013763+63299]
+	GetHandleVerifier [0x0x10137a4+63364]
+	(No symbol) [0x0xe40f70]
+	(No symbol) [0x0xe7c9a8]
+	(No symbol) [0x0xeae436]
+	(No symbol) [0x0xea9f05]
+	(No symbol) [0x0xea9486]
+	(No symbol) [0x0xe13a05]
+	(No symbol) [0x0xe13f5e]
+	(No symbol) [0x0xe143ed]
+	GetHandleVerifier [0x0x126e033+2531347]
+	GetHandleVerifier [0x0x1269332+2511634]
+	GetHandleVerifier [0x0x1039eda+220858]
+	GetHandleVerifier [0x0x102a528+156936]
+	GetHandleVerifier [0x0x1030c5d+183357]
+	(No symbol) [0x0xe136d0]
+	(No symbol) [0x0xe12edd]
+	GetHandleVerifier [0x0x13a7edc+3817148]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-05 18:11:25,167 - INFO - Iniciando: coletar_camaras_municipais
+2025-06-05 18:11:25,167 - INFO - Iniciando scraping de câmaras municipais...
+2025-06-05 18:11:25,169 - ERROR - Erro em coletar_camaras_municipais: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x1013763+63299]
+	GetHandleVerifier [0x0x10137a4+63364]
+	(No symbol) [0x0xe40f70]
+	(No symbol) [0x0xe7c9a8]
+	(No symbol) [0x0xeae436]
+	(No symbol) [0x0xea9f05]
+	(No symbol) [0x0xea9486]
+	(No symbol) [0x0xe13a05]
+	(No symbol) [0x0xe13f5e]
+	(No symbol) [0x0xe143ed]
+	GetHandleVerifier [0x0x126e033+2531347]
+	GetHandleVerifier [0x0x1269332+2511634]
+	GetHandleVerifier [0x0x1039eda+220858]
+	GetHandleVerifier [0x0x102a528+156936]
+	GetHandleVerifier [0x0x1030c5d+183357]
+	(No symbol) [0x0xe136d0]
+	(No symbol) [0x0xe12edd]
+	GetHandleVerifier [0x0x13a7edc+3817148]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-05 18:11:25,169 - INFO - Iniciando: coletar_atlas_cplp
+2025-06-05 18:11:25,169 - INFO - Iniciando scraping do Atlas CPLP...
+2025-06-05 18:11:25,170 - ERROR - Erro em coletar_atlas_cplp: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x1013763+63299]
+	GetHandleVerifier [0x0x10137a4+63364]
+	(No symbol) [0x0xe40f70]
+	(No symbol) [0x0xe7c9a8]
+	(No symbol) [0x0xeae436]
+	(No symbol) [0x0xea9f05]
+	(No symbol) [0x0xea9486]
+	(No symbol) [0x0xe13a05]
+	(No symbol) [0x0xe13f5e]
+	(No symbol) [0x0xe143ed]
+	GetHandleVerifier [0x0x126e033+2531347]
+	GetHandleVerifier [0x0x1269332+2511634]
+	GetHandleVerifier [0x0x1039eda+220858]
+	GetHandleVerifier [0x0x102a528+156936]
+	GetHandleVerifier [0x0x1030c5d+183357]
+	(No symbol) [0x0xe136d0]
+	(No symbol) [0x0xe12edd]
+	GetHandleVerifier [0x0x13a7edc+3817148]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-05 18:11:25,177 - INFO - Dados salvos em CSV: todos_dados_20250605_181125.csv
+2025-06-05 18:11:25,179 - INFO - Todos os dados salvos em CSV com timestamp: 20250605_181125
+2025-06-05 18:11:25,180 - INFO - Conexão com o banco de dados fechada.
+2025-06-05 18:11:27,254 - INFO - Navegador fechado.

@@ -1,0 +1,85 @@
+2025-06-06 14:53:37,433 - INFO - Iniciando o script de scraping...
+2025-06-06 14:53:37,450 - INFO - Conexão com o banco de dados estabelecida!
+2025-06-06 14:53:37,540 - INFO - Tabelas existentes (advogados, sociedades, estagiarios, advogados_backup) eliminadas para recriação.
+2025-06-06 14:53:37,569 - INFO - Tabela 'advogados' criada com sucesso!
+2025-06-06 14:53:37,592 - INFO - Tabela 'sociedades' criada com sucesso!
+2025-06-06 14:53:37,621 - INFO - Tabela 'estagiarios' criada com sucesso!
+2025-06-06 14:53:37,621 - INFO - ====== WebDriver manager ======
+2025-06-06 14:53:39,790 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-06 14:53:39,833 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-06 14:53:39,871 - INFO - Driver [C:\Users\david\.wdm\drivers\chromedriver\win64\137.0.7151.68\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-06 14:53:41,495 - INFO - Iniciando: coletar_advogados_porto
+2025-06-06 14:53:41,495 - INFO - Iniciando scraping de advogados...
+2025-06-06 14:54:32,342 - WARNING - Erro ao marcar 'Apenas Ativos' (continuando sem marcar): Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x9f3763+63299]
+	GetHandleVerifier [0x0x9f37a4+63364]
+	(No symbol) [0x0x821113]
+	(No symbol) [0x0x86987e]
+	(No symbol) [0x0x869c1b]
+	(No symbol) [0x0x8b2212]
+	(No symbol) [0x0x88e5c4]
+	(No symbol) [0x0x8afa4a]
+	(No symbol) [0x0x88e376]
+	(No symbol) [0x0x85d6e0]
+	(No symbol) [0x0x85e544]
+	GetHandleVerifier [0x0xc4e033+2531347]
+	GetHandleVerifier [0x0xc49332+2511634]
+	GetHandleVerifier [0x0xa19eda+220858]
+	GetHandleVerifier [0x0xa0a528+156936]
+	GetHandleVerifier [0x0xa10c5d+183357]
+	GetHandleVerifier [0x0x9fb6c8+95912]
+	GetHandleVerifier [0x0x9fb870+96336]
+	GetHandleVerifier [0x0x9e664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-06 14:54:42,799 - WARNING - Erro ao clicar no botão de pesquisa: Message: 
+
+2025-06-06 14:54:42,808 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-06 14:55:26,741 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado,email, site, tipo, localidade, codigo_postal, telefone)
+            VALUES (Adelaide Ferrão, 4839P, Porto, R S João Deus Ed D Sancho I 1-E, Activo, N/D, N/D, advogado, VILA NOVA DE FAMALICÃO, 4760-162 VILA NOVA DE FAMALICÃO, N/D)
+        
+2025-06-06 14:55:26,757 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado,email, site, tipo, localidade, codigo_postal, telefone)
+            VALUES (Adriana Vial, 55751P, Porto, R Gonçalo Cristóvão, 128 - 8º Esq, Activo, N/D, N/D, advogado, PORTO, 4000-264 PORTO, +351223390255)
+        
+2025-06-06 14:55:26,766 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado,email, site, tipo, localidade, codigo_postal, telefone)
+            VALUES (Ana Isabel Seabra, 7709P, Porto, Av da Boavista, 3265 Sl 5.2 - Edf Oceanvs, Activo, N/D, N/D, advogado, PORTO, 4100-137 PORTO, +351226166950)
+        
+2025-06-06 14:55:26,775 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado,email, site, tipo, localidade, codigo_postal, telefone)
+            VALUES (Anabela Araújo de Carvalho, 8774P, Porto, R Br Novo 3 - Avidos, Activo, N/D, N/D, advogado, VILA NOVA DE FAMALICÃO, 4770-785 VILA NOVA DE FAMALICÃO, +351252501888)
+        
+2025-06-06 14:55:26,786 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado,email, site, tipo, localidade, codigo_postal, telefone)
+            VALUES (Andreia Ramada, 49702P, Porto, R da Telheira, 510 - 9º, AP 1, Activo, N/D, N/D, advogado, PORTO, 4250-482 PORTO, +351914127921)
+        
+2025-06-06 14:55:26,797 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado,email, site, tipo, localidade, codigo_postal, telefone)
+            VALUES (António Maria Nascimento, 65142P, Porto, R Ponte de Parada, 451 - 1º, Lj J, Activo, N/D, N/D, advogado, MAIA, 4425-176 MAIA, +351229016427)
+        
+2025-06-06 14:55:26,806 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado,email, site, tipo, localidade, codigo_postal, telefone)
+            VALUES (Bárbara Nogueira Gonçalves, 66881P, Porto, R Caldas Xavier, 38 - 6º Dto, Activo, N/D, N/D, advogado, PORTO, 4150-162 PORTO, N/D)
+        
+2025-06-06 14:55:26,815 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado,email, site, tipo, localidade, codigo_postal, telefone)
+            VALUES (Beatriz Lopes Freitas, 63912P, Porto, N/D, Inativo, N/D, N/D, advogado, N/D, N/D, N/D)
+        
+2025-06-06 14:55:26,824 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado,email, site, tipo, localidade, codigo_postal, telefone)
+            VALUES (Bruno Araújo, 50321P, Porto, Av Narciso Ferreira, 50 - 1º, Sl 6, Activo, N/D, N/D, advogado, VILA NOVA DE FAMALICÃO, 4760-105 VILA NOVA DE FAMALICÃO, +351252375983)
+        
+2025-06-06 14:55:26,832 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado,email, site, tipo, localidade, codigo_postal, telefone)
+            VALUES (Bruno Tavares, 49239P, Porto, N/D, Inativo, N/D, N/D, advogado, N/D, N/D, N/D)
+        
+2025-06-06 14:55:40,800 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-06 14:56:09,117 - INFO - Conexão com o banco de dados fechada.
+2025-06-06 14:56:09,154 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'Uma ligação existente foi forçada a fechar pelo anfitrião remoto', None, 10054, None)': /session/6fca4015f2c443f42911b92a686043cb
+2025-06-06 14:56:13,219 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000246A79F4410>: Failed to establish a new connection: [WinError 10061] Nenhuma ligação pôde ser feita porque o computador de destino\r\nas recusou ativamente')': /session/6fca4015f2c443f42911b92a686043cb
+2025-06-06 14:56:17,278 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000246A79F4470>: Failed to establish a new connection: [WinError 10061] Nenhuma ligação pôde ser feita porque o computador de destino\r\nas recusou ativamente')': /session/6fca4015f2c443f42911b92a686043cb

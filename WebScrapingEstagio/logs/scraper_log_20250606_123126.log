@@ -1,0 +1,546 @@
+2025-06-06 12:31:26,543 - INFO - Iniciando o script de scraping...
+2025-06-06 12:31:26,551 - INFO - Conexão com o banco de dados estabelecida!
+2025-06-06 12:31:26,632 - INFO - Tabelas existentes (advogados, sociedades, estagiarios, advogados_backup) eliminadas para recriação.
+2025-06-06 12:31:26,660 - INFO - Tabela 'advogados' criada com sucesso!
+2025-06-06 12:31:26,681 - INFO - Tabela 'sociedades' criada com sucesso!
+2025-06-06 12:31:26,706 - INFO - Tabela 'estagiarios' criada com sucesso!
+2025-06-06 12:31:26,707 - INFO - ====== WebDriver manager ======
+2025-06-06 12:31:27,609 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-06 12:31:27,648 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-06 12:31:27,684 - INFO - Driver [C:\Users\david\.wdm\drivers\chromedriver\win64\137.0.7151.68\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-06 12:31:28,782 - INFO - Iniciando: coletar_advogados_lisboa
+2025-06-06 12:31:28,782 - INFO - Iniciando scraping de advogados...
+2025-06-06 12:32:19,205 - WARNING - Erro ao marcar 'Apenas Ativos' (continuando sem marcar): Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xed3763+63299]
+	GetHandleVerifier [0x0xed37a4+63364]
+	(No symbol) [0x0xd01113]
+	(No symbol) [0x0xd4987e]
+	(No symbol) [0x0xd49c1b]
+	(No symbol) [0x0xd92212]
+	(No symbol) [0x0xd6e5c4]
+	(No symbol) [0x0xd8fa4a]
+	(No symbol) [0x0xd6e376]
+	(No symbol) [0x0xd3d6e0]
+	(No symbol) [0x0xd3e544]
+	GetHandleVerifier [0x0x112e033+2531347]
+	GetHandleVerifier [0x0x1129332+2511634]
+	GetHandleVerifier [0x0xef9eda+220858]
+	GetHandleVerifier [0x0xeea528+156936]
+	GetHandleVerifier [0x0xef0c5d+183357]
+	GetHandleVerifier [0x0xedb6c8+95912]
+	GetHandleVerifier [0x0xedb870+96336]
+	GetHandleVerifier [0x0xec664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-06 12:32:29,443 - WARNING - Erro ao clicar no botão de pesquisa: Message: 
+
+2025-06-06 12:32:29,448 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-06 12:32:36,300 - ERROR - Tentativa 1 falhou: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.57)
+Stacktrace:
+	GetHandleVerifier [0x0xed3763+63299]
+	GetHandleVerifier [0x0xed37a4+63364]
+	(No symbol) [0x0xd01113]
+	(No symbol) [0x0xcdff69]
+	(No symbol) [0x0xd74fce]
+	(No symbol) [0x0xd8f359]
+	(No symbol) [0x0xd6e376]
+	(No symbol) [0x0xd3d6e0]
+	(No symbol) [0x0xd3e544]
+	GetHandleVerifier [0x0x112e033+2531347]
+	GetHandleVerifier [0x0x1129332+2511634]
+	GetHandleVerifier [0x0xef9eda+220858]
+	GetHandleVerifier [0x0xeea528+156936]
+	GetHandleVerifier [0x0xef0c5d+183357]
+	GetHandleVerifier [0x0xedb6c8+95912]
+	GetHandleVerifier [0x0xedb870+96336]
+	GetHandleVerifier [0x0xec664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-06 12:32:36,300 - ERROR - Erro ao processar página 1: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.57)
+Stacktrace:
+	GetHandleVerifier [0x0xed3763+63299]
+	GetHandleVerifier [0x0xed37a4+63364]
+	(No symbol) [0x0xd01113]
+	(No symbol) [0x0xcdff69]
+	(No symbol) [0x0xd74fce]
+	(No symbol) [0x0xd8f359]
+	(No symbol) [0x0xd6e376]
+	(No symbol) [0x0xd3d6e0]
+	(No symbol) [0x0xd3e544]
+	GetHandleVerifier [0x0x112e033+2531347]
+	GetHandleVerifier [0x0x1129332+2511634]
+	GetHandleVerifier [0x0xef9eda+220858]
+	GetHandleVerifier [0x0xeea528+156936]
+	GetHandleVerifier [0x0xef0c5d+183357]
+	GetHandleVerifier [0x0xedb6c8+95912]
+	GetHandleVerifier [0x0xedb870+96336]
+	GetHandleVerifier [0x0xec664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-06 12:32:36,301 - ERROR - Erro ao processar página 2: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.57)
+Stacktrace:
+	GetHandleVerifier [0x0xed3763+63299]
+	GetHandleVerifier [0x0xed37a4+63364]
+	(No symbol) [0x0xd01113]
+	(No symbol) [0x0xcdff69]
+	(No symbol) [0x0xd74fce]
+	(No symbol) [0x0xd8f359]
+	(No symbol) [0x0xd6e376]
+	(No symbol) [0x0xd3d6e0]
+	(No symbol) [0x0xd3e544]
+	GetHandleVerifier [0x0x112e033+2531347]
+	GetHandleVerifier [0x0x1129332+2511634]
+	GetHandleVerifier [0x0xef9eda+220858]
+	GetHandleVerifier [0x0xeea528+156936]
+	GetHandleVerifier [0x0xef0c5d+183357]
+	GetHandleVerifier [0x0xedb6c8+95912]
+	GetHandleVerifier [0x0xedb870+96336]
+	GetHandleVerifier [0x0xec664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-06 12:32:36,301 - ERROR - Erro ao processar página 3: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.57)
+Stacktrace:
+	GetHandleVerifier [0x0xed3763+63299]
+	GetHandleVerifier [0x0xed37a4+63364]
+	(No symbol) [0x0xd01113]
+	(No symbol) [0x0xcdff69]
+	(No symbol) [0x0xd74fce]
+	(No symbol) [0x0xd8f359]
+	(No symbol) [0x0xd6e376]
+	(No symbol) [0x0xd3d6e0]
+	(No symbol) [0x0xd3e544]
+	GetHandleVerifier [0x0x112e033+2531347]
+	GetHandleVerifier [0x0x1129332+2511634]
+	GetHandleVerifier [0x0xef9eda+220858]
+	GetHandleVerifier [0x0xeea528+156936]
+	GetHandleVerifier [0x0xef0c5d+183357]
+	GetHandleVerifier [0x0xedb6c8+95912]
+	GetHandleVerifier [0x0xedb870+96336]
+	GetHandleVerifier [0x0xec664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-06 12:32:36,301 - WARNING - coletar_advogados_lisboa retornou 0 registros
+2025-06-06 12:32:36,301 - INFO - Iniciando: coletar_estagiarios_lisboa
+2025-06-06 12:32:36,301 - INFO - Iniciando scraping de estagiários...
+2025-06-06 12:32:36,303 - ERROR - Erro em coletar_estagiarios_lisboa: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.57)
+Stacktrace:
+	GetHandleVerifier [0x0xed3763+63299]
+	GetHandleVerifier [0x0xed37a4+63364]
+	(No symbol) [0x0xd01113]
+	(No symbol) [0x0xcdff69]
+	(No symbol) [0x0xd74fce]
+	(No symbol) [0x0xd8f359]
+	(No symbol) [0x0xd6e376]
+	(No symbol) [0x0xd3d6e0]
+	(No symbol) [0x0xd3e544]
+	GetHandleVerifier [0x0x112e033+2531347]
+	GetHandleVerifier [0x0x1129332+2511634]
+	GetHandleVerifier [0x0xef9eda+220858]
+	GetHandleVerifier [0x0xeea528+156936]
+	GetHandleVerifier [0x0xef0c5d+183357]
+	GetHandleVerifier [0x0xedb6c8+95912]
+	GetHandleVerifier [0x0xedb870+96336]
+	GetHandleVerifier [0x0xec664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-06 12:32:36,303 - INFO - Iniciando: coletar_estagiarios_porto
+2025-06-06 12:32:36,303 - INFO - Iniciando scraping de estagiários...
+2025-06-06 12:32:36,304 - ERROR - Erro em coletar_estagiarios_porto: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.57)
+Stacktrace:
+	GetHandleVerifier [0x0xed3763+63299]
+	GetHandleVerifier [0x0xed37a4+63364]
+	(No symbol) [0x0xd01113]
+	(No symbol) [0x0xcdff69]
+	(No symbol) [0x0xd74fce]
+	(No symbol) [0x0xd8f359]
+	(No symbol) [0x0xd6e376]
+	(No symbol) [0x0xd3d6e0]
+	(No symbol) [0x0xd3e544]
+	GetHandleVerifier [0x0x112e033+2531347]
+	GetHandleVerifier [0x0x1129332+2511634]
+	GetHandleVerifier [0x0xef9eda+220858]
+	GetHandleVerifier [0x0xeea528+156936]
+	GetHandleVerifier [0x0xef0c5d+183357]
+	GetHandleVerifier [0x0xedb6c8+95912]
+	GetHandleVerifier [0x0xedb870+96336]
+	GetHandleVerifier [0x0xec664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-06 12:32:36,304 - INFO - Iniciando: coletar_estagiarios_coimbra
+2025-06-06 12:32:36,304 - INFO - Iniciando scraping de estagiários...
+2025-06-06 12:32:36,304 - ERROR - Erro em coletar_estagiarios_coimbra: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.57)
+Stacktrace:
+	GetHandleVerifier [0x0xed3763+63299]
+	GetHandleVerifier [0x0xed37a4+63364]
+	(No symbol) [0x0xd01113]
+	(No symbol) [0x0xcdff69]
+	(No symbol) [0x0xd74fce]
+	(No symbol) [0x0xd8f359]
+	(No symbol) [0x0xd6e376]
+	(No symbol) [0x0xd3d6e0]
+	(No symbol) [0x0xd3e544]
+	GetHandleVerifier [0x0x112e033+2531347]
+	GetHandleVerifier [0x0x1129332+2511634]
+	GetHandleVerifier [0x0xef9eda+220858]
+	GetHandleVerifier [0x0xeea528+156936]
+	GetHandleVerifier [0x0xef0c5d+183357]
+	GetHandleVerifier [0x0xedb6c8+95912]
+	GetHandleVerifier [0x0xedb870+96336]
+	GetHandleVerifier [0x0xec664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-06 12:32:36,304 - INFO - Iniciando: coletar_estagiarios_evora
+2025-06-06 12:32:36,304 - INFO - Iniciando scraping de estagiários...
+2025-06-06 12:32:36,305 - ERROR - Erro em coletar_estagiarios_evora: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.57)
+Stacktrace:
+	GetHandleVerifier [0x0xed3763+63299]
+	GetHandleVerifier [0x0xed37a4+63364]
+	(No symbol) [0x0xd01113]
+	(No symbol) [0x0xcdff69]
+	(No symbol) [0x0xd74fce]
+	(No symbol) [0x0xd8f359]
+	(No symbol) [0x0xd6e376]
+	(No symbol) [0x0xd3d6e0]
+	(No symbol) [0x0xd3e544]
+	GetHandleVerifier [0x0x112e033+2531347]
+	GetHandleVerifier [0x0x1129332+2511634]
+	GetHandleVerifier [0x0xef9eda+220858]
+	GetHandleVerifier [0x0xeea528+156936]
+	GetHandleVerifier [0x0xef0c5d+183357]
+	GetHandleVerifier [0x0xedb6c8+95912]
+	GetHandleVerifier [0x0xedb870+96336]
+	GetHandleVerifier [0x0xec664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-06 12:32:36,305 - INFO - Iniciando: coletar_estagiarios_faro
+2025-06-06 12:32:36,305 - INFO - Iniciando scraping de estagiários...
+2025-06-06 12:32:36,305 - ERROR - Erro em coletar_estagiarios_faro: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.57)
+Stacktrace:
+	GetHandleVerifier [0x0xed3763+63299]
+	GetHandleVerifier [0x0xed37a4+63364]
+	(No symbol) [0x0xd01113]
+	(No symbol) [0x0xcdff69]
+	(No symbol) [0x0xd74fce]
+	(No symbol) [0x0xd8f359]
+	(No symbol) [0x0xd6e376]
+	(No symbol) [0x0xd3d6e0]
+	(No symbol) [0x0xd3e544]
+	GetHandleVerifier [0x0x112e033+2531347]
+	GetHandleVerifier [0x0x1129332+2511634]
+	GetHandleVerifier [0x0xef9eda+220858]
+	GetHandleVerifier [0x0xeea528+156936]
+	GetHandleVerifier [0x0xef0c5d+183357]
+	GetHandleVerifier [0x0xedb6c8+95912]
+	GetHandleVerifier [0x0xedb870+96336]
+	GetHandleVerifier [0x0xec664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-06 12:32:36,305 - INFO - Iniciando: coletar_estagiarios_madeira
+2025-06-06 12:32:36,306 - INFO - Iniciando scraping de estagiários...
+2025-06-06 12:32:36,306 - ERROR - Erro em coletar_estagiarios_madeira: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.57)
+Stacktrace:
+	GetHandleVerifier [0x0xed3763+63299]
+	GetHandleVerifier [0x0xed37a4+63364]
+	(No symbol) [0x0xd01113]
+	(No symbol) [0x0xcdff69]
+	(No symbol) [0x0xd74fce]
+	(No symbol) [0x0xd8f359]
+	(No symbol) [0x0xd6e376]
+	(No symbol) [0x0xd3d6e0]
+	(No symbol) [0x0xd3e544]
+	GetHandleVerifier [0x0x112e033+2531347]
+	GetHandleVerifier [0x0x1129332+2511634]
+	GetHandleVerifier [0x0xef9eda+220858]
+	GetHandleVerifier [0x0xeea528+156936]
+	GetHandleVerifier [0x0xef0c5d+183357]
+	GetHandleVerifier [0x0xedb6c8+95912]
+	GetHandleVerifier [0x0xedb870+96336]
+	GetHandleVerifier [0x0xec664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-06 12:32:36,306 - INFO - Iniciando: coletar_estagiarios_acores
+2025-06-06 12:32:36,306 - INFO - Iniciando scraping de estagiários...
+2025-06-06 12:32:36,307 - ERROR - Erro em coletar_estagiarios_acores: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.57)
+Stacktrace:
+	GetHandleVerifier [0x0xed3763+63299]
+	GetHandleVerifier [0x0xed37a4+63364]
+	(No symbol) [0x0xd01113]
+	(No symbol) [0x0xcdff69]
+	(No symbol) [0x0xd74fce]
+	(No symbol) [0x0xd8f359]
+	(No symbol) [0x0xd6e376]
+	(No symbol) [0x0xd3d6e0]
+	(No symbol) [0x0xd3e544]
+	GetHandleVerifier [0x0x112e033+2531347]
+	GetHandleVerifier [0x0x1129332+2511634]
+	GetHandleVerifier [0x0xef9eda+220858]
+	GetHandleVerifier [0x0xeea528+156936]
+	GetHandleVerifier [0x0xef0c5d+183357]
+	GetHandleVerifier [0x0xedb6c8+95912]
+	GetHandleVerifier [0x0xedb870+96336]
+	GetHandleVerifier [0x0xec664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-06 12:32:36,307 - INFO - Iniciando: coletar_estagiarios_braga
+2025-06-06 12:32:36,307 - INFO - Iniciando scraping de estagiários...
+2025-06-06 12:32:36,307 - ERROR - Erro em coletar_estagiarios_braga: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.57)
+Stacktrace:
+	GetHandleVerifier [0x0xed3763+63299]
+	GetHandleVerifier [0x0xed37a4+63364]
+	(No symbol) [0x0xd01113]
+	(No symbol) [0x0xcdff69]
+	(No symbol) [0x0xd74fce]
+	(No symbol) [0x0xd8f359]
+	(No symbol) [0x0xd6e376]
+	(No symbol) [0x0xd3d6e0]
+	(No symbol) [0x0xd3e544]
+	GetHandleVerifier [0x0x112e033+2531347]
+	GetHandleVerifier [0x0x1129332+2511634]
+	GetHandleVerifier [0x0xef9eda+220858]
+	GetHandleVerifier [0x0xeea528+156936]
+	GetHandleVerifier [0x0xef0c5d+183357]
+	GetHandleVerifier [0x0xedb6c8+95912]
+	GetHandleVerifier [0x0xedb870+96336]
+	GetHandleVerifier [0x0xec664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-06 12:32:36,307 - INFO - Iniciando: coletar_tribunais
+2025-06-06 12:32:36,307 - INFO - Iniciando scraping de tribunais...
+2025-06-06 12:32:36,307 - ERROR - Erro em coletar_tribunais: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.57)
+Stacktrace:
+	GetHandleVerifier [0x0xed3763+63299]
+	GetHandleVerifier [0x0xed37a4+63364]
+	(No symbol) [0x0xd01113]
+	(No symbol) [0x0xcdff69]
+	(No symbol) [0x0xd74fce]
+	(No symbol) [0x0xd8f359]
+	(No symbol) [0x0xd6e376]
+	(No symbol) [0x0xd3d6e0]
+	(No symbol) [0x0xd3e544]
+	GetHandleVerifier [0x0x112e033+2531347]
+	GetHandleVerifier [0x0x1129332+2511634]
+	GetHandleVerifier [0x0xef9eda+220858]
+	GetHandleVerifier [0x0xeea528+156936]
+	GetHandleVerifier [0x0xef0c5d+183357]
+	GetHandleVerifier [0x0xedb6c8+95912]
+	GetHandleVerifier [0x0xedb870+96336]
+	GetHandleVerifier [0x0xec664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-06 12:32:36,307 - INFO - Iniciando: coletar_julgados
+2025-06-06 12:32:36,307 - INFO - Iniciando scraping de julgados de paz...
+2025-06-06 12:32:36,308 - ERROR - Erro em coletar_julgados: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.57)
+Stacktrace:
+	GetHandleVerifier [0x0xed3763+63299]
+	GetHandleVerifier [0x0xed37a4+63364]
+	(No symbol) [0x0xd01113]
+	(No symbol) [0x0xcdff69]
+	(No symbol) [0x0xd74fce]
+	(No symbol) [0x0xd8f359]
+	(No symbol) [0x0xd6e376]
+	(No symbol) [0x0xd3d6e0]
+	(No symbol) [0x0xd3e544]
+	GetHandleVerifier [0x0x112e033+2531347]
+	GetHandleVerifier [0x0x1129332+2511634]
+	GetHandleVerifier [0x0xef9eda+220858]
+	GetHandleVerifier [0x0xeea528+156936]
+	GetHandleVerifier [0x0xef0c5d+183357]
+	GetHandleVerifier [0x0xedb6c8+95912]
+	GetHandleVerifier [0x0xedb870+96336]
+	GetHandleVerifier [0x0xec664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-06 12:32:36,308 - INFO - Iniciando: coletar_osae
+2025-06-06 12:32:36,308 - INFO - Iniciando scraping do OSAE...
+2025-06-06 12:32:36,309 - ERROR - Erro em coletar_osae: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.57)
+Stacktrace:
+	GetHandleVerifier [0x0xed3763+63299]
+	GetHandleVerifier [0x0xed37a4+63364]
+	(No symbol) [0x0xd01113]
+	(No symbol) [0x0xcdff69]
+	(No symbol) [0x0xd74fce]
+	(No symbol) [0x0xd8f359]
+	(No symbol) [0x0xd6e376]
+	(No symbol) [0x0xd3d6e0]
+	(No symbol) [0x0xd3e544]
+	GetHandleVerifier [0x0x112e033+2531347]
+	GetHandleVerifier [0x0x1129332+2511634]
+	GetHandleVerifier [0x0xef9eda+220858]
+	GetHandleVerifier [0x0xeea528+156936]
+	GetHandleVerifier [0x0xef0c5d+183357]
+	GetHandleVerifier [0x0xedb6c8+95912]
+	GetHandleVerifier [0x0xedb870+96336]
+	GetHandleVerifier [0x0xec664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-06 12:32:36,309 - INFO - Iniciando: coletar_advogados_angola
+2025-06-06 12:32:36,309 - INFO - Iniciando scraping de advogados de Angola...
+2025-06-06 12:32:36,310 - ERROR - Erro ao carregar dados de advogados de Angola: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.57)
+Stacktrace:
+	GetHandleVerifier [0x0xed3763+63299]
+	GetHandleVerifier [0x0xed37a4+63364]
+	(No symbol) [0x0xd01113]
+	(No symbol) [0x0xcdff69]
+	(No symbol) [0x0xd74fce]
+	(No symbol) [0x0xd8f359]
+	(No symbol) [0x0xd6e376]
+	(No symbol) [0x0xd3d6e0]
+	(No symbol) [0x0xd3e544]
+	GetHandleVerifier [0x0x112e033+2531347]
+	GetHandleVerifier [0x0x1129332+2511634]
+	GetHandleVerifier [0x0xef9eda+220858]
+	GetHandleVerifier [0x0xeea528+156936]
+	GetHandleVerifier [0x0xef0c5d+183357]
+	GetHandleVerifier [0x0xedb6c8+95912]
+	GetHandleVerifier [0x0xedb870+96336]
+	GetHandleVerifier [0x0xec664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-06 12:32:36,313 - ERROR - Erro em coletar_advogados_angola: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.57)
+Stacktrace:
+	GetHandleVerifier [0x0xed3763+63299]
+	GetHandleVerifier [0x0xed37a4+63364]
+	(No symbol) [0x0xd01113]
+	(No symbol) [0x0xcdff69]
+	(No symbol) [0x0xd74fce]
+	(No symbol) [0x0xd8f359]
+	(No symbol) [0x0xd6e376]
+	(No symbol) [0x0xd3d6e0]
+	(No symbol) [0x0xd3e544]
+	GetHandleVerifier [0x0x112e033+2531347]
+	GetHandleVerifier [0x0x1129332+2511634]
+	GetHandleVerifier [0x0xef9eda+220858]
+	GetHandleVerifier [0x0xeea528+156936]
+	GetHandleVerifier [0x0xef0c5d+183357]
+	GetHandleVerifier [0x0xedb6c8+95912]
+	GetHandleVerifier [0x0xedb870+96336]
+	GetHandleVerifier [0x0xec664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-06 12:32:36,313 - INFO - Iniciando: coletar_camaras_municipais
+2025-06-06 12:32:36,313 - INFO - Iniciando scraping de câmaras municipais...
+2025-06-06 12:32:36,313 - ERROR - Erro em coletar_camaras_municipais: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.57)
+Stacktrace:
+	GetHandleVerifier [0x0xed3763+63299]
+	GetHandleVerifier [0x0xed37a4+63364]
+	(No symbol) [0x0xd01113]
+	(No symbol) [0x0xcdff69]
+	(No symbol) [0x0xd74fce]
+	(No symbol) [0x0xd8f359]
+	(No symbol) [0x0xd6e376]
+	(No symbol) [0x0xd3d6e0]
+	(No symbol) [0x0xd3e544]
+	GetHandleVerifier [0x0x112e033+2531347]
+	GetHandleVerifier [0x0x1129332+2511634]
+	GetHandleVerifier [0x0xef9eda+220858]
+	GetHandleVerifier [0x0xeea528+156936]
+	GetHandleVerifier [0x0xef0c5d+183357]
+	GetHandleVerifier [0x0xedb6c8+95912]
+	GetHandleVerifier [0x0xedb870+96336]
+	GetHandleVerifier [0x0xec664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-06 12:32:36,314 - INFO - Iniciando: coletar_atlas_cplp
+2025-06-06 12:32:36,314 - INFO - Iniciando scraping do Atlas CPLP...
+2025-06-06 12:32:36,314 - ERROR - Erro em coletar_atlas_cplp: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.57)
+Stacktrace:
+	GetHandleVerifier [0x0xed3763+63299]
+	GetHandleVerifier [0x0xed37a4+63364]
+	(No symbol) [0x0xd01113]
+	(No symbol) [0x0xcdff69]
+	(No symbol) [0x0xd74fce]
+	(No symbol) [0x0xd8f359]
+	(No symbol) [0x0xd6e376]
+	(No symbol) [0x0xd3d6e0]
+	(No symbol) [0x0xd3e544]
+	GetHandleVerifier [0x0x112e033+2531347]
+	GetHandleVerifier [0x0x1129332+2511634]
+	GetHandleVerifier [0x0xef9eda+220858]
+	GetHandleVerifier [0x0xeea528+156936]
+	GetHandleVerifier [0x0xef0c5d+183357]
+	GetHandleVerifier [0x0xedb6c8+95912]
+	GetHandleVerifier [0x0xedb870+96336]
+	GetHandleVerifier [0x0xec664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-06 12:32:36,314 - INFO - Conexão com o banco de dados fechada.
+2025-06-06 12:32:38,386 - INFO - Navegador fechado.

@@ -1,0 +1,40 @@
+2025-06-10 23:42:02,773 - INFO - Iniciando o script de scraping...
+2025-06-10 23:42:02,782 - INFO - Conexão com o banco de dados estabelecida!
+2025-06-10 23:42:02,782 - INFO - Tabela 'advogados' verificada/recriada com sucesso!
+2025-06-10 23:42:02,782 - INFO - Tabela 'sociedades' verificada/criada com sucesso!
+2025-06-10 23:42:02,782 - INFO - Tabela 'estagiarios' verificada/criada com sucesso!
+2025-06-10 23:42:02,783 - INFO - Tabela 'agentes_execucao' verificada/criada com sucesso!
+2025-06-10 23:42:02,783 - INFO - ====== WebDriver manager ======
+2025-06-10 23:42:03,643 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-10 23:42:03,677 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-10 23:42:03,708 - INFO - Driver [C:\Users\david\.wdm\drivers\chromedriver\win64\137.0.7151.70\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-10 23:42:05,141 - INFO - Iniciando: coletar_tribunais
+2025-06-10 23:42:05,141 - INFO - Iniciando scraping de tribunais...
+2025-06-10 23:42:36,023 - ERROR - Erro ao carregar página de tribunais: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xfd3783+63299]
+	GetHandleVerifier [0x0xfd37c4+63364]
+	(No symbol) [0x0xe01113]
+	(No symbol) [0x0xe4987e]
+	(No symbol) [0x0xe49c1b]
+	(No symbol) [0x0xe92212]
+	(No symbol) [0x0xe6e5c4]
+	(No symbol) [0x0xe8fa4a]
+	(No symbol) [0x0xe6e376]
+	(No symbol) [0x0xe3d6e0]
+	(No symbol) [0x0xe3e544]
+	GetHandleVerifier [0x0x122e073+2531379]
+	GetHandleVerifier [0x0x1229372+2511666]
+	GetHandleVerifier [0x0xff9efa+220858]
+	GetHandleVerifier [0x0xfea548+156936]
+	GetHandleVerifier [0x0xff0c7d+183357]
+	GetHandleVerifier [0x0xfdb6e8+95912]
+	GetHandleVerifier [0x0xfdb890+96336]
+	GetHandleVerifier [0x0xfc666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-10 23:42:36,027 - INFO - Total de tribunais processados: 0
+2025-06-10 23:42:36,027 - WARNING - coletar_tribunais retornou 0 registros
+2025-06-10 23:42:38,205 - INFO - Conexão com o banco de dados fechada.

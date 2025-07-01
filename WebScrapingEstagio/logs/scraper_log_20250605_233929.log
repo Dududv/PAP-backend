@@ -1,0 +1,655 @@
+2025-06-05 23:39:29,703 - INFO - Iniciando o script de scraping...
+2025-06-05 23:39:29,717 - INFO - Conexão com o banco de dados estabelecida!
+2025-06-05 23:39:29,831 - INFO - Coluna 'localidade' adicionada com sucesso!
+2025-06-05 23:39:29,831 - INFO - ====== WebDriver manager ======
+2025-06-05 23:39:30,729 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-05 23:39:30,765 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-05 23:39:30,799 - INFO - Driver [C:\Users\david\.wdm\drivers\chromedriver\win64\137.0.7151.68\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-05 23:39:31,941 - INFO - Iniciando: coletar_sociedades_lisboa
+2025-06-05 23:39:31,941 - INFO - Iniciando scraping de sociedades de advogados de lisboa...
+2025-06-05 23:39:51,887 - ERROR - Erro ao clicar no botão de pesquisa para https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/?cg=L&r=&n=&lo=&m=&cp=&op=&o=0: Message: 
+
+2025-06-05 23:39:51,893 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-05 23:40:02,942 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo, localidade)
+            VALUES (“WL – Work in Law, Albuquerque da Fonseca, Maria João Pereira, Tomaz Cameira, Sandra Torres e Associados, Sociedade de Advogados, SP, RL, N/D, Lisboa, Av. 5 de Outubro, n.º 15 - r/c, N/D, +351211390406, mariajoaopereira-6715l@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/?cg=L&r=&n=&lo=&m=&cp=&op=&o=0, sociedade, LISBOA)
+        
+2025-06-05 23:40:02,949 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo, localidade)
+            VALUES (A. BORGES PIRES, SANTOS PEREIRA & ASSOCIADOS, SOCIEDADE DE ADVOGADOS SP, RL, N/D, Lisboa, R. Tierno Galvan, Amoreiras, Torre 3 - 5º.Piso - Sala  511, N/D, +351212454262, geral@abpa.pt, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/?cg=L&r=&n=&lo=&m=&cp=&op=&o=0, sociedade, LISBOA)
+        
+2025-06-05 23:40:02,957 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo, localidade)
+            VALUES (A. ESPÍRITO SANTO, F. ARAÚJO BARRIGAS & ASSOCIADOS-SOCIEDADE DE ADVOGADOS RL, N/D, Lisboa, Av. Fontes Pereira de Melo, n.º 25 - 5º esquerdo, N/D, +351213121140, advogados@sbm-advogados.com.pt, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/?cg=L&r=&n=&lo=&m=&cp=&op=&o=0, sociedade, LISBOA)
+        
+2025-06-05 23:40:02,965 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo, localidade)
+            VALUES (A. J. MARTINS, T. DUARTE, M. RESENDE & ASSOCIADOS-SOCIEDADE DE ADVOGADOS, SP, RL, N/D, Lisboa, Av. da República, n.º 49 - 2º, N/D, +351213584110, atmj@atmj.pt, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/?cg=L&r=&n=&lo=&m=&cp=&op=&o=0, sociedade, LISBOA)
+        
+2025-06-05 23:40:02,971 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo, localidade)
+            VALUES (A. M. MOURA & ASSOCIADOS - SOCIEDADE DE ADVOGADOS, SP, RL, N/D, Lisboa, Rua Tierno Galvan, Torre 3, 7º - 705, N/D, N/D, adelaide.moura-7463l@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/?cg=L&r=&n=&lo=&m=&cp=&op=&o=0, sociedade, LISBOA)
+        
+2025-06-05 23:40:02,982 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo, localidade)
+            VALUES (A. PAIVA & ASSOCIADOS - SOCIEDADE DE ADVOGADOS, SP, RL, N/D, Lisboa, Av. Marginal, 6068, N/D, +351214669317, a.paiva.lawyers@mail.telepac.pt, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/?cg=L&r=&n=&lo=&m=&cp=&op=&o=0, sociedade, ESTORIL)
+        
+2025-06-05 23:40:02,989 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo, localidade)
+            VALUES (A. PAULO SANTOS, MARIA DOS ANJOS REIS & ASSOCIADOS - SOCIEDADE DE ADVOGADOS, SP, RL, N/D, Lisboa, Rua Andrade Corvo, 29 - 4º, N/D, +351213174159, geral@apsmar.com, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/?cg=L&r=&n=&lo=&m=&cp=&op=&o=0, sociedade, LISBOA)
+        
+2025-06-05 23:40:02,997 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo, localidade)
+            VALUES (A. R. MONTALVO & ASSOCIADOS-SOCIEDADE DE ADVOGADOS RL, N/D, Lisboa, Av. da República, 56 - 6º.  drtº., N/D, +351217979058, geral@armontalvo.pt, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/?cg=L&r=&n=&lo=&m=&cp=&op=&o=0, sociedade, LISBOA)
+        
+2025-06-05 23:40:03,004 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo, localidade)
+            VALUES (A. RAPOSO - O. CARREIRA & ASSOCIADOS, SOCIEDADE DE ADVOGADOS, SP, RL, N/D, Lisboa, Av 5 de Outubro, 63, r/c esq., N/D, +351219011850, adelino.raposo-20937l@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/?cg=L&r=&n=&lo=&m=&cp=&op=&o=0, sociedade, LISBOA)
+        
+2025-06-05 23:40:03,013 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo, localidade)
+            VALUES (ABALADA MATOS, MORAES CARDOSO E ASSOCIADOS - SOCIEDADE DE ADVOGADOS, RL, N/D, Lisboa, Edifício Alto das Amoreiras, Rua Joshua Benoliel, n.º 6 . 2º B, N/D, N/D, iam-8826l@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/?cg=L&r=&n=&lo=&m=&cp=&op=&o=0, sociedade, LISBOA)
+        
+2025-06-05 23:40:12,802 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-05 23:40:26,301 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo, localidade)
+            VALUES (ABBC - AZEVEDO NEVES, BENJAMIM MENDES, CARVALHO E ASSOCIADOS, ADVOGADOS, SP, RL, N/D, Lisboa, Largo de S. Carlos,  3, N/D, +351213583620, abbc@abbc.pt, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/?cg=L&r=&n=&lo=&m=&cp=&op=&o=0, sociedade, LISBOA)
+        
+2025-06-05 23:40:26,314 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo, localidade)
+            VALUES (ABECASIS, MOURA MARQUES & ASSOCIADOS, SOCIEDADE DE ADVOGADOS, SP, RL, N/D, Lisboa, Avenida da Liberdade, n.º 190 - 1º B, Edificio Avenida, N/D, +351211940538, jfa@aamm.pt, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/?cg=L&r=&n=&lo=&m=&cp=&op=&o=0, sociedade, LISBOA)
+        
+2025-06-05 23:40:26,324 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo, localidade)
+            VALUES (ABEL MARQUES E ASSOCIADOS - SOCIEDADE DE ADVOGADOS, SP, RL, N/D, Lisboa, R. Joaquim António de Aguiar, 33 -1º dto., N/D, +351213712327, abelmarques-7825l@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/?cg=L&r=&n=&lo=&m=&cp=&op=&o=0, sociedade, LISBOA)
+        
+2025-06-05 23:40:26,335 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo, localidade)
+            VALUES (ABRANCHES NAMORA & ASSOCIADOS - SOCIEDADE DE ADVOGADOS, SP, RL, N/D, Lisboa, Av Sidónio Pais, 16 - 2º Dto, N/D, +351213170990, soc.@oa.pt, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/?cg=L&r=&n=&lo=&m=&cp=&op=&o=0, sociedade, LISBOA)
+        
+2025-06-05 23:40:26,343 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo, localidade)
+            VALUES (ABREU & ASSOCIADOS - SOCIEDADE DE ADVOGADOS, SP, RL, N/D, Lisboa, Avenida Infante D. Henrique, 26, N/D, +351217231800, lisboa@abreuadvogados.com, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/?cg=L&r=&n=&lo=&m=&cp=&op=&o=0, sociedade, LISBOA)
+        
+2025-06-05 23:40:26,352 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo, localidade)
+            VALUES (ABREU & MARQUES E ASSOCIADOS-SOCIEDADE DE ADVOGADOS RL, N/D, Lisboa, R. Filipe Folque, 2 - 4º., N/D, +351213307100, amsa@amsa.pt, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/?cg=L&r=&n=&lo=&m=&cp=&op=&o=0, sociedade, LISBOA)
+        
+2025-06-05 23:40:26,360 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo, localidade)
+            VALUES (ABREU E NETO - SOCIEDADE DE ADVOGADOS, N/D, Lisboa, Rua Marcos de Assunção, n.º 4, Piso 1, Esc. 1.09, N/D, +351212754084, N/D, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/?cg=L&r=&n=&lo=&m=&cp=&op=&o=0, sociedade, ALMADA)
+        
+2025-06-05 23:40:26,369 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo, localidade)
+            VALUES (ADRIÃO RODRIGUES-ADVOGADOS ASSOCIADOS-SOCIEDADE CIVIL DE ADVOGADOS, N/D, Lisboa, Costa do Castelo,  62 r/c esqº., N/D, +351218870655, N/D, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/?cg=L&r=&n=&lo=&m=&cp=&op=&o=0, sociedade, LISBOA)
+        
+2025-06-05 23:40:27,669 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo, localidade)
+            VALUES (AF ADVOGADOS – ALMEIDA DIAS E FURTADO MARTINS, SOCIEDADE DE ADVOGADOS, SP, RL, N/D, Lisboa, Miraflores Office Center, Avenida das Túlipas, n.º 6 – 14º C, N/D, +351211600555, geral@af-advogados.com, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/?cg=L&r=&n=&lo=&m=&cp=&op=&o=0, sociedade, ALGÉS)
+        
+2025-06-05 23:40:27,676 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo, localidade)
+            VALUES (AFONSO DA COSTA & ASSOCIADOS-SOCIEDADE DE ADVOGADOS RL, N/D, Lisboa, Av. Columbano Bordalo Pinheiro, 90 - 1º. esqº., N/D, +351210191308, N/D, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/?cg=L&r=&n=&lo=&m=&cp=&op=&o=0, sociedade, LISBOA)
+        
+2025-06-05 23:40:38,063 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-05 23:40:50,565 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo, localidade)
+            VALUES (AGUIAR, MAGALHÃES MOTA & ASSOCIADOS - SOCIEDADE DE ADVOGADOS, SP, RL, N/D, Lisboa, Rua Gonçalves Ramos, n.º 10 C, N/D, +351214928556, ammassociados.secretariado@gmail.com, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/?cg=L&r=&n=&lo=&m=&cp=&op=&o=0, sociedade, AMADORA)
+        
+2025-06-05 23:40:50,574 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo, localidade)
+            VALUES (AGUIAR, SIMÃO DE AGUIAR & ASSOCIADOS - SOCIEDADE DE ADVOGADOS, SP, RL, N/D, Lisboa, Av António Augusto de Aguiar, n.º 15 - 2º Dto., N/D, +351915195170, asda@asdasa.pt, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/?cg=L&r=&n=&lo=&m=&cp=&op=&o=0, sociedade, LISBOA)
+        
+2025-06-05 23:40:50,581 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo, localidade)
+            VALUES (ALARCÃO POTIER E CORREIA GOMES-SOCIEDADE DE ADVOGADOS DE RESPONSABILIDADE LIMITADA, N/D, Lisboa, R. Acácio de Paiva, 16 - 2º. esqº., N/D, +351213431933, apotier@sapo.pt, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/?cg=L&r=&n=&lo=&m=&cp=&op=&o=0, sociedade, LISBOA)
+        
+2025-06-05 23:40:50,587 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo, localidade)
+            VALUES (ALBANO BESSA MONTEIRO, PEDRO BRITO MONTEIRO & ASSOCIADOS, SOCIEDADE DE ADVOGADOS - SP, RL, N/D, Lisboa, Av. Estados Unidos da América, 110 B, N/D, +351217827990, pedrobritomonteiro-17399l@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/?cg=L&r=&n=&lo=&m=&cp=&op=&o=0, sociedade, LISBOA)
+        
+2025-06-05 23:40:50,593 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo, localidade)
+            VALUES (ALBINO JACINTO & ASSOCIADOS, SOCIEDADE DE ADVOGADOS, SP, RL, N/D, Lisboa, Campo Grande, 28 - 4º A, N/D, +351213170830, advogados@ajsa.pt, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/?cg=L&r=&n=&lo=&m=&cp=&op=&o=0, sociedade, LISBOA)
+        
+2025-06-05 23:40:50,600 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo, localidade)
+            VALUES (ALBUQUERQUE ADVOGADOS, SP, RL, N/D, Lisboa, Calçada Bento da Rocha Cabral, n.º 1, N/D, +351213431570, geral@albuquerque-associados.pt, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/?cg=L&r=&n=&lo=&m=&cp=&op=&o=0, sociedade, LISBOA)
+        
+2025-06-05 23:40:50,607 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo, localidade)
+            VALUES (ALCIDES MARTINS, BANDEIRA, SIMÕES & ASSOCIADOS, SOCIEDADE DE ADVOGADOS, SP, RL, N/D, Lisboa, Av. Duque de Loulé, 22 - 6º., N/D, +351213535372, advogados@amartins.pt, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/?cg=L&r=&n=&lo=&m=&cp=&op=&o=0, sociedade, LISBOA)
+        
+2025-06-05 23:40:50,614 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo, localidade)
+            VALUES (ALEXANDRA BESSONE CARDOSO & ASSOCIADOS - SOCIEDADE DE ADVOGADOS, SP, RL, N/D, Lisboa, Av Conselheiro Fernando de Sousa, 19 - B, C, N/D, +351213584480, abclegal@abclegal.com.pt, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/?cg=L&r=&n=&lo=&m=&cp=&op=&o=0, sociedade, LISBOA)
+        
+2025-06-05 23:40:50,625 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo, localidade)
+            VALUES (ALEXANDRE LAFAYETTE & ASSOCIADOS - SOCIEDADE DE ADVOGADOS, SP, RL, N/D, Lisboa, Rua de Moscavide, n.º 2 A, N/D, +351213802010, lafayetteassociados@mail.telepac.pt, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/?cg=L&r=&n=&lo=&m=&cp=&op=&o=0, sociedade, LISBOA)
+        
+2025-06-05 23:40:50,632 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo, localidade)
+            VALUES (ALFREDO THEODORO, NAZARÉ & ASSOCIADOS - SOCIEDADE DE ADVOGADOS, SP, RL, N/D, Lisboa, Rua Filipe Folque, n.º 5 - 4º esquerdo, N/D, +351213463393, atnadvogados@gmail.pt, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/?cg=L&r=&n=&lo=&m=&cp=&op=&o=0, sociedade, LISBOA)
+        
+2025-06-05 23:41:04,124 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-05 23:41:16,009 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo, localidade)
+            VALUES (ALICE PAÇO FERREIRA & ASSOCIADOS - SOCIEDADE DE ADVOGADOS, SP, RI, N/D, Lisboa, Campo Grande, 30 - 4º.  D, N/D, +351217928020, aliceferreira-12410l@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/?cg=L&r=&n=&lo=&m=&cp=&op=&o=0, sociedade, LISBOA)
+        
+2025-06-05 23:41:16,018 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo, localidade)
+            VALUES (ALMEIDA & ASSOCIADOS - SOCIEDADE DE ADVOGADOS, SP, RL, N/D, Lisboa, Av Dom João II, 9 - i 14C, Edifício Adamastor, N/D, +351218954290, alvesalmeida@hotmail.com, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/?cg=L&r=&n=&lo=&m=&cp=&op=&o=0, sociedade, LISBOA)
+        
+2025-06-05 23:41:16,024 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo, localidade)
+            VALUES (ALMEIDA D'EÇA, RAPOSO & ASSOCIADOS, SOCIEDADE DE ADVOGADOS, SP, RL, N/D, Lisboa, Rua Latino Coelho, n.º 87, N/D, N/D, rita.ae-14790l@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/?cg=L&r=&n=&lo=&m=&cp=&op=&o=0, sociedade, LISBOA)
+        
+2025-06-05 23:41:16,031 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo, localidade)
+            VALUES (ALMEIDA GARRETT, PINTO DE CARVALHO, SOCIEDADE DE ADVOGADOS, SP, RL, N/D, Lisboa, Rua da Artilharia 1, n.º 51, Pateo Bagatela, Edf 1, 2º, N/D, +351919251597, cag-7130p@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/?cg=L&r=&n=&lo=&m=&cp=&op=&o=0, sociedade, LISBOA)
+        
+2025-06-05 23:41:16,038 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo, localidade)
+            VALUES (ALMEIDA RIBEIRO E ASSOCIADOS-SOCIEDADE DE ADVOGADOS RL, N/D, Lisboa, R. Joaquim António de Aguiar, 66 - 1º., N/D, +351213714490, geral@almeidaribeiro.pt, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/?cg=L&r=&n=&lo=&m=&cp=&op=&o=0, sociedade, LISBOA)
+        
+2025-06-05 23:41:16,045 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo, localidade)
+            VALUES (ALMEIDA SANTOS & ASSOCIADOS, SOCIEDADE DE ADVOGADOS, SP, RL, N/D, Lisboa, R. Helena Félix,  30  C  Quinta do Texugo, N/D, N/D, gabriela.a.santos-21346l@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/?cg=L&r=&n=&lo=&m=&cp=&op=&o=0, sociedade, CHARNECA DA CAPARICA)
+        
+2025-06-05 23:41:16,051 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo, localidade)
+            VALUES (ALMENDRA, MEDEIROS, ADVOGADOS, SP, RL, N/D, Lisboa, Rua Castilho, 71 - 1º dto., N/D, +351213233105, aa-8398l@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/?cg=L&r=&n=&lo=&m=&cp=&op=&o=0, sociedade, LISBOA)
+        
+2025-06-05 23:41:16,058 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo, localidade)
+            VALUES (ALVES & ASSOCIADOS-SOCIEDADE DE ADVOGADOS RL, N/D, Lisboa, Av. Miguel Bombarda, 80 - 6º., N/D, +351210354119, ritaguerraalves-11875L@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/?cg=L&r=&n=&lo=&m=&cp=&op=&o=0, sociedade, LISBOA)
+        
+2025-06-05 23:41:16,065 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo, localidade)
+            VALUES (ALVES & MARCOS - SOCIEDADE DE ADVOGADOS, SP, RL, N/D, Lisboa, Av. Engº. Duarte Pacheco, Torre  1  Piso  5, Sala 12, N/D, +351213806400, geral@asp-advogados.com, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/?cg=L&r=&n=&lo=&m=&cp=&op=&o=0, sociedade, LISBOA)
+        
+2025-06-05 23:41:16,072 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo, localidade)
+            VALUES (ALVES DA SILVA & RODRIGUEZ CORREIA - SOCIEDADE DE ADVOGADOS, RL, N/D, Lisboa, Av. Clotilde, 14 Edf. Arcadas do Parque, N/D, +351214668862, rodriguezcorreia-49458L@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/?cg=L&r=&n=&lo=&m=&cp=&op=&o=0, sociedade, ESTORIL)
+        
+2025-06-05 23:41:28,815 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-05 23:41:40,369 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo, localidade)
+            VALUES (ALVES FERREIRA, BAPTISTA, SANTOS COSTA, AIRES SANTOS & ASSOCIADOS-SOCIEDADE DE ADVOGADOS RL, N/D, Lisboa, Av. Álvares Cabral, 47  r/c, N/D, +351213814640, geral@fbcs.pt, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/?cg=L&r=&n=&lo=&m=&cp=&op=&o=0, sociedade, LISBOA)
+        
+2025-06-05 23:41:40,390 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo, localidade)
+            VALUES (ALVES MENDES & CARLOS PICOITO - SOCIEDADE DE ADVOGADOS, SP, RL, N/D, Lisboa, Rua Tierno Galvan, 10, torre 3, 2º, n.º 206, N/D, +351217653990, am@ampvs.pt, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/?cg=L&r=&n=&lo=&m=&cp=&op=&o=0, sociedade, LISBOA)
+        
+2025-06-05 23:41:40,400 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo, localidade)
+            VALUES (ALVES PEREIRA,TEIXEIRA DE SOUSA & ASSOCIADOS-SOCIEDADE DE ADVOGADOS, SP, RL, N/D, Lisboa, Avenida da Liberdade, número 105, 2.º andar direito, N/D, +351213700190, info@alvespereira.com, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/?cg=L&r=&n=&lo=&m=&cp=&op=&o=0, sociedade, LISBOA)
+        
+2025-06-05 23:41:40,412 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo, localidade)
+            VALUES (ALVES, ANDRADE PINHEL, MARTINS, MESSIAS, SOCIEDADE ADVOGADOS, SP, RL, N/D, Lisboa, Rua Tierno Galvan, n.º 10, torre 3 - 4º andar - 409, N/D, +351969514515, contato@legallatinadvisors.com, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/?cg=L&r=&n=&lo=&m=&cp=&op=&o=0, sociedade, LISBOA)
+        
+2025-06-05 23:41:40,425 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo, localidade)
+            VALUES (ALVES, BOTELHO, VARELA & ASSOCIADOS - SOCIEDADE DE ADVOGADOS, SP, RL, N/D, Lisboa, Av. Álvares Cabral, 84 - 2º, N/D, +351213703600, apv-12020l@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/?cg=L&r=&n=&lo=&m=&cp=&op=&o=0, sociedade, LISBOA)
+        
+2025-06-05 23:41:40,451 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo, localidade)
+            VALUES (ALVES, MARTINS BRAZ & ASSOCIADOS - SOCIEDADE DE ADVOGADOS, SP, RL, N/D, Lisboa, Rua Rodrigues Sampaio, n.º 21, 4.º-A, N/D, +351211992168, info@amb-advogados.pt, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/?cg=L&r=&n=&lo=&m=&cp=&op=&o=0, sociedade, LISBOA)
+        
+2025-06-05 23:41:40,459 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo, localidade)
+            VALUES (ALVES, TEIXEIRA & ASSOCIADOS - SOCIEDADE DE ADVOGADOS, SP, RL, N/D, Lisboa, Avenida Defensores de Chaves, n.º 52 - 4º, N/D, +351217803010, geral@lisbonlegal.com, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/?cg=L&r=&n=&lo=&m=&cp=&op=&o=0, sociedade, LISBOA)
+        
+2025-06-05 23:41:40,467 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo, localidade)
+            VALUES (AMA - ANA MERELO, JOAQUIM VERÍSSIMO & ASSOCIADOS, SOCIEDADE DE ADVOGADOS, SP, RL, N/D, Lisboa, Av. da República, 49 - 1º. esqº., N/D, +351217979388, geral@amaadvogados.net, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/?cg=L&r=&n=&lo=&m=&cp=&op=&o=0, sociedade, LISBOA)
+        
+2025-06-05 23:41:41,498 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo, localidade)
+            VALUES (AMARAL BLANCO, PORTELA DUARTE & ASSOCIADOS-SOCIEDADE ADVOGADOS RL, N/D, Lisboa, Lg. 25 de Abril, 5 - 2º.  Sala  3, N/D, +351262086709, abpd@abpd.pt, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/?cg=L&r=&n=&lo=&m=&cp=&op=&o=0, sociedade, BOMBARRAL)
+        
+2025-06-05 23:41:41,511 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo, localidade)
+            VALUES (AMARAL CABRAL & ASSOCIADOS - SOCIEDADE DE ADVOGADOS, SP, RL, N/D, Lisboa, Avª. Sidónio Pais, 26 - R/C, Direito, N/D, +351213192670, geral@amaralcabraladvogados.pt, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/?cg=L&r=&n=&lo=&m=&cp=&op=&o=0, sociedade, LISBOA)
+        
+2025-06-05 23:41:52,595 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-05 23:41:56,215 - ERROR - Tentativa 1 falhou: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x1213763+63299]
+	GetHandleVerifier [0x0x12137a4+63364]
+	(No symbol) [0x0x1040f70]
+	(No symbol) [0x0x107c9a8]
+	(No symbol) [0x0x10ae436]
+	(No symbol) [0x0x10a9f05]
+	(No symbol) [0x0x10a9486]
+	(No symbol) [0x0x1013a05]
+	(No symbol) [0x0x1013f5e]
+	(No symbol) [0x0x10143ed]
+	GetHandleVerifier [0x0x146e033+2531347]
+	GetHandleVerifier [0x0x1469332+2511634]
+	GetHandleVerifier [0x0x1239eda+220858]
+	GetHandleVerifier [0x0x122a528+156936]
+	GetHandleVerifier [0x0x1230c5d+183357]
+	(No symbol) [0x0x10136d0]
+	(No symbol) [0x0x1012edd]
+	GetHandleVerifier [0x0x15a7edc+3817148]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-05 23:41:56,217 - ERROR - Erro ao processar página 6: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x1213763+63299]
+	GetHandleVerifier [0x0x12137a4+63364]
+	(No symbol) [0x0x1040f70]
+	(No symbol) [0x0x107c9a8]
+	(No symbol) [0x0x10ae436]
+	(No symbol) [0x0x10a9f05]
+	(No symbol) [0x0x10a9486]
+	(No symbol) [0x0x1013a05]
+	(No symbol) [0x0x1013f5e]
+	(No symbol) [0x0x10143ed]
+	GetHandleVerifier [0x0x146e033+2531347]
+	GetHandleVerifier [0x0x1469332+2511634]
+	GetHandleVerifier [0x0x1239eda+220858]
+	GetHandleVerifier [0x0x122a528+156936]
+	GetHandleVerifier [0x0x1230c5d+183357]
+	(No symbol) [0x0x10136d0]
+	(No symbol) [0x0x1012edd]
+	GetHandleVerifier [0x0x15a7edc+3817148]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-05 23:41:56,218 - ERROR - Erro ao processar página 7: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x1213763+63299]
+	GetHandleVerifier [0x0x12137a4+63364]
+	(No symbol) [0x0x1040f70]
+	(No symbol) [0x0x107c9a8]
+	(No symbol) [0x0x10ae436]
+	(No symbol) [0x0x10a9f05]
+	(No symbol) [0x0x10a9486]
+	(No symbol) [0x0x1013a05]
+	(No symbol) [0x0x1013f5e]
+	(No symbol) [0x0x10143ed]
+	GetHandleVerifier [0x0x146e033+2531347]
+	GetHandleVerifier [0x0x1469332+2511634]
+	GetHandleVerifier [0x0x1239eda+220858]
+	GetHandleVerifier [0x0x122a528+156936]
+	GetHandleVerifier [0x0x1230c5d+183357]
+	(No symbol) [0x0x10136d0]
+	(No symbol) [0x0x1012edd]
+	GetHandleVerifier [0x0x15a7edc+3817148]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-05 23:41:56,218 - ERROR - Erro ao processar página 8: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x1213763+63299]
+	GetHandleVerifier [0x0x12137a4+63364]
+	(No symbol) [0x0x1040f70]
+	(No symbol) [0x0x107c9a8]
+	(No symbol) [0x0x10ae436]
+	(No symbol) [0x0x10a9f05]
+	(No symbol) [0x0x10a9486]
+	(No symbol) [0x0x1013a05]
+	(No symbol) [0x0x1013f5e]
+	(No symbol) [0x0x10143ed]
+	GetHandleVerifier [0x0x146e033+2531347]
+	GetHandleVerifier [0x0x1469332+2511634]
+	GetHandleVerifier [0x0x1239eda+220858]
+	GetHandleVerifier [0x0x122a528+156936]
+	GetHandleVerifier [0x0x1230c5d+183357]
+	(No symbol) [0x0x10136d0]
+	(No symbol) [0x0x1012edd]
+	GetHandleVerifier [0x0x15a7edc+3817148]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-05 23:41:56,220 - INFO - Dados salvos em CSV: dados_pesquisa-de-sociedades-de-advogados_20250605_234156.csv
+2025-06-05 23:41:56,221 - INFO - coletar_sociedades_lisboa completado com 50 registros
+2025-06-05 23:41:56,221 - INFO - Iniciando: coletar_sociedades_porto
+2025-06-05 23:41:56,221 - INFO - Iniciando scraping de sociedades de advogados do porto...
+2025-06-05 23:41:56,221 - ERROR - Erro em coletar_sociedades_porto: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x1213763+63299]
+	GetHandleVerifier [0x0x12137a4+63364]
+	(No symbol) [0x0x1040f70]
+	(No symbol) [0x0x107c9a8]
+	(No symbol) [0x0x10ae436]
+	(No symbol) [0x0x10a9f05]
+	(No symbol) [0x0x10a9486]
+	(No symbol) [0x0x1013a05]
+	(No symbol) [0x0x1013f5e]
+	(No symbol) [0x0x10143ed]
+	GetHandleVerifier [0x0x146e033+2531347]
+	GetHandleVerifier [0x0x1469332+2511634]
+	GetHandleVerifier [0x0x1239eda+220858]
+	GetHandleVerifier [0x0x122a528+156936]
+	GetHandleVerifier [0x0x1230c5d+183357]
+	(No symbol) [0x0x10136d0]
+	(No symbol) [0x0x1012edd]
+	GetHandleVerifier [0x0x15a7edc+3817148]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-05 23:41:56,222 - INFO - Iniciando: coletar_sociedades_coimbra
+2025-06-05 23:41:56,222 - INFO - Iniciando scraping de sociedades de advogados de coimbra...
+2025-06-05 23:41:56,222 - ERROR - Erro em coletar_sociedades_coimbra: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x1213763+63299]
+	GetHandleVerifier [0x0x12137a4+63364]
+	(No symbol) [0x0x1040f70]
+	(No symbol) [0x0x107c9a8]
+	(No symbol) [0x0x10ae436]
+	(No symbol) [0x0x10a9f05]
+	(No symbol) [0x0x10a9486]
+	(No symbol) [0x0x1013a05]
+	(No symbol) [0x0x1013f5e]
+	(No symbol) [0x0x10143ed]
+	GetHandleVerifier [0x0x146e033+2531347]
+	GetHandleVerifier [0x0x1469332+2511634]
+	GetHandleVerifier [0x0x1239eda+220858]
+	GetHandleVerifier [0x0x122a528+156936]
+	GetHandleVerifier [0x0x1230c5d+183357]
+	(No symbol) [0x0x10136d0]
+	(No symbol) [0x0x1012edd]
+	GetHandleVerifier [0x0x15a7edc+3817148]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-05 23:41:56,222 - INFO - Iniciando: coletar_sociedades_evora
+2025-06-05 23:41:56,222 - INFO - Iniciando scraping de sociedades de advogados de evora...
+2025-06-05 23:41:56,223 - ERROR - Erro em coletar_sociedades_evora: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x1213763+63299]
+	GetHandleVerifier [0x0x12137a4+63364]
+	(No symbol) [0x0x1040f70]
+	(No symbol) [0x0x107c9a8]
+	(No symbol) [0x0x10ae436]
+	(No symbol) [0x0x10a9f05]
+	(No symbol) [0x0x10a9486]
+	(No symbol) [0x0x1013a05]
+	(No symbol) [0x0x1013f5e]
+	(No symbol) [0x0x10143ed]
+	GetHandleVerifier [0x0x146e033+2531347]
+	GetHandleVerifier [0x0x1469332+2511634]
+	GetHandleVerifier [0x0x1239eda+220858]
+	GetHandleVerifier [0x0x122a528+156936]
+	GetHandleVerifier [0x0x1230c5d+183357]
+	(No symbol) [0x0x10136d0]
+	(No symbol) [0x0x1012edd]
+	GetHandleVerifier [0x0x15a7edc+3817148]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-05 23:41:56,223 - INFO - Iniciando: coletar_sociedades_faro
+2025-06-05 23:41:56,223 - INFO - Iniciando scraping de sociedades de advogados de faro...
+2025-06-05 23:41:56,223 - ERROR - Erro em coletar_sociedades_faro: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x1213763+63299]
+	GetHandleVerifier [0x0x12137a4+63364]
+	(No symbol) [0x0x1040f70]
+	(No symbol) [0x0x107c9a8]
+	(No symbol) [0x0x10ae436]
+	(No symbol) [0x0x10a9f05]
+	(No symbol) [0x0x10a9486]
+	(No symbol) [0x0x1013a05]
+	(No symbol) [0x0x1013f5e]
+	(No symbol) [0x0x10143ed]
+	GetHandleVerifier [0x0x146e033+2531347]
+	GetHandleVerifier [0x0x1469332+2511634]
+	GetHandleVerifier [0x0x1239eda+220858]
+	GetHandleVerifier [0x0x122a528+156936]
+	GetHandleVerifier [0x0x1230c5d+183357]
+	(No symbol) [0x0x10136d0]
+	(No symbol) [0x0x1012edd]
+	GetHandleVerifier [0x0x15a7edc+3817148]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-05 23:41:56,224 - INFO - Iniciando: coletar_sociedades_madeira
+2025-06-05 23:41:56,224 - INFO - Iniciando scraping de sociedades de advogados da madeira...
+2025-06-05 23:41:56,224 - ERROR - Erro em coletar_sociedades_madeira: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x1213763+63299]
+	GetHandleVerifier [0x0x12137a4+63364]
+	(No symbol) [0x0x1040f70]
+	(No symbol) [0x0x107c9a8]
+	(No symbol) [0x0x10ae436]
+	(No symbol) [0x0x10a9f05]
+	(No symbol) [0x0x10a9486]
+	(No symbol) [0x0x1013a05]
+	(No symbol) [0x0x1013f5e]
+	(No symbol) [0x0x10143ed]
+	GetHandleVerifier [0x0x146e033+2531347]
+	GetHandleVerifier [0x0x1469332+2511634]
+	GetHandleVerifier [0x0x1239eda+220858]
+	GetHandleVerifier [0x0x122a528+156936]
+	GetHandleVerifier [0x0x1230c5d+183357]
+	(No symbol) [0x0x10136d0]
+	(No symbol) [0x0x1012edd]
+	GetHandleVerifier [0x0x15a7edc+3817148]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-05 23:41:56,224 - INFO - Iniciando: coletar_estagiarios
+2025-06-05 23:41:56,224 - INFO - Iniciando scraping de estagiários...
+2025-06-05 23:41:56,225 - ERROR - Erro em coletar_estagiarios: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x1213763+63299]
+	GetHandleVerifier [0x0x12137a4+63364]
+	(No symbol) [0x0x1040f70]
+	(No symbol) [0x0x107c9a8]
+	(No symbol) [0x0x10ae436]
+	(No symbol) [0x0x10a9f05]
+	(No symbol) [0x0x10a9486]
+	(No symbol) [0x0x1013a05]
+	(No symbol) [0x0x1013f5e]
+	(No symbol) [0x0x10143ed]
+	GetHandleVerifier [0x0x146e033+2531347]
+	GetHandleVerifier [0x0x1469332+2511634]
+	GetHandleVerifier [0x0x1239eda+220858]
+	GetHandleVerifier [0x0x122a528+156936]
+	GetHandleVerifier [0x0x1230c5d+183357]
+	(No symbol) [0x0x10136d0]
+	(No symbol) [0x0x1012edd]
+	GetHandleVerifier [0x0x15a7edc+3817148]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-05 23:41:56,225 - INFO - Iniciando: coletar_tribunais
+2025-06-05 23:41:56,225 - INFO - Iniciando scraping de tribunais...
+2025-06-05 23:41:56,226 - ERROR - Erro em coletar_tribunais: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x1213763+63299]
+	GetHandleVerifier [0x0x12137a4+63364]
+	(No symbol) [0x0x1040f70]
+	(No symbol) [0x0x107c9a8]
+	(No symbol) [0x0x10ae436]
+	(No symbol) [0x0x10a9f05]
+	(No symbol) [0x0x10a9486]
+	(No symbol) [0x0x1013a05]
+	(No symbol) [0x0x1013f5e]
+	(No symbol) [0x0x10143ed]
+	GetHandleVerifier [0x0x146e033+2531347]
+	GetHandleVerifier [0x0x1469332+2511634]
+	GetHandleVerifier [0x0x1239eda+220858]
+	GetHandleVerifier [0x0x122a528+156936]
+	GetHandleVerifier [0x0x1230c5d+183357]
+	(No symbol) [0x0x10136d0]
+	(No symbol) [0x0x1012edd]
+	GetHandleVerifier [0x0x15a7edc+3817148]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-05 23:41:56,226 - INFO - Iniciando: coletar_julgados
+2025-06-05 23:41:56,226 - INFO - Iniciando scraping de julgados de paz...
+2025-06-05 23:41:56,227 - ERROR - Erro em coletar_julgados: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x1213763+63299]
+	GetHandleVerifier [0x0x12137a4+63364]
+	(No symbol) [0x0x1040f70]
+	(No symbol) [0x0x107c9a8]
+	(No symbol) [0x0x10ae436]
+	(No symbol) [0x0x10a9f05]
+	(No symbol) [0x0x10a9486]
+	(No symbol) [0x0x1013a05]
+	(No symbol) [0x0x1013f5e]
+	(No symbol) [0x0x10143ed]
+	GetHandleVerifier [0x0x146e033+2531347]
+	GetHandleVerifier [0x0x1469332+2511634]
+	GetHandleVerifier [0x0x1239eda+220858]
+	GetHandleVerifier [0x0x122a528+156936]
+	GetHandleVerifier [0x0x1230c5d+183357]
+	(No symbol) [0x0x10136d0]
+	(No symbol) [0x0x1012edd]
+	GetHandleVerifier [0x0x15a7edc+3817148]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-05 23:41:56,227 - INFO - Iniciando: coletar_osae
+2025-06-05 23:41:56,227 - INFO - Iniciando scraping do OSAE...
+2025-06-05 23:41:56,227 - ERROR - Erro em coletar_osae: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x1213763+63299]
+	GetHandleVerifier [0x0x12137a4+63364]
+	(No symbol) [0x0x1040f70]
+	(No symbol) [0x0x107c9a8]
+	(No symbol) [0x0x10ae436]
+	(No symbol) [0x0x10a9f05]
+	(No symbol) [0x0x10a9486]
+	(No symbol) [0x0x1013a05]
+	(No symbol) [0x0x1013f5e]
+	(No symbol) [0x0x10143ed]
+	GetHandleVerifier [0x0x146e033+2531347]
+	GetHandleVerifier [0x0x1469332+2511634]
+	GetHandleVerifier [0x0x1239eda+220858]
+	GetHandleVerifier [0x0x122a528+156936]
+	GetHandleVerifier [0x0x1230c5d+183357]
+	(No symbol) [0x0x10136d0]
+	(No symbol) [0x0x1012edd]
+	GetHandleVerifier [0x0x15a7edc+3817148]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-05 23:41:56,227 - INFO - Iniciando: coletar_advogados_angola
+2025-06-05 23:41:56,227 - INFO - Iniciando scraping de advogados de Angola...
+2025-06-05 23:41:56,227 - ERROR - Erro ao carregar dados de advogados de Angola: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x1213763+63299]
+	GetHandleVerifier [0x0x12137a4+63364]
+	(No symbol) [0x0x1040f70]
+	(No symbol) [0x0x107c9a8]
+	(No symbol) [0x0x10ae436]
+	(No symbol) [0x0x10a9f05]
+	(No symbol) [0x0x10a9486]
+	(No symbol) [0x0x1013a05]
+	(No symbol) [0x0x1013f5e]
+	(No symbol) [0x0x10143ed]
+	GetHandleVerifier [0x0x146e033+2531347]
+	GetHandleVerifier [0x0x1469332+2511634]
+	GetHandleVerifier [0x0x1239eda+220858]
+	GetHandleVerifier [0x0x122a528+156936]
+	GetHandleVerifier [0x0x1230c5d+183357]
+	(No symbol) [0x0x10136d0]
+	(No symbol) [0x0x1012edd]
+	GetHandleVerifier [0x0x15a7edc+3817148]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-05 23:41:56,229 - ERROR - Erro em coletar_advogados_angola: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x1213763+63299]
+	GetHandleVerifier [0x0x12137a4+63364]
+	(No symbol) [0x0x1040f70]
+	(No symbol) [0x0x107c9a8]
+	(No symbol) [0x0x10ae436]
+	(No symbol) [0x0x10a9f05]
+	(No symbol) [0x0x10a9486]
+	(No symbol) [0x0x1013a05]
+	(No symbol) [0x0x1013f5e]
+	(No symbol) [0x0x10143ed]
+	GetHandleVerifier [0x0x146e033+2531347]
+	GetHandleVerifier [0x0x1469332+2511634]
+	GetHandleVerifier [0x0x1239eda+220858]
+	GetHandleVerifier [0x0x122a528+156936]
+	GetHandleVerifier [0x0x1230c5d+183357]
+	(No symbol) [0x0x10136d0]
+	(No symbol) [0x0x1012edd]
+	GetHandleVerifier [0x0x15a7edc+3817148]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-05 23:41:56,229 - INFO - Iniciando: coletar_camaras_municipais
+2025-06-05 23:41:56,229 - INFO - Iniciando scraping de câmaras municipais...
+2025-06-05 23:41:56,230 - ERROR - Erro em coletar_camaras_municipais: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x1213763+63299]
+	GetHandleVerifier [0x0x12137a4+63364]
+	(No symbol) [0x0x1040f70]
+	(No symbol) [0x0x107c9a8]
+	(No symbol) [0x0x10ae436]
+	(No symbol) [0x0x10a9f05]
+	(No symbol) [0x0x10a9486]
+	(No symbol) [0x0x1013a05]
+	(No symbol) [0x0x1013f5e]
+	(No symbol) [0x0x10143ed]
+	GetHandleVerifier [0x0x146e033+2531347]
+	GetHandleVerifier [0x0x1469332+2511634]
+	GetHandleVerifier [0x0x1239eda+220858]
+	GetHandleVerifier [0x0x122a528+156936]
+	GetHandleVerifier [0x0x1230c5d+183357]
+	(No symbol) [0x0x10136d0]
+	(No symbol) [0x0x1012edd]
+	GetHandleVerifier [0x0x15a7edc+3817148]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-05 23:41:56,230 - INFO - Iniciando: coletar_atlas_cplp
+2025-06-05 23:41:56,230 - INFO - Iniciando scraping do Atlas CPLP...
+2025-06-05 23:41:56,231 - ERROR - Erro em coletar_atlas_cplp: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x1213763+63299]
+	GetHandleVerifier [0x0x12137a4+63364]
+	(No symbol) [0x0x1040f70]
+	(No symbol) [0x0x107c9a8]
+	(No symbol) [0x0x10ae436]
+	(No symbol) [0x0x10a9f05]
+	(No symbol) [0x0x10a9486]
+	(No symbol) [0x0x1013a05]
+	(No symbol) [0x0x1013f5e]
+	(No symbol) [0x0x10143ed]
+	GetHandleVerifier [0x0x146e033+2531347]
+	GetHandleVerifier [0x0x1469332+2511634]
+	GetHandleVerifier [0x0x1239eda+220858]
+	GetHandleVerifier [0x0x122a528+156936]
+	GetHandleVerifier [0x0x1230c5d+183357]
+	(No symbol) [0x0x10136d0]
+	(No symbol) [0x0x1012edd]
+	GetHandleVerifier [0x0x15a7edc+3817148]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-05 23:41:56,232 - INFO - Dados salvos em CSV: todos_dados_20250605_234156.csv
+2025-06-05 23:41:56,232 - INFO - Todos os dados salvos em CSV com timestamp: 20250605_234156
+2025-06-05 23:41:56,233 - INFO - Conexão com o banco de dados fechada.
+2025-06-05 23:41:58,272 - INFO - Navegador fechado.

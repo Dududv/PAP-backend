@@ -1,0 +1,13 @@
+2025-06-05 18:17:21,170 - INFO - Iniciando o script de scraping...
+2025-06-05 18:17:21,198 - INFO - Conexão com o banco de dados estabelecida!
+2025-06-05 18:17:21,200 - INFO - ====== WebDriver manager ======
+2025-06-05 18:17:21,993 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-05 18:17:22,029 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-05 18:17:22,062 - INFO - Driver [C:\Users\david\.wdm\drivers\chromedriver\win64\137.0.7151.68\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-05 18:17:23,177 - INFO - Iniciando: coletar_sociedades
+2025-06-05 18:17:23,177 - INFO - Iniciando scraping de sociedades de advogados...
+2025-06-05 18:17:44,245 - ERROR - Erro ao clicar no botão de pesquisa para https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/: Message: 
+
+2025-06-05 18:17:44,251 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-05 18:18:02,508 - INFO - Conexão com o banco de dados fechada.
+2025-06-05 18:18:02,516 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'Uma ligação existente foi forçada a fechar pelo anfitrião remoto', None, 10054, None)': /session/9106f297f193bf0e13ad9665910f85ec

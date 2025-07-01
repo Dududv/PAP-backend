@@ -1,0 +1,63 @@
+2025-06-10 23:37:39,087 - INFO - Iniciando o script de scraping...
+2025-06-10 23:37:39,095 - INFO - Conexão com o banco de dados estabelecida!
+2025-06-10 23:37:39,096 - INFO - Tabela 'advogados' verificada/recriada com sucesso!
+2025-06-10 23:37:39,096 - INFO - Tabela 'sociedades' verificada/criada com sucesso!
+2025-06-10 23:37:39,096 - INFO - Tabela 'estagiarios' verificada/criada com sucesso!
+2025-06-10 23:37:39,096 - INFO - Tabela 'agentes_execucao' verificada/criada com sucesso!
+2025-06-10 23:37:39,097 - INFO - ====== WebDriver manager ======
+2025-06-10 23:37:39,953 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-10 23:37:40,001 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-10 23:37:40,036 - INFO - Driver [C:\Users\david\.wdm\drivers\chromedriver\win64\137.0.7151.70\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-10 23:37:41,223 - INFO - Iniciando: coletar_tribunais
+2025-06-10 23:37:41,223 - INFO - Iniciando scraping de tribunais...
+2025-06-10 23:37:47,886 - ERROR - Erro ao carregar página de tribunais: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xfd3783+63299]
+	GetHandleVerifier [0x0xfd37c4+63364]
+	(No symbol) [0x0xe01113]
+	(No symbol) [0x0xdf08a0]
+	(No symbol) [0x0xe0e8c2]
+	(No symbol) [0x0xe7519c]
+	(No symbol) [0x0xe8f359]
+	(No symbol) [0x0xe6e376]
+	(No symbol) [0x0xe3d6e0]
+	(No symbol) [0x0xe3e544]
+	GetHandleVerifier [0x0x122e073+2531379]
+	GetHandleVerifier [0x0x1229372+2511666]
+	GetHandleVerifier [0x0xff9efa+220858]
+	GetHandleVerifier [0x0xfea548+156936]
+	GetHandleVerifier [0x0xff0c7d+183357]
+	GetHandleVerifier [0x0xfdb6e8+95912]
+	GetHandleVerifier [0x0xfdb890+96336]
+	GetHandleVerifier [0x0xfc666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-10 23:37:47,940 - ERROR - Erro em coletar_tribunais: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0xfd3783+63299]
+	GetHandleVerifier [0x0xfd37c4+63364]
+	(No symbol) [0x0xe00f70]
+	(No symbol) [0x0xe3c9a8]
+	(No symbol) [0x0xe6e436]
+	(No symbol) [0x0xe69f05]
+	(No symbol) [0x0xe69486]
+	(No symbol) [0x0xdd3a05]
+	(No symbol) [0x0xdd3f5e]
+	(No symbol) [0x0xdd43ed]
+	GetHandleVerifier [0x0x122e073+2531379]
+	GetHandleVerifier [0x0x1229372+2511666]
+	GetHandleVerifier [0x0xff9efa+220858]
+	GetHandleVerifier [0x0xfea548+156936]
+	GetHandleVerifier [0x0xff0c7d+183357]
+	(No symbol) [0x0xdd36d0]
+	(No symbol) [0x0xdd2edd]
+	GetHandleVerifier [0x0x1367f1c+3817180]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-10 23:37:49,981 - INFO - Conexão com o banco de dados fechada.

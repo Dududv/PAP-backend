@@ -1,0 +1,988 @@
+2025-06-12 11:34:18,906 - INFO - Iniciando o script de scraping...
+2025-06-12 11:34:18,971 - INFO - Conexão com o banco de dados estabelecida!
+2025-06-12 11:34:19,271 - INFO - Tabela 'advogados' recriada com sucesso!
+2025-06-12 11:34:19,273 - INFO - Tabela 'sociedades' verificada/criada com sucesso!
+2025-06-12 11:34:19,274 - INFO - Tabela 'estagiarios' verificada/criada com sucesso!
+2025-06-12 11:34:19,275 - INFO - Tabela 'estagiarios' verificada/criada com sucesso!
+2025-06-12 11:34:19,275 - INFO - Tabela 'agentes_execucao' verificada/criada com sucesso!
+2025-06-12 11:34:19,275 - INFO - ====== WebDriver manager ======
+2025-06-12 11:34:21,617 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-12 11:34:21,753 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-12 11:34:21,797 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-12 11:34:21,883 - INFO - WebDriver version 137.0.7151.70 selected
+2025-06-12 11:34:21,885 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/137.0.7151.70/win32/chromedriver-win32.zip
+2025-06-12 11:34:21,885 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/137.0.7151.70/win32/chromedriver-win32.zip
+2025-06-12 11:34:21,991 - INFO - Driver downloading response is 200
+2025-06-12 11:34:22,190 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-12 11:34:22,565 - INFO - Driver has been saved in cache [C:\Users\david\.wdm\drivers\chromedriver\win64\137.0.7151.70]
+2025-06-12 11:34:26,689 - INFO - Iniciando: coletar_advogados_lisboa
+2025-06-12 11:34:26,689 - INFO - Iniciando scraping de advogados...
+2025-06-12 11:34:53,853 - WARNING - Erro ao marcar 'Apenas Ativos' (continuando sem marcar): Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xbb3783+63299]
+	GetHandleVerifier [0x0xbb37c4+63364]
+	(No symbol) [0x0x9e1113]
+	(No symbol) [0x0x9bff69]
+	(No symbol) [0x0xa54fce]
+	(No symbol) [0x0xa6f359]
+	(No symbol) [0x0xa4e376]
+	(No symbol) [0x0xa1d6e0]
+	(No symbol) [0x0xa1e544]
+	GetHandleVerifier [0x0xe0e073+2531379]
+	GetHandleVerifier [0x0xe09372+2511666]
+	GetHandleVerifier [0x0xbd9efa+220858]
+	GetHandleVerifier [0x0xbca548+156936]
+	GetHandleVerifier [0x0xbd0c7d+183357]
+	GetHandleVerifier [0x0xbbb6e8+95912]
+	GetHandleVerifier [0x0xbbb890+96336]
+	GetHandleVerifier [0x0xba666a+9770]
+	BaseThreadInitThunk [0x0x76315d49+25]
+	RtlInitializeExceptionChain [0x0x777cd03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x777ccfc1+561]
+
+2025-06-12 11:34:53,855 - WARNING - Erro ao clicar no botão de pesquisa: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xbb3783+63299]
+	GetHandleVerifier [0x0xbb37c4+63364]
+	(No symbol) [0x0x9e1113]
+	(No symbol) [0x0x9bff69]
+	(No symbol) [0x0xa54fce]
+	(No symbol) [0x0xa6f359]
+	(No symbol) [0x0xa4e376]
+	(No symbol) [0x0xa1d6e0]
+	(No symbol) [0x0xa1e544]
+	GetHandleVerifier [0x0xe0e073+2531379]
+	GetHandleVerifier [0x0xe09372+2511666]
+	GetHandleVerifier [0x0xbd9efa+220858]
+	GetHandleVerifier [0x0xbca548+156936]
+	GetHandleVerifier [0x0xbd0c7d+183357]
+	GetHandleVerifier [0x0xbbb6e8+95912]
+	GetHandleVerifier [0x0xbbb890+96336]
+	GetHandleVerifier [0x0xba666a+9770]
+	BaseThreadInitThunk [0x0x76315d49+25]
+	RtlInitializeExceptionChain [0x0x777cd03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x777ccfc1+561]
+
+2025-06-12 11:34:53,857 - ERROR - Erro ao processar página 1: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xbb3783+63299]
+	GetHandleVerifier [0x0xbb37c4+63364]
+	(No symbol) [0x0x9e1113]
+	(No symbol) [0x0x9bff69]
+	(No symbol) [0x0xa54fce]
+	(No symbol) [0x0xa6f359]
+	(No symbol) [0x0xa4e376]
+	(No symbol) [0x0xa1d6e0]
+	(No symbol) [0x0xa1e544]
+	GetHandleVerifier [0x0xe0e073+2531379]
+	GetHandleVerifier [0x0xe09372+2511666]
+	GetHandleVerifier [0x0xbd9efa+220858]
+	GetHandleVerifier [0x0xbca548+156936]
+	GetHandleVerifier [0x0xbd0c7d+183357]
+	GetHandleVerifier [0x0xbbb6e8+95912]
+	GetHandleVerifier [0x0xbbb890+96336]
+	GetHandleVerifier [0x0xba666a+9770]
+	BaseThreadInitThunk [0x0x76315d49+25]
+	RtlInitializeExceptionChain [0x0x777cd03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x777ccfc1+561]
+
+2025-06-12 11:34:53,859 - ERROR - Erro ao processar página 2: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xbb3783+63299]
+	GetHandleVerifier [0x0xbb37c4+63364]
+	(No symbol) [0x0x9e1113]
+	(No symbol) [0x0x9bff69]
+	(No symbol) [0x0xa54fce]
+	(No symbol) [0x0xa6f359]
+	(No symbol) [0x0xa4e376]
+	(No symbol) [0x0xa1d6e0]
+	(No symbol) [0x0xa1e544]
+	GetHandleVerifier [0x0xe0e073+2531379]
+	GetHandleVerifier [0x0xe09372+2511666]
+	GetHandleVerifier [0x0xbd9efa+220858]
+	GetHandleVerifier [0x0xbca548+156936]
+	GetHandleVerifier [0x0xbd0c7d+183357]
+	GetHandleVerifier [0x0xbbb6e8+95912]
+	GetHandleVerifier [0x0xbbb890+96336]
+	GetHandleVerifier [0x0xba666a+9770]
+	BaseThreadInitThunk [0x0x76315d49+25]
+	RtlInitializeExceptionChain [0x0x777cd03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x777ccfc1+561]
+
+2025-06-12 11:34:53,861 - ERROR - Erro ao processar página 3: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xbb3783+63299]
+	GetHandleVerifier [0x0xbb37c4+63364]
+	(No symbol) [0x0x9e1113]
+	(No symbol) [0x0x9bff69]
+	(No symbol) [0x0xa54fce]
+	(No symbol) [0x0xa6f359]
+	(No symbol) [0x0xa4e376]
+	(No symbol) [0x0xa1d6e0]
+	(No symbol) [0x0xa1e544]
+	GetHandleVerifier [0x0xe0e073+2531379]
+	GetHandleVerifier [0x0xe09372+2511666]
+	GetHandleVerifier [0x0xbd9efa+220858]
+	GetHandleVerifier [0x0xbca548+156936]
+	GetHandleVerifier [0x0xbd0c7d+183357]
+	GetHandleVerifier [0x0xbbb6e8+95912]
+	GetHandleVerifier [0x0xbbb890+96336]
+	GetHandleVerifier [0x0xba666a+9770]
+	BaseThreadInitThunk [0x0x76315d49+25]
+	RtlInitializeExceptionChain [0x0x777cd03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x777ccfc1+561]
+
+2025-06-12 11:34:53,861 - WARNING - coletar_advogados_lisboa retornou 0 registros
+2025-06-12 11:34:53,862 - INFO - Iniciando: coletar_advogados_porto
+2025-06-12 11:34:53,862 - INFO - Iniciando scraping de advogados...
+2025-06-12 11:34:53,863 - ERROR - Erro em coletar_advogados_porto: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xbb3783+63299]
+	GetHandleVerifier [0x0xbb37c4+63364]
+	(No symbol) [0x0x9e1113]
+	(No symbol) [0x0x9bff69]
+	(No symbol) [0x0xa54fce]
+	(No symbol) [0x0xa6f359]
+	(No symbol) [0x0xa4e376]
+	(No symbol) [0x0xa1d6e0]
+	(No symbol) [0x0xa1e544]
+	GetHandleVerifier [0x0xe0e073+2531379]
+	GetHandleVerifier [0x0xe09372+2511666]
+	GetHandleVerifier [0x0xbd9efa+220858]
+	GetHandleVerifier [0x0xbca548+156936]
+	GetHandleVerifier [0x0xbd0c7d+183357]
+	GetHandleVerifier [0x0xbbb6e8+95912]
+	GetHandleVerifier [0x0xbbb890+96336]
+	GetHandleVerifier [0x0xba666a+9770]
+	BaseThreadInitThunk [0x0x76315d49+25]
+	RtlInitializeExceptionChain [0x0x777cd03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x777ccfc1+561]
+
+2025-06-12 11:34:53,864 - INFO - Iniciando: coletar_advogados_coimbra
+2025-06-12 11:34:53,864 - INFO - Iniciando scraping de advogados...
+2025-06-12 11:34:53,865 - ERROR - Erro em coletar_advogados_coimbra: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xbb3783+63299]
+	GetHandleVerifier [0x0xbb37c4+63364]
+	(No symbol) [0x0x9e1113]
+	(No symbol) [0x0x9bff69]
+	(No symbol) [0x0xa54fce]
+	(No symbol) [0x0xa6f359]
+	(No symbol) [0x0xa4e376]
+	(No symbol) [0x0xa1d6e0]
+	(No symbol) [0x0xa1e544]
+	GetHandleVerifier [0x0xe0e073+2531379]
+	GetHandleVerifier [0x0xe09372+2511666]
+	GetHandleVerifier [0x0xbd9efa+220858]
+	GetHandleVerifier [0x0xbca548+156936]
+	GetHandleVerifier [0x0xbd0c7d+183357]
+	GetHandleVerifier [0x0xbbb6e8+95912]
+	GetHandleVerifier [0x0xbbb890+96336]
+	GetHandleVerifier [0x0xba666a+9770]
+	BaseThreadInitThunk [0x0x76315d49+25]
+	RtlInitializeExceptionChain [0x0x777cd03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x777ccfc1+561]
+
+2025-06-12 11:34:53,872 - INFO - Iniciando: coletar_advogados_evora
+2025-06-12 11:34:53,872 - INFO - Iniciando scraping de advogados...
+2025-06-12 11:34:53,874 - ERROR - Erro em coletar_advogados_evora: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xbb3783+63299]
+	GetHandleVerifier [0x0xbb37c4+63364]
+	(No symbol) [0x0x9e1113]
+	(No symbol) [0x0x9bff69]
+	(No symbol) [0x0xa54fce]
+	(No symbol) [0x0xa6f359]
+	(No symbol) [0x0xa4e376]
+	(No symbol) [0x0xa1d6e0]
+	(No symbol) [0x0xa1e544]
+	GetHandleVerifier [0x0xe0e073+2531379]
+	GetHandleVerifier [0x0xe09372+2511666]
+	GetHandleVerifier [0x0xbd9efa+220858]
+	GetHandleVerifier [0x0xbca548+156936]
+	GetHandleVerifier [0x0xbd0c7d+183357]
+	GetHandleVerifier [0x0xbbb6e8+95912]
+	GetHandleVerifier [0x0xbbb890+96336]
+	GetHandleVerifier [0x0xba666a+9770]
+	BaseThreadInitThunk [0x0x76315d49+25]
+	RtlInitializeExceptionChain [0x0x777cd03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x777ccfc1+561]
+
+2025-06-12 11:34:53,874 - INFO - Iniciando: coletar_advogados_faro
+2025-06-12 11:34:53,874 - INFO - Iniciando scraping de advogados...
+2025-06-12 11:34:53,876 - ERROR - Erro em coletar_advogados_faro: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xbb3783+63299]
+	GetHandleVerifier [0x0xbb37c4+63364]
+	(No symbol) [0x0x9e1113]
+	(No symbol) [0x0x9bff69]
+	(No symbol) [0x0xa54fce]
+	(No symbol) [0x0xa6f359]
+	(No symbol) [0x0xa4e376]
+	(No symbol) [0x0xa1d6e0]
+	(No symbol) [0x0xa1e544]
+	GetHandleVerifier [0x0xe0e073+2531379]
+	GetHandleVerifier [0x0xe09372+2511666]
+	GetHandleVerifier [0x0xbd9efa+220858]
+	GetHandleVerifier [0x0xbca548+156936]
+	GetHandleVerifier [0x0xbd0c7d+183357]
+	GetHandleVerifier [0x0xbbb6e8+95912]
+	GetHandleVerifier [0x0xbbb890+96336]
+	GetHandleVerifier [0x0xba666a+9770]
+	BaseThreadInitThunk [0x0x76315d49+25]
+	RtlInitializeExceptionChain [0x0x777cd03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x777ccfc1+561]
+
+2025-06-12 11:34:53,876 - INFO - Iniciando: coletar_advogados_madeira
+2025-06-12 11:34:53,876 - INFO - Iniciando scraping de advogados...
+2025-06-12 11:34:53,878 - ERROR - Erro em coletar_advogados_madeira: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xbb3783+63299]
+	GetHandleVerifier [0x0xbb37c4+63364]
+	(No symbol) [0x0x9e1113]
+	(No symbol) [0x0x9bff69]
+	(No symbol) [0x0xa54fce]
+	(No symbol) [0x0xa6f359]
+	(No symbol) [0x0xa4e376]
+	(No symbol) [0x0xa1d6e0]
+	(No symbol) [0x0xa1e544]
+	GetHandleVerifier [0x0xe0e073+2531379]
+	GetHandleVerifier [0x0xe09372+2511666]
+	GetHandleVerifier [0x0xbd9efa+220858]
+	GetHandleVerifier [0x0xbca548+156936]
+	GetHandleVerifier [0x0xbd0c7d+183357]
+	GetHandleVerifier [0x0xbbb6e8+95912]
+	GetHandleVerifier [0x0xbbb890+96336]
+	GetHandleVerifier [0x0xba666a+9770]
+	BaseThreadInitThunk [0x0x76315d49+25]
+	RtlInitializeExceptionChain [0x0x777cd03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x777ccfc1+561]
+
+2025-06-12 11:34:53,878 - INFO - Iniciando: coletar_advogados_acores
+2025-06-12 11:34:53,878 - INFO - Iniciando scraping de advogados...
+2025-06-12 11:34:53,881 - ERROR - Erro em coletar_advogados_acores: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xbb3783+63299]
+	GetHandleVerifier [0x0xbb37c4+63364]
+	(No symbol) [0x0x9e1113]
+	(No symbol) [0x0x9bff69]
+	(No symbol) [0x0xa54fce]
+	(No symbol) [0x0xa6f359]
+	(No symbol) [0x0xa4e376]
+	(No symbol) [0x0xa1d6e0]
+	(No symbol) [0x0xa1e544]
+	GetHandleVerifier [0x0xe0e073+2531379]
+	GetHandleVerifier [0x0xe09372+2511666]
+	GetHandleVerifier [0x0xbd9efa+220858]
+	GetHandleVerifier [0x0xbca548+156936]
+	GetHandleVerifier [0x0xbd0c7d+183357]
+	GetHandleVerifier [0x0xbbb6e8+95912]
+	GetHandleVerifier [0x0xbbb890+96336]
+	GetHandleVerifier [0x0xba666a+9770]
+	BaseThreadInitThunk [0x0x76315d49+25]
+	RtlInitializeExceptionChain [0x0x777cd03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x777ccfc1+561]
+
+2025-06-12 11:34:53,881 - INFO - Iniciando: coletar_julgados
+2025-06-12 11:34:53,888 - INFO - Iniciando scraping de julgados de paz detalhados...
+2025-06-12 11:34:53,890 - ERROR - Erro em coletar_julgados: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xbb3783+63299]
+	GetHandleVerifier [0x0xbb37c4+63364]
+	(No symbol) [0x0x9e1113]
+	(No symbol) [0x0x9bff69]
+	(No symbol) [0x0xa54fce]
+	(No symbol) [0x0xa6f359]
+	(No symbol) [0x0xa4e376]
+	(No symbol) [0x0xa1d6e0]
+	(No symbol) [0x0xa1e544]
+	GetHandleVerifier [0x0xe0e073+2531379]
+	GetHandleVerifier [0x0xe09372+2511666]
+	GetHandleVerifier [0x0xbd9efa+220858]
+	GetHandleVerifier [0x0xbca548+156936]
+	GetHandleVerifier [0x0xbd0c7d+183357]
+	GetHandleVerifier [0x0xbbb6e8+95912]
+	GetHandleVerifier [0x0xbbb890+96336]
+	GetHandleVerifier [0x0xba666a+9770]
+	BaseThreadInitThunk [0x0x76315d49+25]
+	RtlInitializeExceptionChain [0x0x777cd03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x777ccfc1+561]
+
+2025-06-12 11:34:53,890 - INFO - Iniciando: coletar_advogados_angola
+2025-06-12 11:34:53,890 - INFO - Iniciando scraping de advogados de Angola...
+2025-06-12 11:34:53,892 - ERROR - Erro ao processar letra A: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xbb3783+63299]
+	GetHandleVerifier [0x0xbb37c4+63364]
+	(No symbol) [0x0x9e1113]
+	(No symbol) [0x0x9bff69]
+	(No symbol) [0x0xa54fce]
+	(No symbol) [0x0xa6f359]
+	(No symbol) [0x0xa4e376]
+	(No symbol) [0x0xa1d6e0]
+	(No symbol) [0x0xa1e544]
+	GetHandleVerifier [0x0xe0e073+2531379]
+	GetHandleVerifier [0x0xe09372+2511666]
+	GetHandleVerifier [0x0xbd9efa+220858]
+	GetHandleVerifier [0x0xbca548+156936]
+	GetHandleVerifier [0x0xbd0c7d+183357]
+	GetHandleVerifier [0x0xbbb6e8+95912]
+	GetHandleVerifier [0x0xbbb890+96336]
+	GetHandleVerifier [0x0xba666a+9770]
+	BaseThreadInitThunk [0x0x76315d49+25]
+	RtlInitializeExceptionChain [0x0x777cd03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x777ccfc1+561]
+
+2025-06-12 11:34:53,893 - ERROR - Erro ao processar letra B: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xbb3783+63299]
+	GetHandleVerifier [0x0xbb37c4+63364]
+	(No symbol) [0x0x9e1113]
+	(No symbol) [0x0x9bff69]
+	(No symbol) [0x0xa54fce]
+	(No symbol) [0x0xa6f359]
+	(No symbol) [0x0xa4e376]
+	(No symbol) [0x0xa1d6e0]
+	(No symbol) [0x0xa1e544]
+	GetHandleVerifier [0x0xe0e073+2531379]
+	GetHandleVerifier [0x0xe09372+2511666]
+	GetHandleVerifier [0x0xbd9efa+220858]
+	GetHandleVerifier [0x0xbca548+156936]
+	GetHandleVerifier [0x0xbd0c7d+183357]
+	GetHandleVerifier [0x0xbbb6e8+95912]
+	GetHandleVerifier [0x0xbbb890+96336]
+	GetHandleVerifier [0x0xba666a+9770]
+	BaseThreadInitThunk [0x0x76315d49+25]
+	RtlInitializeExceptionChain [0x0x777cd03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x777ccfc1+561]
+
+2025-06-12 11:34:53,895 - ERROR - Erro ao processar letra C: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xbb3783+63299]
+	GetHandleVerifier [0x0xbb37c4+63364]
+	(No symbol) [0x0x9e1113]
+	(No symbol) [0x0x9bff69]
+	(No symbol) [0x0xa54fce]
+	(No symbol) [0x0xa6f359]
+	(No symbol) [0x0xa4e376]
+	(No symbol) [0x0xa1d6e0]
+	(No symbol) [0x0xa1e544]
+	GetHandleVerifier [0x0xe0e073+2531379]
+	GetHandleVerifier [0x0xe09372+2511666]
+	GetHandleVerifier [0x0xbd9efa+220858]
+	GetHandleVerifier [0x0xbca548+156936]
+	GetHandleVerifier [0x0xbd0c7d+183357]
+	GetHandleVerifier [0x0xbbb6e8+95912]
+	GetHandleVerifier [0x0xbbb890+96336]
+	GetHandleVerifier [0x0xba666a+9770]
+	BaseThreadInitThunk [0x0x76315d49+25]
+	RtlInitializeExceptionChain [0x0x777cd03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x777ccfc1+561]
+
+2025-06-12 11:34:53,897 - ERROR - Erro ao processar letra D: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xbb3783+63299]
+	GetHandleVerifier [0x0xbb37c4+63364]
+	(No symbol) [0x0x9e1113]
+	(No symbol) [0x0x9bff69]
+	(No symbol) [0x0xa54fce]
+	(No symbol) [0x0xa6f359]
+	(No symbol) [0x0xa4e376]
+	(No symbol) [0x0xa1d6e0]
+	(No symbol) [0x0xa1e544]
+	GetHandleVerifier [0x0xe0e073+2531379]
+	GetHandleVerifier [0x0xe09372+2511666]
+	GetHandleVerifier [0x0xbd9efa+220858]
+	GetHandleVerifier [0x0xbca548+156936]
+	GetHandleVerifier [0x0xbd0c7d+183357]
+	GetHandleVerifier [0x0xbbb6e8+95912]
+	GetHandleVerifier [0x0xbbb890+96336]
+	GetHandleVerifier [0x0xba666a+9770]
+	BaseThreadInitThunk [0x0x76315d49+25]
+	RtlInitializeExceptionChain [0x0x777cd03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x777ccfc1+561]
+
+2025-06-12 11:34:53,905 - ERROR - Erro ao processar letra E: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xbb3783+63299]
+	GetHandleVerifier [0x0xbb37c4+63364]
+	(No symbol) [0x0x9e1113]
+	(No symbol) [0x0x9bff69]
+	(No symbol) [0x0xa54fce]
+	(No symbol) [0x0xa6f359]
+	(No symbol) [0x0xa4e376]
+	(No symbol) [0x0xa1d6e0]
+	(No symbol) [0x0xa1e544]
+	GetHandleVerifier [0x0xe0e073+2531379]
+	GetHandleVerifier [0x0xe09372+2511666]
+	GetHandleVerifier [0x0xbd9efa+220858]
+	GetHandleVerifier [0x0xbca548+156936]
+	GetHandleVerifier [0x0xbd0c7d+183357]
+	GetHandleVerifier [0x0xbbb6e8+95912]
+	GetHandleVerifier [0x0xbbb890+96336]
+	GetHandleVerifier [0x0xba666a+9770]
+	BaseThreadInitThunk [0x0x76315d49+25]
+	RtlInitializeExceptionChain [0x0x777cd03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x777ccfc1+561]
+
+2025-06-12 11:34:53,907 - ERROR - Erro ao processar letra F: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xbb3783+63299]
+	GetHandleVerifier [0x0xbb37c4+63364]
+	(No symbol) [0x0x9e1113]
+	(No symbol) [0x0x9bff69]
+	(No symbol) [0x0xa54fce]
+	(No symbol) [0x0xa6f359]
+	(No symbol) [0x0xa4e376]
+	(No symbol) [0x0xa1d6e0]
+	(No symbol) [0x0xa1e544]
+	GetHandleVerifier [0x0xe0e073+2531379]
+	GetHandleVerifier [0x0xe09372+2511666]
+	GetHandleVerifier [0x0xbd9efa+220858]
+	GetHandleVerifier [0x0xbca548+156936]
+	GetHandleVerifier [0x0xbd0c7d+183357]
+	GetHandleVerifier [0x0xbbb6e8+95912]
+	GetHandleVerifier [0x0xbbb890+96336]
+	GetHandleVerifier [0x0xba666a+9770]
+	BaseThreadInitThunk [0x0x76315d49+25]
+	RtlInitializeExceptionChain [0x0x777cd03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x777ccfc1+561]
+
+2025-06-12 11:34:53,908 - ERROR - Erro ao processar letra G: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xbb3783+63299]
+	GetHandleVerifier [0x0xbb37c4+63364]
+	(No symbol) [0x0x9e1113]
+	(No symbol) [0x0x9bff69]
+	(No symbol) [0x0xa54fce]
+	(No symbol) [0x0xa6f359]
+	(No symbol) [0x0xa4e376]
+	(No symbol) [0x0xa1d6e0]
+	(No symbol) [0x0xa1e544]
+	GetHandleVerifier [0x0xe0e073+2531379]
+	GetHandleVerifier [0x0xe09372+2511666]
+	GetHandleVerifier [0x0xbd9efa+220858]
+	GetHandleVerifier [0x0xbca548+156936]
+	GetHandleVerifier [0x0xbd0c7d+183357]
+	GetHandleVerifier [0x0xbbb6e8+95912]
+	GetHandleVerifier [0x0xbbb890+96336]
+	GetHandleVerifier [0x0xba666a+9770]
+	BaseThreadInitThunk [0x0x76315d49+25]
+	RtlInitializeExceptionChain [0x0x777cd03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x777ccfc1+561]
+
+2025-06-12 11:34:53,910 - ERROR - Erro ao processar letra H: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xbb3783+63299]
+	GetHandleVerifier [0x0xbb37c4+63364]
+	(No symbol) [0x0x9e1113]
+	(No symbol) [0x0x9bff69]
+	(No symbol) [0x0xa54fce]
+	(No symbol) [0x0xa6f359]
+	(No symbol) [0x0xa4e376]
+	(No symbol) [0x0xa1d6e0]
+	(No symbol) [0x0xa1e544]
+	GetHandleVerifier [0x0xe0e073+2531379]
+	GetHandleVerifier [0x0xe09372+2511666]
+	GetHandleVerifier [0x0xbd9efa+220858]
+	GetHandleVerifier [0x0xbca548+156936]
+	GetHandleVerifier [0x0xbd0c7d+183357]
+	GetHandleVerifier [0x0xbbb6e8+95912]
+	GetHandleVerifier [0x0xbbb890+96336]
+	GetHandleVerifier [0x0xba666a+9770]
+	BaseThreadInitThunk [0x0x76315d49+25]
+	RtlInitializeExceptionChain [0x0x777cd03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x777ccfc1+561]
+
+2025-06-12 11:34:53,912 - ERROR - Erro ao processar letra I: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xbb3783+63299]
+	GetHandleVerifier [0x0xbb37c4+63364]
+	(No symbol) [0x0x9e1113]
+	(No symbol) [0x0x9bff69]
+	(No symbol) [0x0xa54fce]
+	(No symbol) [0x0xa6f359]
+	(No symbol) [0x0xa4e376]
+	(No symbol) [0x0xa1d6e0]
+	(No symbol) [0x0xa1e544]
+	GetHandleVerifier [0x0xe0e073+2531379]
+	GetHandleVerifier [0x0xe09372+2511666]
+	GetHandleVerifier [0x0xbd9efa+220858]
+	GetHandleVerifier [0x0xbca548+156936]
+	GetHandleVerifier [0x0xbd0c7d+183357]
+	GetHandleVerifier [0x0xbbb6e8+95912]
+	GetHandleVerifier [0x0xbbb890+96336]
+	GetHandleVerifier [0x0xba666a+9770]
+	BaseThreadInitThunk [0x0x76315d49+25]
+	RtlInitializeExceptionChain [0x0x777cd03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x777ccfc1+561]
+
+2025-06-12 11:34:53,921 - ERROR - Erro ao processar letra J: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xbb3783+63299]
+	GetHandleVerifier [0x0xbb37c4+63364]
+	(No symbol) [0x0x9e1113]
+	(No symbol) [0x0x9bff69]
+	(No symbol) [0x0xa54fce]
+	(No symbol) [0x0xa6f359]
+	(No symbol) [0x0xa4e376]
+	(No symbol) [0x0xa1d6e0]
+	(No symbol) [0x0xa1e544]
+	GetHandleVerifier [0x0xe0e073+2531379]
+	GetHandleVerifier [0x0xe09372+2511666]
+	GetHandleVerifier [0x0xbd9efa+220858]
+	GetHandleVerifier [0x0xbca548+156936]
+	GetHandleVerifier [0x0xbd0c7d+183357]
+	GetHandleVerifier [0x0xbbb6e8+95912]
+	GetHandleVerifier [0x0xbbb890+96336]
+	GetHandleVerifier [0x0xba666a+9770]
+	BaseThreadInitThunk [0x0x76315d49+25]
+	RtlInitializeExceptionChain [0x0x777cd03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x777ccfc1+561]
+
+2025-06-12 11:34:53,923 - ERROR - Erro ao processar letra K: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xbb3783+63299]
+	GetHandleVerifier [0x0xbb37c4+63364]
+	(No symbol) [0x0x9e1113]
+	(No symbol) [0x0x9bff69]
+	(No symbol) [0x0xa54fce]
+	(No symbol) [0x0xa6f359]
+	(No symbol) [0x0xa4e376]
+	(No symbol) [0x0xa1d6e0]
+	(No symbol) [0x0xa1e544]
+	GetHandleVerifier [0x0xe0e073+2531379]
+	GetHandleVerifier [0x0xe09372+2511666]
+	GetHandleVerifier [0x0xbd9efa+220858]
+	GetHandleVerifier [0x0xbca548+156936]
+	GetHandleVerifier [0x0xbd0c7d+183357]
+	GetHandleVerifier [0x0xbbb6e8+95912]
+	GetHandleVerifier [0x0xbbb890+96336]
+	GetHandleVerifier [0x0xba666a+9770]
+	BaseThreadInitThunk [0x0x76315d49+25]
+	RtlInitializeExceptionChain [0x0x777cd03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x777ccfc1+561]
+
+2025-06-12 11:34:53,926 - ERROR - Erro ao processar letra L: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xbb3783+63299]
+	GetHandleVerifier [0x0xbb37c4+63364]
+	(No symbol) [0x0x9e1113]
+	(No symbol) [0x0x9bff69]
+	(No symbol) [0x0xa54fce]
+	(No symbol) [0x0xa6f359]
+	(No symbol) [0x0xa4e376]
+	(No symbol) [0x0xa1d6e0]
+	(No symbol) [0x0xa1e544]
+	GetHandleVerifier [0x0xe0e073+2531379]
+	GetHandleVerifier [0x0xe09372+2511666]
+	GetHandleVerifier [0x0xbd9efa+220858]
+	GetHandleVerifier [0x0xbca548+156936]
+	GetHandleVerifier [0x0xbd0c7d+183357]
+	GetHandleVerifier [0x0xbbb6e8+95912]
+	GetHandleVerifier [0x0xbbb890+96336]
+	GetHandleVerifier [0x0xba666a+9770]
+	BaseThreadInitThunk [0x0x76315d49+25]
+	RtlInitializeExceptionChain [0x0x777cd03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x777ccfc1+561]
+
+2025-06-12 11:34:53,927 - ERROR - Erro ao processar letra M: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xbb3783+63299]
+	GetHandleVerifier [0x0xbb37c4+63364]
+	(No symbol) [0x0x9e1113]
+	(No symbol) [0x0x9bff69]
+	(No symbol) [0x0xa54fce]
+	(No symbol) [0x0xa6f359]
+	(No symbol) [0x0xa4e376]
+	(No symbol) [0x0xa1d6e0]
+	(No symbol) [0x0xa1e544]
+	GetHandleVerifier [0x0xe0e073+2531379]
+	GetHandleVerifier [0x0xe09372+2511666]
+	GetHandleVerifier [0x0xbd9efa+220858]
+	GetHandleVerifier [0x0xbca548+156936]
+	GetHandleVerifier [0x0xbd0c7d+183357]
+	GetHandleVerifier [0x0xbbb6e8+95912]
+	GetHandleVerifier [0x0xbbb890+96336]
+	GetHandleVerifier [0x0xba666a+9770]
+	BaseThreadInitThunk [0x0x76315d49+25]
+	RtlInitializeExceptionChain [0x0x777cd03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x777ccfc1+561]
+
+2025-06-12 11:34:53,929 - ERROR - Erro ao processar letra N: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xbb3783+63299]
+	GetHandleVerifier [0x0xbb37c4+63364]
+	(No symbol) [0x0x9e1113]
+	(No symbol) [0x0x9bff69]
+	(No symbol) [0x0xa54fce]
+	(No symbol) [0x0xa6f359]
+	(No symbol) [0x0xa4e376]
+	(No symbol) [0x0xa1d6e0]
+	(No symbol) [0x0xa1e544]
+	GetHandleVerifier [0x0xe0e073+2531379]
+	GetHandleVerifier [0x0xe09372+2511666]
+	GetHandleVerifier [0x0xbd9efa+220858]
+	GetHandleVerifier [0x0xbca548+156936]
+	GetHandleVerifier [0x0xbd0c7d+183357]
+	GetHandleVerifier [0x0xbbb6e8+95912]
+	GetHandleVerifier [0x0xbbb890+96336]
+	GetHandleVerifier [0x0xba666a+9770]
+	BaseThreadInitThunk [0x0x76315d49+25]
+	RtlInitializeExceptionChain [0x0x777cd03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x777ccfc1+561]
+
+2025-06-12 11:34:53,937 - ERROR - Erro ao processar letra O: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xbb3783+63299]
+	GetHandleVerifier [0x0xbb37c4+63364]
+	(No symbol) [0x0x9e1113]
+	(No symbol) [0x0x9bff69]
+	(No symbol) [0x0xa54fce]
+	(No symbol) [0x0xa6f359]
+	(No symbol) [0x0xa4e376]
+	(No symbol) [0x0xa1d6e0]
+	(No symbol) [0x0xa1e544]
+	GetHandleVerifier [0x0xe0e073+2531379]
+	GetHandleVerifier [0x0xe09372+2511666]
+	GetHandleVerifier [0x0xbd9efa+220858]
+	GetHandleVerifier [0x0xbca548+156936]
+	GetHandleVerifier [0x0xbd0c7d+183357]
+	GetHandleVerifier [0x0xbbb6e8+95912]
+	GetHandleVerifier [0x0xbbb890+96336]
+	GetHandleVerifier [0x0xba666a+9770]
+	BaseThreadInitThunk [0x0x76315d49+25]
+	RtlInitializeExceptionChain [0x0x777cd03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x777ccfc1+561]
+
+2025-06-12 11:34:53,939 - ERROR - Erro ao processar letra P: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xbb3783+63299]
+	GetHandleVerifier [0x0xbb37c4+63364]
+	(No symbol) [0x0x9e1113]
+	(No symbol) [0x0x9bff69]
+	(No symbol) [0x0xa54fce]
+	(No symbol) [0x0xa6f359]
+	(No symbol) [0x0xa4e376]
+	(No symbol) [0x0xa1d6e0]
+	(No symbol) [0x0xa1e544]
+	GetHandleVerifier [0x0xe0e073+2531379]
+	GetHandleVerifier [0x0xe09372+2511666]
+	GetHandleVerifier [0x0xbd9efa+220858]
+	GetHandleVerifier [0x0xbca548+156936]
+	GetHandleVerifier [0x0xbd0c7d+183357]
+	GetHandleVerifier [0x0xbbb6e8+95912]
+	GetHandleVerifier [0x0xbbb890+96336]
+	GetHandleVerifier [0x0xba666a+9770]
+	BaseThreadInitThunk [0x0x76315d49+25]
+	RtlInitializeExceptionChain [0x0x777cd03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x777ccfc1+561]
+
+2025-06-12 11:34:53,941 - ERROR - Erro ao processar letra Q: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xbb3783+63299]
+	GetHandleVerifier [0x0xbb37c4+63364]
+	(No symbol) [0x0x9e1113]
+	(No symbol) [0x0x9bff69]
+	(No symbol) [0x0xa54fce]
+	(No symbol) [0x0xa6f359]
+	(No symbol) [0x0xa4e376]
+	(No symbol) [0x0xa1d6e0]
+	(No symbol) [0x0xa1e544]
+	GetHandleVerifier [0x0xe0e073+2531379]
+	GetHandleVerifier [0x0xe09372+2511666]
+	GetHandleVerifier [0x0xbd9efa+220858]
+	GetHandleVerifier [0x0xbca548+156936]
+	GetHandleVerifier [0x0xbd0c7d+183357]
+	GetHandleVerifier [0x0xbbb6e8+95912]
+	GetHandleVerifier [0x0xbbb890+96336]
+	GetHandleVerifier [0x0xba666a+9770]
+	BaseThreadInitThunk [0x0x76315d49+25]
+	RtlInitializeExceptionChain [0x0x777cd03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x777ccfc1+561]
+
+2025-06-12 11:34:53,943 - ERROR - Erro ao processar letra R: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xbb3783+63299]
+	GetHandleVerifier [0x0xbb37c4+63364]
+	(No symbol) [0x0x9e1113]
+	(No symbol) [0x0x9bff69]
+	(No symbol) [0x0xa54fce]
+	(No symbol) [0x0xa6f359]
+	(No symbol) [0x0xa4e376]
+	(No symbol) [0x0xa1d6e0]
+	(No symbol) [0x0xa1e544]
+	GetHandleVerifier [0x0xe0e073+2531379]
+	GetHandleVerifier [0x0xe09372+2511666]
+	GetHandleVerifier [0x0xbd9efa+220858]
+	GetHandleVerifier [0x0xbca548+156936]
+	GetHandleVerifier [0x0xbd0c7d+183357]
+	GetHandleVerifier [0x0xbbb6e8+95912]
+	GetHandleVerifier [0x0xbbb890+96336]
+	GetHandleVerifier [0x0xba666a+9770]
+	BaseThreadInitThunk [0x0x76315d49+25]
+	RtlInitializeExceptionChain [0x0x777cd03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x777ccfc1+561]
+
+2025-06-12 11:34:53,944 - ERROR - Erro ao processar letra S: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xbb3783+63299]
+	GetHandleVerifier [0x0xbb37c4+63364]
+	(No symbol) [0x0x9e1113]
+	(No symbol) [0x0x9bff69]
+	(No symbol) [0x0xa54fce]
+	(No symbol) [0x0xa6f359]
+	(No symbol) [0x0xa4e376]
+	(No symbol) [0x0xa1d6e0]
+	(No symbol) [0x0xa1e544]
+	GetHandleVerifier [0x0xe0e073+2531379]
+	GetHandleVerifier [0x0xe09372+2511666]
+	GetHandleVerifier [0x0xbd9efa+220858]
+	GetHandleVerifier [0x0xbca548+156936]
+	GetHandleVerifier [0x0xbd0c7d+183357]
+	GetHandleVerifier [0x0xbbb6e8+95912]
+	GetHandleVerifier [0x0xbbb890+96336]
+	GetHandleVerifier [0x0xba666a+9770]
+	BaseThreadInitThunk [0x0x76315d49+25]
+	RtlInitializeExceptionChain [0x0x777cd03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x777ccfc1+561]
+
+2025-06-12 11:34:53,951 - ERROR - Erro ao processar letra T: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xbb3783+63299]
+	GetHandleVerifier [0x0xbb37c4+63364]
+	(No symbol) [0x0x9e1113]
+	(No symbol) [0x0x9bff69]
+	(No symbol) [0x0xa54fce]
+	(No symbol) [0x0xa6f359]
+	(No symbol) [0x0xa4e376]
+	(No symbol) [0x0xa1d6e0]
+	(No symbol) [0x0xa1e544]
+	GetHandleVerifier [0x0xe0e073+2531379]
+	GetHandleVerifier [0x0xe09372+2511666]
+	GetHandleVerifier [0x0xbd9efa+220858]
+	GetHandleVerifier [0x0xbca548+156936]
+	GetHandleVerifier [0x0xbd0c7d+183357]
+	GetHandleVerifier [0x0xbbb6e8+95912]
+	GetHandleVerifier [0x0xbbb890+96336]
+	GetHandleVerifier [0x0xba666a+9770]
+	BaseThreadInitThunk [0x0x76315d49+25]
+	RtlInitializeExceptionChain [0x0x777cd03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x777ccfc1+561]
+
+2025-06-12 11:34:53,953 - ERROR - Erro ao processar letra U: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xbb3783+63299]
+	GetHandleVerifier [0x0xbb37c4+63364]
+	(No symbol) [0x0x9e1113]
+	(No symbol) [0x0x9bff69]
+	(No symbol) [0x0xa54fce]
+	(No symbol) [0x0xa6f359]
+	(No symbol) [0x0xa4e376]
+	(No symbol) [0x0xa1d6e0]
+	(No symbol) [0x0xa1e544]
+	GetHandleVerifier [0x0xe0e073+2531379]
+	GetHandleVerifier [0x0xe09372+2511666]
+	GetHandleVerifier [0x0xbd9efa+220858]
+	GetHandleVerifier [0x0xbca548+156936]
+	GetHandleVerifier [0x0xbd0c7d+183357]
+	GetHandleVerifier [0x0xbbb6e8+95912]
+	GetHandleVerifier [0x0xbbb890+96336]
+	GetHandleVerifier [0x0xba666a+9770]
+	BaseThreadInitThunk [0x0x76315d49+25]
+	RtlInitializeExceptionChain [0x0x777cd03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x777ccfc1+561]
+
+2025-06-12 11:34:53,955 - ERROR - Erro ao processar letra V: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xbb3783+63299]
+	GetHandleVerifier [0x0xbb37c4+63364]
+	(No symbol) [0x0x9e1113]
+	(No symbol) [0x0x9bff69]
+	(No symbol) [0x0xa54fce]
+	(No symbol) [0x0xa6f359]
+	(No symbol) [0x0xa4e376]
+	(No symbol) [0x0xa1d6e0]
+	(No symbol) [0x0xa1e544]
+	GetHandleVerifier [0x0xe0e073+2531379]
+	GetHandleVerifier [0x0xe09372+2511666]
+	GetHandleVerifier [0x0xbd9efa+220858]
+	GetHandleVerifier [0x0xbca548+156936]
+	GetHandleVerifier [0x0xbd0c7d+183357]
+	GetHandleVerifier [0x0xbbb6e8+95912]
+	GetHandleVerifier [0x0xbbb890+96336]
+	GetHandleVerifier [0x0xba666a+9770]
+	BaseThreadInitThunk [0x0x76315d49+25]
+	RtlInitializeExceptionChain [0x0x777cd03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x777ccfc1+561]
+
+2025-06-12 11:34:53,957 - ERROR - Erro ao processar letra W: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xbb3783+63299]
+	GetHandleVerifier [0x0xbb37c4+63364]
+	(No symbol) [0x0x9e1113]
+	(No symbol) [0x0x9bff69]
+	(No symbol) [0x0xa54fce]
+	(No symbol) [0x0xa6f359]
+	(No symbol) [0x0xa4e376]
+	(No symbol) [0x0xa1d6e0]
+	(No symbol) [0x0xa1e544]
+	GetHandleVerifier [0x0xe0e073+2531379]
+	GetHandleVerifier [0x0xe09372+2511666]
+	GetHandleVerifier [0x0xbd9efa+220858]
+	GetHandleVerifier [0x0xbca548+156936]
+	GetHandleVerifier [0x0xbd0c7d+183357]
+	GetHandleVerifier [0x0xbbb6e8+95912]
+	GetHandleVerifier [0x0xbbb890+96336]
+	GetHandleVerifier [0x0xba666a+9770]
+	BaseThreadInitThunk [0x0x76315d49+25]
+	RtlInitializeExceptionChain [0x0x777cd03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x777ccfc1+561]
+
+2025-06-12 11:34:53,959 - ERROR - Erro ao processar letra X: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xbb3783+63299]
+	GetHandleVerifier [0x0xbb37c4+63364]
+	(No symbol) [0x0x9e1113]
+	(No symbol) [0x0x9bff69]
+	(No symbol) [0x0xa54fce]
+	(No symbol) [0x0xa6f359]
+	(No symbol) [0x0xa4e376]
+	(No symbol) [0x0xa1d6e0]
+	(No symbol) [0x0xa1e544]
+	GetHandleVerifier [0x0xe0e073+2531379]
+	GetHandleVerifier [0x0xe09372+2511666]
+	GetHandleVerifier [0x0xbd9efa+220858]
+	GetHandleVerifier [0x0xbca548+156936]
+	GetHandleVerifier [0x0xbd0c7d+183357]
+	GetHandleVerifier [0x0xbbb6e8+95912]
+	GetHandleVerifier [0x0xbbb890+96336]
+	GetHandleVerifier [0x0xba666a+9770]
+	BaseThreadInitThunk [0x0x76315d49+25]
+	RtlInitializeExceptionChain [0x0x777cd03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x777ccfc1+561]
+
+2025-06-12 11:34:53,967 - ERROR - Erro ao processar letra Y: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xbb3783+63299]
+	GetHandleVerifier [0x0xbb37c4+63364]
+	(No symbol) [0x0x9e1113]
+	(No symbol) [0x0x9bff69]
+	(No symbol) [0x0xa54fce]
+	(No symbol) [0x0xa6f359]
+	(No symbol) [0x0xa4e376]
+	(No symbol) [0x0xa1d6e0]
+	(No symbol) [0x0xa1e544]
+	GetHandleVerifier [0x0xe0e073+2531379]
+	GetHandleVerifier [0x0xe09372+2511666]
+	GetHandleVerifier [0x0xbd9efa+220858]
+	GetHandleVerifier [0x0xbca548+156936]
+	GetHandleVerifier [0x0xbd0c7d+183357]
+	GetHandleVerifier [0x0xbbb6e8+95912]
+	GetHandleVerifier [0x0xbbb890+96336]
+	GetHandleVerifier [0x0xba666a+9770]
+	BaseThreadInitThunk [0x0x76315d49+25]
+	RtlInitializeExceptionChain [0x0x777cd03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x777ccfc1+561]
+
+2025-06-12 11:34:53,970 - ERROR - Erro ao processar letra Z: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xbb3783+63299]
+	GetHandleVerifier [0x0xbb37c4+63364]
+	(No symbol) [0x0x9e1113]
+	(No symbol) [0x0x9bff69]
+	(No symbol) [0x0xa54fce]
+	(No symbol) [0x0xa6f359]
+	(No symbol) [0x0xa4e376]
+	(No symbol) [0x0xa1d6e0]
+	(No symbol) [0x0xa1e544]
+	GetHandleVerifier [0x0xe0e073+2531379]
+	GetHandleVerifier [0x0xe09372+2511666]
+	GetHandleVerifier [0x0xbd9efa+220858]
+	GetHandleVerifier [0x0xbca548+156936]
+	GetHandleVerifier [0x0xbd0c7d+183357]
+	GetHandleVerifier [0x0xbbb6e8+95912]
+	GetHandleVerifier [0x0xbbb890+96336]
+	GetHandleVerifier [0x0xba666a+9770]
+	BaseThreadInitThunk [0x0x76315d49+25]
+	RtlInitializeExceptionChain [0x0x777cd03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x777ccfc1+561]
+
+2025-06-12 11:34:53,971 - WARNING - coletar_advogados_angola retornou 0 registros
+2025-06-12 11:34:56,213 - INFO - Conexão com o banco de dados fechada.

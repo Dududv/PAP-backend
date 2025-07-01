@@ -1,0 +1,177 @@
+2025-06-06 15:30:23,809 - INFO - Iniciando o script de scraping...
+2025-06-06 15:30:23,817 - INFO - Conexão com o banco de dados estabelecida!
+2025-06-06 15:30:23,817 - INFO - Tabela 'advogados' verificada/criada com sucesso!
+2025-06-06 15:30:23,818 - INFO - Tabela 'sociedades' verificada/criada com sucesso!
+2025-06-06 15:30:23,818 - INFO - Tabela 'estagiarios' verificada/criada com sucesso!
+2025-06-06 15:30:23,818 - INFO - ====== WebDriver manager ======
+2025-06-06 15:30:25,507 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-06 15:30:25,550 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-06 15:30:25,584 - INFO - Driver [C:\Users\david\.wdm\drivers\chromedriver\win64\137.0.7151.68\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-06 15:30:27,268 - INFO - Iniciando: coletar_sociedades_lisboa
+2025-06-06 15:30:27,268 - ERROR - Erro em coletar_sociedades_lisboa: coletar_sociedades_lisboa() missing 1 required positional argument: 'conn'
+2025-06-06 15:30:27,268 - INFO - Iniciando: coletar_sociedades_porto
+2025-06-06 15:30:27,268 - ERROR - Erro em coletar_sociedades_porto: coletar_sociedades_porto() missing 1 required positional argument: 'conn'
+2025-06-06 15:30:27,268 - INFO - Iniciando: coletar_sociedades_coimbra
+2025-06-06 15:30:27,268 - ERROR - Erro em coletar_sociedades_coimbra: coletar_sociedades_coimbra() missing 1 required positional argument: 'conn'
+2025-06-06 15:30:27,268 - INFO - Iniciando: coletar_sociedades_evora
+2025-06-06 15:30:27,268 - ERROR - Erro em coletar_sociedades_evora: coletar_sociedades_evora() missing 1 required positional argument: 'conn'
+2025-06-06 15:30:27,268 - INFO - Iniciando: coletar_sociedades_faro
+2025-06-06 15:30:27,268 - ERROR - Erro em coletar_sociedades_faro: coletar_sociedades_faro() missing 1 required positional argument: 'conn'
+2025-06-06 15:30:27,268 - INFO - Iniciando: coletar_sociedades_madeira
+2025-06-06 15:30:27,268 - ERROR - Erro em coletar_sociedades_madeira: coletar_sociedades_madeira() missing 1 required positional argument: 'conn'
+2025-06-06 15:30:27,268 - INFO - Iniciando: coletar_sociedades_acores
+2025-06-06 15:30:27,268 - ERROR - Erro em coletar_sociedades_acores: coletar_sociedades_acores() missing 1 required positional argument: 'conn'
+2025-06-06 15:30:27,268 - INFO - Iniciando: coletar_sociedades_braga
+2025-06-06 15:30:27,268 - ERROR - Erro em coletar_sociedades_braga: coletar_sociedades_braga() missing 1 required positional argument: 'conn'
+2025-06-06 15:30:27,269 - INFO - Iniciando: coletar_estagiarios_lisboa
+2025-06-06 15:30:27,269 - INFO - Iniciando scraping de estagiários...
+2025-06-06 15:30:48,081 - ERROR - Erro ao clicar no botão de pesquisa para https://portal.oa.pt/advogados/pesquisa-de-advogados-estagiarios/?cg=L&ce=&n=&lo=&m=&cp=&a=on&op=&o=0: Message: 
+
+2025-06-06 15:30:48,091 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-06 15:31:01,296 - INFO - Executando query: 
+            INSERT INTO estagiarios 
+            (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, data_inscricao, telefone, fax)
+            VALUES 
+            (Adelina Ormonde Santos, 44038L, Lisboa, Pc Bernardino Machado, 11 B, Activo, adelina.ormonde-44038L@adv-est.oa.pt, N/D, advogado, LISBOA, 1750-042 LISBOA, +351218050671, N/D, N/D)
+        
+2025-06-06 15:31:01,308 - INFO - Estagiário Adelina Ormonde Santos inserido com sucesso!
+2025-06-06 15:31:01,309 - INFO - Executando query: 
+            INSERT INTO estagiarios 
+            (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, data_inscricao, telefone, fax)
+            VALUES 
+            (Adriana Carvalho Barroso, 49472L, Lisboa, R Cidade Nova Lisboa, 11, Activo, adrianacarvalhobarroso-49472L@adv-est.oa.pt, N/D, advogado, LISBOA, 1800-107 LISBOA, +351218539632, N/D, N/D)
+        
+2025-06-06 15:31:01,315 - INFO - Estagiário Adriana Carvalho Barroso inserido com sucesso!
+2025-06-06 15:31:01,316 - INFO - Executando query: 
+            INSERT INTO estagiarios 
+            (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, data_inscricao, telefone, fax)
+            VALUES 
+            (Afonso Almeida Luís, 51257L, Lisboa, R Alexandre Herculano, 38 - 4º, Activo, afonso.almeida.luis-51257L@adv-est.oa.pt, N/D, advogado, LISBOA, 1250-011 LISBOA, +351211390139, N/D, N/D)
+        
+2025-06-06 15:31:01,328 - INFO - Estagiário Afonso Almeida Luís inserido com sucesso!
+2025-06-06 15:31:01,329 - INFO - Executando query: 
+            INSERT INTO estagiarios 
+            (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, data_inscricao, telefone, fax)
+            VALUES 
+            (Afonso Boavida, 51122L, Lisboa, Av Visconde Valmor, 31, Activo, afonso.boavida-51122L@adv-est.oa.pt, N/D, advogado, LISBOA, 1050-237 LISBOA, +351+351 21 096 2777, N/D, N/D)
+        
+2025-06-06 15:31:01,340 - INFO - Estagiário Afonso Boavida inserido com sucesso!
+2025-06-06 15:31:01,341 - INFO - Executando query: 
+            INSERT INTO estagiarios 
+            (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, data_inscricao, telefone, fax)
+            VALUES 
+            (Afonso Borges da Costa, 50620L, Lisboa, Av Álvares Cabral, 61-4º Dto, Activo, afonsoborgesdacosta-50620L@adv-est.oa.pt, N/D, advogado, LISBOA, 1250-017 LISBOA, +351213911040, N/D, N/D)
+        
+2025-06-06 15:31:01,348 - INFO - Estagiário Afonso Borges da Costa inserido com sucesso!
+2025-06-06 15:31:01,349 - INFO - Executando query: 
+            INSERT INTO estagiarios 
+            (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, data_inscricao, telefone, fax)
+            VALUES 
+            (Afonso Costa Gomes, 51341L, Lisboa, Av da Liberdade, 110 - 6º, Activo, afonsocostagomes-51341L@adv-est.oa.pt, N/D, advogado, LISBOA, 1250-146 LISBOA, +351213264747, N/D, N/D)
+        
+2025-06-06 15:31:01,356 - INFO - Estagiário Afonso Costa Gomes inserido com sucesso!
+2025-06-06 15:31:01,357 - INFO - Executando query: 
+            INSERT INTO estagiarios 
+            (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, data_inscricao, telefone, fax)
+            VALUES 
+            (Afonso Cunha Somsen, 51118L, Lisboa, Av João Crisóstomo, 31 - 4º A, Activo, afonsosomsen-51118L@adv-est.oa.pt, N/D, advogado, LISBOA, 1050-125 LISBOA, +351211 386 065, N/D, N/D)
+        
+2025-06-06 15:31:01,363 - INFO - Estagiário Afonso Cunha Somsen inserido com sucesso!
+2025-06-06 15:31:01,364 - INFO - Executando query: 
+            INSERT INTO estagiarios 
+            (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, data_inscricao, telefone, fax)
+            VALUES 
+            (Afonso de Gândara Gomes, 50698L, Lisboa, R Marquês da Fronteira,  111 - Rc  Esq, Activo, afonsodegandaragomes-50698L@adv-est.oa.pt, N/D, advogado, LISBOA, 1070-292 LISBOA, +351213845520, N/D, N/D)
+        
+2025-06-06 15:31:01,371 - INFO - Estagiário Afonso de Gândara Gomes inserido com sucesso!
+2025-06-06 15:31:01,372 - INFO - Executando query: 
+            INSERT INTO estagiarios 
+            (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, data_inscricao, telefone, fax)
+            VALUES 
+            (Afonso Marques, 51020L, Lisboa, Doca de Alcântara Norte - Edifício Diogo Cão, Activo, afonsomarques-51020L@adv-est.oa.pt, N/D, advogado, LISBOA, 1350-352 LISBOA, +351213223590, N/D, N/D)
+        
+2025-06-06 15:31:01,379 - INFO - Estagiário Afonso Marques inserido com sucesso!
+2025-06-06 15:31:01,380 - INFO - Executando query: 
+            INSERT INTO estagiarios 
+            (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, data_inscricao, telefone, fax)
+            VALUES 
+            (Afonso Santos de Carvalho, 50944L, Lisboa, Doca de Alcântara Norte - Edf Diogo Cão, Activo, afonsosantosdecarvalho-50944L@adv-est.oa.pt, N/D, advogado, LISBOA, 1350-352 LISBOA, +351213223590, N/D, N/D)
+        
+2025-06-06 15:31:01,387 - INFO - Estagiário Afonso Santos de Carvalho inserido com sucesso!
+2025-06-06 15:31:12,226 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-06 15:31:25,588 - INFO - Executando query: 
+            INSERT INTO estagiarios 
+            (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, data_inscricao, telefone, fax)
+            VALUES 
+            (Afonso Vaz Dias, 50361L, Lisboa, Av da Liberdade, 3 - 3º SL 8/9, Activo, afonsovazdias-50361L@adv-est.oa.pt, N/D, advogado, LISBOA, 1250-139 LISBOA, +351213469419, N/D, N/D)
+        
+2025-06-06 15:31:25,595 - INFO - Estagiário Afonso Vaz Dias inserido com sucesso!
+2025-06-06 15:31:25,596 - INFO - Executando query: 
+            INSERT INTO estagiarios 
+            (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, data_inscricao, telefone, fax)
+            VALUES 
+            (Afonso Vaz Tomé, 47599L, Lisboa, R Alexandre Herculano, 38 - 3º, Activo, afonso.v.tome-47599L@adv-est.oa.pt, N/D, advogado, LISBOA, 1269-180 LISBOA, +351211318958, N/D, N/D)
+        
+2025-06-06 15:31:25,601 - INFO - Estagiário Afonso Vaz Tomé inserido com sucesso!
+2025-06-06 15:31:25,605 - INFO - Executando query: 
+            INSERT INTO estagiarios 
+            (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, data_inscricao, telefone, fax)
+            VALUES 
+            (Alexandra Abalain, 50565L, Lisboa, R Castilho, 39 - 15º, Activo, alexandraabalain-50565L@adv-est.oa.pt, N/D, advogado, LISBOA, 1250-068 LISBOA, +351213717000, N/D, N/D)
+        
+2025-06-06 15:31:25,612 - INFO - Estagiário Alexandra Abalain inserido com sucesso!
+2025-06-06 15:31:25,612 - INFO - Executando query: 
+            INSERT INTO estagiarios 
+            (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, data_inscricao, telefone, fax)
+            VALUES 
+            (Alexandra Caetano Baptista, 51548L, Lisboa, Av Gen Pedro Cardoso, 1, Activo, alexandra.c.baptista-51548L@adv-est.oa.pt, N/D, advogado, CALDAS DA RAINHA, 2500-922 CALDAS DA RAINHA, +351262249030, N/D, N/D)
+        
+2025-06-06 15:31:25,623 - INFO - Estagiário Alexandra Caetano Baptista inserido com sucesso!
+2025-06-06 15:31:25,623 - INFO - Executando query: 
+            INSERT INTO estagiarios 
+            (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, data_inscricao, telefone, fax)
+            VALUES 
+            (Alexandra Christine Beck, 49898L, Lisboa, Av Fontes Pereira de Melo, 6, Activo, alexandra.beck-49898L@adv-est.oa.pt, N/D, advogado, LISBOA, 1050-121 LISBOA, +351213553800, N/D, N/D)
+        
+2025-06-06 15:31:25,634 - INFO - Estagiário Alexandra Christine Beck inserido com sucesso!
+2025-06-06 15:31:25,634 - INFO - Executando query: 
+            INSERT INTO estagiarios 
+            (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, data_inscricao, telefone, fax)
+            VALUES 
+            (Alexandra Figueiredo Silva, 50943L, Lisboa, R dos Remolares, 14 - 2º, Activo, alexandrafsilva-50943L@adv-est.oa.pt, N/D, advogado, LISBOA, 1200-371 LISBOA, N/D, N/D, N/D)
+        
+2025-06-06 15:31:25,643 - INFO - Estagiário Alexandra Figueiredo Silva inserido com sucesso!
+2025-06-06 15:31:25,644 - INFO - Executando query: 
+            INSERT INTO estagiarios 
+            (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, data_inscricao, telefone, fax)
+            VALUES 
+            (Alexandra J Oliveira Lopes, 46348L, Lisboa, Av de Roma, 86-1º Esq, Activo, alexandrajoliveiralopes-46348L@adv-est.oa.pt, N/D, advogado, LISBOA, 1700-351 LISBOA, +351218428460, N/D, N/D)
+        
+2025-06-06 15:31:25,652 - INFO - Estagiário Alexandra J Oliveira Lopes inserido com sucesso!
+2025-06-06 15:31:25,653 - INFO - Executando query: 
+            INSERT INTO estagiarios 
+            (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, data_inscricao, telefone, fax)
+            VALUES 
+            (Alexandra Pascoal, 49304L, Lisboa, R João de Freitas Branco, 37 - letra A, Activo, a.pascoal-49304L@adv-est.oa.pt, N/D, advogado, LISBOA, 1500-630 LISBOA, +351218418040- // - 213210710., N/D, N/D)
+        
+2025-06-06 15:31:25,659 - INFO - Estagiário Alexandra Pascoal inserido com sucesso!
+2025-06-06 15:31:25,660 - INFO - Executando query: 
+            INSERT INTO estagiarios 
+            (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, data_inscricao, telefone, fax)
+            VALUES 
+            (Alexandra Rebordão de Sousa, 50149L, Lisboa, Av Inf D Henrique, 26, Activo, alexandra.r.sousa-50149L@adv-est.oa.pt, N/D, advogado, LISBOA, 1149-096 LISBOA, +351217231800, N/D, N/D)
+        
+2025-06-06 15:31:25,666 - INFO - Estagiário Alexandra Rebordão de Sousa inserido com sucesso!
+2025-06-06 15:31:25,667 - INFO - Executando query: 
+            INSERT INTO estagiarios 
+            (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, data_inscricao, telefone, fax)
+            VALUES 
+            (Alexandra Seabra Ramos, 50996L, Lisboa, Av Eng Duarte Pacheco, 7 - 7º, Activo, aseabraramos-50996L@adv-est.oa.pt, N/D, advogado, LISBOA, 1070-100 LISBOA, +351219245010, N/D, N/D)
+        
+2025-06-06 15:31:25,672 - INFO - Estagiário Alexandra Seabra Ramos inserido com sucesso!
+2025-06-06 15:31:38,900 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-06 15:31:49,465 - INFO - Conexão com o banco de dados fechada.
+2025-06-06 15:31:49,474 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'Uma ligação existente foi forçada a fechar pelo anfitrião remoto', None, 10054, None)': /session/5da2e7e9041b53efebc1cba538462bec
+2025-06-06 15:31:53,545 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002C30A57FBF0>: Failed to establish a new connection: [WinError 10061] Nenhuma ligação pôde ser feita porque o computador de destino\r\nas recusou ativamente')': /session/5da2e7e9041b53efebc1cba538462bec
+2025-06-06 15:31:57,628 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002C30A57F440>: Failed to establish a new connection: [WinError 10061] Nenhuma ligação pôde ser feita porque o computador de destino\r\nas recusou ativamente')': /session/5da2e7e9041b53efebc1cba538462bec
+2025-06-06 15:32:01,728 - INFO - Navegador fechado.

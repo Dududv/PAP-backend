@@ -1,0 +1,91 @@
+2025-06-28 22:36:24,320 - INFO - Iniciando o script de scraping...
+2025-06-28 22:36:24,376 - INFO - Conexão com o banco de dados estabelecida!
+2025-06-28 22:36:24,496 - INFO - Tabela 'advogados' recriada com sucesso!
+2025-06-28 22:36:24,498 - INFO - Tabela 'sociedades' verificada/criada com sucesso!
+2025-06-28 22:36:24,499 - INFO - Tabela 'estagiarios' verificada/criada com sucesso!
+2025-06-28 22:36:24,499 - INFO - Tabela 'estagiarios' verificada/criada com sucesso!
+2025-06-28 22:36:24,499 - INFO - Tabela 'agentes_execucao' verificada/criada com sucesso!
+2025-06-28 22:36:24,499 - INFO - ====== WebDriver manager ======
+2025-06-28 22:36:26,121 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-28 22:36:26,223 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-28 22:36:26,259 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-28 22:36:26,370 - INFO - WebDriver version 137.0.7151.119 selected
+2025-06-28 22:36:26,372 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/137.0.7151.119/win32/chromedriver-win32.zip
+2025-06-28 22:36:26,372 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/137.0.7151.119/win32/chromedriver-win32.zip
+2025-06-28 22:36:26,472 - INFO - Driver downloading response is 200
+2025-06-28 22:36:26,710 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-28 22:36:27,649 - INFO - Driver has been saved in cache [C:\Users\david\.wdm\drivers\chromedriver\win64\137.0.7151.119]
+2025-06-28 22:36:50,150 - INFO - Iniciando: coletar_advogados_lisboa
+2025-06-28 22:36:50,150 - INFO - Iniciando scraping de advogados...
+2025-06-28 22:37:23,992 - WARNING - Erro ao marcar 'Apenas Ativos' (continuando sem marcar): Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x11a3b03+62899]
+	GetHandleVerifier [0x0x11a3b44+62964]
+	(No symbol) [0x0xfd10f3]
+	(No symbol) [0x0x101980e]
+	(No symbol) [0x0x1019bab]
+	(No symbol) [0x0x10625c2]
+	(No symbol) [0x0x103e554]
+	(No symbol) [0x0x105fd81]
+	(No symbol) [0x0x103e306]
+	(No symbol) [0x0x100d670]
+	(No symbol) [0x0x100e4e4]
+	GetHandleVerifier [0x0x1404793+2556483]
+	GetHandleVerifier [0x0x13ffd02+2537394]
+	GetHandleVerifier [0x0x11ca2fa+220586]
+	GetHandleVerifier [0x0x11baae8+157080]
+	GetHandleVerifier [0x0x11c141d+184013]
+	GetHandleVerifier [0x0x11aba68+95512]
+	GetHandleVerifier [0x0x11abc10+95936]
+	GetHandleVerifier [0x0x1196b5a+9738]
+	BaseThreadInitThunk [0x0x74c05d49+25]
+	RtlInitializeExceptionChain [0x0x7706d09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7706d021+561]
+
+2025-06-28 22:37:34,468 - WARNING - Erro ao clicar no botão de pesquisa: Message: 
+
+2025-06-28 22:37:34,507 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-28 22:38:07,675 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Aluísio Oliveira, 55237L, Lisboa, N/D, Inativo, N/D, N/D, advogado, N/D, N/D, N/D, N/D, N/D)
+        
+2025-06-28 22:38:07,697 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Alves Mendes, 4089L, Lisboa, R Tierno Galvan, 10 - Piso 2, 206, Activo, N/D, N/D, advogado, LISBOA, 1070-274 LISBOA, +351217 653 990, 06-12-1978, N/D)
+        
+2025-06-28 22:38:07,704 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (André Pereira da Fonseca, 22111L, Lisboa, Av Inf D Henrique, 26, Activo, N/D, N/D, advogado, LISBOA, 1149-096 LISBOA, +351217231800, 05-09-2006, N/D)
+        
+2025-06-28 22:38:07,712 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Andreia Rendeiro, 59692L, Lisboa, N/D, Inativo, N/D, N/D, advogado, N/D, N/D, N/D, N/D, N/D)
+        
+2025-06-28 22:38:07,729 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Bruno Oliveira, 19655L, Lisboa, N/D, Inativo, N/D, N/D, advogado, N/D, N/D, N/D, N/D, N/D)
+        
+2025-06-28 22:38:07,737 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Carolina Nagy Correia, 69049L, Lisboa, R Castilho, 165, Activo, N/D, N/D, advogado, LISBOA, 1070-050 LISBOA, +351213817400, 04-10-2023, N/D)
+        
+2025-06-28 22:38:07,743 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Catarina Torres, 55141L, Lisboa, R Castilho, 20 - 4º, Activo, N/D, N/D, advogado, LISBOA, 1250-069 LISBOA, +351210308830, 11-02-2016, N/D)
+        
+2025-06-28 22:38:07,756 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Célia Vieira de Freitas, 20221L, Lisboa, Avenida Fontes Pereira de Melo 43, Activo, N/D, N/D, advogado, LISBOA, 1050-119 LISBOA, +351213197300, 11-11-2004, N/D)
+        
+2025-06-28 22:38:07,763 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Deolinda de Sousa, 11947L, Lisboa, Av de Berna, 19, Activo, N/D, N/D, advogado, LISBOA, 1050-037 LISBOA, N/D, 28-02-1995, N/D)
+        
+2025-06-28 22:38:07,769 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Dulce Afilhado, 19150L, Lisboa, N/D, Inativo, N/D, N/D, advogado, N/D, N/D, N/D, N/D, N/D)
+        
+2025-06-28 22:38:14,977 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'Uma ligação existente foi forçada a fechar pelo anfitrião remoto', None, 10054, None)': /session/005816f661d8fe1008822fbc41a8143c
+2025-06-28 22:38:19,052 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020E23663020>: Failed to establish a new connection: [WinError 10061] Nenhuma ligação pôde ser feita porque o computador de destino\r\nas recusou ativamente')': /session/005816f661d8fe1008822fbc41a8143c
+2025-06-28 22:38:23,106 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000020E236629F0>: Failed to establish a new connection: [WinError 10061] Nenhuma ligação pôde ser feita porque o computador de destino\r\nas recusou ativamente')': /session/005816f661d8fe1008822fbc41a8143c
+2025-06-28 22:38:27,174 - INFO - Conexão com o banco de dados fechada.

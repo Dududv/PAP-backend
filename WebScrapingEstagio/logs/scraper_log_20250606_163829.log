@@ -1,0 +1,708 @@
+2025-06-06 16:38:29,516 - INFO - Iniciando o script de scraping...
+2025-06-06 16:38:29,524 - INFO - Conexão com o banco de dados estabelecida!
+2025-06-06 16:38:29,525 - INFO - Tabela 'advogados' verificada/criada com sucesso!
+2025-06-06 16:38:29,525 - INFO - Tabela 'sociedades' verificada/criada com sucesso!
+2025-06-06 16:38:29,525 - INFO - Tabela 'estagiarios' verificada/criada com sucesso!
+2025-06-06 16:38:29,525 - INFO - ====== WebDriver manager ======
+2025-06-06 16:38:30,390 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-06 16:38:30,425 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-06 16:38:30,459 - INFO - Driver [C:\Users\david\.wdm\drivers\chromedriver\win64\137.0.7151.68\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-06 16:38:31,576 - INFO - Iniciando: coletar_advogados_porto
+2025-06-06 16:38:31,576 - INFO - Iniciando scraping de advogados...
+2025-06-06 16:39:16,540 - WARNING - Erro ao marcar 'Apenas Ativos' (continuando sem marcar): Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x933763+63299]
+	GetHandleVerifier [0x0x9337a4+63364]
+	(No symbol) [0x0x761113]
+	(No symbol) [0x0x7a987e]
+	(No symbol) [0x0x7a9c1b]
+	(No symbol) [0x0x7f2212]
+	(No symbol) [0x0x7ce5c4]
+	(No symbol) [0x0x7efa4a]
+	(No symbol) [0x0x7ce376]
+	(No symbol) [0x0x79d6e0]
+	(No symbol) [0x0x79e544]
+	GetHandleVerifier [0x0xb8e033+2531347]
+	GetHandleVerifier [0x0xb89332+2511634]
+	GetHandleVerifier [0x0x959eda+220858]
+	GetHandleVerifier [0x0x94a528+156936]
+	GetHandleVerifier [0x0x950c5d+183357]
+	GetHandleVerifier [0x0x93b6c8+95912]
+	GetHandleVerifier [0x0x93b870+96336]
+	GetHandleVerifier [0x0x92664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-06 16:39:26,775 - WARNING - Erro ao clicar no botão de pesquisa: Message: 
+
+2025-06-06 16:39:26,780 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-06 16:39:41,370 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado,email, site, tipo, localidade, codigo_postal, telefone, data_inscricao)
+            VALUES (Ana Estrella, 64728P, Porto, Av Central, 83 - Sl 37 - Galeria Lafayette, Activo, aephil-64728P@adv.oa.pt, N/D, advogado, BRAGA, 4710-228 BRAGA, N/D, 29-10-2021)
+        
+2025-06-06 16:39:41,370 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'data_inscricao' in 'field list'
+2025-06-06 16:39:41,370 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'data_inscricao' in 'field list'
+2025-06-06 16:39:41,371 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado,email, site, tipo, localidade, codigo_postal, telefone, data_inscricao)
+            VALUES (Andreia G Martins, 68433P, Porto, Av D Manuel II, 2085 C - Sl 2, Activo, andreiagmartins-68433P@adv.oa.pt, N/D, advogado, MAIA, 4470-334 MAIA, N/D, 21-07-2023)
+        
+2025-06-06 16:39:41,371 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'data_inscricao' in 'field list'
+2025-06-06 16:39:41,371 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'data_inscricao' in 'field list'
+2025-06-06 16:39:41,371 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado,email, site, tipo, localidade, codigo_postal, telefone, data_inscricao)
+            VALUES (Ângelo Santana, 66738P, Porto, Av Avelino Ferreira Torres, 1500, Activo, angelosantana-66738P@adv.oa.pt, N/D, advogado, MARCO DE CANAVESES, 4630-201 MARCO DE CANAVESES, +351255399534, 27-09-2022)
+        
+2025-06-06 16:39:41,372 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'data_inscricao' in 'field list'
+2025-06-06 16:39:41,372 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'data_inscricao' in 'field list'
+2025-06-06 16:39:41,372 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado,email, site, tipo, localidade, codigo_postal, telefone, data_inscricao)
+            VALUES (António Reis, 1645P, Porto, R Damião de Góis, 446 - 2º Esq, Activo, antonioreis-1645p@advogados.oa.pt, N/D, advogado, PORTO, 4050-224 PORTO, +351223321214, 23-11-1978)
+        
+2025-06-06 16:39:41,373 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'data_inscricao' in 'field list'
+2025-06-06 16:39:41,373 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'data_inscricao' in 'field list'
+2025-06-06 16:39:41,374 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado,email, site, tipo, localidade, codigo_postal, telefone, data_inscricao)
+            VALUES (Bernardo Deville, 68430P, Porto, R Sá da Bandeira, 651 - 1º Esq, Activo, bernardo.deville-68430P@adv.oa.pt, N/D, advogado, PORTO, 4000-472 PORTO, +351222071230, 21-07-2023)
+        
+2025-06-06 16:39:41,374 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'data_inscricao' in 'field list'
+2025-06-06 16:39:41,374 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'data_inscricao' in 'field list'
+2025-06-06 16:39:41,374 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado,email, site, tipo, localidade, codigo_postal, telefone, data_inscricao)
+            VALUES (Catarina Mota, 53220P, Porto, Pct Sta Bárbara, 4 - 2º, Sl 5, Activo, catarinamota-53220P@adv.oa.pt, N/D, advogado, BRAGA, 4700-314 BRAGA, +351253265791, 16-04-2014)
+        
+2025-06-06 16:39:41,375 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'data_inscricao' in 'field list'
+2025-06-06 16:39:41,375 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'data_inscricao' in 'field list'
+2025-06-06 16:39:41,375 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado,email, site, tipo, localidade, codigo_postal, telefone, data_inscricao)
+            VALUES (Catarina S Fernandes, 60902P, Porto, R Centro Empresarial do Cavaco, 125 C II, Sl 04 - Lugar do Cavaco  - Centro Empresarial da Feira, Activo, catarinafernandes-60902P@adv.oa.pt, N/D, advogado, SÃO JOÃO DE VER, 4520-631 SÃO JOÃO DE VER, +351913597721, 21-06-2019)
+        
+2025-06-06 16:39:41,375 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'data_inscricao' in 'field list'
+2025-06-06 16:39:41,375 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'data_inscricao' in 'field list'
+2025-06-06 16:39:41,376 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado,email, site, tipo, localidade, codigo_postal, telefone, data_inscricao)
+            VALUES (Cátia Vieira, 45019P, Porto, R Nossa Senhora do Amparo, 447, Activo, catiavieira-45019P@adv.oa.pt, N/D, advogado, RIO TINTO, 4435-350 RIO TINTO, +351936560252, 13-12-2006)
+        
+2025-06-06 16:39:41,376 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'data_inscricao' in 'field list'
+2025-06-06 16:39:41,376 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'data_inscricao' in 'field list'
+2025-06-06 16:39:41,376 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado,email, site, tipo, localidade, codigo_postal, telefone, data_inscricao)
+            VALUES (Christianne Andrade, 6319P, Porto, R Direita Campinas,  81 - Rc  Esq, Activo, chri.andrade-6319p@adv.oa.pt, N/D, advogado, PORTO, 4100-206 PORTO, +351226176291, 06-01-1997)
+        
+2025-06-06 16:39:41,376 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'data_inscricao' in 'field list'
+2025-06-06 16:39:41,377 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'data_inscricao' in 'field list'
+2025-06-06 16:39:41,377 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado,email, site, tipo, localidade, codigo_postal, telefone, data_inscricao)
+            VALUES (Cláudia Sousa Santos, 47670P, Porto, Av da República, 300, Activo, claudiasousasantos-47670P@adv.oa.pt, N/D, advogado, MATOSINHOS, 4450-237 MATOSINHOS, +351917941658, 15-07-2009)
+        
+2025-06-06 16:39:41,377 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'data_inscricao' in 'field list'
+2025-06-06 16:39:41,377 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'data_inscricao' in 'field list'
+2025-06-06 16:39:57,772 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-06 16:40:11,987 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado,email, site, tipo, localidade, codigo_postal, telefone, data_inscricao)
+            VALUES (Cristina Cruz Peixoto, 6786P, Porto, R Prof Machado Vilela, 110 - 4º, Sl 2, Activo, cristina.c.peixoto-6786p@adv.oa.pt, N/D, advogado, BRAGA, 4715-045 BRAGA, +351+351910908840, 27-01-1998)
+        
+2025-06-06 16:40:11,987 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'data_inscricao' in 'field list'
+2025-06-06 16:40:11,987 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'data_inscricao' in 'field list'
+2025-06-06 16:40:11,989 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado,email, site, tipo, localidade, codigo_postal, telefone, data_inscricao)
+            VALUES (Daiane Daltino, 61071P, Porto, R do Cruzeiro, 323 - 1º Dto - Sobreira - Paredes, Activo, daianedaltino-61071P@adv.oa.pt, N/D, advogado, SOBREIRA, 4585-704 SOBREIRA, N/D, 17-07-2019)
+        
+2025-06-06 16:40:11,989 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'data_inscricao' in 'field list'
+2025-06-06 16:40:11,989 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'data_inscricao' in 'field list'
+2025-06-06 16:40:11,990 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado,email, site, tipo, localidade, codigo_postal, telefone, data_inscricao)
+            VALUES (Dalila Moura de Sousa, 11173P, Porto, R Damião de Gois, 176 - Escr 2.4, Activo, dalilamouradesousa-11173p@adv.oa.pt, N/D, advogado, PORTO, 4050-221 PORTO, +351223203470, 18-04-2005)
+        
+2025-06-06 16:40:11,991 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'data_inscricao' in 'field list'
+2025-06-06 16:40:11,991 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'data_inscricao' in 'field list'
+2025-06-06 16:40:11,991 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado,email, site, tipo, localidade, codigo_postal, telefone, data_inscricao)
+            VALUES (Daniela Moreno da Costa, 56675P, Porto, R de S Martinho, 51 e 99 - Lugar S. Martinho, Activo, daniela.angelica-56675P@adv.oa.pt, N/D, advogado, TROFA, 4785-359 TROFA, +351915688190, 21-03-2017)
+        
+2025-06-06 16:40:11,993 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'data_inscricao' in 'field list'
+2025-06-06 16:40:11,993 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'data_inscricao' in 'field list'
+2025-06-06 16:40:11,994 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado,email, site, tipo, localidade, codigo_postal, telefone, data_inscricao)
+            VALUES (Danielli Peghinelli Aiello, 68807P, Porto, R João Gomes Leite, 21, Activo, daniaiello-68807P@adv.oa.pt, N/D, advogado, BRAGA, 4700-276 BRAGA, +351916581873, 26-09-2023)
+        
+2025-06-06 16:40:11,995 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'data_inscricao' in 'field list'
+2025-06-06 16:40:11,995 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'data_inscricao' in 'field list'
+2025-06-06 16:40:11,996 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado,email, site, tipo, localidade, codigo_postal, telefone, data_inscricao)
+            VALUES (David Rocha Ribeiro, 2560P, Porto, R Guilhermina Suggia, 224 - Sl 6, Activo, davidribeiro-2560p@adv.oa.pt, N/D, advogado, PORTO, 4200-318 PORTO, +351222087264, 09-05-1985)
+        
+2025-06-06 16:40:11,997 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'data_inscricao' in 'field list'
+2025-06-06 16:40:11,997 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'data_inscricao' in 'field list'
+2025-06-06 16:40:11,998 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado,email, site, tipo, localidade, codigo_postal, telefone, data_inscricao)
+            VALUES (Diogo Cabo, 52851P, Porto, R Arq Cassiano Barbosa, 112 D - Escr 8, Activo, diogocabo-52851P@adv.oa.pt, N/D, advogado, PORTO, 4100-009 PORTO, +351220938409, 03-12-2013)
+        
+2025-06-06 16:40:11,999 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'data_inscricao' in 'field list'
+2025-06-06 16:40:11,999 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'data_inscricao' in 'field list'
+2025-06-06 16:40:12,000 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado,email, site, tipo, localidade, codigo_postal, telefone, data_inscricao)
+            VALUES (Ema Paula, 6521P, Porto, Av Rocha Páris, 106-1º Trz, Activo, emapaula-6521p@adv.oa.pt, N/D, advogado, VIANA DO CASTELO, 4900-494 VIANA DO CASTELO, +351258811720, 10-07-1997)
+        
+2025-06-06 16:40:12,000 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'data_inscricao' in 'field list'
+2025-06-06 16:40:12,000 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'data_inscricao' in 'field list'
+2025-06-06 16:40:12,001 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado,email, site, tipo, localidade, codigo_postal, telefone, data_inscricao)
+            VALUES (Fernando Sá de Oliveira, 9649P, Porto, R do Passal, 298 - RC, Fracção C, Activo, fernando-sa-oliveira-9649p@adv.oa.pt, N/D, advogado, ESPINHO, 4500-056 ESPINHO, +351964290886, 02-12-2002)
+        
+2025-06-06 16:40:12,002 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'data_inscricao' in 'field list'
+2025-06-06 16:40:12,002 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'data_inscricao' in 'field list'
+2025-06-06 16:40:12,003 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado,email, site, tipo, localidade, codigo_postal, telefone, data_inscricao)
+            VALUES (Filipa Pinheiro Dias, 65656P, Porto, R da Boavista, 844 - 1º, Sl 1.3, Activo, filipapinheirodias-65656P@adv.oa.pt, N/D, advogado, PORTO, 4050-106 PORTO, +351226095237, 05-04-2022)
+        
+2025-06-06 16:40:12,003 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'data_inscricao' in 'field list'
+2025-06-06 16:40:12,003 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'data_inscricao' in 'field list'
+2025-06-06 16:40:26,060 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-06 16:40:41,216 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado,email, site, tipo, localidade, codigo_postal, telefone, data_inscricao)
+            VALUES (Filipa Tomaz, 11453P, Porto, Av Vasco da Gama, 1410, Activo, filipatomaz-11453p@adv.oa.pt, N/D, advogado, VILA NOVA DE GAIA, 4430-247 VILA NOVA DE GAIA, +351227867155, 20-10-2005)
+        
+2025-06-06 16:40:41,217 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'data_inscricao' in 'field list'
+2025-06-06 16:40:41,217 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'data_inscricao' in 'field list'
+2025-06-06 16:40:41,219 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado,email, site, tipo, localidade, codigo_postal, telefone, data_inscricao)
+            VALUES (Gonçalo Rosas, 51713L, Porto, Av da Boavista, 3265 – 4.2, Activo, goncalo.rosas-51713L@adv.oa.pt, N/D, advogado, PORTO, 4100-137 PORTO, +351220020254, 15-01-2013)
+        
+2025-06-06 16:40:41,220 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'data_inscricao' in 'field list'
+2025-06-06 16:40:41,220 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'data_inscricao' in 'field list'
+2025-06-06 16:40:41,221 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado,email, site, tipo, localidade, codigo_postal, telefone, data_inscricao)
+            VALUES (Isabel Carvalho Araújo, 11074P, Porto, Pc Municipal,  83-1º, Activo, isabelaraujo-11074p@adv.oa.pt, N/D, advogado, ARCOS DE VALDEVEZ, 4970-441 ARCOS DE VALDEVEZ, +351258514134, 14-06-2005)
+        
+2025-06-06 16:40:41,221 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'data_inscricao' in 'field list'
+2025-06-06 16:40:41,221 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'data_inscricao' in 'field list'
+2025-06-06 16:40:41,222 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado,email, site, tipo, localidade, codigo_postal, telefone, data_inscricao)
+            VALUES (João Paulo Santos Sousa, 52378P, Porto, Av 25 de Abril, Bl B - 1º Dto - Edf Palácio, Activo, jp_santosousa-52378P@adv.oa.pt, N/D, advogado, ESTARREJA, 3860-352 ESTARREJA, +351234843543, 18-09-2013)
+        
+2025-06-06 16:40:41,222 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'data_inscricao' in 'field list'
+2025-06-06 16:40:41,222 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'data_inscricao' in 'field list'
+2025-06-06 16:40:41,223 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado,email, site, tipo, localidade, codigo_postal, telefone, data_inscricao)
+            VALUES (João Paulo Torres, 50175P, Porto, R 1º de Dezembro, 55 - 1º Frt, Activo, joaopaulotorres-50175P@adv.oa.pt, N/D, advogado, ESPOSENDE, 4740-226 ESPOSENDE, +351253968178, 10-10-2011)
+        
+2025-06-06 16:40:41,224 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'data_inscricao' in 'field list'
+2025-06-06 16:40:41,224 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'data_inscricao' in 'field list'
+2025-06-06 16:40:41,227 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado,email, site, tipo, localidade, codigo_postal, telefone, data_inscricao)
+            VALUES (José Amorim Magalhães, 8939P, Porto, Av da Boavista, 3265 - Sl 4.2 - Edf Oceanvs, Activo, joseamorim-8939p@adv.oa.pt, N/D, advogado, PORTO, 4100-137 PORTO, +351226166950, 15-10-2001)
+        
+2025-06-06 16:40:41,228 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'data_inscricao' in 'field list'
+2025-06-06 16:40:41,228 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'data_inscricao' in 'field list'
+2025-06-06 16:40:41,229 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado,email, site, tipo, localidade, codigo_postal, telefone, data_inscricao)
+            VALUES (José Faria Luciano, 4095P, Porto, R Gen Luis Rego, 89-Rc, Activo, N/D, N/D, advogado, VIANA DO CASTELO, 4900-344 VIANA DO CASTELO, N/D, 19-03-1992)
+        
+2025-06-06 16:40:41,229 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'data_inscricao' in 'field list'
+2025-06-06 16:40:41,229 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'data_inscricao' in 'field list'
+2025-06-06 16:40:41,230 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado,email, site, tipo, localidade, codigo_postal, telefone, data_inscricao)
+            VALUES (José Hamilton Meneses Filho, 68821P, Porto, Av Bernardino Machado, 369 - 2° Dto, Activo, hamilton-68821P@adv.oa.pt, N/D, advogado, VILA DO CONDE, 4480-657 VILA DO CONDE, N/D, 26-09-2023)
+        
+2025-06-06 16:40:41,231 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'data_inscricao' in 'field list'
+2025-06-06 16:40:41,231 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'data_inscricao' in 'field list'
+2025-06-06 16:40:41,232 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado,email, site, tipo, localidade, codigo_postal, telefone, data_inscricao)
+            VALUES (Leonel Gonçalves, 3492P, Porto, Av Sá Carneiro, 13 - 4º, Activo, leonelgoncalves-3492p@adv.oa.pt, N/D, advogado, BRAGANÇA, 5300-252 BRAGANÇA, +351273326836, 26-04-1990)
+        
+2025-06-06 16:40:41,235 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'data_inscricao' in 'field list'
+2025-06-06 16:40:41,235 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'data_inscricao' in 'field list'
+2025-06-06 16:40:41,236 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado,email, site, tipo, localidade, codigo_postal, telefone, data_inscricao)
+            VALUES (Licínia Silva, 5155C, Porto, Campo 25 de Abril, 322 - Barcelos, Activo, licinia_silva-5155c@adv.oa.pt, N/D, advogado, BARCELOS, 4750-127 BARCELOS, +351253822279, 28-08-2003)
+        
+2025-06-06 16:40:41,237 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'data_inscricao' in 'field list'
+2025-06-06 16:40:41,237 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'data_inscricao' in 'field list'
+2025-06-06 16:40:55,957 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-06 16:41:04,333 - ERROR - Tentativa 1 falhou: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x933763+63299]
+	GetHandleVerifier [0x0x9337a4+63364]
+	(No symbol) [0x0x760f70]
+	(No symbol) [0x0x79c9a8]
+	(No symbol) [0x0x7ce436]
+	(No symbol) [0x0x7c9f05]
+	(No symbol) [0x0x7c9486]
+	(No symbol) [0x0x733a05]
+	(No symbol) [0x0x733f5e]
+	(No symbol) [0x0x7343ed]
+	GetHandleVerifier [0x0xb8e033+2531347]
+	GetHandleVerifier [0x0xb89332+2511634]
+	GetHandleVerifier [0x0x959eda+220858]
+	GetHandleVerifier [0x0x94a528+156936]
+	GetHandleVerifier [0x0x950c5d+183357]
+	(No symbol) [0x0x7336d0]
+	(No symbol) [0x0x732edd]
+	GetHandleVerifier [0x0xcc7edc+3817148]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-06 16:41:04,335 - ERROR - Erro ao processar página 4: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x933763+63299]
+	GetHandleVerifier [0x0x9337a4+63364]
+	(No symbol) [0x0x760f70]
+	(No symbol) [0x0x79c9a8]
+	(No symbol) [0x0x7ce436]
+	(No symbol) [0x0x7c9f05]
+	(No symbol) [0x0x7c9486]
+	(No symbol) [0x0x733a05]
+	(No symbol) [0x0x733f5e]
+	(No symbol) [0x0x7343ed]
+	GetHandleVerifier [0x0xb8e033+2531347]
+	GetHandleVerifier [0x0xb89332+2511634]
+	GetHandleVerifier [0x0x959eda+220858]
+	GetHandleVerifier [0x0x94a528+156936]
+	GetHandleVerifier [0x0x950c5d+183357]
+	(No symbol) [0x0x7336d0]
+	(No symbol) [0x0x732edd]
+	GetHandleVerifier [0x0xcc7edc+3817148]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-06 16:41:04,336 - ERROR - Erro ao processar página 5: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x933763+63299]
+	GetHandleVerifier [0x0x9337a4+63364]
+	(No symbol) [0x0x760f70]
+	(No symbol) [0x0x79c9a8]
+	(No symbol) [0x0x7ce436]
+	(No symbol) [0x0x7c9f05]
+	(No symbol) [0x0x7c9486]
+	(No symbol) [0x0x733a05]
+	(No symbol) [0x0x733f5e]
+	(No symbol) [0x0x7343ed]
+	GetHandleVerifier [0x0xb8e033+2531347]
+	GetHandleVerifier [0x0xb89332+2511634]
+	GetHandleVerifier [0x0x959eda+220858]
+	GetHandleVerifier [0x0x94a528+156936]
+	GetHandleVerifier [0x0x950c5d+183357]
+	(No symbol) [0x0x7336d0]
+	(No symbol) [0x0x732edd]
+	GetHandleVerifier [0x0xcc7edc+3817148]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-06 16:41:04,337 - ERROR - Erro ao processar página 6: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x933763+63299]
+	GetHandleVerifier [0x0x9337a4+63364]
+	(No symbol) [0x0x760f70]
+	(No symbol) [0x0x79c9a8]
+	(No symbol) [0x0x7ce436]
+	(No symbol) [0x0x7c9f05]
+	(No symbol) [0x0x7c9486]
+	(No symbol) [0x0x733a05]
+	(No symbol) [0x0x733f5e]
+	(No symbol) [0x0x7343ed]
+	GetHandleVerifier [0x0xb8e033+2531347]
+	GetHandleVerifier [0x0xb89332+2511634]
+	GetHandleVerifier [0x0x959eda+220858]
+	GetHandleVerifier [0x0x94a528+156936]
+	GetHandleVerifier [0x0x950c5d+183357]
+	(No symbol) [0x0x7336d0]
+	(No symbol) [0x0x732edd]
+	GetHandleVerifier [0x0xcc7edc+3817148]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-06 16:41:04,337 - WARNING - coletar_advogados_porto retornou 0 registros
+2025-06-06 16:41:04,337 - INFO - Iniciando: coletar_estagiarios_lisboa
+2025-06-06 16:41:04,337 - INFO - Iniciando scraping de estagiários...
+2025-06-06 16:41:04,338 - ERROR - Erro em coletar_estagiarios_lisboa: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x933763+63299]
+	GetHandleVerifier [0x0x9337a4+63364]
+	(No symbol) [0x0x760f70]
+	(No symbol) [0x0x79c9a8]
+	(No symbol) [0x0x7ce436]
+	(No symbol) [0x0x7c9f05]
+	(No symbol) [0x0x7c9486]
+	(No symbol) [0x0x733a05]
+	(No symbol) [0x0x733f5e]
+	(No symbol) [0x0x7343ed]
+	GetHandleVerifier [0x0xb8e033+2531347]
+	GetHandleVerifier [0x0xb89332+2511634]
+	GetHandleVerifier [0x0x959eda+220858]
+	GetHandleVerifier [0x0x94a528+156936]
+	GetHandleVerifier [0x0x950c5d+183357]
+	(No symbol) [0x0x7336d0]
+	(No symbol) [0x0x732edd]
+	GetHandleVerifier [0x0xcc7edc+3817148]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-06 16:41:04,338 - INFO - Iniciando: coletar_estagiarios_porto
+2025-06-06 16:41:04,338 - INFO - Iniciando scraping de estagiários...
+2025-06-06 16:41:04,340 - ERROR - Erro em coletar_estagiarios_porto: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x933763+63299]
+	GetHandleVerifier [0x0x9337a4+63364]
+	(No symbol) [0x0x760f70]
+	(No symbol) [0x0x79c9a8]
+	(No symbol) [0x0x7ce436]
+	(No symbol) [0x0x7c9f05]
+	(No symbol) [0x0x7c9486]
+	(No symbol) [0x0x733a05]
+	(No symbol) [0x0x733f5e]
+	(No symbol) [0x0x7343ed]
+	GetHandleVerifier [0x0xb8e033+2531347]
+	GetHandleVerifier [0x0xb89332+2511634]
+	GetHandleVerifier [0x0x959eda+220858]
+	GetHandleVerifier [0x0x94a528+156936]
+	GetHandleVerifier [0x0x950c5d+183357]
+	(No symbol) [0x0x7336d0]
+	(No symbol) [0x0x732edd]
+	GetHandleVerifier [0x0xcc7edc+3817148]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-06 16:41:04,345 - INFO - Iniciando: coletar_estagiarios_coimbra
+2025-06-06 16:41:04,345 - INFO - Iniciando scraping de estagiários...
+2025-06-06 16:41:04,347 - ERROR - Erro em coletar_estagiarios_coimbra: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x933763+63299]
+	GetHandleVerifier [0x0x9337a4+63364]
+	(No symbol) [0x0x760f70]
+	(No symbol) [0x0x79c9a8]
+	(No symbol) [0x0x7ce436]
+	(No symbol) [0x0x7c9f05]
+	(No symbol) [0x0x7c9486]
+	(No symbol) [0x0x733a05]
+	(No symbol) [0x0x733f5e]
+	(No symbol) [0x0x7343ed]
+	GetHandleVerifier [0x0xb8e033+2531347]
+	GetHandleVerifier [0x0xb89332+2511634]
+	GetHandleVerifier [0x0x959eda+220858]
+	GetHandleVerifier [0x0x94a528+156936]
+	GetHandleVerifier [0x0x950c5d+183357]
+	(No symbol) [0x0x7336d0]
+	(No symbol) [0x0x732edd]
+	GetHandleVerifier [0x0xcc7edc+3817148]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-06 16:41:04,347 - INFO - Iniciando: coletar_estagiarios_evora
+2025-06-06 16:41:04,347 - INFO - Iniciando scraping de estagiários...
+2025-06-06 16:41:04,348 - ERROR - Erro em coletar_estagiarios_evora: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x933763+63299]
+	GetHandleVerifier [0x0x9337a4+63364]
+	(No symbol) [0x0x760f70]
+	(No symbol) [0x0x79c9a8]
+	(No symbol) [0x0x7ce436]
+	(No symbol) [0x0x7c9f05]
+	(No symbol) [0x0x7c9486]
+	(No symbol) [0x0x733a05]
+	(No symbol) [0x0x733f5e]
+	(No symbol) [0x0x7343ed]
+	GetHandleVerifier [0x0xb8e033+2531347]
+	GetHandleVerifier [0x0xb89332+2511634]
+	GetHandleVerifier [0x0x959eda+220858]
+	GetHandleVerifier [0x0x94a528+156936]
+	GetHandleVerifier [0x0x950c5d+183357]
+	(No symbol) [0x0x7336d0]
+	(No symbol) [0x0x732edd]
+	GetHandleVerifier [0x0xcc7edc+3817148]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-06 16:41:04,348 - INFO - Iniciando: coletar_estagiarios_faro
+2025-06-06 16:41:04,348 - INFO - Iniciando scraping de estagiários...
+2025-06-06 16:41:04,349 - ERROR - Erro em coletar_estagiarios_faro: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x933763+63299]
+	GetHandleVerifier [0x0x9337a4+63364]
+	(No symbol) [0x0x760f70]
+	(No symbol) [0x0x79c9a8]
+	(No symbol) [0x0x7ce436]
+	(No symbol) [0x0x7c9f05]
+	(No symbol) [0x0x7c9486]
+	(No symbol) [0x0x733a05]
+	(No symbol) [0x0x733f5e]
+	(No symbol) [0x0x7343ed]
+	GetHandleVerifier [0x0xb8e033+2531347]
+	GetHandleVerifier [0x0xb89332+2511634]
+	GetHandleVerifier [0x0x959eda+220858]
+	GetHandleVerifier [0x0x94a528+156936]
+	GetHandleVerifier [0x0x950c5d+183357]
+	(No symbol) [0x0x7336d0]
+	(No symbol) [0x0x732edd]
+	GetHandleVerifier [0x0xcc7edc+3817148]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-06 16:41:04,349 - INFO - Iniciando: coletar_estagiarios_madeira
+2025-06-06 16:41:04,350 - INFO - Iniciando scraping de estagiários...
+2025-06-06 16:41:04,350 - ERROR - Erro em coletar_estagiarios_madeira: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x933763+63299]
+	GetHandleVerifier [0x0x9337a4+63364]
+	(No symbol) [0x0x760f70]
+	(No symbol) [0x0x79c9a8]
+	(No symbol) [0x0x7ce436]
+	(No symbol) [0x0x7c9f05]
+	(No symbol) [0x0x7c9486]
+	(No symbol) [0x0x733a05]
+	(No symbol) [0x0x733f5e]
+	(No symbol) [0x0x7343ed]
+	GetHandleVerifier [0x0xb8e033+2531347]
+	GetHandleVerifier [0x0xb89332+2511634]
+	GetHandleVerifier [0x0x959eda+220858]
+	GetHandleVerifier [0x0x94a528+156936]
+	GetHandleVerifier [0x0x950c5d+183357]
+	(No symbol) [0x0x7336d0]
+	(No symbol) [0x0x732edd]
+	GetHandleVerifier [0x0xcc7edc+3817148]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-06 16:41:04,351 - INFO - Iniciando: coletar_estagiarios_acores
+2025-06-06 16:41:04,351 - INFO - Iniciando scraping de estagiários...
+2025-06-06 16:41:04,352 - ERROR - Erro em coletar_estagiarios_acores: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x933763+63299]
+	GetHandleVerifier [0x0x9337a4+63364]
+	(No symbol) [0x0x760f70]
+	(No symbol) [0x0x79c9a8]
+	(No symbol) [0x0x7ce436]
+	(No symbol) [0x0x7c9f05]
+	(No symbol) [0x0x7c9486]
+	(No symbol) [0x0x733a05]
+	(No symbol) [0x0x733f5e]
+	(No symbol) [0x0x7343ed]
+	GetHandleVerifier [0x0xb8e033+2531347]
+	GetHandleVerifier [0x0xb89332+2511634]
+	GetHandleVerifier [0x0x959eda+220858]
+	GetHandleVerifier [0x0x94a528+156936]
+	GetHandleVerifier [0x0x950c5d+183357]
+	(No symbol) [0x0x7336d0]
+	(No symbol) [0x0x732edd]
+	GetHandleVerifier [0x0xcc7edc+3817148]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-06 16:41:04,360 - INFO - Iniciando: coletar_estagiarios_braga
+2025-06-06 16:41:04,360 - INFO - Iniciando scraping de estagiários...
+2025-06-06 16:41:04,362 - ERROR - Erro em coletar_estagiarios_braga: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x933763+63299]
+	GetHandleVerifier [0x0x9337a4+63364]
+	(No symbol) [0x0x760f70]
+	(No symbol) [0x0x79c9a8]
+	(No symbol) [0x0x7ce436]
+	(No symbol) [0x0x7c9f05]
+	(No symbol) [0x0x7c9486]
+	(No symbol) [0x0x733a05]
+	(No symbol) [0x0x733f5e]
+	(No symbol) [0x0x7343ed]
+	GetHandleVerifier [0x0xb8e033+2531347]
+	GetHandleVerifier [0x0xb89332+2511634]
+	GetHandleVerifier [0x0x959eda+220858]
+	GetHandleVerifier [0x0x94a528+156936]
+	GetHandleVerifier [0x0x950c5d+183357]
+	(No symbol) [0x0x7336d0]
+	(No symbol) [0x0x732edd]
+	GetHandleVerifier [0x0xcc7edc+3817148]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-06 16:41:04,362 - INFO - Iniciando: coletar_tribunais
+2025-06-06 16:41:04,362 - INFO - Iniciando scraping de tribunais...
+2025-06-06 16:41:04,363 - ERROR - Erro em coletar_tribunais: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x933763+63299]
+	GetHandleVerifier [0x0x9337a4+63364]
+	(No symbol) [0x0x760f70]
+	(No symbol) [0x0x79c9a8]
+	(No symbol) [0x0x7ce436]
+	(No symbol) [0x0x7c9f05]
+	(No symbol) [0x0x7c9486]
+	(No symbol) [0x0x733a05]
+	(No symbol) [0x0x733f5e]
+	(No symbol) [0x0x7343ed]
+	GetHandleVerifier [0x0xb8e033+2531347]
+	GetHandleVerifier [0x0xb89332+2511634]
+	GetHandleVerifier [0x0x959eda+220858]
+	GetHandleVerifier [0x0x94a528+156936]
+	GetHandleVerifier [0x0x950c5d+183357]
+	(No symbol) [0x0x7336d0]
+	(No symbol) [0x0x732edd]
+	GetHandleVerifier [0x0xcc7edc+3817148]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-06 16:41:04,363 - INFO - Iniciando: coletar_julgados
+2025-06-06 16:41:04,363 - INFO - Iniciando scraping de julgados de paz...
+2025-06-06 16:41:04,364 - ERROR - Erro em coletar_julgados: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x933763+63299]
+	GetHandleVerifier [0x0x9337a4+63364]
+	(No symbol) [0x0x760f70]
+	(No symbol) [0x0x79c9a8]
+	(No symbol) [0x0x7ce436]
+	(No symbol) [0x0x7c9f05]
+	(No symbol) [0x0x7c9486]
+	(No symbol) [0x0x733a05]
+	(No symbol) [0x0x733f5e]
+	(No symbol) [0x0x7343ed]
+	GetHandleVerifier [0x0xb8e033+2531347]
+	GetHandleVerifier [0x0xb89332+2511634]
+	GetHandleVerifier [0x0x959eda+220858]
+	GetHandleVerifier [0x0x94a528+156936]
+	GetHandleVerifier [0x0x950c5d+183357]
+	(No symbol) [0x0x7336d0]
+	(No symbol) [0x0x732edd]
+	GetHandleVerifier [0x0xcc7edc+3817148]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-06 16:41:04,364 - INFO - Iniciando: coletar_osae
+2025-06-06 16:41:04,364 - INFO - Iniciando scraping do OSAE...
+2025-06-06 16:41:04,365 - ERROR - Erro em coletar_osae: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x933763+63299]
+	GetHandleVerifier [0x0x9337a4+63364]
+	(No symbol) [0x0x760f70]
+	(No symbol) [0x0x79c9a8]
+	(No symbol) [0x0x7ce436]
+	(No symbol) [0x0x7c9f05]
+	(No symbol) [0x0x7c9486]
+	(No symbol) [0x0x733a05]
+	(No symbol) [0x0x733f5e]
+	(No symbol) [0x0x7343ed]
+	GetHandleVerifier [0x0xb8e033+2531347]
+	GetHandleVerifier [0x0xb89332+2511634]
+	GetHandleVerifier [0x0x959eda+220858]
+	GetHandleVerifier [0x0x94a528+156936]
+	GetHandleVerifier [0x0x950c5d+183357]
+	(No symbol) [0x0x7336d0]
+	(No symbol) [0x0x732edd]
+	GetHandleVerifier [0x0xcc7edc+3817148]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-06 16:41:04,365 - INFO - Iniciando: coletar_advogados_angola
+2025-06-06 16:41:04,366 - INFO - Iniciando scraping de advogados de Angola...
+2025-06-06 16:41:04,367 - ERROR - Erro ao carregar dados de advogados de Angola: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x933763+63299]
+	GetHandleVerifier [0x0x9337a4+63364]
+	(No symbol) [0x0x760f70]
+	(No symbol) [0x0x79c9a8]
+	(No symbol) [0x0x7ce436]
+	(No symbol) [0x0x7c9f05]
+	(No symbol) [0x0x7c9486]
+	(No symbol) [0x0x733a05]
+	(No symbol) [0x0x733f5e]
+	(No symbol) [0x0x7343ed]
+	GetHandleVerifier [0x0xb8e033+2531347]
+	GetHandleVerifier [0x0xb89332+2511634]
+	GetHandleVerifier [0x0x959eda+220858]
+	GetHandleVerifier [0x0x94a528+156936]
+	GetHandleVerifier [0x0x950c5d+183357]
+	(No symbol) [0x0x7336d0]
+	(No symbol) [0x0x732edd]
+	GetHandleVerifier [0x0xcc7edc+3817148]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-06 16:41:04,378 - ERROR - Erro em coletar_advogados_angola: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x933763+63299]
+	GetHandleVerifier [0x0x9337a4+63364]
+	(No symbol) [0x0x760f70]
+	(No symbol) [0x0x79c9a8]
+	(No symbol) [0x0x7ce436]
+	(No symbol) [0x0x7c9f05]
+	(No symbol) [0x0x7c9486]
+	(No symbol) [0x0x733a05]
+	(No symbol) [0x0x733f5e]
+	(No symbol) [0x0x7343ed]
+	GetHandleVerifier [0x0xb8e033+2531347]
+	GetHandleVerifier [0x0xb89332+2511634]
+	GetHandleVerifier [0x0x959eda+220858]
+	GetHandleVerifier [0x0x94a528+156936]
+	GetHandleVerifier [0x0x950c5d+183357]
+	(No symbol) [0x0x7336d0]
+	(No symbol) [0x0x732edd]
+	GetHandleVerifier [0x0xcc7edc+3817148]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-06 16:41:04,378 - INFO - Iniciando: coletar_camaras_municipais
+2025-06-06 16:41:04,378 - INFO - Iniciando scraping de câmaras municipais...
+2025-06-06 16:41:04,379 - ERROR - Erro em coletar_camaras_municipais: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x933763+63299]
+	GetHandleVerifier [0x0x9337a4+63364]
+	(No symbol) [0x0x760f70]
+	(No symbol) [0x0x79c9a8]
+	(No symbol) [0x0x7ce436]
+	(No symbol) [0x0x7c9f05]
+	(No symbol) [0x0x7c9486]
+	(No symbol) [0x0x733a05]
+	(No symbol) [0x0x733f5e]
+	(No symbol) [0x0x7343ed]
+	GetHandleVerifier [0x0xb8e033+2531347]
+	GetHandleVerifier [0x0xb89332+2511634]
+	GetHandleVerifier [0x0x959eda+220858]
+	GetHandleVerifier [0x0x94a528+156936]
+	GetHandleVerifier [0x0x950c5d+183357]
+	(No symbol) [0x0x7336d0]
+	(No symbol) [0x0x732edd]
+	GetHandleVerifier [0x0xcc7edc+3817148]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-06 16:41:04,379 - INFO - Iniciando: coletar_atlas_cplp
+2025-06-06 16:41:04,380 - INFO - Iniciando scraping do Atlas CPLP...
+2025-06-06 16:41:04,381 - ERROR - Erro em coletar_atlas_cplp: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x933763+63299]
+	GetHandleVerifier [0x0x9337a4+63364]
+	(No symbol) [0x0x760f70]
+	(No symbol) [0x0x79c9a8]
+	(No symbol) [0x0x7ce436]
+	(No symbol) [0x0x7c9f05]
+	(No symbol) [0x0x7c9486]
+	(No symbol) [0x0x733a05]
+	(No symbol) [0x0x733f5e]
+	(No symbol) [0x0x7343ed]
+	GetHandleVerifier [0x0xb8e033+2531347]
+	GetHandleVerifier [0x0xb89332+2511634]
+	GetHandleVerifier [0x0x959eda+220858]
+	GetHandleVerifier [0x0x94a528+156936]
+	GetHandleVerifier [0x0x950c5d+183357]
+	(No symbol) [0x0x7336d0]
+	(No symbol) [0x0x732edd]
+	GetHandleVerifier [0x0xcc7edc+3817148]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-06 16:41:06,443 - INFO - Conexão com o banco de dados fechada.

@@ -1,0 +1,759 @@
+2025-06-05 23:35:41,624 - INFO - Iniciando o script de scraping...
+2025-06-05 23:35:41,683 - INFO - Conexão com o banco de dados estabelecida!
+2025-06-05 23:35:41,688 - INFO - ====== WebDriver manager ======
+2025-06-05 23:35:42,857 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-05 23:35:42,929 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-05 23:35:42,966 - INFO - Driver [C:\Users\david\.wdm\drivers\chromedriver\win64\137.0.7151.68\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-05 23:35:45,170 - INFO - Iniciando: coletar_advogados
+2025-06-05 23:35:45,170 - INFO - Iniciando scraping de advogados...
+2025-06-05 23:36:35,511 - WARNING - Erro ao marcar 'Apenas Ativos' (continuando sem marcar): Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x1213763+63299]
+	GetHandleVerifier [0x0x12137a4+63364]
+	(No symbol) [0x0x1041113]
+	(No symbol) [0x0x108987e]
+	(No symbol) [0x0x1089c1b]
+	(No symbol) [0x0x10d2212]
+	(No symbol) [0x0x10ae5c4]
+	(No symbol) [0x0x10cfa4a]
+	(No symbol) [0x0x10ae376]
+	(No symbol) [0x0x107d6e0]
+	(No symbol) [0x0x107e544]
+	GetHandleVerifier [0x0x146e033+2531347]
+	GetHandleVerifier [0x0x1469332+2511634]
+	GetHandleVerifier [0x0x1239eda+220858]
+	GetHandleVerifier [0x0x122a528+156936]
+	GetHandleVerifier [0x0x1230c5d+183357]
+	GetHandleVerifier [0x0x121b6c8+95912]
+	GetHandleVerifier [0x0x121b870+96336]
+	GetHandleVerifier [0x0x120664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-05 23:36:45,538 - WARNING - Erro ao clicar no botão de pesquisa: Message: 
+
+2025-06-05 23:36:45,550 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-05 23:37:25,795 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo, localidade)
+            VALUES (Acácio Carvalhal Costa, 4928L, Lisboa, N/D, Inativo, N/D, N/D, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado, N/D)
+        
+2025-06-05 23:37:25,798 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'localidade' in 'field list'
+2025-06-05 23:37:25,798 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'localidade' in 'field list'
+2025-06-05 23:37:25,798 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo, localidade)
+            VALUES (Adriana A de Andrade, 21861L, Lisboa, Av da Liberdade, 129 - 4º C, Activo, +351213219820, adriana-21861l@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado, LISBOA)
+        
+2025-06-05 23:37:25,798 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'localidade' in 'field list'
+2025-06-05 23:37:25,799 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'localidade' in 'field list'
+2025-06-05 23:37:25,799 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo, localidade)
+            VALUES (Amélia Puna Loupo, 10753L, Lisboa, N/D, Inativo, N/D, N/D, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado, N/D)
+        
+2025-06-05 23:37:25,799 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'localidade' in 'field list'
+2025-06-05 23:37:25,799 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'localidade' in 'field list'
+2025-06-05 23:37:25,799 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo, localidade)
+            VALUES (Ana Beatriz Corredoura Coelho, 70525L, Lisboa, R Dq de Palmela, 30 - 6º E, Activo, +351213543808, a.beatrizccoelho-70525L@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado, LISBOA)
+        
+2025-06-05 23:37:25,800 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'localidade' in 'field list'
+2025-06-05 23:37:25,800 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'localidade' in 'field list'
+2025-06-05 23:37:25,800 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo, localidade)
+            VALUES (Ana Dulce Duarte Pinto, 15258L, Lisboa, N/D, Inativo, N/D, N/D, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado, N/D)
+        
+2025-06-05 23:37:25,800 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'localidade' in 'field list'
+2025-06-05 23:37:25,800 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'localidade' in 'field list'
+2025-06-05 23:37:25,801 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo, localidade)
+            VALUES (Ana Pinto Ferreira, 371E, Lisboa, N/D, Inativo, N/D, N/D, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado, N/D)
+        
+2025-06-05 23:37:25,801 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'localidade' in 'field list'
+2025-06-05 23:37:25,801 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'localidade' in 'field list'
+2025-06-05 23:37:25,801 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo, localidade)
+            VALUES (António da Costa Basto, 3378L, Lisboa, Av 24 de Julho, 60 - 2º Dto, Activo, +351215903825; 914863910, a.costabasto-3378l@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado, LISBOA)
+        
+2025-06-05 23:37:25,801 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'localidade' in 'field list'
+2025-06-05 23:37:25,801 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'localidade' in 'field list'
+2025-06-05 23:37:25,802 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo, localidade)
+            VALUES (António Emílio Pires, 10398L, Lisboa, R Andrade Corvo, 29 - 4º, Activo, +351213174159, epires-10398l@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado, LISBOA)
+        
+2025-06-05 23:37:25,802 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'localidade' in 'field list'
+2025-06-05 23:37:25,802 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'localidade' in 'field list'
+2025-06-05 23:37:25,803 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo, localidade)
+            VALUES (Bárbara Fernandes Franco, 61758L, Lisboa, Av Defensores de Chaves, 4, Activo, +351914094601, barbarafernandesfranco-61758L@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado, LISBOA)
+        
+2025-06-05 23:37:25,803 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'localidade' in 'field list'
+2025-06-05 23:37:25,803 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'localidade' in 'field list'
+2025-06-05 23:37:25,803 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo, localidade)
+            VALUES (Carolina Caneira, 58071L, Lisboa, R Alexandre Herculano, 8, Activo, +351918465574, carolinacaneira-58071L@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado, LINDA A VELHA)
+        
+2025-06-05 23:37:25,803 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'localidade' in 'field list'
+2025-06-05 23:37:25,803 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'localidade' in 'field list'
+2025-06-05 23:37:42,902 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-05 23:37:58,391 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo, localidade)
+            VALUES (Catarina Milagre, 57241L, Lisboa, Av Almirante Reis, 179 - 1º, Activo, +351914342080, catarinamilagre-57241l@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado, LISBOA)
+        
+2025-06-05 23:37:58,391 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'localidade' in 'field list'
+2025-06-05 23:37:58,391 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'localidade' in 'field list'
+2025-06-05 23:37:58,392 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo, localidade)
+            VALUES (Celisa Marcelino, 17380L, Lisboa, Lg dos Restauradores, 19 i, Activo, +351917960304, celisamarcelino-17380l@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado, SEIXAL)
+        
+2025-06-05 23:37:58,393 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'localidade' in 'field list'
+2025-06-05 23:37:58,393 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'localidade' in 'field list'
+2025-06-05 23:37:58,394 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo, localidade)
+            VALUES (Cunha e Castro, 6346L, Lisboa, Av António Enes, 16 - 1º Esq, Activo, +351214363715, cunha.e.castro-6346l@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado, QUELUZ)
+        
+2025-06-05 23:37:58,394 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'localidade' in 'field list'
+2025-06-05 23:37:58,394 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'localidade' in 'field list'
+2025-06-05 23:37:58,396 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo, localidade)
+            VALUES (Daniela Carmo, 63254L, Lisboa, N/D, Inativo, N/D, N/D, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado, N/D)
+        
+2025-06-05 23:37:58,397 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'localidade' in 'field list'
+2025-06-05 23:37:58,397 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'localidade' in 'field list'
+2025-06-05 23:37:58,398 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo, localidade)
+            VALUES (Dayane Maciel Chaves, 68607L, Lisboa, R Forno dos Tijolos, 9 - 2º D, Activo, N/D, dayanemaciel-68607L@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado, LISBOA)
+        
+2025-06-05 23:37:58,399 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'localidade' in 'field list'
+2025-06-05 23:37:58,399 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'localidade' in 'field list'
+2025-06-05 23:37:58,399 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo, localidade)
+            VALUES (Eduardo Pombal, 4865L, Lisboa, N/D, Inativo, N/D, N/D, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado, N/D)
+        
+2025-06-05 23:37:58,400 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'localidade' in 'field list'
+2025-06-05 23:37:58,400 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'localidade' in 'field list'
+2025-06-05 23:37:58,401 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo, localidade)
+            VALUES (Edvaldo Ramos, 67976L, Lisboa, N/D, Inativo, N/D, N/D, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado, N/D)
+        
+2025-06-05 23:37:58,401 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'localidade' in 'field list'
+2025-06-05 23:37:58,401 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'localidade' in 'field list'
+2025-06-05 23:37:58,402 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo, localidade)
+            VALUES (Emanuel B Pamplona, 7990L, Lisboa, R dos Douradores, 53-2º Esq, Activo, +351218879786, epamplona-7990l@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado, LISBOA)
+        
+2025-06-05 23:37:58,402 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'localidade' in 'field list'
+2025-06-05 23:37:58,402 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'localidade' in 'field list'
+2025-06-05 23:37:58,403 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo, localidade)
+            VALUES (Esperança Pereira Mealha, 12330L, Lisboa, N/D, Inativo, N/D, N/D, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado, N/D)
+        
+2025-06-05 23:37:58,403 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'localidade' in 'field list'
+2025-06-05 23:37:58,403 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'localidade' in 'field list'
+2025-06-05 23:37:58,404 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo, localidade)
+            VALUES (Filipa Carmona e Costa, 19866L, Lisboa, R Marquês da Fronteira, 117-3º Esq, Activo, N/D, carmonaecosta-19866l@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado, LISBOA)
+        
+2025-06-05 23:37:58,405 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'localidade' in 'field list'
+2025-06-05 23:37:58,405 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'localidade' in 'field list'
+2025-06-05 23:38:13,294 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-05 23:38:29,605 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo, localidade)
+            VALUES (Filipe Neto Lopes, 55586L, Lisboa, Av Visconde de Valmor, 20 - 2º Dto, Activo, +351215916072, filipenetolopes-55586L@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado, LISBOA)
+        
+2025-06-05 23:38:29,605 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'localidade' in 'field list'
+2025-06-05 23:38:29,605 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'localidade' in 'field list'
+2025-06-05 23:38:29,605 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo, localidade)
+            VALUES (Frederico Pestana, 51320L, Lisboa, R Tierno Galvan, 712 - 7º  - Tr 3 - Amoreiras, Activo, +351211599599, f.pestana-51320L@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado, LISBOA)
+        
+2025-06-05 23:38:29,605 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'localidade' in 'field list'
+2025-06-05 23:38:29,605 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'localidade' in 'field list'
+2025-06-05 23:38:29,605 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo, localidade)
+            VALUES (Isabella Vilela F Soares, 61362L, Lisboa, N/D, Inativo, N/D, N/D, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado, N/D)
+        
+2025-06-05 23:38:29,605 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'localidade' in 'field list'
+2025-06-05 23:38:29,607 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'localidade' in 'field list'
+2025-06-05 23:38:29,607 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo, localidade)
+            VALUES (Joana Calado, 53339L, Lisboa, Lagoas Park, ed 2, piso 3, Activo, +351217912300, joanacalado-53339L@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado, PORTO SALVO)
+        
+2025-06-05 23:38:29,607 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'localidade' in 'field list'
+2025-06-05 23:38:29,607 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'localidade' in 'field list'
+2025-06-05 23:38:29,607 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo, localidade)
+            VALUES (Joana Estrela, 46677L, Lisboa, N/D, Inativo, N/D, N/D, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado, N/D)
+        
+2025-06-05 23:38:29,608 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'localidade' in 'field list'
+2025-06-05 23:38:29,608 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'localidade' in 'field list'
+2025-06-05 23:38:29,609 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo, localidade)
+            VALUES (João Lança Gonçalves, 20675L, Lisboa, N/D, Inativo, N/D, N/D, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado, N/D)
+        
+2025-06-05 23:38:29,609 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'localidade' in 'field list'
+2025-06-05 23:38:29,609 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'localidade' in 'field list'
+2025-06-05 23:38:29,609 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo, localidade)
+            VALUES (João Tiago Machado, 14329L, Lisboa, Av Ressano Garcia, 43-3ºDto, Activo, +351213839730, joaotiagomachado-14329l@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado, LISBOA)
+        
+2025-06-05 23:38:29,609 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'localidade' in 'field list'
+2025-06-05 23:38:29,609 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'localidade' in 'field list'
+2025-06-05 23:38:29,610 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo, localidade)
+            VALUES (José Arez Romão, 2627L, Lisboa, R Manuel Marques, 19 - 8º Esq, Activo, +351217575739, aromao-2627l@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado, LISBOA)
+        
+2025-06-05 23:38:29,610 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'localidade' in 'field list'
+2025-06-05 23:38:29,610 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'localidade' in 'field list'
+2025-06-05 23:38:29,610 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo, localidade)
+            VALUES (Josina de Carvalho, 21852L, Lisboa, N/D, Inativo, N/D, N/D, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado, N/D)
+        
+2025-06-05 23:38:29,611 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'localidade' in 'field list'
+2025-06-05 23:38:29,611 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'localidade' in 'field list'
+2025-06-05 23:38:29,611 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo, localidade)
+            VALUES (Juliana Wanderley, 67767L, Lisboa, R António Passaporte, 8 - 3º C, Activo, +351+351 918 882 040, julianawanderley-67767l@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado, OEIRAS)
+        
+2025-06-05 23:38:29,611 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'localidade' in 'field list'
+2025-06-05 23:38:29,611 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'localidade' in 'field list'
+2025-06-05 23:38:46,307 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-05 23:39:03,995 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo, localidade)
+            VALUES (Luis Lima, 4158C, Lisboa, R Elias Garcia, 360 - 6º, Sl C, Activo, +351214931712, luis.lima-4158c@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado, AMADORA)
+        
+2025-06-05 23:39:04,002 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'localidade' in 'field list'
+2025-06-05 23:39:04,002 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'localidade' in 'field list'
+2025-06-05 23:39:04,027 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo, localidade)
+            VALUES (Margarida Cardoso, 13058L, Lisboa, N/D, Inativo, N/D, N/D, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado, N/D)
+        
+2025-06-05 23:39:04,031 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'localidade' in 'field list'
+2025-06-05 23:39:04,032 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'localidade' in 'field list'
+2025-06-05 23:39:04,050 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo, localidade)
+            VALUES (Maria Ana Jardine Neto, 7707L, Lisboa, Estr da Ribeira - Qta da Carolina 11, Activo, N/D, maj-7707l@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado, ALCABIDECHE)
+        
+2025-06-05 23:39:04,080 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'localidade' in 'field list'
+2025-06-05 23:39:04,081 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'localidade' in 'field list'
+2025-06-05 23:39:04,117 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo, localidade)
+            VALUES (Marina Coelho de Almeida, 13781L, Lisboa, R Amélia Rey Colaço, 40 - 3º, Activo, +351213147892, marina.c.almeida-13781l@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado, CARNAXIDE)
+        
+2025-06-05 23:39:04,129 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'localidade' in 'field list'
+2025-06-05 23:39:04,129 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'localidade' in 'field list'
+2025-06-05 23:39:04,155 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo, localidade)
+            VALUES (Marta Montez, 21659L, Lisboa, R de Sta Clara, 326 - CV Esq, Gab 2 -, Activo, +351916511684, martamontez-21659l@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado, CARCAVELOS)
+        
+2025-06-05 23:39:04,178 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'localidade' in 'field list'
+2025-06-05 23:39:04,178 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'localidade' in 'field list'
+2025-06-05 23:39:04,189 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo, localidade)
+            VALUES (Mateus Silva do Rosário, 70486L, Lisboa, Av da Liberdade, 229 - 4º, Activo, +351211388700, mateusrosario-70486L@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado, LISBOA)
+        
+2025-06-05 23:39:04,190 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'localidade' in 'field list'
+2025-06-05 23:39:04,190 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'localidade' in 'field list'
+2025-06-05 23:39:04,220 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo, localidade)
+            VALUES (Mickael Pereira, 45705C, Lisboa, N/D, Inativo, N/D, N/D, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado, N/D)
+        
+2025-06-05 23:39:04,223 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'localidade' in 'field list'
+2025-06-05 23:39:04,223 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'localidade' in 'field list'
+2025-06-05 23:39:04,227 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo, localidade)
+            VALUES (Miguel Pereira da Silva, 51679L, Lisboa, Av Fontes Pereira de Melo, 6, Activo, +351213553800, m.pereiradasilva-51679L@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado, LISBOA)
+        
+2025-06-05 23:39:04,227 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'localidade' in 'field list'
+2025-06-05 23:39:04,228 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'localidade' in 'field list'
+2025-06-05 23:39:04,229 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo, localidade)
+            VALUES (Miguel Pires de Lima, 8761L, Lisboa, Av Sidónio Pais, 28-2º Esq, Activo, +351213590398, miguelpireslima-8761l@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado, LISBOA)
+        
+2025-06-05 23:39:04,230 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'localidade' in 'field list'
+2025-06-05 23:39:04,230 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'localidade' in 'field list'
+2025-06-05 23:39:04,231 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo, localidade)
+            VALUES (Mónica Morais, 55628L, Lisboa, N/D, Inativo, N/D, N/D, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado, N/D)
+        
+2025-06-05 23:39:04,232 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'localidade' in 'field list'
+2025-06-05 23:39:04,232 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'localidade' in 'field list'
+2025-06-05 23:39:20,998 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-05 23:39:25,279 - ERROR - Tentativa 1 falhou: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.57)
+Stacktrace:
+	GetHandleVerifier [0x0x1213763+63299]
+	GetHandleVerifier [0x0x12137a4+63364]
+	(No symbol) [0x0x1041113]
+	(No symbol) [0x0x101ff69]
+	(No symbol) [0x0x10b4fce]
+	(No symbol) [0x0x10cf359]
+	(No symbol) [0x0x10ae376]
+	(No symbol) [0x0x107d6e0]
+	(No symbol) [0x0x107e544]
+	GetHandleVerifier [0x0x146e033+2531347]
+	GetHandleVerifier [0x0x1469332+2511634]
+	GetHandleVerifier [0x0x1239eda+220858]
+	GetHandleVerifier [0x0x122a528+156936]
+	GetHandleVerifier [0x0x1230c5d+183357]
+	GetHandleVerifier [0x0x121b6c8+95912]
+	GetHandleVerifier [0x0x121b870+96336]
+	GetHandleVerifier [0x0x120664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-05 23:39:25,280 - ERROR - Erro ao processar página 5: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.57)
+Stacktrace:
+	GetHandleVerifier [0x0x1213763+63299]
+	GetHandleVerifier [0x0x12137a4+63364]
+	(No symbol) [0x0x1041113]
+	(No symbol) [0x0x101ff69]
+	(No symbol) [0x0x10b4fce]
+	(No symbol) [0x0x10cf359]
+	(No symbol) [0x0x10ae376]
+	(No symbol) [0x0x107d6e0]
+	(No symbol) [0x0x107e544]
+	GetHandleVerifier [0x0x146e033+2531347]
+	GetHandleVerifier [0x0x1469332+2511634]
+	GetHandleVerifier [0x0x1239eda+220858]
+	GetHandleVerifier [0x0x122a528+156936]
+	GetHandleVerifier [0x0x1230c5d+183357]
+	GetHandleVerifier [0x0x121b6c8+95912]
+	GetHandleVerifier [0x0x121b870+96336]
+	GetHandleVerifier [0x0x120664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-05 23:39:25,281 - ERROR - Erro ao processar página 6: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.57)
+Stacktrace:
+	GetHandleVerifier [0x0x1213763+63299]
+	GetHandleVerifier [0x0x12137a4+63364]
+	(No symbol) [0x0x1041113]
+	(No symbol) [0x0x101ff69]
+	(No symbol) [0x0x10b4fce]
+	(No symbol) [0x0x10cf359]
+	(No symbol) [0x0x10ae376]
+	(No symbol) [0x0x107d6e0]
+	(No symbol) [0x0x107e544]
+	GetHandleVerifier [0x0x146e033+2531347]
+	GetHandleVerifier [0x0x1469332+2511634]
+	GetHandleVerifier [0x0x1239eda+220858]
+	GetHandleVerifier [0x0x122a528+156936]
+	GetHandleVerifier [0x0x1230c5d+183357]
+	GetHandleVerifier [0x0x121b6c8+95912]
+	GetHandleVerifier [0x0x121b870+96336]
+	GetHandleVerifier [0x0x120664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-05 23:39:25,283 - ERROR - Erro ao processar página 7: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.57)
+Stacktrace:
+	GetHandleVerifier [0x0x1213763+63299]
+	GetHandleVerifier [0x0x12137a4+63364]
+	(No symbol) [0x0x1041113]
+	(No symbol) [0x0x101ff69]
+	(No symbol) [0x0x10b4fce]
+	(No symbol) [0x0x10cf359]
+	(No symbol) [0x0x10ae376]
+	(No symbol) [0x0x107d6e0]
+	(No symbol) [0x0x107e544]
+	GetHandleVerifier [0x0x146e033+2531347]
+	GetHandleVerifier [0x0x1469332+2511634]
+	GetHandleVerifier [0x0x1239eda+220858]
+	GetHandleVerifier [0x0x122a528+156936]
+	GetHandleVerifier [0x0x1230c5d+183357]
+	GetHandleVerifier [0x0x121b6c8+95912]
+	GetHandleVerifier [0x0x121b870+96336]
+	GetHandleVerifier [0x0x120664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-05 23:39:25,283 - WARNING - coletar_advogados retornou 0 registros
+2025-06-05 23:39:25,283 - INFO - Iniciando: coletar_sociedades_lisboa
+2025-06-05 23:39:25,283 - INFO - Iniciando scraping de sociedades de advogados de lisboa...
+2025-06-05 23:39:25,284 - ERROR - Erro em coletar_sociedades_lisboa: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.57)
+Stacktrace:
+	GetHandleVerifier [0x0x1213763+63299]
+	GetHandleVerifier [0x0x12137a4+63364]
+	(No symbol) [0x0x1041113]
+	(No symbol) [0x0x101ff69]
+	(No symbol) [0x0x10b4fce]
+	(No symbol) [0x0x10cf359]
+	(No symbol) [0x0x10ae376]
+	(No symbol) [0x0x107d6e0]
+	(No symbol) [0x0x107e544]
+	GetHandleVerifier [0x0x146e033+2531347]
+	GetHandleVerifier [0x0x1469332+2511634]
+	GetHandleVerifier [0x0x1239eda+220858]
+	GetHandleVerifier [0x0x122a528+156936]
+	GetHandleVerifier [0x0x1230c5d+183357]
+	GetHandleVerifier [0x0x121b6c8+95912]
+	GetHandleVerifier [0x0x121b870+96336]
+	GetHandleVerifier [0x0x120664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-05 23:39:25,284 - INFO - Iniciando: coletar_sociedades_porto
+2025-06-05 23:39:25,284 - INFO - Iniciando scraping de sociedades de advogados do porto...
+2025-06-05 23:39:25,286 - ERROR - Erro em coletar_sociedades_porto: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.57)
+Stacktrace:
+	GetHandleVerifier [0x0x1213763+63299]
+	GetHandleVerifier [0x0x12137a4+63364]
+	(No symbol) [0x0x1041113]
+	(No symbol) [0x0x101ff69]
+	(No symbol) [0x0x10b4fce]
+	(No symbol) [0x0x10cf359]
+	(No symbol) [0x0x10ae376]
+	(No symbol) [0x0x107d6e0]
+	(No symbol) [0x0x107e544]
+	GetHandleVerifier [0x0x146e033+2531347]
+	GetHandleVerifier [0x0x1469332+2511634]
+	GetHandleVerifier [0x0x1239eda+220858]
+	GetHandleVerifier [0x0x122a528+156936]
+	GetHandleVerifier [0x0x1230c5d+183357]
+	GetHandleVerifier [0x0x121b6c8+95912]
+	GetHandleVerifier [0x0x121b870+96336]
+	GetHandleVerifier [0x0x120664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-05 23:39:25,286 - INFO - Iniciando: coletar_sociedades_coimbra
+2025-06-05 23:39:25,286 - INFO - Iniciando scraping de sociedades de advogados de coimbra...
+2025-06-05 23:39:25,287 - ERROR - Erro em coletar_sociedades_coimbra: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.57)
+Stacktrace:
+	GetHandleVerifier [0x0x1213763+63299]
+	GetHandleVerifier [0x0x12137a4+63364]
+	(No symbol) [0x0x1041113]
+	(No symbol) [0x0x101ff69]
+	(No symbol) [0x0x10b4fce]
+	(No symbol) [0x0x10cf359]
+	(No symbol) [0x0x10ae376]
+	(No symbol) [0x0x107d6e0]
+	(No symbol) [0x0x107e544]
+	GetHandleVerifier [0x0x146e033+2531347]
+	GetHandleVerifier [0x0x1469332+2511634]
+	GetHandleVerifier [0x0x1239eda+220858]
+	GetHandleVerifier [0x0x122a528+156936]
+	GetHandleVerifier [0x0x1230c5d+183357]
+	GetHandleVerifier [0x0x121b6c8+95912]
+	GetHandleVerifier [0x0x121b870+96336]
+	GetHandleVerifier [0x0x120664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-05 23:39:25,287 - INFO - Iniciando: coletar_sociedades_evora
+2025-06-05 23:39:25,287 - INFO - Iniciando scraping de sociedades de advogados de evora...
+2025-06-05 23:39:25,289 - ERROR - Erro em coletar_sociedades_evora: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.57)
+Stacktrace:
+	GetHandleVerifier [0x0x1213763+63299]
+	GetHandleVerifier [0x0x12137a4+63364]
+	(No symbol) [0x0x1041113]
+	(No symbol) [0x0x101ff69]
+	(No symbol) [0x0x10b4fce]
+	(No symbol) [0x0x10cf359]
+	(No symbol) [0x0x10ae376]
+	(No symbol) [0x0x107d6e0]
+	(No symbol) [0x0x107e544]
+	GetHandleVerifier [0x0x146e033+2531347]
+	GetHandleVerifier [0x0x1469332+2511634]
+	GetHandleVerifier [0x0x1239eda+220858]
+	GetHandleVerifier [0x0x122a528+156936]
+	GetHandleVerifier [0x0x1230c5d+183357]
+	GetHandleVerifier [0x0x121b6c8+95912]
+	GetHandleVerifier [0x0x121b870+96336]
+	GetHandleVerifier [0x0x120664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-05 23:39:25,289 - INFO - Iniciando: coletar_sociedades_faro
+2025-06-05 23:39:25,290 - INFO - Iniciando scraping de sociedades de advogados de faro...
+2025-06-05 23:39:25,291 - ERROR - Erro em coletar_sociedades_faro: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.57)
+Stacktrace:
+	GetHandleVerifier [0x0x1213763+63299]
+	GetHandleVerifier [0x0x12137a4+63364]
+	(No symbol) [0x0x1041113]
+	(No symbol) [0x0x101ff69]
+	(No symbol) [0x0x10b4fce]
+	(No symbol) [0x0x10cf359]
+	(No symbol) [0x0x10ae376]
+	(No symbol) [0x0x107d6e0]
+	(No symbol) [0x0x107e544]
+	GetHandleVerifier [0x0x146e033+2531347]
+	GetHandleVerifier [0x0x1469332+2511634]
+	GetHandleVerifier [0x0x1239eda+220858]
+	GetHandleVerifier [0x0x122a528+156936]
+	GetHandleVerifier [0x0x1230c5d+183357]
+	GetHandleVerifier [0x0x121b6c8+95912]
+	GetHandleVerifier [0x0x121b870+96336]
+	GetHandleVerifier [0x0x120664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-05 23:39:25,291 - INFO - Iniciando: coletar_sociedades_madeira
+2025-06-05 23:39:25,291 - INFO - Iniciando scraping de sociedades de advogados da madeira...
+2025-06-05 23:39:25,292 - ERROR - Erro em coletar_sociedades_madeira: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.57)
+Stacktrace:
+	GetHandleVerifier [0x0x1213763+63299]
+	GetHandleVerifier [0x0x12137a4+63364]
+	(No symbol) [0x0x1041113]
+	(No symbol) [0x0x101ff69]
+	(No symbol) [0x0x10b4fce]
+	(No symbol) [0x0x10cf359]
+	(No symbol) [0x0x10ae376]
+	(No symbol) [0x0x107d6e0]
+	(No symbol) [0x0x107e544]
+	GetHandleVerifier [0x0x146e033+2531347]
+	GetHandleVerifier [0x0x1469332+2511634]
+	GetHandleVerifier [0x0x1239eda+220858]
+	GetHandleVerifier [0x0x122a528+156936]
+	GetHandleVerifier [0x0x1230c5d+183357]
+	GetHandleVerifier [0x0x121b6c8+95912]
+	GetHandleVerifier [0x0x121b870+96336]
+	GetHandleVerifier [0x0x120664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-05 23:39:25,292 - INFO - Iniciando: coletar_estagiarios
+2025-06-05 23:39:25,292 - INFO - Iniciando scraping de estagiários...
+2025-06-05 23:39:25,293 - ERROR - Erro em coletar_estagiarios: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.57)
+Stacktrace:
+	GetHandleVerifier [0x0x1213763+63299]
+	GetHandleVerifier [0x0x12137a4+63364]
+	(No symbol) [0x0x1041113]
+	(No symbol) [0x0x101ff69]
+	(No symbol) [0x0x10b4fce]
+	(No symbol) [0x0x10cf359]
+	(No symbol) [0x0x10ae376]
+	(No symbol) [0x0x107d6e0]
+	(No symbol) [0x0x107e544]
+	GetHandleVerifier [0x0x146e033+2531347]
+	GetHandleVerifier [0x0x1469332+2511634]
+	GetHandleVerifier [0x0x1239eda+220858]
+	GetHandleVerifier [0x0x122a528+156936]
+	GetHandleVerifier [0x0x1230c5d+183357]
+	GetHandleVerifier [0x0x121b6c8+95912]
+	GetHandleVerifier [0x0x121b870+96336]
+	GetHandleVerifier [0x0x120664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-05 23:39:25,293 - INFO - Iniciando: coletar_tribunais
+2025-06-05 23:39:25,293 - INFO - Iniciando scraping de tribunais...
+2025-06-05 23:39:25,294 - ERROR - Erro em coletar_tribunais: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.57)
+Stacktrace:
+	GetHandleVerifier [0x0x1213763+63299]
+	GetHandleVerifier [0x0x12137a4+63364]
+	(No symbol) [0x0x1041113]
+	(No symbol) [0x0x101ff69]
+	(No symbol) [0x0x10b4fce]
+	(No symbol) [0x0x10cf359]
+	(No symbol) [0x0x10ae376]
+	(No symbol) [0x0x107d6e0]
+	(No symbol) [0x0x107e544]
+	GetHandleVerifier [0x0x146e033+2531347]
+	GetHandleVerifier [0x0x1469332+2511634]
+	GetHandleVerifier [0x0x1239eda+220858]
+	GetHandleVerifier [0x0x122a528+156936]
+	GetHandleVerifier [0x0x1230c5d+183357]
+	GetHandleVerifier [0x0x121b6c8+95912]
+	GetHandleVerifier [0x0x121b870+96336]
+	GetHandleVerifier [0x0x120664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-05 23:39:25,296 - INFO - Iniciando: coletar_julgados
+2025-06-05 23:39:25,296 - INFO - Iniciando scraping de julgados de paz...
+2025-06-05 23:39:25,297 - ERROR - Erro em coletar_julgados: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.57)
+Stacktrace:
+	GetHandleVerifier [0x0x1213763+63299]
+	GetHandleVerifier [0x0x12137a4+63364]
+	(No symbol) [0x0x1041113]
+	(No symbol) [0x0x101ff69]
+	(No symbol) [0x0x10b4fce]
+	(No symbol) [0x0x10cf359]
+	(No symbol) [0x0x10ae376]
+	(No symbol) [0x0x107d6e0]
+	(No symbol) [0x0x107e544]
+	GetHandleVerifier [0x0x146e033+2531347]
+	GetHandleVerifier [0x0x1469332+2511634]
+	GetHandleVerifier [0x0x1239eda+220858]
+	GetHandleVerifier [0x0x122a528+156936]
+	GetHandleVerifier [0x0x1230c5d+183357]
+	GetHandleVerifier [0x0x121b6c8+95912]
+	GetHandleVerifier [0x0x121b870+96336]
+	GetHandleVerifier [0x0x120664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-05 23:39:25,297 - INFO - Iniciando: coletar_osae
+2025-06-05 23:39:25,297 - INFO - Iniciando scraping do OSAE...
+2025-06-05 23:39:25,299 - ERROR - Erro em coletar_osae: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.57)
+Stacktrace:
+	GetHandleVerifier [0x0x1213763+63299]
+	GetHandleVerifier [0x0x12137a4+63364]
+	(No symbol) [0x0x1041113]
+	(No symbol) [0x0x101ff69]
+	(No symbol) [0x0x10b4fce]
+	(No symbol) [0x0x10cf359]
+	(No symbol) [0x0x10ae376]
+	(No symbol) [0x0x107d6e0]
+	(No symbol) [0x0x107e544]
+	GetHandleVerifier [0x0x146e033+2531347]
+	GetHandleVerifier [0x0x1469332+2511634]
+	GetHandleVerifier [0x0x1239eda+220858]
+	GetHandleVerifier [0x0x122a528+156936]
+	GetHandleVerifier [0x0x1230c5d+183357]
+	GetHandleVerifier [0x0x121b6c8+95912]
+	GetHandleVerifier [0x0x121b870+96336]
+	GetHandleVerifier [0x0x120664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-05 23:39:25,299 - INFO - Iniciando: coletar_advogados_angola
+2025-06-05 23:39:25,299 - INFO - Iniciando scraping de advogados de Angola...
+2025-06-05 23:39:25,300 - ERROR - Erro ao carregar dados de advogados de Angola: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.57)
+Stacktrace:
+	GetHandleVerifier [0x0x1213763+63299]
+	GetHandleVerifier [0x0x12137a4+63364]
+	(No symbol) [0x0x1041113]
+	(No symbol) [0x0x101ff69]
+	(No symbol) [0x0x10b4fce]
+	(No symbol) [0x0x10cf359]
+	(No symbol) [0x0x10ae376]
+	(No symbol) [0x0x107d6e0]
+	(No symbol) [0x0x107e544]
+	GetHandleVerifier [0x0x146e033+2531347]
+	GetHandleVerifier [0x0x1469332+2511634]
+	GetHandleVerifier [0x0x1239eda+220858]
+	GetHandleVerifier [0x0x122a528+156936]
+	GetHandleVerifier [0x0x1230c5d+183357]
+	GetHandleVerifier [0x0x121b6c8+95912]
+	GetHandleVerifier [0x0x121b870+96336]
+	GetHandleVerifier [0x0x120664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-05 23:39:25,301 - ERROR - Erro em coletar_advogados_angola: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.57)
+Stacktrace:
+	GetHandleVerifier [0x0x1213763+63299]
+	GetHandleVerifier [0x0x12137a4+63364]
+	(No symbol) [0x0x1041113]
+	(No symbol) [0x0x101ff69]
+	(No symbol) [0x0x10b4fce]
+	(No symbol) [0x0x10cf359]
+	(No symbol) [0x0x10ae376]
+	(No symbol) [0x0x107d6e0]
+	(No symbol) [0x0x107e544]
+	GetHandleVerifier [0x0x146e033+2531347]
+	GetHandleVerifier [0x0x1469332+2511634]
+	GetHandleVerifier [0x0x1239eda+220858]
+	GetHandleVerifier [0x0x122a528+156936]
+	GetHandleVerifier [0x0x1230c5d+183357]
+	GetHandleVerifier [0x0x121b6c8+95912]
+	GetHandleVerifier [0x0x121b870+96336]
+	GetHandleVerifier [0x0x120664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-05 23:39:25,301 - INFO - Iniciando: coletar_camaras_municipais
+2025-06-05 23:39:25,302 - INFO - Iniciando scraping de câmaras municipais...
+2025-06-05 23:39:25,303 - ERROR - Erro em coletar_camaras_municipais: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.57)
+Stacktrace:
+	GetHandleVerifier [0x0x1213763+63299]
+	GetHandleVerifier [0x0x12137a4+63364]
+	(No symbol) [0x0x1041113]
+	(No symbol) [0x0x101ff69]
+	(No symbol) [0x0x10b4fce]
+	(No symbol) [0x0x10cf359]
+	(No symbol) [0x0x10ae376]
+	(No symbol) [0x0x107d6e0]
+	(No symbol) [0x0x107e544]
+	GetHandleVerifier [0x0x146e033+2531347]
+	GetHandleVerifier [0x0x1469332+2511634]
+	GetHandleVerifier [0x0x1239eda+220858]
+	GetHandleVerifier [0x0x122a528+156936]
+	GetHandleVerifier [0x0x1230c5d+183357]
+	GetHandleVerifier [0x0x121b6c8+95912]
+	GetHandleVerifier [0x0x121b870+96336]
+	GetHandleVerifier [0x0x120664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-05 23:39:25,303 - INFO - Iniciando: coletar_atlas_cplp
+2025-06-05 23:39:25,303 - INFO - Iniciando scraping do Atlas CPLP...
+2025-06-05 23:39:25,303 - ERROR - Erro em coletar_atlas_cplp: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.57)
+Stacktrace:
+	GetHandleVerifier [0x0x1213763+63299]
+	GetHandleVerifier [0x0x12137a4+63364]
+	(No symbol) [0x0x1041113]
+	(No symbol) [0x0x101ff69]
+	(No symbol) [0x0x10b4fce]
+	(No symbol) [0x0x10cf359]
+	(No symbol) [0x0x10ae376]
+	(No symbol) [0x0x107d6e0]
+	(No symbol) [0x0x107e544]
+	GetHandleVerifier [0x0x146e033+2531347]
+	GetHandleVerifier [0x0x1469332+2511634]
+	GetHandleVerifier [0x0x1239eda+220858]
+	GetHandleVerifier [0x0x122a528+156936]
+	GetHandleVerifier [0x0x1230c5d+183357]
+	GetHandleVerifier [0x0x121b6c8+95912]
+	GetHandleVerifier [0x0x121b870+96336]
+	GetHandleVerifier [0x0x120664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-05 23:39:25,304 - INFO - Conexão com o banco de dados fechada.
+2025-06-05 23:39:27,469 - INFO - Navegador fechado.

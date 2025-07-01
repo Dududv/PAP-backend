@@ -1,0 +1,4463 @@
+2025-06-11 00:51:35,495 - INFO - Iniciando o script de scraping...
+2025-06-11 00:51:35,552 - INFO - Conexão com o banco de dados estabelecida!
+2025-06-11 00:51:35,557 - INFO - Tabela 'advogados' verificada/recriada com sucesso!
+2025-06-11 00:51:35,557 - INFO - Tabela 'sociedades' verificada/criada com sucesso!
+2025-06-11 00:51:35,557 - INFO - Tabela 'estagiarios' verificada/criada com sucesso!
+2025-06-11 00:51:35,557 - INFO - Tabela 'agentes_execucao' verificada/criada com sucesso!
+2025-06-11 00:51:35,557 - INFO - ====== WebDriver manager ======
+2025-06-11 00:51:37,360 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-11 00:51:37,478 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-11 00:51:37,512 - INFO - Driver [C:\Users\david\.wdm\drivers\chromedriver\win64\137.0.7151.70\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-11 00:51:40,150 - INFO - Iniciando: coletar_tribunais
+2025-06-11 00:51:40,150 - INFO - Iniciando scraping de tribunais...
+2025-06-11 00:52:17,850 - ERROR - Erro ao processar região Abrantes: Message: 
+
+2025-06-11 00:52:47,962 - ERROR - Erro ao processar região Águeda: Message: 
+
+2025-06-11 00:53:18,443 - ERROR - Erro ao processar região Albergaria-a-Velha: Message: 
+
+2025-06-11 00:53:48,684 - ERROR - Erro ao processar região Albufeira: Message: 
+
+2025-06-11 00:54:19,299 - ERROR - Erro ao processar região Alcobaça: Message: 
+
+2025-06-11 00:54:49,788 - ERROR - Erro ao processar região Alenquer: Message: 
+
+2025-06-11 00:55:20,377 - ERROR - Erro ao processar região Alijó: Message: 
+
+2025-06-11 00:55:50,876 - ERROR - Erro ao processar região Almada: Message: 
+
+2025-06-11 00:56:21,261 - ERROR - Erro ao processar região Almeida: Message: 
+
+2025-06-11 00:56:51,805 - ERROR - Erro ao processar região Almeirim : Message: 
+
+2025-06-11 00:57:22,230 - ERROR - Erro ao processar região Almodovar: Message: 
+
+2025-06-11 00:57:52,371 - ERROR - Erro ao processar região Amadora: Message: 
+
+2025-06-11 00:57:56,997 - ERROR - Erro ao processar região Amarante   : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:56,998 - ERROR - Erro ao processar região Amares: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:56,998 - ERROR - Erro ao processar região Anadia: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:56,999 - ERROR - Erro ao processar região Angra do Heroísmo: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,000 - ERROR - Erro ao processar região Arcos de Valdevez: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,002 - ERROR - Erro ao processar região Arganil: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,003 - ERROR - Erro ao processar região Arouca: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,003 - ERROR - Erro ao processar região Aveiro: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,004 - ERROR - Erro ao processar região Baião: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,005 - ERROR - Erro ao processar região Barcelos: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,005 - ERROR - Erro ao processar região Barreiro: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,006 - ERROR - Erro ao processar região Beja: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,006 - ERROR - Erro ao processar região Benavente: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,007 - ERROR - Erro ao processar região Braga: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,008 - ERROR - Erro ao processar região Bragança: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,008 - ERROR - Erro ao processar região Cabeceiras de Basto: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,008 - ERROR - Erro ao processar região Caldas da Rainha: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,010 - ERROR - Erro ao processar região Caminha: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,011 - ERROR - Erro ao processar região Cantanhede: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,011 - ERROR - Erro ao processar região Cartaxo: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,012 - ERROR - Erro ao processar região Cascais: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,012 - ERROR - Erro ao processar região Castelo Branco: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,013 - ERROR - Erro ao processar região Castelo de Paiva: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,014 - ERROR - Erro ao processar região Castro Daire: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,014 - ERROR - Erro ao processar região Celorico da Beira: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,015 - ERROR - Erro ao processar região Celorico de Basto: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,016 - ERROR - Erro ao processar região Chaves: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,016 - ERROR - Erro ao processar região Cinfães: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,017 - ERROR - Erro ao processar região Coimbra: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,017 - ERROR - Erro ao processar região Condeixa-a-Nova: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,018 - ERROR - Erro ao processar região Coruche: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,018 - ERROR - Erro ao processar região Covilhã: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,019 - ERROR - Erro ao processar região Cuba: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,020 - ERROR - Erro ao processar região Elvas: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,020 - ERROR - Erro ao processar região Entroncamento: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,021 - ERROR - Erro ao processar região Espinho: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,022 - ERROR - Erro ao processar região Esposende: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,022 - ERROR - Erro ao processar região Estarreja: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,023 - ERROR - Erro ao processar região Estremoz: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,023 - ERROR - Erro ao processar região Évora: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,024 - ERROR - Erro ao processar região Fafe: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,025 - ERROR - Erro ao processar região Faro: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,026 - ERROR - Erro ao processar região Felgueiras: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,027 - ERROR - Erro ao processar região Ferreira do Alentejo: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,027 - ERROR - Erro ao processar região Figueira da Foz : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,028 - ERROR - Erro ao processar região Figueira de Castelo Rodrigo: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,028 - ERROR - Erro ao processar região Figueiró dos Vinhos: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,029 - ERROR - Erro ao processar região Fronteira: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,030 - ERROR - Erro ao processar região Funchal: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,030 - ERROR - Erro ao processar região Fundão: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,031 - ERROR - Erro ao processar região Gondomar: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,032 - ERROR - Erro ao processar região Gouveia: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,032 - ERROR - Erro ao processar região Grândola: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,032 - ERROR - Erro ao processar região Guarda : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,033 - ERROR - Erro ao processar região Guimarães: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,034 - ERROR - Erro ao processar região Horta: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,034 - ERROR - Erro ao processar região Idanha-a-Nova: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,035 - ERROR - Erro ao processar região Ílhavo: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,036 - ERROR - Erro ao processar região Lagos: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,037 - ERROR - Erro ao processar região Lamego: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,037 - ERROR - Erro ao processar região Leiria: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,037 - ERROR - Erro ao processar região Lisboa: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,038 - ERROR - Erro ao processar região Loulé: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,038 - ERROR - Erro ao processar região Loures: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,039 - ERROR - Erro ao processar região Lourinhã: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,040 - ERROR - Erro ao processar região Lousã: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,040 - ERROR - Erro ao processar região Lousada: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,041 - ERROR - Erro ao processar região Macedo de Cavaleiros: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,041 - ERROR - Erro ao processar região Mafra: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,042 - ERROR - Erro ao processar região Maia : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,043 - ERROR - Erro ao processar região Mangualde: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,043 - ERROR - Erro ao processar região Marco de Canaveses: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,044 - ERROR - Erro ao processar região Marinha Grande: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,045 - ERROR - Erro ao processar região Matosinhos: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,045 - ERROR - Erro ao processar região Mealhada: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,046 - ERROR - Erro ao processar região Melgaço: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,046 - ERROR - Erro ao processar região Miranda do Douro: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,047 - ERROR - Erro ao processar região Mirandela: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,047 - ERROR - Erro ao processar região Mogadouro: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,048 - ERROR - Erro ao processar região Moimenta da Beira: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,050 - ERROR - Erro ao processar região Moita: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,050 - ERROR - Erro ao processar região Monção: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,051 - ERROR - Erro ao processar região Montalegre: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,051 - ERROR - Erro ao processar região Montemor-o-Novo: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,052 - ERROR - Erro ao processar região Montemor-o-Velho: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,052 - ERROR - Erro ao processar região Montijo: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,053 - ERROR - Erro ao processar região Moura: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,053 - ERROR - Erro ao processar região Nazaré: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,054 - ERROR - Erro ao processar região Nelas: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,055 - ERROR - Erro ao processar região Nisa: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,055 - ERROR - Erro ao processar região Odemira: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,056 - ERROR - Erro ao processar região Oeiras: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,056 - ERROR - Erro ao processar região Oleiros: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,058 - ERROR - Erro ao processar região Olhão da Restauração: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,058 - ERROR - Erro ao processar região Oliveira de Azeméis: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,058 - ERROR - Erro ao processar região Oliveira de Frades: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,059 - ERROR - Erro ao processar região Oliveira do Bairro: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,059 - ERROR - Erro ao processar região Oliveira do Hospital: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,060 - ERROR - Erro ao processar região Ourém: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,061 - ERROR - Erro ao processar região Ourique: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,061 - ERROR - Erro ao processar região Ovar: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,062 - ERROR - Erro ao processar região Paços de Ferreira: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,063 - ERROR - Erro ao processar região Paredes: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,063 - ERROR - Erro ao processar região Penacova: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,064 - ERROR - Erro ao processar região Penafiel: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,065 - ERROR - Erro ao processar região Peniche: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,065 - ERROR - Erro ao processar região Peso da Régua: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,066 - ERROR - Erro ao processar região Pinhel: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,067 - ERROR - Erro ao processar região Pombal: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,067 - ERROR - Erro ao processar região Ponta Delgada: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,068 - ERROR - Erro ao processar região Ponta do Sol: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,068 - ERROR - Erro ao processar região Ponte da Barca: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,069 - ERROR - Erro ao processar região Ponte de Lima: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,069 - ERROR - Erro ao processar região Ponte de Sôr: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,070 - ERROR - Erro ao processar região Portalegre: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,071 - ERROR - Erro ao processar região Portimão: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,071 - ERROR - Erro ao processar região Porto: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,071 - ERROR - Erro ao processar região Porto de Mós: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,073 - ERROR - Erro ao processar região Porto Santo: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,073 - ERROR - Erro ao processar região Póvoa de Lanhoso: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,074 - ERROR - Erro ao processar região Póvoa de Varzim: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,075 - ERROR - Erro ao processar região Praia da Vitória: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,075 - ERROR - Erro ao processar região Redondo: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,076 - ERROR - Erro ao processar região Reguengos de Monsaraz: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,076 - ERROR - Erro ao processar região Ribeira Grande: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,077 - ERROR - Erro ao processar região Rio Maior: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,077 - ERROR - Erro ao processar região Santa Comba Dão: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,078 - ERROR - Erro ao processar região Santa Cruz: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,079 - ERROR - Erro ao processar região Santa Cruz da Graciosa: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,079 - ERROR - Erro ao processar região Santa Cruz das Flores: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,080 - ERROR - Erro ao processar região Santa Maria da Feira: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,080 - ERROR - Erro ao processar região Santarém: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,081 - ERROR - Erro ao processar região Santiago do Cacém: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,082 - ERROR - Erro ao processar região Santo Tirso: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,082 - ERROR - Erro ao processar região São João da Madeira: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,083 - ERROR - Erro ao processar região São Pedro do Sul: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,083 - ERROR - Erro ao processar região São Roque do Pico: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,084 - ERROR - Erro ao processar região Sátão: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,084 - ERROR - Erro ao processar região Seia: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,085 - ERROR - Erro ao processar região Seixal: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,086 - ERROR - Erro ao processar região Serpa: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,086 - ERROR - Erro ao processar região Sertã: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,087 - ERROR - Erro ao processar região Sesimbra: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,087 - ERROR - Erro ao processar região Setúbal: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,088 - ERROR - Erro ao processar região Silves: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,089 - ERROR - Erro ao processar região Sintra: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,089 - ERROR - Erro ao processar região Tábua : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,090 - ERROR - Erro ao processar região Tavira: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,091 - ERROR - Erro ao processar região Tomar: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,091 - ERROR - Erro ao processar região Tondela: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,092 - ERROR - Erro ao processar região Torre de Moncorvo: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,092 - ERROR - Erro ao processar região Torres Novas: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,092 - ERROR - Erro ao processar região Torres Vedras: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,093 - ERROR - Erro ao processar região Trancoso: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,093 - ERROR - Erro ao processar região Vagos: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,095 - ERROR - Erro ao processar região Vale de Cambra: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,095 - ERROR - Erro ao processar região Valença: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,096 - ERROR - Erro ao processar região Valongo  : Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,096 - ERROR - Erro ao processar região Valpaços: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,097 - ERROR - Erro ao processar região Velas - S. Jorge: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,097 - ERROR - Erro ao processar região Viana do Castelo: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,098 - ERROR - Erro ao processar região Vieira do Minho: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,098 - ERROR - Erro ao processar região Vila do Conde: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,099 - ERROR - Erro ao processar região Vila do Porto: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,099 - ERROR - Erro ao processar região Vila Flor: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,100 - ERROR - Erro ao processar região Vila Franca de Xira: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,101 - ERROR - Erro ao processar região Vila Franca do Campo: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,101 - ERROR - Erro ao processar região Vila Nova de Cerveira: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,102 - ERROR - Erro ao processar região Vila Nova de Famalicão: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,103 - ERROR - Erro ao processar região Vila Nova de Foz Côa: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,103 - ERROR - Erro ao processar região Vila Nva de Gaia: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,104 - ERROR - Erro ao processar região Vila Pouca de Aguiar: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,105 - ERROR - Erro ao processar região Vila Real: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,105 - ERROR - Erro ao processar região Vila Real de Santo António: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,106 - ERROR - Erro ao processar região Vila Verde: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,106 - ERROR - Erro ao processar região Vila Viçosa: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,107 - ERROR - Erro ao processar região Viseu: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x95ff69]
+	(No symbol) [0x0x9f4fce]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 00:57:57,107 - INFO - Total de tribunais processados: 0
+2025-06-11 00:57:57,107 - WARNING - coletar_tribunais retornou 0 registros

@@ -1,0 +1,594 @@
+2025-06-04 15:01:03,812 - INFO - Iniciando o script de scraping...
+2025-06-04 15:01:03,873 - INFO - Conexão com o banco de dados estabelecida!
+2025-06-04 15:01:03,918 - INFO - ====== WebDriver manager ======
+2025-06-04 15:01:05,271 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-04 15:01:05,350 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-04 15:01:05,386 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-04 15:01:05,474 - INFO - WebDriver version 137.0.7151.68 selected
+2025-06-04 15:01:05,476 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/137.0.7151.68/win32/chromedriver-win32.zip
+2025-06-04 15:01:05,476 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/137.0.7151.68/win32/chromedriver-win32.zip
+2025-06-04 15:01:05,571 - INFO - Driver downloading response is 200
+2025-06-04 15:01:05,769 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-04 15:01:06,746 - INFO - Driver has been saved in cache [C:\Users\david\.wdm\drivers\chromedriver\win64\137.0.7151.68]
+2025-06-04 15:01:12,470 - INFO - Iniciando: coletar_advogados
+2025-06-04 15:01:12,470 - INFO - Iniciando scraping de advogados...
+2025-06-04 15:01:54,696 - WARNING - Erro ao marcar 'Apenas Ativos' (continuando sem marcar): Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x6c3763+63299]
+	GetHandleVerifier [0x0x6c37a4+63364]
+	(No symbol) [0x0x4f1113]
+	(No symbol) [0x0x53987e]
+	(No symbol) [0x0x539c1b]
+	(No symbol) [0x0x582212]
+	(No symbol) [0x0x55e5c4]
+	(No symbol) [0x0x57fa4a]
+	(No symbol) [0x0x55e376]
+	(No symbol) [0x0x52d6e0]
+	(No symbol) [0x0x52e544]
+	GetHandleVerifier [0x0x91e033+2531347]
+	GetHandleVerifier [0x0x919332+2511634]
+	GetHandleVerifier [0x0x6e9eda+220858]
+	GetHandleVerifier [0x0x6da528+156936]
+	GetHandleVerifier [0x0x6e0c5d+183357]
+	GetHandleVerifier [0x0x6cb6c8+95912]
+	GetHandleVerifier [0x0x6cb870+96336]
+	GetHandleVerifier [0x0x6b664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-04 15:02:05,166 - WARNING - Erro ao clicar no botão de pesquisa: Message: 
+
+2025-06-04 15:02:05,186 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-04 15:02:20,903 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Adriana Rocha, 60698L, Lisboa, R Manuel Ribeiro de Pavia, 1, RC Dto, Activo, +351918282857, adrianarocha-60698L@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-04 15:02:20,919 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Alaíde Silva, 68502L, Lisboa, R Fialho de Almeida, 17 - 5º Dto, Activo, N/D, alaidesilva-68502L@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-04 15:02:20,925 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Ana Filipa Branco, 16990L, Lisboa, N/D, Inativo, N/D, N/D, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-04 15:02:20,931 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Ana Paula Braga, 67301L, Lisboa, R Padre António Vieira, 31 - 1º Esq, Activo, N/D, anapaulabraga-67301L@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-04 15:02:20,943 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Ana Ribas Krum, 64191L, Lisboa, R Boqueirão do Duro, 37 D E - Accenture Edf Santos, Activo, +351930535236, anakrum-64191L@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-04 15:02:20,954 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (André Galvão, 68587L, Lisboa, N/D, Inativo, N/D, N/D, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-04 15:02:20,960 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Angela Gil, 13902L, Lisboa, N/D, Inativo, N/D, N/D, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-04 15:02:20,967 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Beatriz Albuquerque, 63376L, Lisboa, R D Luís I, 28, Activo, +351213113501, N/D, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-04 15:02:20,974 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Cândida Daniel, 12276L, Lisboa, N/D, Inativo, N/D, N/D, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-04 15:02:20,980 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Carlos A Pessoa, 66095L, Lisboa, Av D João II, 35 - 4º G - Edf Infante, Activo, +351913785620, capessoa-66095L@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-04 15:02:29,089 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-04 15:02:44,695 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Carlos Ferreira de Carvalho, 1400E, Lisboa, R dos Gladiolos, 52 - Rc Esq F, Activo, +351962449757, ferreiradecarvalho-1400e@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-04 15:02:44,703 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Cynthia Kawakami, 61102L, Lisboa, N/D, Inativo, N/D, N/D, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-04 15:02:44,709 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Daniela Batista Rodrigues, 70307L, Lisboa, Rot Nuno Rodrigues dos Santos, 1 B - 10º A/B, Activo, +351218622100, danielabatistarodrigues-70307L@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-04 15:02:44,723 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Eliete Bolognani, 61370L, Lisboa, R Pinheiro Chagas, 17 - 5º  -, Activo, +351911915618, elietebolognani-61370L@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-04 15:02:44,734 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Emanuel Cardoso, 49816L, Lisboa, R do Cais da Naus, 4 A   - Parque das Nações, Activo, +351919502501, emanuelcardoso-49816L@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-04 15:02:44,740 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Fabiana Martins, 58469L, Lisboa, N/D, Inativo, N/D, N/D, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-04 15:02:44,746 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Fernanda Macedo, 18377L, Lisboa, R Casal da Serra, 32-5º Dto, Activo, +351219162981, f.macedo-18377l@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-04 15:02:44,753 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Fernando Borges de Araújo, 5928L, Lisboa, R Joshua Benoliel, 6 - 8º B, Activo, +351934262558, borgesaraujo-5928L@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-04 15:02:44,759 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Giulia Alcantara, 68683L, Lisboa, Av EUA, 65 - 2º Dto, Activo, N/D, giuliaalcantara-68683L@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-04 15:02:44,766 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Graça Antunes, 13120L, Lisboa, N/D, Inativo, N/D, N/D, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-04 15:02:54,422 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-04 15:03:12,281 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Helio Medeiros, 62438L, Lisboa, N/D, Inativo, N/D, N/D, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-04 15:03:12,289 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Inês Casanova de Almeida, 62185L, Lisboa, Av Álvares Cabral, 61 - 4º, Activo, +351213911040, inescasanovaalmeida-62185L@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-04 15:03:12,296 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Inês Gomes Ferreira, 17106L, Lisboa, R Carlos Alberto da Mota Pinto, 17 – 3º B - Edf Amoreiras Square, Activo, +351213121550, N/D, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-04 15:03:12,303 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Isabel de Almeida, 15861L, Lisboa, R das Salinas, 140 -, Activo, +351935310771, isabeldealmeida-15861l@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-04 15:03:12,315 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (João Alfaia, 2170L, Lisboa, N/D, Inativo, N/D, N/D, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-04 15:03:12,328 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (João Garras, 46674L, Lisboa, Av da República, 101 - 7º C, Activo, +351217971365, jgarras-46674L@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-04 15:03:12,339 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (João Lievore, 63113L, Lisboa, N/D, Inativo, N/D, N/D, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-04 15:03:12,349 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (João Ricardo Correia, 17739L, Lisboa, N/D, Inativo, N/D, N/D, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-04 15:03:12,356 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Joaquim Sena Belo, 345C, Lisboa, N/D, Inativo, N/D, N/D, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-04 15:03:12,364 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (José Pedro Gonçalves Gomes, 67914L, Lisboa, R 1º de Maio, 14 A - Rc Esq, Activo, N/D, pedro_gomes-67914L@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-04 15:03:21,103 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-04 15:03:36,058 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Josy Karla M Damaceno, 66717L, Lisboa, R do Ataíde, 7A, Activo, +351920042731, jkmd-66717L@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-04 15:03:36,066 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Luis Fonseca, 13486L, Lisboa, R Prof Mark Athias, 8 B, Activo, +351915195888, luis.fonseca-13486L@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-04 15:03:36,072 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Luís Mendes de Almeida, 52584L, Lisboa, N/D, Inativo, N/D, N/D, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-04 15:03:36,079 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Madalena Dias Parca, 64528L, Lisboa, Av da Liberdade, 212 - S/L Dto, Activo, +351211372676, N/D, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-04 15:03:36,086 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Manuel de Abreu Castelo Branco, 46732L, Lisboa, R Barata Salgueiro, 21, Activo, +351211255500, N/D, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-04 15:03:36,098 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Maria da Câmara Pestana, 10039L, Lisboa, Av Eng Duarte Pacheco, Tr 2 – Piso 5, Sl 5, Activo, +351215838548, mariacamarapestana-10039l@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-04 15:03:36,109 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Maria José V Paulo, 21776L, Lisboa, Av António Augusto de Aguiar, 5 - 4º E, Activo, +351914962082, mariajosepaulo-21776l@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-04 15:03:36,119 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Maria Lucia Montenegro, 60702L, Lisboa, N/D, Inativo, N/D, N/D, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-04 15:03:36,126 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Maria Teresa Cruz, 10390L, Lisboa, N/D, Inativo, N/D, N/D, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-04 15:03:36,132 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Matilde Canejo, 6842L, Lisboa, N/D, Inativo, N/D, N/D, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-04 15:03:45,842 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-04 15:04:02,032 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Mónica Veiga Prazeres, 18366L, Lisboa, N/D, Inativo, N/D, N/D, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-04 15:04:02,040 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Nadiana Zamboni, 52512L, Lisboa, R Luciano Cordeiro, 80 - 5º Dto, Activo, +351966819254, nadianazamboni-52512L@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-04 15:04:02,062 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Patrícia Barros, 48212L, Lisboa, N/D, Inativo, N/D, N/D, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-04 15:04:02,068 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Patrícia Rebelo Espinha, 46432L, Lisboa, N/D, Inativo, N/D, N/D, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-04 15:04:02,075 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Paulo Teles Matos, 63412P, Lisboa, R 28 de Setembro, 29 - Cv Esq, Activo, +351930425344, paulotelesmatos-63412P@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-04 15:04:02,081 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Ramon Teixeira, 60958L, Lisboa, N/D, Inativo, N/D, N/D, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-04 15:04:02,088 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Raquel da Paz Lourenço, 61790L, Lisboa, Av da Liberdade, 229 - 4º, Activo, +351211388700, raquelpazlourenco-61790L@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-04 15:04:02,095 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Rodrigo Morais, 69435L, Lisboa, R das Avencas, 436 - 5º E - 5 E, Activo, +351912628209, rodrigo.morais-69435L@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-04 15:04:02,102 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Sónia Faria Rosa, 17260L, Lisboa, N/D, Inativo, N/D, N/D, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-04 15:04:02,108 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Sónia Isabel Dias, 20713L, Lisboa, N/D, Inativo, N/D, N/D, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-04 15:04:11,715 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-04 15:04:24,809 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Sónia Rute Jorge, 19427L, Lisboa, N/D, Inativo, N/D, N/D, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-04 15:04:24,816 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Steven Governo, 63522L, Lisboa, N/D, Inativo, N/D, N/D, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-04 15:04:24,822 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Susana Passos, 17426L, Lisboa, N/D, Inativo, N/D, N/D, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-04 15:04:24,829 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Telma Machado, 20141L, Lisboa, Hemiciclo João Paulo II, 12 – 2º Dto, Activo, +351967574948, telma.machado-20141l@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-04 15:04:24,835 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Vanda Cravo Mendes, 19276L, Lisboa, N/D, Inativo, N/D, N/D, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-04 15:04:24,842 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Vilma Ricardo Barata, 21010L, Lisboa, R Athilio Santini, 160 E - Sl 1, Activo, +351967342306, vilma.ricardo.barata-21010l@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-04 15:04:33,774 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-04 15:04:38,546 - ERROR - Tentativa 1 falhou: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.57)
+Stacktrace:
+	GetHandleVerifier [0x0x6c3763+63299]
+	GetHandleVerifier [0x0x6c37a4+63364]
+	(No symbol) [0x0x4f1113]
+	(No symbol) [0x0x4cff69]
+	(No symbol) [0x0x564fce]
+	(No symbol) [0x0x57f359]
+	(No symbol) [0x0x55e376]
+	(No symbol) [0x0x52d6e0]
+	(No symbol) [0x0x52e544]
+	GetHandleVerifier [0x0x91e033+2531347]
+	GetHandleVerifier [0x0x919332+2511634]
+	GetHandleVerifier [0x0x6e9eda+220858]
+	GetHandleVerifier [0x0x6da528+156936]
+	GetHandleVerifier [0x0x6e0c5d+183357]
+	GetHandleVerifier [0x0x6cb6c8+95912]
+	GetHandleVerifier [0x0x6cb870+96336]
+	GetHandleVerifier [0x0x6b664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-04 15:04:38,546 - ERROR - Erro ao processar página 7: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.57)
+Stacktrace:
+	GetHandleVerifier [0x0x6c3763+63299]
+	GetHandleVerifier [0x0x6c37a4+63364]
+	(No symbol) [0x0x4f1113]
+	(No symbol) [0x0x4cff69]
+	(No symbol) [0x0x564fce]
+	(No symbol) [0x0x57f359]
+	(No symbol) [0x0x55e376]
+	(No symbol) [0x0x52d6e0]
+	(No symbol) [0x0x52e544]
+	GetHandleVerifier [0x0x91e033+2531347]
+	GetHandleVerifier [0x0x919332+2511634]
+	GetHandleVerifier [0x0x6e9eda+220858]
+	GetHandleVerifier [0x0x6da528+156936]
+	GetHandleVerifier [0x0x6e0c5d+183357]
+	GetHandleVerifier [0x0x6cb6c8+95912]
+	GetHandleVerifier [0x0x6cb870+96336]
+	GetHandleVerifier [0x0x6b664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-04 15:04:38,547 - ERROR - Erro ao processar página 8: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.57)
+Stacktrace:
+	GetHandleVerifier [0x0x6c3763+63299]
+	GetHandleVerifier [0x0x6c37a4+63364]
+	(No symbol) [0x0x4f1113]
+	(No symbol) [0x0x4cff69]
+	(No symbol) [0x0x564fce]
+	(No symbol) [0x0x57f359]
+	(No symbol) [0x0x55e376]
+	(No symbol) [0x0x52d6e0]
+	(No symbol) [0x0x52e544]
+	GetHandleVerifier [0x0x91e033+2531347]
+	GetHandleVerifier [0x0x919332+2511634]
+	GetHandleVerifier [0x0x6e9eda+220858]
+	GetHandleVerifier [0x0x6da528+156936]
+	GetHandleVerifier [0x0x6e0c5d+183357]
+	GetHandleVerifier [0x0x6cb6c8+95912]
+	GetHandleVerifier [0x0x6cb870+96336]
+	GetHandleVerifier [0x0x6b664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-04 15:04:38,548 - ERROR - Erro ao processar página 9: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.57)
+Stacktrace:
+	GetHandleVerifier [0x0x6c3763+63299]
+	GetHandleVerifier [0x0x6c37a4+63364]
+	(No symbol) [0x0x4f1113]
+	(No symbol) [0x0x4cff69]
+	(No symbol) [0x0x564fce]
+	(No symbol) [0x0x57f359]
+	(No symbol) [0x0x55e376]
+	(No symbol) [0x0x52d6e0]
+	(No symbol) [0x0x52e544]
+	GetHandleVerifier [0x0x91e033+2531347]
+	GetHandleVerifier [0x0x919332+2511634]
+	GetHandleVerifier [0x0x6e9eda+220858]
+	GetHandleVerifier [0x0x6da528+156936]
+	GetHandleVerifier [0x0x6e0c5d+183357]
+	GetHandleVerifier [0x0x6cb6c8+95912]
+	GetHandleVerifier [0x0x6cb870+96336]
+	GetHandleVerifier [0x0x6b664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-04 15:04:38,549 - INFO - Dados salvos em CSV: dados_pesquisa-de-advogados_20250604_150438.csv
+2025-06-04 15:04:38,549 - INFO - coletar_advogados completado com 56 registros
+2025-06-04 15:04:38,551 - INFO - Iniciando: coletar_sociedades
+2025-06-04 15:04:38,551 - INFO - Iniciando scraping de sociedades de advogados...
+2025-06-04 15:04:38,552 - ERROR - Erro em coletar_sociedades: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.57)
+Stacktrace:
+	GetHandleVerifier [0x0x6c3763+63299]
+	GetHandleVerifier [0x0x6c37a4+63364]
+	(No symbol) [0x0x4f1113]
+	(No symbol) [0x0x4cff69]
+	(No symbol) [0x0x564fce]
+	(No symbol) [0x0x57f359]
+	(No symbol) [0x0x55e376]
+	(No symbol) [0x0x52d6e0]
+	(No symbol) [0x0x52e544]
+	GetHandleVerifier [0x0x91e033+2531347]
+	GetHandleVerifier [0x0x919332+2511634]
+	GetHandleVerifier [0x0x6e9eda+220858]
+	GetHandleVerifier [0x0x6da528+156936]
+	GetHandleVerifier [0x0x6e0c5d+183357]
+	GetHandleVerifier [0x0x6cb6c8+95912]
+	GetHandleVerifier [0x0x6cb870+96336]
+	GetHandleVerifier [0x0x6b664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-04 15:04:38,552 - INFO - Iniciando: coletar_estagiarios
+2025-06-04 15:04:38,552 - INFO - Iniciando scraping de estagiários...
+2025-06-04 15:04:38,554 - ERROR - Erro em coletar_estagiarios: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.57)
+Stacktrace:
+	GetHandleVerifier [0x0x6c3763+63299]
+	GetHandleVerifier [0x0x6c37a4+63364]
+	(No symbol) [0x0x4f1113]
+	(No symbol) [0x0x4cff69]
+	(No symbol) [0x0x564fce]
+	(No symbol) [0x0x57f359]
+	(No symbol) [0x0x55e376]
+	(No symbol) [0x0x52d6e0]
+	(No symbol) [0x0x52e544]
+	GetHandleVerifier [0x0x91e033+2531347]
+	GetHandleVerifier [0x0x919332+2511634]
+	GetHandleVerifier [0x0x6e9eda+220858]
+	GetHandleVerifier [0x0x6da528+156936]
+	GetHandleVerifier [0x0x6e0c5d+183357]
+	GetHandleVerifier [0x0x6cb6c8+95912]
+	GetHandleVerifier [0x0x6cb870+96336]
+	GetHandleVerifier [0x0x6b664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-04 15:04:38,554 - INFO - Iniciando: coletar_tribunais
+2025-06-04 15:04:38,554 - INFO - Iniciando scraping de tribunais...
+2025-06-04 15:04:38,555 - ERROR - Erro em coletar_tribunais: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.57)
+Stacktrace:
+	GetHandleVerifier [0x0x6c3763+63299]
+	GetHandleVerifier [0x0x6c37a4+63364]
+	(No symbol) [0x0x4f1113]
+	(No symbol) [0x0x4cff69]
+	(No symbol) [0x0x564fce]
+	(No symbol) [0x0x57f359]
+	(No symbol) [0x0x55e376]
+	(No symbol) [0x0x52d6e0]
+	(No symbol) [0x0x52e544]
+	GetHandleVerifier [0x0x91e033+2531347]
+	GetHandleVerifier [0x0x919332+2511634]
+	GetHandleVerifier [0x0x6e9eda+220858]
+	GetHandleVerifier [0x0x6da528+156936]
+	GetHandleVerifier [0x0x6e0c5d+183357]
+	GetHandleVerifier [0x0x6cb6c8+95912]
+	GetHandleVerifier [0x0x6cb870+96336]
+	GetHandleVerifier [0x0x6b664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-04 15:04:38,555 - INFO - Iniciando: coletar_julgados
+2025-06-04 15:04:38,555 - INFO - Iniciando scraping de julgados de paz...
+2025-06-04 15:04:38,555 - ERROR - Erro em coletar_julgados: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.57)
+Stacktrace:
+	GetHandleVerifier [0x0x6c3763+63299]
+	GetHandleVerifier [0x0x6c37a4+63364]
+	(No symbol) [0x0x4f1113]
+	(No symbol) [0x0x4cff69]
+	(No symbol) [0x0x564fce]
+	(No symbol) [0x0x57f359]
+	(No symbol) [0x0x55e376]
+	(No symbol) [0x0x52d6e0]
+	(No symbol) [0x0x52e544]
+	GetHandleVerifier [0x0x91e033+2531347]
+	GetHandleVerifier [0x0x919332+2511634]
+	GetHandleVerifier [0x0x6e9eda+220858]
+	GetHandleVerifier [0x0x6da528+156936]
+	GetHandleVerifier [0x0x6e0c5d+183357]
+	GetHandleVerifier [0x0x6cb6c8+95912]
+	GetHandleVerifier [0x0x6cb870+96336]
+	GetHandleVerifier [0x0x6b664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-04 15:04:38,555 - INFO - Iniciando: coletar_osae
+2025-06-04 15:04:38,566 - INFO - Iniciando scraping do OSAE...
+2025-06-04 15:04:38,566 - ERROR - Erro em coletar_osae: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.57)
+Stacktrace:
+	GetHandleVerifier [0x0x6c3763+63299]
+	GetHandleVerifier [0x0x6c37a4+63364]
+	(No symbol) [0x0x4f1113]
+	(No symbol) [0x0x4cff69]
+	(No symbol) [0x0x564fce]
+	(No symbol) [0x0x57f359]
+	(No symbol) [0x0x55e376]
+	(No symbol) [0x0x52d6e0]
+	(No symbol) [0x0x52e544]
+	GetHandleVerifier [0x0x91e033+2531347]
+	GetHandleVerifier [0x0x919332+2511634]
+	GetHandleVerifier [0x0x6e9eda+220858]
+	GetHandleVerifier [0x0x6da528+156936]
+	GetHandleVerifier [0x0x6e0c5d+183357]
+	GetHandleVerifier [0x0x6cb6c8+95912]
+	GetHandleVerifier [0x0x6cb870+96336]
+	GetHandleVerifier [0x0x6b664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-04 15:04:38,567 - INFO - Iniciando: coletar_advogados_angola
+2025-06-04 15:04:38,567 - INFO - Iniciando scraping de advogados de Angola...
+2025-06-04 15:04:38,567 - ERROR - Erro em coletar_advogados_angola: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.57)
+Stacktrace:
+	GetHandleVerifier [0x0x6c3763+63299]
+	GetHandleVerifier [0x0x6c37a4+63364]
+	(No symbol) [0x0x4f1113]
+	(No symbol) [0x0x4cff69]
+	(No symbol) [0x0x564fce]
+	(No symbol) [0x0x57f359]
+	(No symbol) [0x0x55e376]
+	(No symbol) [0x0x52d6e0]
+	(No symbol) [0x0x52e544]
+	GetHandleVerifier [0x0x91e033+2531347]
+	GetHandleVerifier [0x0x919332+2511634]
+	GetHandleVerifier [0x0x6e9eda+220858]
+	GetHandleVerifier [0x0x6da528+156936]
+	GetHandleVerifier [0x0x6e0c5d+183357]
+	GetHandleVerifier [0x0x6cb6c8+95912]
+	GetHandleVerifier [0x0x6cb870+96336]
+	GetHandleVerifier [0x0x6b664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-04 15:04:38,567 - INFO - Iniciando: coletar_camaras_municipais
+2025-06-04 15:04:38,567 - INFO - Iniciando scraping de câmaras municipais...
+2025-06-04 15:04:38,568 - ERROR - Erro em coletar_camaras_municipais: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.57)
+Stacktrace:
+	GetHandleVerifier [0x0x6c3763+63299]
+	GetHandleVerifier [0x0x6c37a4+63364]
+	(No symbol) [0x0x4f1113]
+	(No symbol) [0x0x4cff69]
+	(No symbol) [0x0x564fce]
+	(No symbol) [0x0x57f359]
+	(No symbol) [0x0x55e376]
+	(No symbol) [0x0x52d6e0]
+	(No symbol) [0x0x52e544]
+	GetHandleVerifier [0x0x91e033+2531347]
+	GetHandleVerifier [0x0x919332+2511634]
+	GetHandleVerifier [0x0x6e9eda+220858]
+	GetHandleVerifier [0x0x6da528+156936]
+	GetHandleVerifier [0x0x6e0c5d+183357]
+	GetHandleVerifier [0x0x6cb6c8+95912]
+	GetHandleVerifier [0x0x6cb870+96336]
+	GetHandleVerifier [0x0x6b664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-04 15:04:38,568 - INFO - Iniciando: coletar_atlas_cplp
+2025-06-04 15:04:38,568 - INFO - Iniciando scraping do Atlas CPLP...
+2025-06-04 15:04:38,569 - ERROR - Erro em coletar_atlas_cplp: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.57)
+Stacktrace:
+	GetHandleVerifier [0x0x6c3763+63299]
+	GetHandleVerifier [0x0x6c37a4+63364]
+	(No symbol) [0x0x4f1113]
+	(No symbol) [0x0x4cff69]
+	(No symbol) [0x0x564fce]
+	(No symbol) [0x0x57f359]
+	(No symbol) [0x0x55e376]
+	(No symbol) [0x0x52d6e0]
+	(No symbol) [0x0x52e544]
+	GetHandleVerifier [0x0x91e033+2531347]
+	GetHandleVerifier [0x0x919332+2511634]
+	GetHandleVerifier [0x0x6e9eda+220858]
+	GetHandleVerifier [0x0x6da528+156936]
+	GetHandleVerifier [0x0x6e0c5d+183357]
+	GetHandleVerifier [0x0x6cb6c8+95912]
+	GetHandleVerifier [0x0x6cb870+96336]
+	GetHandleVerifier [0x0x6b664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-04 15:04:38,570 - INFO - Dados salvos em CSV: todos_dados_20250604_150438.csv
+2025-06-04 15:04:38,582 - INFO - Todos os dados salvos em CSV com timestamp: 20250604_150438
+2025-06-04 15:04:38,582 - INFO - Conexão com o banco de dados fechada.
+2025-06-04 15:04:40,674 - INFO - Navegador fechado.

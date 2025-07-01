@@ -1,0 +1,15 @@
+2025-06-06 16:30:33,750 - INFO - Iniciando o script de scraping...
+2025-06-06 16:30:33,759 - INFO - Conexão com o banco de dados estabelecida!
+2025-06-06 16:30:33,759 - INFO - Tabela 'advogados' verificada/criada com sucesso!
+2025-06-06 16:30:33,759 - INFO - Tabela 'sociedades' verificada/criada com sucesso!
+2025-06-06 16:30:33,760 - INFO - Tabela 'estagiarios' verificada/criada com sucesso!
+2025-06-06 16:30:33,760 - INFO - ====== WebDriver manager ======
+2025-06-06 16:30:34,672 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-06 16:30:34,708 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-06 16:30:34,754 - INFO - Driver [C:\Users\david\.wdm\drivers\chromedriver\win64\137.0.7151.68\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-06 16:30:35,904 - INFO - Iniciando: coletar_advogados_lisboa
+2025-06-06 16:30:35,904 - INFO - Iniciando scraping de advogados...
+2025-06-06 16:31:04,800 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'Uma ligação existente foi forçada a fechar pelo anfitrião remoto', None, 10054, None)': /session/e1696ebd7e914cd592e51ae2a6fa909e
+2025-06-06 16:31:08,911 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023CAB944080>: Failed to establish a new connection: [WinError 10061] Nenhuma ligação pôde ser feita porque o computador de destino\r\nas recusou ativamente')': /session/e1696ebd7e914cd592e51ae2a6fa909e
+2025-06-06 16:31:12,991 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000023CAF2E5940>: Failed to establish a new connection: [WinError 10061] Nenhuma ligação pôde ser feita porque o computador de destino\r\nas recusou ativamente')': /session/e1696ebd7e914cd592e51ae2a6fa909e
+2025-06-06 16:31:17,067 - INFO - Conexão com o banco de dados fechada.

@@ -1,0 +1,308 @@
+2025-06-09 20:52:58,535 - INFO - Iniciando o script de scraping...
+2025-06-09 20:52:58,611 - INFO - Conexão com o banco de dados estabelecida!
+2025-06-09 20:52:58,692 - INFO - Tabela 'advogados' recriada com sucesso!
+2025-06-09 20:52:58,692 - INFO - Tabela 'sociedades' verificada/criada com sucesso!
+2025-06-09 20:52:58,692 - INFO - Tabela 'estagiarios' verificada/criada com sucesso!
+2025-06-09 20:52:58,693 - INFO - Tabela 'agentes_execucao' verificada/criada com sucesso!
+2025-06-09 20:52:58,693 - INFO - ====== WebDriver manager ======
+2025-06-09 20:52:59,765 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-09 20:52:59,834 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-09 20:52:59,870 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-09 20:52:59,968 - INFO - WebDriver version 137.0.7151.68 selected
+2025-06-09 20:52:59,970 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/137.0.7151.68/win32/chromedriver-win32.zip
+2025-06-09 20:52:59,970 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/137.0.7151.68/win32/chromedriver-win32.zip
+2025-06-09 20:53:00,064 - INFO - Driver downloading response is 200
+2025-06-09 20:53:00,253 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-09 20:53:00,556 - INFO - Driver has been saved in cache [C:\Users\david\.wdm\drivers\chromedriver\win64\137.0.7151.68]
+2025-06-09 20:53:03,032 - INFO - Iniciando: coletar_advogados_lisboa
+2025-06-09 20:53:03,032 - INFO - Iniciando scraping de advogados...
+2025-06-09 20:54:02,721 - WARNING - Erro ao marcar 'Apenas Ativos' (continuando sem marcar): Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xe83763+63299]
+	GetHandleVerifier [0x0xe837a4+63364]
+	(No symbol) [0x0xcb1113]
+	(No symbol) [0x0xcf987e]
+	(No symbol) [0x0xcf9c1b]
+	(No symbol) [0x0xd42212]
+	(No symbol) [0x0xd1e5c4]
+	(No symbol) [0x0xd3fa4a]
+	(No symbol) [0x0xd1e376]
+	(No symbol) [0x0xced6e0]
+	(No symbol) [0x0xcee544]
+	GetHandleVerifier [0x0x10de033+2531347]
+	GetHandleVerifier [0x0x10d9332+2511634]
+	GetHandleVerifier [0x0xea9eda+220858]
+	GetHandleVerifier [0x0xe9a528+156936]
+	GetHandleVerifier [0x0xea0c5d+183357]
+	GetHandleVerifier [0x0xe8b6c8+95912]
+	GetHandleVerifier [0x0xe8b870+96336]
+	GetHandleVerifier [0x0xe7664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-09 20:54:12,966 - WARNING - Erro ao clicar no botão de pesquisa: Message: 
+
+2025-06-09 20:54:12,973 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-09 20:54:26,960 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Alenuska Nunes, 47177L, Lisboa, Av Antonio Augusto Aguiar, 27 - RC -, Activo, alenuskateixeira-47177L@adv.oa.pt, N/D, advogado, LISBOA, 1050-012 LISBOA, +351910556262, 05-03-2009, N/D)
+        
+2025-06-09 20:54:26,984 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Amanda Masello, 66424L, Lisboa, Estr Fonte Boa dos Nabos, Bl A - 2º Esq - Edf Alto das Pretas, Activo, amandamasello-66424L@adv.oa.pt, N/D, advogado, ERICEIRA, 2655-205 ERICEIRA, N/D, 10-08-2022, N/D)
+        
+2025-06-09 20:54:26,990 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Ana Cristina Almeida, 18217L, Lisboa, Pct Teixeira Gomes, 5 - RC Dto, Activo, anacristinaalmeida-18217l@adv.oa.pt, N/D, advogado, AMADORA, 2700-801 AMADORA, +351214910611, 22-10-2002, N/D)
+        
+2025-06-09 20:54:27,003 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Ângela Viana, 49754L, Lisboa, R Castilho, 75 - 1º Dto, Activo, av-49754L@adv.oa.pt, N/D, advogado, LISBOA, 1250-068 LISBOA, +351213182850, 02-03-2011, N/D)
+        
+2025-06-09 20:54:27,014 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Anita Borges Gonçalves, 14472L, Lisboa, R José Vitoriano, 10 - 2º Esq, Activo, anitaborgesgoncalves-14472l@adv.oa.pt, N/D, advogado, ALMADA, 2810-262 ALMADA, +351936604623, 14-04-1998, N/D)
+        
+2025-06-09 20:54:27,022 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (António Gonçalves, 11365L, Lisboa, R Hermano Neves, 18 - Piso 3, Escr 7 -  V4016, Activo, ag@mrgladvogados.com, N/D, advogado, LISBOA, 1600-477 LISBOA, +351936032700, 08-08-1994, N/D)
+        
+2025-06-09 20:54:27,029 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Carla Soares Machado, 1581E, Lisboa, Zona Envolvente à Praça de Touros, 8 - LJ,  Rc Dto, Activo, carlasoaresmachado-1581e@adv.oa.pt, N/D, advogado, MOITA, 2860-423 MOITA, +351919891815, 04-04-2002, N/D)
+        
+2025-06-09 20:54:27,035 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Carla Vieira Mesquita, 13594L, Lisboa, Av 5 de Outubro, 70 - 6º, Activo, vieiramesquita-13594l@adv.oa.pt, N/D, advogado, LISBOA, 1050-059 LISBOA, +351210 539 830, 04-03-1997, N/D)
+        
+2025-06-09 20:54:27,044 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Carolina Biagini, 60056L, Lisboa, Av do Mar, 29 - 3º C, Activo, carolina-60056L@adv.oa.pt, N/D, advogado, COSTA DE CAPARICA, 2825-477 COSTA DE CAPARICA, N/D, 05-12-2018, N/D)
+        
+2025-06-09 20:54:27,050 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Catarina Almeida Andrade, 61297L, Lisboa, R Castilho, 165, Activo, catarinaalmeidaandrade-61297L@adv.oa.pt, N/D, advogado, LISBOA, 1070-050 LISBOA, +351+351 213 817 400, 03-09-2019, N/D)
+        
+2025-06-09 20:54:40,135 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-09 20:54:54,796 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Cecília Oliveira do Amaral, 16616L, Lisboa, Lg dos Condes da Ericeira, 18 - 1º Dto, Activo, cecilia.amaral@hotmail.com, N/D, advogado, ERICEIRA, 2655-272 ERICEIRA, +351919102913, 16-02-2001, N/D)
+        
+2025-06-09 20:54:54,808 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Célia Cunha, 15868L, Lisboa, Av Marquês de Tomar, 44 - 3º, Activo, cm.cunha-15868l@adv.oa.pt, N/D, advogado, LISBOA, 1050-156 LISBOA, +351213849070, 21-03-2000, N/D)
+        
+2025-06-09 20:54:54,816 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (David Valente, 7696L, Lisboa, Av Miguel Bombarda, 21 - 4º Esq, Activo, davidvalente-7696l@adv.oa.pt, N/D, advogado, LISBOA, 1050-161 LISBOA, +351213851893, 03-11-1988, N/D)
+        
+2025-06-09 20:54:54,823 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Fábio Fernandez, 61186L, Lisboa, R Afonso Domingues, 8 - RC D, Activo, fabio.fernandez-61186L@adv.oa.pt, N/D, advogado, ALHOS VEDROS, 2860-039 ALHOS VEDROS, +351912449421, 22-08-2019, N/D)
+        
+2025-06-09 20:54:54,840 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Fernanda de Almeida Pinheiro, 18006L, Lisboa, Av Visconde Valmor, 41 - 2º Esq, Activo, fernandapinheiro-18006l@adv.oa.pt, N/D, advogado, LISBOA, 1050-237 LISBOA, +351217800280, 05-08-2002, N/D)
+        
+2025-06-09 20:54:54,847 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Fernando Arrobas da Silva, 6237L, Lisboa, Av EUA, 60 - 8º Dto, Activo, fernandoarrobas@hotmail.com, N/D, advogado, LISBOA, 1700-177 LISBOA, +351912004142, 20-07-1985, N/D)
+        
+2025-06-09 20:54:54,857 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Filomena Diogo, 8466L, Lisboa, R Alexandre Herculano, 2 - 3º Dto, Activo, filomena.diogo-8466l@adv.oa.pt, N/D, advogado, LISBOA, 1150-006 LISBOA, +351213121050, 22-02-1990, N/D)
+        
+2025-06-09 20:54:54,863 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Gonçalo Maleitas Correa, 10950L, Lisboa, R Rodrigo da Fonseca, 75 - RC Esq, Activo, goncalomcorrea@yahoo.com, N/D, advogado, LISBOA, 1250-190 LISBOA, +351919354226, 31-01-1994, N/D)
+        
+2025-06-09 20:54:54,871 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Gonçalo Roquette, 9460L, Lisboa, R Castilho, 75 - 6º Esq, Activo, goncalo.roquette-9460l@adv.oa.pt, N/D, advogado, LISBOA, 1250-068 LISBOA, +351213826000, 15-10-1991, N/D)
+        
+2025-06-09 20:54:54,878 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Inês de Sá, 20662L, Lisboa, R Garrett, 64, Activo, IS@SERVULO.COM, N/D, advogado, LISBOA, 1200-204 LISBOA, +351210933000, 03-03-2005, N/D)
+        
+2025-06-09 20:55:07,821 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-09 20:55:22,540 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Inês Montalvo, 49758L, Lisboa, Av da República, 56 - 6º Dto, Activo, inesmontalvo-49758L@adv.oa.pt, N/D, advogado, LISBOA, 1050-196 LISBOA, N/D, 02-03-2011, N/D)
+        
+2025-06-09 20:55:22,546 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Inês Tomé Pinheiro, 58041L, Lisboa, R Castilho, 71 - 2º Esq, Activo, inestp-58041L@adv.oa.pt, N/D, advogado, LISBOA, 1050-068 LISBOA, +351213513380, 14-11-2017, N/D)
+        
+2025-06-09 20:55:22,553 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (João André Antunes, 47936L, Lisboa, Av Miguel Bombarda, 4 - 1º  - MB4, Activo, joaoantunes-47936L@adv.oa.pt, N/D, advogado, LISBOA, 1000-208 LISBOA, +351+351 21 313 88 00, 11-08-2009, N/D)
+        
+2025-06-09 20:55:22,559 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (João Dias Neves, 12667L, Lisboa, Av da Quinta Grande, 22 - Lj 13, Activo, joaovdiasneves@gmail.com, N/D, advogado, AMADORA, 2610-161 AMADORA, +351910761082, 11-01-1996, N/D)
+        
+2025-06-09 20:55:22,566 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Joaquim Sabino Rogério, 2342C, Lisboa, Av da República, 44 - 2º Dto, Activo, jsrogerio-2342c@adv.oa.pt, N/D, advogado, LISBOA, 1050-194 LISBOA, +351217950555, 12-09-1989, N/D)
+        
+2025-06-09 20:55:22,577 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Jorge Gameiro Pereira, 49287L, Lisboa, R Mário Eloy, 5 - Piso 0 - C, Activo, jorgegameiropereira-49287L@adv.oa.pt, N/D, advogado, LISBOA, 1750-322 LISBOA, +351+351215980276, 08-10-2010, N/D)
+        
+2025-06-09 20:55:22,588 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (José Almeida Gama, 51692L, Lisboa, R José Estevão, 133 - 4º, Activo, josegamaadvogado@gmail.com, N/D, advogado, LISBOA, 1150-201 LISBOA, +351213524258, 14-01-2013, N/D)
+        
+2025-06-09 20:55:22,594 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (José Paulo Dias, 12408L, Lisboa, Av Clotilde, 3º A - Edf C de Congressos do Estoril, Activo, josepaulodias-12408l@adv.oa.pt, N/D, advogado, ESTORIL, 2765-211 ESTORIL, +351917244501, 07-11-1995, N/D)
+        
+2025-06-09 20:55:22,601 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Júlia Taddei, 56318L, Lisboa, R Castilho, 39 - 12º B - Edf Castil, Activo, juliataddei-56318L@adv.oa.pt, N/D, advogado, LISBOA, 1250-068 LISBOA, +351213875702, 16-12-2016, N/D)
+        
+2025-06-09 20:55:22,607 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Liliam Silva, 62290L, Lisboa, R 5 de Outubro, 31, Activo, liliamsilva-62290L@adv.oa.pt, N/D, advogado, BAIXA DA BANHEIRA, 2835-077 BAIXA DA BANHEIRA, +351218273082, 11-02-2020, N/D)
+        
+2025-06-09 20:55:39,309 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-09 20:55:54,425 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Lina Briosa, 1330E, Lisboa, Av dos Combatentes, 43 - 13º -, Activo, briosa-1330e@adv.oa.pt, N/D, advogado, LISBOA, 1643-001 LISBOA, +351961704720, 24-11-1999, N/D)
+        
+2025-06-09 20:55:54,432 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Lurdes Barreira, 9369L, Lisboa, Av dos Combatentes, 43 - 14º  - Edifício Green Park, Activo, lurdes-barreira-9369L@adv.oa.pt, N/D, advogado, LISBOA, 1600-042 LISBOA, +351961704670, 15-10-1991, N/D)
+        
+2025-06-09 20:55:54,438 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Manuel Eduardo Gonçalves, 19046L, Lisboa, Avª João Crisóstomo, 41-2º, Activo, manueleduardogoncalves-19046l@adv.oa.pt, N/D, advogado, LISBOA, 1050-125 LISBOA, +351213582708;213582709, 27-06-2003, N/D)
+        
+2025-06-09 20:55:54,444 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Margarida Durão, 70035L, Lisboa, Av da República, 25 - 1º, Activo, margarida.durao-70035L@adv.oa.pt, N/D, advogado, LISBOA, 1050-186 LISBOA, +351213821200, 17-09-2024, N/D)
+        
+2025-06-09 20:55:54,450 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Marques Mendes, 3976L, Lisboa, Av Duque de Ávila, 46 - 6º, Activo, mmm_mma-3976l@adv.oa.pt, N/D, advogado, LISBOA, 1050-083 LISBOA, +351213408600, 26-05-1978, N/D)
+        
+2025-06-09 20:55:54,456 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Marvinda Isabel Pereira, 69872L, Lisboa, R Marquês da Fronteira, 115 - 2º Esq, Activo, marvinda.pereira-69872L@adv.oa.pt, N/D, advogado, LISBOA, 1070-292 LISBOA, +351213197400, 22-05-2024, N/D)
+        
+2025-06-09 20:55:54,468 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Matheus Volani, 62666L, Lisboa, Pc Dq de Saldanha, 1 - Piso 7 - Edf Atrium Saldanha, Activo, matheusvolani-62666L@adv.oa.pt, N/D, advogado, LISBOA, 1050-094 LISBOA, +351916657190, 19-05-2020, N/D)
+        
+2025-06-09 20:55:54,478 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Miguel Ângelo Lopes, 18432L, Lisboa, R Pe Francisco Alvares, 28 - 1º A Dto, Activo, miguellopes-18432l@adv.oa.pt, N/D, advogado, LISBOA, 1500-478 LISBOA, +351217264523, 19-11-2002, N/D)
+        
+2025-06-09 20:55:54,485 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Najara Ruiz, 67313L, Lisboa, Av Cons Fernando de Sousa, 19 - 15º, Activo, N/D, N/D, advogado, LISBOA, 1070-072 LISBOA, +351214046850, 23-11-2022, N/D)
+        
+2025-06-09 20:55:54,496 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Narlla Tito, 69456L, Lisboa, R Guilherme Gomes Fernandes, 19 - 1º Dto, Activo, narllatito-69456L@adv.oa.pt, N/D, advogado, ODIVELAS, 2675-370 ODIVELAS, N/D, 20-10-2023, N/D)
+        
+2025-06-09 20:56:06,883 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-09 20:56:20,185 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Nuno Mota de Campos, 15626L, Lisboa, Av António Augusto de Aguiar, 118 - 2º, Activo, nunomotadecampos-15626L@adv.oa.pt, N/D, advogado, LISBOA, 1050-019 LISBOA, N/D, 17-12-1999, N/D)
+        
+2025-06-09 20:56:20,192 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Octávio Alberto, 45376L, Lisboa, Tv da República, 2 - Sarge, Activo, octalberto-45376L@adv.oa.pt, N/D, advogado, TORRES VEDRAS, 2560-592 TORRES VEDRAS, +351962333389, 10-07-2007, N/D)
+        
+2025-06-09 20:56:20,203 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Paulo de Jesus Correia, 16425L, Lisboa, R D João V, 2 - 5º Dto, Activo, paulo.correia-16425L@adv.oa.pt, N/D, advogado, LISBOA, 1250-090 LISBOA, +351212409961, 28-12-2000, N/D)
+        
+2025-06-09 20:56:20,214 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Pedro Gonçalves Paes, 17847L, Lisboa, R Bernardo Lima, 3, Activo, pedro-gpaes-17847l@adv.oa.pt, N/D, advogado, LISBOA, 1150-074 LISBOA, +351213566400, 20-06-2002, N/D)
+        
+2025-06-09 20:56:20,220 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Pedro Sena Marcos, 21446L, Lisboa, R Tierno Galvan,  Nº 10 (Torre 3), Piso 2,  Nº 201, Activo, pedrosenamarcos-21446l@adv.oa.pt, N/D, advogado, LISBOA, 1070-274 LISBOA, +351213812690, 12-10-2005, N/D)
+        
+2025-06-09 20:56:20,226 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Priscilla Vidal Frederighi, 65401L, Lisboa, R Arriaga, 1 - 1º, Activo, frederighi.law-65401L@adv.oa.pt, N/D, advogado, LISBOA, 1200-608 LISBOA, N/D, 22-03-2022, N/D)
+        
+2025-06-09 20:56:20,233 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Raquel Famorosa, 67702L, Lisboa, Av da República, 48 - 3º, Activo, rfamorosa-67702L@adv.oa.pt, N/D, advogado, LISBOA, 1050-195 LISBOA, +351935543839, 29-03-2023, N/D)
+        
+2025-06-09 20:56:20,239 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Raquel Maurício, 52724L, Lisboa, R Castilho, 165, Activo, raquel.mauricio-52724L@adv.oa.pt, N/D, advogado, LISBOA, 1070-050 LISBOA, +351213817409, 14-11-2013, N/D)
+        
+2025-06-09 20:56:20,246 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Raquel Silva Simões, 70562L, Lisboa, Av Sidónio Pais, 24 - 3º Esq, Activo, raquel.simoes-70562L@adv.oa.pt, N/D, advogado, LISBOA, 1050-215 LISBOA, +351910921617, 12-11-2024, N/D)
+        
+2025-06-09 20:56:20,253 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Ricardo Neto Galvão, 52620L, Lisboa, R Castilho, 165, Activo, rngalvao@mlgts.pt, N/D, advogado, LISBOA, 1070-050 LISBOA, +351+351210050574, 08-11-2013, N/D)
+        
+2025-06-09 20:56:34,771 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-09 20:56:48,511 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Rui Diniz Miquelis, 61641P, Lisboa, R D Luís I, 28, Activo, rui.miquelis-61641P@adv.oa.pt, N/D, advogado, LISBOA, 1200-151 LISBOA, +351213113400, 23-09-2019, N/D)
+        
+2025-06-09 20:56:48,518 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Rui Miguel de Sousa, 70484L, Lisboa, Estr Nacional 249-1, Activo, ruisousa-70484L@adv.oa.pt, N/D, advogado, AMADORA, 2720-413 AMADORA, +351964507869, 30-10-2024, N/D)
+        
+2025-06-09 20:56:48,525 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Rui Sobral Costa, 3443L, Lisboa, R Saraiva de Carvalho, 147 - 5º D, Activo, ruiscosta-3443l@adv.oa.pt, N/D, advogado, LISBOA, 1350-300 LISBOA, +351213952615, 19-12-1975, N/D)
+        
+2025-06-09 20:56:48,531 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Tiago Albuquerque, 54200L, Lisboa, R Marquês de Fronteira, 113 - 1º, Activo, tiago.albuquerque-54200L@adv.oa.pt, N/D, advogado, LISBOA, 1070-292 LISBOA, +351213826200, 12-05-2015, N/D)
+        
+2025-06-09 20:56:48,538 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Vera C Miranda, 13833L, Lisboa, Av Miguel Bombarda, 8 F, Activo, vera.c.miranda-13833l@adv.oa.pt, N/D, advogado, OEIRAS, 2780-343 OEIRAS, +351937037666, 30-09-1997, N/D)
+        
+2025-06-09 20:56:48,545 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Victor Alves Coelho, 5927L, Lisboa, R Castilho, 32 - 5º Piso, Activo, victor.a.coelho-5927l@adv.oa.pt, N/D, advogado, LISBOA, 1250-070 LISBOA, +351213147103, 13-08-1984, N/D)
+        
+2025-06-09 20:56:48,557 - INFO - Dados salvos em CSV: dados_pesquisa-de-advogados_20250609_205648.csv
+2025-06-09 20:56:48,557 - INFO - coletar_advogados_lisboa completado com 56 registros
+2025-06-09 20:56:48,557 - INFO - Iniciando: coletar_advogados_porto
+2025-06-09 20:56:48,557 - INFO - Iniciando scraping de advogados...
+2025-06-09 20:57:06,521 - WARNING - Erro ao marcar 'Apenas Ativos' (continuando sem marcar): Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xe83763+63299]
+	GetHandleVerifier [0x0xe837a4+63364]
+	(No symbol) [0x0xcb1113]
+	(No symbol) [0x0xcf987e]
+	(No symbol) [0x0xcf9c1b]
+	(No symbol) [0x0xd42212]
+	(No symbol) [0x0xd1e5c4]
+	(No symbol) [0x0xd3fa4a]
+	(No symbol) [0x0xd1e376]
+	(No symbol) [0x0xced6e0]
+	(No symbol) [0x0xcee544]
+	GetHandleVerifier [0x0x10de033+2531347]
+	GetHandleVerifier [0x0x10d9332+2511634]
+	GetHandleVerifier [0x0xea9eda+220858]
+	GetHandleVerifier [0x0xe9a528+156936]
+	GetHandleVerifier [0x0xea0c5d+183357]
+	GetHandleVerifier [0x0xe8b6c8+95912]
+	GetHandleVerifier [0x0xe8b870+96336]
+	GetHandleVerifier [0x0xe7664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-09 20:57:16,802 - WARNING - Erro ao clicar no botão de pesquisa: Message: 
+
+2025-06-09 20:57:16,810 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-09 20:57:17,687 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'Uma ligação existente foi forçada a fechar pelo anfitrião remoto', None, 10054, None)': /session/43a4f561cc7dc16c2fb8f91091216e82

@@ -1,0 +1,77 @@
+2025-06-11 01:10:37,886 - INFO - Iniciando o script de scraping...
+2025-06-11 01:10:37,894 - INFO - Conexão com o banco de dados estabelecida!
+2025-06-11 01:10:37,895 - INFO - Tabela 'advogados' verificada/recriada com sucesso!
+2025-06-11 01:10:37,895 - INFO - Tabela 'sociedades' verificada/criada com sucesso!
+2025-06-11 01:10:37,895 - INFO - Tabela 'estagiarios' verificada/criada com sucesso!
+2025-06-11 01:10:37,895 - INFO - Tabela 'agentes_execucao' verificada/criada com sucesso!
+2025-06-11 01:10:37,895 - INFO - ====== WebDriver manager ======
+2025-06-11 01:10:38,722 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-11 01:10:38,756 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-11 01:10:38,789 - INFO - Driver [C:\Users\david\.wdm\drivers\chromedriver\win64\137.0.7151.70\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-11 01:10:39,944 - INFO - Iniciando: coletar_tribunais
+2025-06-11 01:10:39,944 - INFO - Iniciando scraping de tribunais...
+2025-06-11 01:11:17,493 - ERROR - Timeout ao esperar pela opção selecionada Abrantes no dropdown: Message: 
+
+2025-06-11 01:11:47,791 - ERROR - Timeout ao esperar pela opção selecionada Águeda no dropdown: Message: 
+
+2025-06-11 01:12:18,121 - ERROR - Timeout ao esperar pela opção selecionada Albergaria-a-Velha no dropdown: Message: 
+
+2025-06-11 01:12:48,262 - ERROR - Timeout ao esperar pela opção selecionada Albufeira no dropdown: Message: 
+
+2025-06-11 01:13:18,398 - ERROR - Timeout ao esperar pela opção selecionada Alcobaça no dropdown: Message: 
+
+2025-06-11 01:13:48,567 - ERROR - Timeout ao esperar pela opção selecionada Alenquer no dropdown: Message: 
+
+2025-06-11 01:14:19,009 - ERROR - Timeout ao esperar pela opção selecionada Alijó no dropdown: Message: 
+
+2025-06-11 01:14:39,225 - ERROR - Erro ao carregar página de tribunais: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x9708a0]
+	(No symbol) [0x0x98e8c2]
+	(No symbol) [0x0x9f519c]
+	(No symbol) [0x0xa0f359]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 01:14:39,440 - ERROR - Erro em coletar_tribunais: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x980f70]
+	(No symbol) [0x0x9bc9a8]
+	(No symbol) [0x0x9ee436]
+	(No symbol) [0x0x9e9f05]
+	(No symbol) [0x0x9e9486]
+	(No symbol) [0x0x953a05]
+	(No symbol) [0x0x953f5e]
+	(No symbol) [0x0x9543ed]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	(No symbol) [0x0x9536d0]
+	(No symbol) [0x0x952edd]
+	GetHandleVerifier [0x0xee7f1c+3817180]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 01:14:41,507 - INFO - Conexão com o banco de dados fechada.

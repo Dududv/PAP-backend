@@ -1,0 +1,619 @@
+2025-06-06 16:06:38,835 - INFO - Iniciando o script de scraping...
+2025-06-06 16:06:38,846 - INFO - Conexão com o banco de dados estabelecida!
+2025-06-06 16:06:38,847 - INFO - Tabela 'advogados' verificada/criada com sucesso!
+2025-06-06 16:06:38,847 - INFO - Tabela 'sociedades' verificada/criada com sucesso!
+2025-06-06 16:06:38,847 - INFO - Tabela 'estagiarios' verificada/criada com sucesso!
+2025-06-06 16:06:38,847 - INFO - ====== WebDriver manager ======
+2025-06-06 16:06:39,904 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-06 16:06:39,941 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-06 16:06:39,976 - INFO - Driver [C:\Users\david\.wdm\drivers\chromedriver\win64\137.0.7151.68\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-06 16:06:41,146 - INFO - Iniciando: coletar_estagiarios_lisboa
+2025-06-06 16:06:41,146 - INFO - Iniciando scraping de estagiários...
+2025-06-06 16:07:01,434 - ERROR - Erro ao clicar no botão de pesquisa para https://portal.oa.pt/advogados/pesquisa-de-advogados-estagiarios/?cg=L&ce=&n=&lo=&m=&cp=&a=on&op=&o=0: Message: 
+
+2025-06-06 16:07:01,440 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-06 16:07:13,062 - INFO - Executando query: 
+            INSERT INTO estagiarios 
+            (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, data_inscricao, telefone, fax)
+            VALUES 
+            (Adelina Ormonde Santos, 44038L, Lisboa, Pc Bernardino Machado, 11 B, Activo, adelina.ormonde-44038L@adv-est.oa.pt, N/D, advogado, LISBOA, 1750-042 LISBOA, +351218050671, N/D, N/D)
+        
+2025-06-06 16:07:13,069 - INFO - Estagiário Adelina Ormonde Santos inserido com sucesso!
+2025-06-06 16:07:13,069 - INFO - Executando query: 
+            INSERT INTO estagiarios 
+            (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, data_inscricao, telefone, fax)
+            VALUES 
+            (Adriana Carvalho Barroso, 49472L, Lisboa, R Cidade Nova Lisboa, 11, Activo, adrianacarvalhobarroso-49472L@adv-est.oa.pt, N/D, advogado, LISBOA, 1800-107 LISBOA, +351218539632, N/D, N/D)
+        
+2025-06-06 16:07:13,080 - INFO - Estagiário Adriana Carvalho Barroso inserido com sucesso!
+2025-06-06 16:07:13,081 - INFO - Executando query: 
+            INSERT INTO estagiarios 
+            (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, data_inscricao, telefone, fax)
+            VALUES 
+            (Afonso Almeida Luís, 51257L, Lisboa, R Alexandre Herculano, 38 - 4º, Activo, afonso.almeida.luis-51257L@adv-est.oa.pt, N/D, advogado, LISBOA, 1250-011 LISBOA, +351211390139, N/D, N/D)
+        
+2025-06-06 16:07:13,086 - INFO - Estagiário Afonso Almeida Luís inserido com sucesso!
+2025-06-06 16:07:13,087 - INFO - Executando query: 
+            INSERT INTO estagiarios 
+            (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, data_inscricao, telefone, fax)
+            VALUES 
+            (Afonso Boavida, 51122L, Lisboa, Av Visconde Valmor, 31, Activo, afonso.boavida-51122L@adv-est.oa.pt, N/D, advogado, LISBOA, 1050-237 LISBOA, +351+351 21 096 2777, N/D, N/D)
+        
+2025-06-06 16:07:13,092 - INFO - Estagiário Afonso Boavida inserido com sucesso!
+2025-06-06 16:07:13,092 - INFO - Executando query: 
+            INSERT INTO estagiarios 
+            (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, data_inscricao, telefone, fax)
+            VALUES 
+            (Afonso Borges da Costa, 50620L, Lisboa, Av Álvares Cabral, 61-4º Dto, Activo, afonsoborgesdacosta-50620L@adv-est.oa.pt, N/D, advogado, LISBOA, 1250-017 LISBOA, +351213911040, N/D, N/D)
+        
+2025-06-06 16:07:13,099 - INFO - Estagiário Afonso Borges da Costa inserido com sucesso!
+2025-06-06 16:07:13,100 - INFO - Executando query: 
+            INSERT INTO estagiarios 
+            (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, data_inscricao, telefone, fax)
+            VALUES 
+            (Afonso Costa Gomes, 51341L, Lisboa, Av da Liberdade, 110 - 6º, Activo, afonsocostagomes-51341L@adv-est.oa.pt, N/D, advogado, LISBOA, 1250-146 LISBOA, +351213264747, N/D, N/D)
+        
+2025-06-06 16:07:13,107 - INFO - Estagiário Afonso Costa Gomes inserido com sucesso!
+2025-06-06 16:07:13,107 - INFO - Executando query: 
+            INSERT INTO estagiarios 
+            (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, data_inscricao, telefone, fax)
+            VALUES 
+            (Afonso Cunha Somsen, 51118L, Lisboa, Av João Crisóstomo, 31 - 4º A, Activo, afonsosomsen-51118L@adv-est.oa.pt, N/D, advogado, LISBOA, 1050-125 LISBOA, +351211 386 065, N/D, N/D)
+        
+2025-06-06 16:07:13,113 - INFO - Estagiário Afonso Cunha Somsen inserido com sucesso!
+2025-06-06 16:07:13,113 - INFO - Executando query: 
+            INSERT INTO estagiarios 
+            (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, data_inscricao, telefone, fax)
+            VALUES 
+            (Afonso de Gândara Gomes, 50698L, Lisboa, R Marquês da Fronteira,  111 - Rc  Esq, Activo, afonsodegandaragomes-50698L@adv-est.oa.pt, N/D, advogado, LISBOA, 1070-292 LISBOA, +351213845520, N/D, N/D)
+        
+2025-06-06 16:07:13,120 - INFO - Estagiário Afonso de Gândara Gomes inserido com sucesso!
+2025-06-06 16:07:13,120 - INFO - Executando query: 
+            INSERT INTO estagiarios 
+            (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, data_inscricao, telefone, fax)
+            VALUES 
+            (Afonso Marques, 51020L, Lisboa, Doca de Alcântara Norte - Edifício Diogo Cão, Activo, afonsomarques-51020L@adv-est.oa.pt, N/D, advogado, LISBOA, 1350-352 LISBOA, +351213223590, N/D, N/D)
+        
+2025-06-06 16:07:13,126 - INFO - Estagiário Afonso Marques inserido com sucesso!
+2025-06-06 16:07:13,127 - INFO - Executando query: 
+            INSERT INTO estagiarios 
+            (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, data_inscricao, telefone, fax)
+            VALUES 
+            (Afonso Santos de Carvalho, 50944L, Lisboa, Doca de Alcântara Norte - Edf Diogo Cão, Activo, afonsosantosdecarvalho-50944L@adv-est.oa.pt, N/D, advogado, LISBOA, 1350-352 LISBOA, +351213223590, N/D, N/D)
+        
+2025-06-06 16:07:13,132 - INFO - Estagiário Afonso Santos de Carvalho inserido com sucesso!
+2025-06-06 16:07:23,280 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-06 16:07:35,541 - INFO - Executando query: 
+            INSERT INTO estagiarios 
+            (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, data_inscricao, telefone, fax)
+            VALUES 
+            (Afonso Vaz Dias, 50361L, Lisboa, Av da Liberdade, 3 - 3º SL 8/9, Activo, afonsovazdias-50361L@adv-est.oa.pt, N/D, advogado, LISBOA, 1250-139 LISBOA, +351213469419, N/D, N/D)
+        
+2025-06-06 16:07:35,577 - INFO - Estagiário Afonso Vaz Dias inserido com sucesso!
+2025-06-06 16:07:35,578 - INFO - Executando query: 
+            INSERT INTO estagiarios 
+            (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, data_inscricao, telefone, fax)
+            VALUES 
+            (Afonso Vaz Tomé, 47599L, Lisboa, R Alexandre Herculano, 38 - 3º, Activo, afonso.v.tome-47599L@adv-est.oa.pt, N/D, advogado, LISBOA, 1269-180 LISBOA, +351211318958, N/D, N/D)
+        
+2025-06-06 16:07:35,588 - INFO - Estagiário Afonso Vaz Tomé inserido com sucesso!
+2025-06-06 16:07:35,589 - INFO - Executando query: 
+            INSERT INTO estagiarios 
+            (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, data_inscricao, telefone, fax)
+            VALUES 
+            (Alexandra Abalain, 50565L, Lisboa, R Castilho, 39 - 15º, Activo, alexandraabalain-50565L@adv-est.oa.pt, N/D, advogado, LISBOA, 1250-068 LISBOA, +351213717000, N/D, N/D)
+        
+2025-06-06 16:07:35,612 - INFO - Estagiário Alexandra Abalain inserido com sucesso!
+2025-06-06 16:07:35,616 - INFO - Executando query: 
+            INSERT INTO estagiarios 
+            (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, data_inscricao, telefone, fax)
+            VALUES 
+            (Alexandra Caetano Baptista, 51548L, Lisboa, Av Gen Pedro Cardoso, 1, Activo, alexandra.c.baptista-51548L@adv-est.oa.pt, N/D, advogado, CALDAS DA RAINHA, 2500-922 CALDAS DA RAINHA, +351262249030, N/D, N/D)
+        
+2025-06-06 16:07:35,622 - INFO - Estagiário Alexandra Caetano Baptista inserido com sucesso!
+2025-06-06 16:07:35,636 - INFO - Executando query: 
+            INSERT INTO estagiarios 
+            (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, data_inscricao, telefone, fax)
+            VALUES 
+            (Alexandra Christine Beck, 49898L, Lisboa, Av Fontes Pereira de Melo, 6, Activo, alexandra.beck-49898L@adv-est.oa.pt, N/D, advogado, LISBOA, 1050-121 LISBOA, +351213553800, N/D, N/D)
+        
+2025-06-06 16:07:35,653 - INFO - Estagiário Alexandra Christine Beck inserido com sucesso!
+2025-06-06 16:07:35,665 - INFO - Executando query: 
+            INSERT INTO estagiarios 
+            (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, data_inscricao, telefone, fax)
+            VALUES 
+            (Alexandra Figueiredo Silva, 50943L, Lisboa, R dos Remolares, 14 - 2º, Activo, alexandrafsilva-50943L@adv-est.oa.pt, N/D, advogado, LISBOA, 1200-371 LISBOA, N/D, N/D, N/D)
+        
+2025-06-06 16:07:35,690 - INFO - Estagiário Alexandra Figueiredo Silva inserido com sucesso!
+2025-06-06 16:07:35,693 - INFO - Executando query: 
+            INSERT INTO estagiarios 
+            (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, data_inscricao, telefone, fax)
+            VALUES 
+            (Alexandra J Oliveira Lopes, 46348L, Lisboa, Av de Roma, 86-1º Esq, Activo, alexandrajoliveiralopes-46348L@adv-est.oa.pt, N/D, advogado, LISBOA, 1700-351 LISBOA, +351218428460, N/D, N/D)
+        
+2025-06-06 16:07:35,699 - INFO - Estagiário Alexandra J Oliveira Lopes inserido com sucesso!
+2025-06-06 16:07:35,709 - INFO - Executando query: 
+            INSERT INTO estagiarios 
+            (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, data_inscricao, telefone, fax)
+            VALUES 
+            (Alexandra Pascoal, 49304L, Lisboa, R João de Freitas Branco, 37 - letra A, Activo, a.pascoal-49304L@adv-est.oa.pt, N/D, advogado, LISBOA, 1500-630 LISBOA, +351218418040- // - 213210710., N/D, N/D)
+        
+2025-06-06 16:07:35,749 - INFO - Estagiário Alexandra Pascoal inserido com sucesso!
+2025-06-06 16:07:35,750 - INFO - Executando query: 
+            INSERT INTO estagiarios 
+            (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, data_inscricao, telefone, fax)
+            VALUES 
+            (Alexandra Rebordão de Sousa, 50149L, Lisboa, Av Inf D Henrique, 26, Activo, alexandra.r.sousa-50149L@adv-est.oa.pt, N/D, advogado, LISBOA, 1149-096 LISBOA, +351217231800, N/D, N/D)
+        
+2025-06-06 16:07:35,769 - INFO - Estagiário Alexandra Rebordão de Sousa inserido com sucesso!
+2025-06-06 16:07:35,770 - INFO - Executando query: 
+            INSERT INTO estagiarios 
+            (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, data_inscricao, telefone, fax)
+            VALUES 
+            (Alexandra Seabra Ramos, 50996L, Lisboa, Av Eng Duarte Pacheco, 7 - 7º, Activo, aseabraramos-50996L@adv-est.oa.pt, N/D, advogado, LISBOA, 1070-100 LISBOA, +351219245010, N/D, N/D)
+        
+2025-06-06 16:07:35,776 - INFO - Estagiário Alexandra Seabra Ramos inserido com sucesso!
+2025-06-06 16:07:47,523 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-06 16:07:52,491 - ERROR - Tentativa 1 falhou: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x933763+63299]
+	GetHandleVerifier [0x0x9337a4+63364]
+	(No symbol) [0x0x760f70]
+	(No symbol) [0x0x79c9a8]
+	(No symbol) [0x0x7ce436]
+	(No symbol) [0x0x7c9f05]
+	(No symbol) [0x0x7c9486]
+	(No symbol) [0x0x733a05]
+	(No symbol) [0x0x733f5e]
+	(No symbol) [0x0x7343ed]
+	GetHandleVerifier [0x0xb8e033+2531347]
+	GetHandleVerifier [0x0xb89332+2511634]
+	GetHandleVerifier [0x0x959eda+220858]
+	GetHandleVerifier [0x0x94a528+156936]
+	GetHandleVerifier [0x0x950c5d+183357]
+	(No symbol) [0x0x7336d0]
+	(No symbol) [0x0x732edd]
+	GetHandleVerifier [0x0xcc7edc+3817148]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-06 16:07:52,492 - ERROR - Erro ao processar página 3: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x933763+63299]
+	GetHandleVerifier [0x0x9337a4+63364]
+	(No symbol) [0x0x760f70]
+	(No symbol) [0x0x79c9a8]
+	(No symbol) [0x0x7ce436]
+	(No symbol) [0x0x7c9f05]
+	(No symbol) [0x0x7c9486]
+	(No symbol) [0x0x733a05]
+	(No symbol) [0x0x733f5e]
+	(No symbol) [0x0x7343ed]
+	GetHandleVerifier [0x0xb8e033+2531347]
+	GetHandleVerifier [0x0xb89332+2511634]
+	GetHandleVerifier [0x0x959eda+220858]
+	GetHandleVerifier [0x0x94a528+156936]
+	GetHandleVerifier [0x0x950c5d+183357]
+	(No symbol) [0x0x7336d0]
+	(No symbol) [0x0x732edd]
+	GetHandleVerifier [0x0xcc7edc+3817148]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-06 16:07:52,493 - ERROR - Erro ao processar página 4: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x933763+63299]
+	GetHandleVerifier [0x0x9337a4+63364]
+	(No symbol) [0x0x760f70]
+	(No symbol) [0x0x79c9a8]
+	(No symbol) [0x0x7ce436]
+	(No symbol) [0x0x7c9f05]
+	(No symbol) [0x0x7c9486]
+	(No symbol) [0x0x733a05]
+	(No symbol) [0x0x733f5e]
+	(No symbol) [0x0x7343ed]
+	GetHandleVerifier [0x0xb8e033+2531347]
+	GetHandleVerifier [0x0xb89332+2511634]
+	GetHandleVerifier [0x0x959eda+220858]
+	GetHandleVerifier [0x0x94a528+156936]
+	GetHandleVerifier [0x0x950c5d+183357]
+	(No symbol) [0x0x7336d0]
+	(No symbol) [0x0x732edd]
+	GetHandleVerifier [0x0xcc7edc+3817148]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-06 16:07:52,493 - ERROR - Erro ao processar página 5: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x933763+63299]
+	GetHandleVerifier [0x0x9337a4+63364]
+	(No symbol) [0x0x760f70]
+	(No symbol) [0x0x79c9a8]
+	(No symbol) [0x0x7ce436]
+	(No symbol) [0x0x7c9f05]
+	(No symbol) [0x0x7c9486]
+	(No symbol) [0x0x733a05]
+	(No symbol) [0x0x733f5e]
+	(No symbol) [0x0x7343ed]
+	GetHandleVerifier [0x0xb8e033+2531347]
+	GetHandleVerifier [0x0xb89332+2511634]
+	GetHandleVerifier [0x0x959eda+220858]
+	GetHandleVerifier [0x0x94a528+156936]
+	GetHandleVerifier [0x0x950c5d+183357]
+	(No symbol) [0x0x7336d0]
+	(No symbol) [0x0x732edd]
+	GetHandleVerifier [0x0xcc7edc+3817148]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-06 16:07:52,494 - INFO - Dados salvos em CSV: dados_pesquisa-de-advogados-estagiarios_20250606_160752.csv
+2025-06-06 16:07:52,494 - INFO - coletar_estagiarios_lisboa completado com 20 registros
+2025-06-06 16:07:52,494 - INFO - Iniciando: coletar_estagiarios_porto
+2025-06-06 16:07:52,494 - INFO - Iniciando scraping de estagiários...
+2025-06-06 16:07:52,496 - ERROR - Erro em coletar_estagiarios_porto: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x933763+63299]
+	GetHandleVerifier [0x0x9337a4+63364]
+	(No symbol) [0x0x760f70]
+	(No symbol) [0x0x79c9a8]
+	(No symbol) [0x0x7ce436]
+	(No symbol) [0x0x7c9f05]
+	(No symbol) [0x0x7c9486]
+	(No symbol) [0x0x733a05]
+	(No symbol) [0x0x733f5e]
+	(No symbol) [0x0x7343ed]
+	GetHandleVerifier [0x0xb8e033+2531347]
+	GetHandleVerifier [0x0xb89332+2511634]
+	GetHandleVerifier [0x0x959eda+220858]
+	GetHandleVerifier [0x0x94a528+156936]
+	GetHandleVerifier [0x0x950c5d+183357]
+	(No symbol) [0x0x7336d0]
+	(No symbol) [0x0x732edd]
+	GetHandleVerifier [0x0xcc7edc+3817148]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-06 16:07:52,496 - INFO - Iniciando: coletar_estagiarios_coimbra
+2025-06-06 16:07:52,496 - INFO - Iniciando scraping de estagiários...
+2025-06-06 16:07:52,496 - ERROR - Erro em coletar_estagiarios_coimbra: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x933763+63299]
+	GetHandleVerifier [0x0x9337a4+63364]
+	(No symbol) [0x0x760f70]
+	(No symbol) [0x0x79c9a8]
+	(No symbol) [0x0x7ce436]
+	(No symbol) [0x0x7c9f05]
+	(No symbol) [0x0x7c9486]
+	(No symbol) [0x0x733a05]
+	(No symbol) [0x0x733f5e]
+	(No symbol) [0x0x7343ed]
+	GetHandleVerifier [0x0xb8e033+2531347]
+	GetHandleVerifier [0x0xb89332+2511634]
+	GetHandleVerifier [0x0x959eda+220858]
+	GetHandleVerifier [0x0x94a528+156936]
+	GetHandleVerifier [0x0x950c5d+183357]
+	(No symbol) [0x0x7336d0]
+	(No symbol) [0x0x732edd]
+	GetHandleVerifier [0x0xcc7edc+3817148]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-06 16:07:52,497 - INFO - Iniciando: coletar_estagiarios_evora
+2025-06-06 16:07:52,497 - INFO - Iniciando scraping de estagiários...
+2025-06-06 16:07:52,498 - ERROR - Erro em coletar_estagiarios_evora: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x933763+63299]
+	GetHandleVerifier [0x0x9337a4+63364]
+	(No symbol) [0x0x760f70]
+	(No symbol) [0x0x79c9a8]
+	(No symbol) [0x0x7ce436]
+	(No symbol) [0x0x7c9f05]
+	(No symbol) [0x0x7c9486]
+	(No symbol) [0x0x733a05]
+	(No symbol) [0x0x733f5e]
+	(No symbol) [0x0x7343ed]
+	GetHandleVerifier [0x0xb8e033+2531347]
+	GetHandleVerifier [0x0xb89332+2511634]
+	GetHandleVerifier [0x0x959eda+220858]
+	GetHandleVerifier [0x0x94a528+156936]
+	GetHandleVerifier [0x0x950c5d+183357]
+	(No symbol) [0x0x7336d0]
+	(No symbol) [0x0x732edd]
+	GetHandleVerifier [0x0xcc7edc+3817148]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-06 16:07:52,498 - INFO - Iniciando: coletar_estagiarios_faro
+2025-06-06 16:07:52,498 - INFO - Iniciando scraping de estagiários...
+2025-06-06 16:07:52,498 - ERROR - Erro em coletar_estagiarios_faro: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x933763+63299]
+	GetHandleVerifier [0x0x9337a4+63364]
+	(No symbol) [0x0x760f70]
+	(No symbol) [0x0x79c9a8]
+	(No symbol) [0x0x7ce436]
+	(No symbol) [0x0x7c9f05]
+	(No symbol) [0x0x7c9486]
+	(No symbol) [0x0x733a05]
+	(No symbol) [0x0x733f5e]
+	(No symbol) [0x0x7343ed]
+	GetHandleVerifier [0x0xb8e033+2531347]
+	GetHandleVerifier [0x0xb89332+2511634]
+	GetHandleVerifier [0x0x959eda+220858]
+	GetHandleVerifier [0x0x94a528+156936]
+	GetHandleVerifier [0x0x950c5d+183357]
+	(No symbol) [0x0x7336d0]
+	(No symbol) [0x0x732edd]
+	GetHandleVerifier [0x0xcc7edc+3817148]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-06 16:07:52,498 - INFO - Iniciando: coletar_estagiarios_madeira
+2025-06-06 16:07:52,498 - INFO - Iniciando scraping de estagiários...
+2025-06-06 16:07:52,499 - ERROR - Erro em coletar_estagiarios_madeira: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x933763+63299]
+	GetHandleVerifier [0x0x9337a4+63364]
+	(No symbol) [0x0x760f70]
+	(No symbol) [0x0x79c9a8]
+	(No symbol) [0x0x7ce436]
+	(No symbol) [0x0x7c9f05]
+	(No symbol) [0x0x7c9486]
+	(No symbol) [0x0x733a05]
+	(No symbol) [0x0x733f5e]
+	(No symbol) [0x0x7343ed]
+	GetHandleVerifier [0x0xb8e033+2531347]
+	GetHandleVerifier [0x0xb89332+2511634]
+	GetHandleVerifier [0x0x959eda+220858]
+	GetHandleVerifier [0x0x94a528+156936]
+	GetHandleVerifier [0x0x950c5d+183357]
+	(No symbol) [0x0x7336d0]
+	(No symbol) [0x0x732edd]
+	GetHandleVerifier [0x0xcc7edc+3817148]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-06 16:07:52,499 - INFO - Iniciando: coletar_estagiarios_acores
+2025-06-06 16:07:52,499 - INFO - Iniciando scraping de estagiários...
+2025-06-06 16:07:52,500 - ERROR - Erro em coletar_estagiarios_acores: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x933763+63299]
+	GetHandleVerifier [0x0x9337a4+63364]
+	(No symbol) [0x0x760f70]
+	(No symbol) [0x0x79c9a8]
+	(No symbol) [0x0x7ce436]
+	(No symbol) [0x0x7c9f05]
+	(No symbol) [0x0x7c9486]
+	(No symbol) [0x0x733a05]
+	(No symbol) [0x0x733f5e]
+	(No symbol) [0x0x7343ed]
+	GetHandleVerifier [0x0xb8e033+2531347]
+	GetHandleVerifier [0x0xb89332+2511634]
+	GetHandleVerifier [0x0x959eda+220858]
+	GetHandleVerifier [0x0x94a528+156936]
+	GetHandleVerifier [0x0x950c5d+183357]
+	(No symbol) [0x0x7336d0]
+	(No symbol) [0x0x732edd]
+	GetHandleVerifier [0x0xcc7edc+3817148]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-06 16:07:52,500 - INFO - Iniciando: coletar_estagiarios_braga
+2025-06-06 16:07:52,500 - INFO - Iniciando scraping de estagiários...
+2025-06-06 16:07:52,500 - ERROR - Erro em coletar_estagiarios_braga: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x933763+63299]
+	GetHandleVerifier [0x0x9337a4+63364]
+	(No symbol) [0x0x760f70]
+	(No symbol) [0x0x79c9a8]
+	(No symbol) [0x0x7ce436]
+	(No symbol) [0x0x7c9f05]
+	(No symbol) [0x0x7c9486]
+	(No symbol) [0x0x733a05]
+	(No symbol) [0x0x733f5e]
+	(No symbol) [0x0x7343ed]
+	GetHandleVerifier [0x0xb8e033+2531347]
+	GetHandleVerifier [0x0xb89332+2511634]
+	GetHandleVerifier [0x0x959eda+220858]
+	GetHandleVerifier [0x0x94a528+156936]
+	GetHandleVerifier [0x0x950c5d+183357]
+	(No symbol) [0x0x7336d0]
+	(No symbol) [0x0x732edd]
+	GetHandleVerifier [0x0xcc7edc+3817148]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-06 16:07:52,512 - INFO - Iniciando: coletar_tribunais
+2025-06-06 16:07:52,512 - INFO - Iniciando scraping de tribunais...
+2025-06-06 16:07:52,513 - ERROR - Erro em coletar_tribunais: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x933763+63299]
+	GetHandleVerifier [0x0x9337a4+63364]
+	(No symbol) [0x0x760f70]
+	(No symbol) [0x0x79c9a8]
+	(No symbol) [0x0x7ce436]
+	(No symbol) [0x0x7c9f05]
+	(No symbol) [0x0x7c9486]
+	(No symbol) [0x0x733a05]
+	(No symbol) [0x0x733f5e]
+	(No symbol) [0x0x7343ed]
+	GetHandleVerifier [0x0xb8e033+2531347]
+	GetHandleVerifier [0x0xb89332+2511634]
+	GetHandleVerifier [0x0x959eda+220858]
+	GetHandleVerifier [0x0x94a528+156936]
+	GetHandleVerifier [0x0x950c5d+183357]
+	(No symbol) [0x0x7336d0]
+	(No symbol) [0x0x732edd]
+	GetHandleVerifier [0x0xcc7edc+3817148]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-06 16:07:52,513 - INFO - Iniciando: coletar_julgados
+2025-06-06 16:07:52,513 - INFO - Iniciando scraping de julgados de paz...
+2025-06-06 16:07:52,513 - ERROR - Erro em coletar_julgados: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x933763+63299]
+	GetHandleVerifier [0x0x9337a4+63364]
+	(No symbol) [0x0x760f70]
+	(No symbol) [0x0x79c9a8]
+	(No symbol) [0x0x7ce436]
+	(No symbol) [0x0x7c9f05]
+	(No symbol) [0x0x7c9486]
+	(No symbol) [0x0x733a05]
+	(No symbol) [0x0x733f5e]
+	(No symbol) [0x0x7343ed]
+	GetHandleVerifier [0x0xb8e033+2531347]
+	GetHandleVerifier [0x0xb89332+2511634]
+	GetHandleVerifier [0x0x959eda+220858]
+	GetHandleVerifier [0x0x94a528+156936]
+	GetHandleVerifier [0x0x950c5d+183357]
+	(No symbol) [0x0x7336d0]
+	(No symbol) [0x0x732edd]
+	GetHandleVerifier [0x0xcc7edc+3817148]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-06 16:07:52,514 - INFO - Iniciando: coletar_osae
+2025-06-06 16:07:52,514 - INFO - Iniciando scraping do OSAE...
+2025-06-06 16:07:52,514 - ERROR - Erro em coletar_osae: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x933763+63299]
+	GetHandleVerifier [0x0x9337a4+63364]
+	(No symbol) [0x0x760f70]
+	(No symbol) [0x0x79c9a8]
+	(No symbol) [0x0x7ce436]
+	(No symbol) [0x0x7c9f05]
+	(No symbol) [0x0x7c9486]
+	(No symbol) [0x0x733a05]
+	(No symbol) [0x0x733f5e]
+	(No symbol) [0x0x7343ed]
+	GetHandleVerifier [0x0xb8e033+2531347]
+	GetHandleVerifier [0x0xb89332+2511634]
+	GetHandleVerifier [0x0x959eda+220858]
+	GetHandleVerifier [0x0x94a528+156936]
+	GetHandleVerifier [0x0x950c5d+183357]
+	(No symbol) [0x0x7336d0]
+	(No symbol) [0x0x732edd]
+	GetHandleVerifier [0x0xcc7edc+3817148]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-06 16:07:52,514 - INFO - Iniciando: coletar_advogados_angola
+2025-06-06 16:07:52,514 - INFO - Iniciando scraping de advogados de Angola...
+2025-06-06 16:07:52,515 - ERROR - Erro ao carregar dados de advogados de Angola: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x933763+63299]
+	GetHandleVerifier [0x0x9337a4+63364]
+	(No symbol) [0x0x760f70]
+	(No symbol) [0x0x79c9a8]
+	(No symbol) [0x0x7ce436]
+	(No symbol) [0x0x7c9f05]
+	(No symbol) [0x0x7c9486]
+	(No symbol) [0x0x733a05]
+	(No symbol) [0x0x733f5e]
+	(No symbol) [0x0x7343ed]
+	GetHandleVerifier [0x0xb8e033+2531347]
+	GetHandleVerifier [0x0xb89332+2511634]
+	GetHandleVerifier [0x0x959eda+220858]
+	GetHandleVerifier [0x0x94a528+156936]
+	GetHandleVerifier [0x0x950c5d+183357]
+	(No symbol) [0x0x7336d0]
+	(No symbol) [0x0x732edd]
+	GetHandleVerifier [0x0xcc7edc+3817148]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-06 16:07:52,516 - ERROR - Erro em coletar_advogados_angola: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x933763+63299]
+	GetHandleVerifier [0x0x9337a4+63364]
+	(No symbol) [0x0x760f70]
+	(No symbol) [0x0x79c9a8]
+	(No symbol) [0x0x7ce436]
+	(No symbol) [0x0x7c9f05]
+	(No symbol) [0x0x7c9486]
+	(No symbol) [0x0x733a05]
+	(No symbol) [0x0x733f5e]
+	(No symbol) [0x0x7343ed]
+	GetHandleVerifier [0x0xb8e033+2531347]
+	GetHandleVerifier [0x0xb89332+2511634]
+	GetHandleVerifier [0x0x959eda+220858]
+	GetHandleVerifier [0x0x94a528+156936]
+	GetHandleVerifier [0x0x950c5d+183357]
+	(No symbol) [0x0x7336d0]
+	(No symbol) [0x0x732edd]
+	GetHandleVerifier [0x0xcc7edc+3817148]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-06 16:07:52,528 - INFO - Iniciando: coletar_camaras_municipais
+2025-06-06 16:07:52,528 - INFO - Iniciando scraping de câmaras municipais...
+2025-06-06 16:07:52,529 - ERROR - Erro em coletar_camaras_municipais: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x933763+63299]
+	GetHandleVerifier [0x0x9337a4+63364]
+	(No symbol) [0x0x760f70]
+	(No symbol) [0x0x79c9a8]
+	(No symbol) [0x0x7ce436]
+	(No symbol) [0x0x7c9f05]
+	(No symbol) [0x0x7c9486]
+	(No symbol) [0x0x733a05]
+	(No symbol) [0x0x733f5e]
+	(No symbol) [0x0x7343ed]
+	GetHandleVerifier [0x0xb8e033+2531347]
+	GetHandleVerifier [0x0xb89332+2511634]
+	GetHandleVerifier [0x0x959eda+220858]
+	GetHandleVerifier [0x0x94a528+156936]
+	GetHandleVerifier [0x0x950c5d+183357]
+	(No symbol) [0x0x7336d0]
+	(No symbol) [0x0x732edd]
+	GetHandleVerifier [0x0xcc7edc+3817148]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-06 16:07:52,529 - INFO - Iniciando: coletar_atlas_cplp
+2025-06-06 16:07:52,529 - INFO - Iniciando scraping do Atlas CPLP...
+2025-06-06 16:07:52,530 - ERROR - Erro em coletar_atlas_cplp: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x933763+63299]
+	GetHandleVerifier [0x0x9337a4+63364]
+	(No symbol) [0x0x760f70]
+	(No symbol) [0x0x79c9a8]
+	(No symbol) [0x0x7ce436]
+	(No symbol) [0x0x7c9f05]
+	(No symbol) [0x0x7c9486]
+	(No symbol) [0x0x733a05]
+	(No symbol) [0x0x733f5e]
+	(No symbol) [0x0x7343ed]
+	GetHandleVerifier [0x0xb8e033+2531347]
+	GetHandleVerifier [0x0xb89332+2511634]
+	GetHandleVerifier [0x0x959eda+220858]
+	GetHandleVerifier [0x0x94a528+156936]
+	GetHandleVerifier [0x0x950c5d+183357]
+	(No symbol) [0x0x7336d0]
+	(No symbol) [0x0x732edd]
+	GetHandleVerifier [0x0xcc7edc+3817148]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-06 16:07:52,531 - INFO - Dados salvos em CSV: todos_dados_20250606_160752.csv
+2025-06-06 16:07:52,531 - INFO - Todos os dados salvos em CSV com timestamp: 20250606_160752
+2025-06-06 16:07:54,574 - INFO - Conexão com o banco de dados fechada.

@@ -1,0 +1,21 @@
+2025-06-06 11:45:51,417 - INFO - Iniciando o script de scraping...
+2025-06-06 11:45:51,432 - INFO - Conexão com o banco de dados estabelecida!
+2025-06-06 11:45:51,437 - ERROR - Erro ao conectar ao banco de dados: 1136 (21S01): Column count doesn't match value count at row 1
+2025-06-06 11:45:51,437 - INFO - ====== WebDriver manager ======
+2025-06-06 11:45:52,362 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-06 11:45:52,397 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-06 11:45:52,429 - INFO - Driver [C:\Users\david\.wdm\drivers\chromedriver\win64\137.0.7151.68\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-06 11:45:53,538 - INFO - Iniciando: coletar_estagiarios_lisboa
+2025-06-06 11:45:53,538 - INFO - Iniciando scraping de estagiários...
+2025-06-06 11:46:12,532 - ERROR - Erro ao clicar no botão de pesquisa para https://portal.oa.pt/advogados/pesquisa-de-advogados-estagiarios/?cg=L&ce=&n=&lo=&m=&cp=&a=on&op=&o=0: Message: 
+
+2025-06-06 11:46:12,697 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-06 11:46:35,118 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-06 11:47:01,385 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-06 11:47:27,183 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-06 11:47:50,947 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-06 11:48:16,813 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-06 11:48:38,899 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-06 11:49:04,661 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-06 11:49:31,805 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-06 11:49:58,539 - INFO - Navegador fechado.

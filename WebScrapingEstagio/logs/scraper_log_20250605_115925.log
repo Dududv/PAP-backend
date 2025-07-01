@@ -1,0 +1,780 @@
+2025-06-05 11:59:25,050 - INFO - Iniciando o script de scraping...
+2025-06-05 11:59:25,057 - INFO - Conexão com o banco de dados estabelecida!
+2025-06-05 11:59:25,058 - INFO - ====== WebDriver manager ======
+2025-06-05 11:59:25,876 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-05 11:59:25,913 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-05 11:59:25,945 - INFO - Driver [C:\Users\david\.wdm\drivers\chromedriver\win64\137.0.7151.68\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-05 11:59:27,049 - INFO - Iniciando: coletar_advogados
+2025-06-05 11:59:27,049 - INFO - Iniciando scraping de advogados...
+2025-06-05 12:00:08,274 - WARNING - Erro ao marcar 'Apenas Ativos' (continuando sem marcar): Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x893763+63299]
+	GetHandleVerifier [0x0x8937a4+63364]
+	(No symbol) [0x0x6c1113]
+	(No symbol) [0x0x70987e]
+	(No symbol) [0x0x709c1b]
+	(No symbol) [0x0x752212]
+	(No symbol) [0x0x72e5c4]
+	(No symbol) [0x0x74fa4a]
+	(No symbol) [0x0x72e376]
+	(No symbol) [0x0x6fd6e0]
+	(No symbol) [0x0x6fe544]
+	GetHandleVerifier [0x0xaee033+2531347]
+	GetHandleVerifier [0x0xae9332+2511634]
+	GetHandleVerifier [0x0x8b9eda+220858]
+	GetHandleVerifier [0x0x8aa528+156936]
+	GetHandleVerifier [0x0x8b0c5d+183357]
+	GetHandleVerifier [0x0x89b6c8+95912]
+	GetHandleVerifier [0x0x89b870+96336]
+	GetHandleVerifier [0x0x88664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-05 12:00:18,487 - WARNING - Erro ao clicar no botão de pesquisa: Message: 
+
+2025-06-05 12:00:18,493 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-05 12:00:32,617 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Afonso Teixeira da Mota, 22124L, Lisboa, R Tomás Ribeiro, 111, Activo, +351210992855, atm-22124l@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-05 12:00:32,625 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Alexandra Paula Bulhões, 10138L, Lisboa, R Mar Gomes Freire de  Andrade,  8-1º Esc 3, Activo, +351262787385, alexandra-10138l@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-05 12:00:32,632 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Ana Filipe, 15084L, Lisboa, R Silvio Rebelo 2 2, Activo, +351218401036, anafilipe-15084l@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-05 12:00:32,638 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Ana Fragoso, 20976L, Lisboa, R 1º de Dezembro, 31, Activo, +351212166144, anafragoso-20976l@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-05 12:00:32,646 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Ana Margarida P S e Chermont, 5170C, Lisboa, Pc Rainha D Filipa, 3 - 3º, Activo, +351215974629, anachermont-5170c@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-05 12:00:32,657 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Ana Patrícia Moreira, 55974L, Lisboa, Av 25 de Abril, 4 C, Loja - Ramada, Activo, +351924335607, anamoreira-55974L@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-05 12:00:32,672 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (António Marinho de Seabra, 63686L, Lisboa, Av D Vasco da Gama, 33 - 1º, Activo, N/D, a.marinhoseabra-63686L@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-05 12:00:32,683 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Bernardo Castro Botas, 69086L, Lisboa, Av da Liberdade, 249, Activo, +351912636166, bcb-69086L@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-05 12:00:32,691 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Bianca Abreu, 59347C, Lisboa, Av Aida, Bl 1 - Esc 112 - Estoril Garden, Activo, +351932653116, abreu-59347C@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-05 12:00:32,698 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Carla C A Garcia Rosconi, 64793L, Lisboa, R Castilho, 23 - 7A, Activo, +351213540907, N/D, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-05 12:00:49,424 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-05 12:01:02,951 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Carla Valente D'Almeida, 5700L, Lisboa, R D Duarte de Meneses, 11 - 1º, Activo, N/D, carlavalentedalmeida-5700l@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-05 12:01:02,955 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Carlos Paisana, 10415L, Lisboa, Tv da Légua da Póvoa, 30 - 1º, Activo, +351213865717, carlospaisana-10415l@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-05 12:01:02,962 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Caroline Melo Cortez, 55311L, Lisboa, Av D João II, 19 - 12º A, Activo, N/D, N/D, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-05 12:01:02,969 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Catarina Palma, 68142L, Lisboa, Av Columbano Bordalo Pinheiro, 7 - 6º Esq, Activo, +351217263386, catarinapalma-68142L@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-05 12:01:02,979 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Daniela Batista Rodrigues, 70307L, Lisboa, Rot Nuno Rodrigues dos Santos, 1 B - 10º A/B, Activo, +351218622100, danielabatistarodrigues-70307L@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-05 12:01:02,987 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Duarte Rodrigues Silva, 18346L, Lisboa, R Garrett, 64, Activo, +351210933000, duartersilva-18346l@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-05 12:01:03,003 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Dulcinda Guarita, 14039L, Lisboa, Tv Luis Pereira da Mota, 3 - 2º A, Activo, N/D, dulcinda.guarita-14039l@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-05 12:01:03,010 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Eduardo Serra Jorge, 7250L, Lisboa, R dos Lusíadas, 9 - 1º Dto, Activo, +351213845390, esj-7250l@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-05 12:01:03,017 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Eleonora Henriques, 5212C, Lisboa, Av António Augusto de Aguiar, 31 -  4º, Activo, +351+351 213 711 700, eleonora.henriques-5212c@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-05 12:01:03,025 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Emília Dias Ribeiro, 14160L, Lisboa, R Aura Abranches, 13 - 1º Ft, Activo, +351914874154, emiliadiasribeiro-14160l@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-05 12:01:17,065 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-05 12:01:31,994 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Eunice Ormonde, 46744L, Lisboa, Pc Bernardino Machado, 11 B, Activo, +351919493104, eunice.ormonde-46744L@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-05 12:01:32,008 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Fátima F Henriques, 8117L, Lisboa, Av 1º de Maio, 9 - 3º Esq, Activo, +351910869081, fatimahenriques-8117l@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-05 12:01:32,024 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Fernando Barbosa Ribeiro, 58792L, Lisboa, R de S Nicolau, 121 - 2º, Activo, +351217958255, fbarbosaribeiro-58792L@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-05 12:01:32,032 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Filomena Vieira, 9367L, Lisboa, R Marquês de Fronteira, 111 - 3º Dto, Activo, +351213871621, mfvieira-9367l@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-05 12:01:32,039 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Francisca Ferreira, 69432L, Lisboa, R Carlos Alberto da Mota Pinto, 17 - 3º A - Edf Amoreiras Square, Activo, N/D, francisca.ferreira-69432L@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-05 12:01:32,045 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Graça Rodrigues, 13341L, Lisboa, R Damião de Góis, 42 - 1º Dto, Activo, +351214114173, gracarodrigues-13341L@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-05 12:01:32,052 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Inês Laureano Santos, 16524L, Lisboa, Av da República, 48 B - 4º Dto, Activo, +351217993638, ines.laureano.santos-16524l@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-05 12:01:32,066 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Inês Marcelly, 48902L, Lisboa, R Jau, 54, Activo, N/D, ines.marcelly-48902L@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-05 12:01:32,072 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Isabel M Antunes, 51574L, Lisboa, R Pulido Valente, 3 - 7º C, Activo, +351219335881, isabelantunes-51574L@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-05 12:01:32,080 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Jacqueline Vieira Haddad, 60570L, Lisboa, R Dr Manuel Arriaga, 72 - Lj 3, Piso 1 - Centro Comercial Carcavelos, Activo, +351218212918, jacquelinehaddad-60570l@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-05 12:01:46,701 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-05 12:02:00,847 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (João Valentim, 2918L, Lisboa, Av Paris, 4-2º Dto, Activo, +351218405496, joaobaguinhovalentim-2918l@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-05 12:02:00,854 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (José António Figueiredo, 7663L, Lisboa, Av Estados Unidos da America, 102 - 13º A, Activo, +351217950256, jose.antonio.figueiredo-7663l@advogados.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-05 12:02:00,861 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (José Antônio Pereira de Souza, 68646L, Lisboa, R Aquiles Machado, 26 - 9º Dto, Activo, +351218405887, N/D, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-05 12:02:00,867 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (José de Athayde de Tavares, 4487L, Lisboa, R Joaquim António de Aguiar,  66 - 2º Esq, Activo, +351213827580, jathaydetavares-4487l@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-05 12:02:00,873 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Leandro Elisei, 66406L, Lisboa, R Sacadura Cabral, 102 C - Lj 74 - CC Grande Galiza, Activo, +351+5547336511111, leandro-66406L@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-05 12:02:00,879 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Leonor Sena Carvalho, 61274L, Lisboa, Pc Príncipe Perfeito, 2 - 4º, Activo, +351964070314, leonorsenacarvalho-61274L@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-05 12:02:00,885 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Lina Yoshizaki, 60683L, Lisboa, Av D João XXI, 72 B, Lj 10 - Galeria Via Veneto, Activo, +351214394907, lina.yoshizaki-60683L@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-05 12:02:00,891 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Marco Henriques Amado, 67697L, Lisboa, Av da Liberdade, 249, Activo, +351211926800, mha-67697L@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-05 12:02:00,902 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Margarida Mota de Morais, 52292L, Lisboa, R Joaquim António de Aguiar, 45 - 4º Esq, Activo, +351933010207, mmm-52292L@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-05 12:02:00,909 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Marina Gouveia, 68001L, Lisboa, R República da Bolívia, 33 - 2º Esq, Activo, N/D, marinagouveia-68001L@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-05 12:02:13,021 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-05 12:02:29,072 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Martim Anahory, 12170L, Lisboa, Av Fontes Pereira de Melo, 6, Activo, +351213553800, ma-12170L@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-05 12:02:29,084 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Mónica Pinto Lopes, 11901L, Lisboa, R dos Lilázes, 4, Activo, +351918949440, monica.pinto.lopes-11901L@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-05 12:02:29,095 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Óscar Monteiro, 2434L, Lisboa, Av João Crisóstomo, 75 B, Activo, +351213556416, oscarmonteiro-2434l@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-05 12:02:29,105 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Patricia Freitas de Andrade, 60863L, Lisboa, Av da República, 18 - 3º -, Activo, +351917483526, p.andrade-60863L@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-05 12:02:29,118 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Patrícia Simões Rocha, 20299L, Lisboa, R Castilho, 71 - 2º Esq, Activo, +351213513380, psr-20299l@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-05 12:02:29,154 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Priscilla Tollini, 59441L, Lisboa, Av Aida, Bl 1 - Esc 112 - Estoril Garden, Activo, +351214869500, p.tollini-59441L@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-05 12:02:29,177 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Renato Seabra Mendes, 16854L, Lisboa, R Castilho, 5 - 3º, Sl 16, Activo, +351925503106, seabramendes-16854l@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-05 12:02:29,192 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Rodrigo Morais da Cunha, 70019L, Lisboa, Av da Liberdade, 24, Activo, +351917098772, rodrigo.cunha-70019L@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-05 12:02:29,214 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Rogério Sobral de Miranda, 60716L, Lisboa, Av da Liberdade,  262 -  4º Esq, Activo, +351213569930, rogeriosmiranda-60716L@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-05 12:02:29,230 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Sandra Vieira, 15556L, Lisboa, Pct Nª Sra da Salvação,  Lt A2, Escr Esq B, Activo, +351914572225, sandravieira-15556l@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-05 12:02:40,910 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-05 12:02:57,581 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Sofia Cavadas, 57887L, Lisboa, Av Gen Pedro Cardoso, 1, Activo, +351262249030, sofiacavadas-57887L@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-05 12:02:57,595 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Sofia Egídio, 18322L, Lisboa, R Bacelar e Silva, 5 - 1º Dto -, Activo, +351919067451, sofia.egidio-18322l@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-05 12:02:57,614 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Sónia Santos da Silva, 55852L, Lisboa, R Abranches Ferrão, 11 A, Activo, +351213535099, soniasantosdasilva-55852L@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-05 12:02:57,634 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Tiago Serrão, 47946L, Lisboa, R Latino Coelho, 87, Activo, N/D, tiago.serrao-47946L@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-05 12:02:57,705 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Vanda Carvalho, 18886L, Lisboa, Av Casal Ribeiro, 59 - 6º -, Activo, +351217206413, vandacarvalho-18886l@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-05 12:02:57,745 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Victor Bastos Ferreira, 16167L, Lisboa, Av José Elias Garcia, 75-1º Esq Sl B, Activo, N/D, N/D, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-05 12:02:57,788 - INFO - Dados salvos em CSV: dados_pesquisa-de-advogados_20250605_120257.csv
+2025-06-05 12:02:57,788 - INFO - coletar_advogados completado com 56 registros
+2025-06-05 12:02:57,788 - INFO - Iniciando: coletar_sociedades
+2025-06-05 12:02:57,789 - INFO - Iniciando scraping de sociedades de advogados...
+2025-06-05 12:03:17,311 - ERROR - Erro ao clicar no botão de pesquisa para https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/: Message: 
+
+2025-06-05 12:03:17,315 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-05 12:03:56,954 - ERROR - Tentativa 1 falhou: Message: 
+
+2025-06-05 12:04:06,714 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (“WL – Work in Law, Albuquerque da Fonseca, Maria João Pereira, Tomaz Cameira, Sandra Torres e Associados, Sociedade de Advogados, SP, RL, N/D, Lisboa, Av. 5 de Outubro, n.º 15 - r/c, N/D, +351211390406, mariajoaopereira-6715l@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/, sociedade)
+        
+2025-06-05 12:04:06,723 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (A. BORGES PIRES, SANTOS PEREIRA & ASSOCIADOS, SOCIEDADE DE ADVOGADOS SP, RL, N/D, Lisboa, R. Tierno Galvan, Amoreiras, Torre 3 - 5º.Piso - Sala  511, N/D, +351212454262, geral@abpa.pt, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/, sociedade)
+        
+2025-06-05 12:04:06,729 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (A. ESPÍRITO SANTO, F. ARAÚJO BARRIGAS & ASSOCIADOS-SOCIEDADE DE ADVOGADOS RL, N/D, Lisboa, Av. Fontes Pereira de Melo, n.º 25 - 5º esquerdo, N/D, +351213121140, advogados@sbm-advogados.com.pt, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/, sociedade)
+        
+2025-06-05 12:04:06,736 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (A. J. MARTINS, T. DUARTE, M. RESENDE & ASSOCIADOS-SOCIEDADE DE ADVOGADOS, SP, RL, N/D, Lisboa, Av. da República, n.º 49 - 2º, N/D, +351213584110, atmj@atmj.pt, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/, sociedade)
+        
+2025-06-05 12:04:06,742 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (A. M. MOURA & ASSOCIADOS - SOCIEDADE DE ADVOGADOS, SP, RL, N/D, Lisboa, Rua Tierno Galvan, Torre 3, 7º - 705, N/D, N/D, adelaide.moura-7463l@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/, sociedade)
+        
+2025-06-05 12:04:06,749 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (A. PAIVA & ASSOCIADOS - SOCIEDADE DE ADVOGADOS, SP, RL, N/D, Lisboa, Av. Marginal, 6068, N/D, +351214669317, a.paiva.lawyers@mail.telepac.pt, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/, sociedade)
+        
+2025-06-05 12:04:06,755 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (A. PAULO SANTOS, MARIA DOS ANJOS REIS & ASSOCIADOS - SOCIEDADE DE ADVOGADOS, SP, RL, N/D, Lisboa, Rua Andrade Corvo, 29 - 4º, N/D, +351213174159, geral@apsmar.com, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/, sociedade)
+        
+2025-06-05 12:04:06,761 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (A. R. MONTALVO & ASSOCIADOS-SOCIEDADE DE ADVOGADOS RL, N/D, Lisboa, Av. da República, 56 - 6º.  drtº., N/D, +351217979058, geral@armontalvo.pt, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/, sociedade)
+        
+2025-06-05 12:04:06,768 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (A. RAPOSO - O. CARREIRA & ASSOCIADOS, SOCIEDADE DE ADVOGADOS, SP, RL, N/D, Lisboa, Av 5 de Outubro, 63, r/c esq., N/D, +351219011850, adelino.raposo-20937l@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/, sociedade)
+        
+2025-06-05 12:04:06,785 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (ABALADA MATOS, MORAES CARDOSO E ASSOCIADOS - SOCIEDADE DE ADVOGADOS, RL, N/D, Lisboa, Edifício Alto das Amoreiras, Rua Joshua Benoliel, n.º 6 . 2º B, N/D, N/D, iam-8826l@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/, sociedade)
+        
+2025-06-05 12:04:20,169 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-05 12:04:33,830 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (ABBC - AZEVEDO NEVES, BENJAMIM MENDES, CARVALHO E ASSOCIADOS, ADVOGADOS, SP, RL, N/D, Lisboa, Largo de S. Carlos,  3, N/D, +351213583620, abbc@abbc.pt, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/, sociedade)
+        
+2025-06-05 12:04:33,840 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (ABECASIS, MOURA MARQUES & ASSOCIADOS, SOCIEDADE DE ADVOGADOS, SP, RL, N/D, Lisboa, Avenida da Liberdade, n.º 190 - 1º B, Edificio Avenida, N/D, +351211940538, jfa@aamm.pt, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/, sociedade)
+        
+2025-06-05 12:04:33,847 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (ABEL MARQUES E ASSOCIADOS - SOCIEDADE DE ADVOGADOS, SP, RL, N/D, Lisboa, R. Joaquim António de Aguiar, 33 -1º dto., N/D, +351213712327, abelmarques-7825l@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/, sociedade)
+        
+2025-06-05 12:04:33,856 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (ABRANCHES NAMORA & ASSOCIADOS - SOCIEDADE DE ADVOGADOS, SP, RL, N/D, Lisboa, Av Sidónio Pais, 16 - 2º Dto, N/D, +351213170990, soc.@oa.pt, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/, sociedade)
+        
+2025-06-05 12:04:33,862 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (ABREU & ASSOCIADOS - SOCIEDADE DE ADVOGADOS, SP, RL, N/D, Lisboa, Avenida Infante D. Henrique, 26, N/D, +351217231800, lisboa@abreuadvogados.com, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/, sociedade)
+        
+2025-06-05 12:04:33,869 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (ABREU & MARQUES E ASSOCIADOS-SOCIEDADE DE ADVOGADOS RL, N/D, Lisboa, R. Filipe Folque, 2 - 4º., N/D, +351213307100, amsa@amsa.pt, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/, sociedade)
+        
+2025-06-05 12:04:33,875 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (ABREU E NETO - SOCIEDADE DE ADVOGADOS, N/D, Lisboa, Rua Marcos de Assunção, n.º 4, Piso 1, Esc. 1.09, N/D, +351212754084, N/D, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/, sociedade)
+        
+2025-06-05 12:04:33,882 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (ADRIÃO RODRIGUES-ADVOGADOS ASSOCIADOS-SOCIEDADE CIVIL DE ADVOGADOS, N/D, Lisboa, Costa do Castelo,  62 r/c esqº., N/D, +351218870655, N/D, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/, sociedade)
+        
+2025-06-05 12:04:33,889 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (AF ADVOGADOS – ALMEIDA DIAS E FURTADO MARTINS, SOCIEDADE DE ADVOGADOS, SP, RL, N/D, Lisboa, Miraflores Office Center, Avenida das Túlipas, n.º 6 – 14º C, N/D, +351211600555, geral@af-advogados.com, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/, sociedade)
+        
+2025-06-05 12:04:33,895 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (AFONSO DA COSTA & ASSOCIADOS-SOCIEDADE DE ADVOGADOS RL, N/D, Lisboa, Av. Columbano Bordalo Pinheiro, 90 - 1º. esqº., N/D, +351210191308, N/D, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/, sociedade)
+        
+2025-06-05 12:04:48,618 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-05 12:05:01,717 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (AGUIAR, MAGALHÃES MOTA & ASSOCIADOS - SOCIEDADE DE ADVOGADOS, SP, RL, N/D, Lisboa, Rua Gonçalves Ramos, n.º 10 C, N/D, +351214928556, ammassociados.secretariado@gmail.com, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/, sociedade)
+        
+2025-06-05 12:05:01,723 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (AGUIAR, SIMÃO DE AGUIAR & ASSOCIADOS - SOCIEDADE DE ADVOGADOS, SP, RL, N/D, Lisboa, Av António Augusto de Aguiar, n.º 15 - 2º Dto., N/D, +351915195170, asda@asdasa.pt, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/, sociedade)
+        
+2025-06-05 12:05:01,735 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (ALARCÃO POTIER E CORREIA GOMES-SOCIEDADE DE ADVOGADOS DE RESPONSABILIDADE LIMITADA, N/D, Lisboa, R. Acácio de Paiva, 16 - 2º. esqº., N/D, +351213431933, apotier@sapo.pt, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/, sociedade)
+        
+2025-06-05 12:05:01,741 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (ALBANO BESSA MONTEIRO, PEDRO BRITO MONTEIRO & ASSOCIADOS, SOCIEDADE DE ADVOGADOS - SP, RL, N/D, Lisboa, Av. Estados Unidos da América, 110 B, N/D, +351217827990, pedrobritomonteiro-17399l@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/, sociedade)
+        
+2025-06-05 12:05:01,747 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (ALBINO JACINTO & ASSOCIADOS, SOCIEDADE DE ADVOGADOS, SP, RL, N/D, Lisboa, Campo Grande, 28 - 4º A, N/D, +351213170830, advogados@ajsa.pt, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/, sociedade)
+        
+2025-06-05 12:05:01,754 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (ALBUQUERQUE ADVOGADOS, SP, RL, N/D, Lisboa, Calçada Bento da Rocha Cabral, n.º 1, N/D, +351213431570, geral@albuquerque-associados.pt, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/, sociedade)
+        
+2025-06-05 12:05:01,761 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (ALCIDES MARTINS, BANDEIRA, SIMÕES & ASSOCIADOS, SOCIEDADE DE ADVOGADOS, SP, RL, N/D, Lisboa, Av. Duque de Loulé, 22 - 6º., N/D, +351213535372, advogados@amartins.pt, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/, sociedade)
+        
+2025-06-05 12:05:01,767 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (ALEXANDRA BESSONE CARDOSO & ASSOCIADOS - SOCIEDADE DE ADVOGADOS, SP, RL, N/D, Lisboa, Av Conselheiro Fernando de Sousa, 19 - B, C, N/D, +351213584480, abclegal@abclegal.com.pt, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/, sociedade)
+        
+2025-06-05 12:05:01,773 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (ALEXANDRE LAFAYETTE & ASSOCIADOS - SOCIEDADE DE ADVOGADOS, SP, RL, N/D, Lisboa, Rua de Moscavide, n.º 2 A, N/D, +351213802010, lafayetteassociados@mail.telepac.pt, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/, sociedade)
+        
+2025-06-05 12:05:01,780 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (ALFREDO THEODORO, NAZARÉ & ASSOCIADOS - SOCIEDADE DE ADVOGADOS, SP, RL, N/D, Lisboa, Rua Filipe Folque, n.º 5 - 4º esquerdo, N/D, +351213463393, atnadvogados@gmail.pt, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/, sociedade)
+        
+2025-06-05 12:05:14,398 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-05 12:05:26,332 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (ALICE PAÇO FERREIRA & ASSOCIADOS - SOCIEDADE DE ADVOGADOS, SP, RI, N/D, Lisboa, Campo Grande, 30 - 4º.  D, N/D, +351217928020, aliceferreira-12410l@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/, sociedade)
+        
+2025-06-05 12:05:26,337 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (ALMEIDA & ASSOCIADOS - SOCIEDADE DE ADVOGADOS, SP, RL, N/D, Lisboa, Av Dom João II, 9 - i 14C, Edifício Adamastor, N/D, +351218954290, alvesalmeida@hotmail.com, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/, sociedade)
+        
+2025-06-05 12:05:26,360 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (ALMEIDA D'EÇA, RAPOSO & ASSOCIADOS, SOCIEDADE DE ADVOGADOS, SP, RL, N/D, Lisboa, Rua Latino Coelho, n.º 87, N/D, N/D, rita.ae-14790l@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/, sociedade)
+        
+2025-06-05 12:05:26,367 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (ALMEIDA GARRETT, PINTO DE CARVALHO, SOCIEDADE DE ADVOGADOS, SP, RL, N/D, Lisboa, Rua da Artilharia 1, n.º 51, Pateo Bagatela, Edf 1, 2º, N/D, +351919251597, cag-7130p@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/, sociedade)
+        
+2025-06-05 12:05:26,370 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (ALMEIDA RIBEIRO E ASSOCIADOS-SOCIEDADE DE ADVOGADOS RL, N/D, Lisboa, R. Joaquim António de Aguiar, 66 - 1º., N/D, +351213714490, geral@almeidaribeiro.pt, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/, sociedade)
+        
+2025-06-05 12:05:26,376 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (ALMEIDA SANTOS & ASSOCIADOS, SOCIEDADE DE ADVOGADOS, SP, RL, N/D, Lisboa, R. Helena Félix,  30  C  Quinta do Texugo, N/D, N/D, gabriela.a.santos-21346l@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/, sociedade)
+        
+2025-06-05 12:05:26,382 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (ALMENDRA, MEDEIROS, ADVOGADOS, SP, RL, N/D, Lisboa, Rua Castilho, 71 - 1º dto., N/D, +351213233105, aa-8398l@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/, sociedade)
+        
+2025-06-05 12:05:26,389 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (ALVES & ASSOCIADOS-SOCIEDADE DE ADVOGADOS RL, N/D, Lisboa, Av. Miguel Bombarda, 80 - 6º., N/D, +351210354119, ritaguerraalves-11875L@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/, sociedade)
+        
+2025-06-05 12:05:26,400 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (ALVES & MARCOS - SOCIEDADE DE ADVOGADOS, SP, RL, N/D, Lisboa, Av. Engº. Duarte Pacheco, Torre  1  Piso  5, Sala 12, N/D, +351213806400, geral@asp-advogados.com, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/, sociedade)
+        
+2025-06-05 12:05:26,417 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (ALVES DA SILVA & RODRIGUEZ CORREIA - SOCIEDADE DE ADVOGADOS, RL, N/D, Lisboa, Av. Clotilde, 14 Edf. Arcadas do Parque, N/D, +351214668862, rodriguezcorreia-49458L@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/, sociedade)
+        
+2025-06-05 12:05:37,309 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-05 12:05:49,962 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (ALVES FERREIRA, BAPTISTA, SANTOS COSTA, AIRES SANTOS & ASSOCIADOS-SOCIEDADE DE ADVOGADOS RL, N/D, Lisboa, Av. Álvares Cabral, 47  r/c, N/D, +351213814640, geral@fbcs.pt, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/, sociedade)
+        
+2025-06-05 12:05:49,969 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (ALVES MENDES & CARLOS PICOITO - SOCIEDADE DE ADVOGADOS, SP, RL, N/D, Lisboa, Rua Tierno Galvan, 10, torre 3, 2º, n.º 206, N/D, +351217653990, am@ampvs.pt, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/, sociedade)
+        
+2025-06-05 12:05:49,975 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (ALVES PEREIRA,TEIXEIRA DE SOUSA & ASSOCIADOS-SOCIEDADE DE ADVOGADOS, SP, RL, N/D, Lisboa, Avenida da Liberdade, número 105, 2.º andar direito, N/D, +351213700190, info@alvespereira.com, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/, sociedade)
+        
+2025-06-05 12:05:49,981 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (ALVES, ANDRADE PINHEL, MARTINS, MESSIAS, SOCIEDADE ADVOGADOS, SP, RL, N/D, Lisboa, Rua Tierno Galvan, n.º 10, torre 3 - 4º andar - 409, N/D, +351969514515, contato@legallatinadvisors.com, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/, sociedade)
+        
+2025-06-05 12:05:49,988 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (ALVES, BOTELHO, VARELA & ASSOCIADOS - SOCIEDADE DE ADVOGADOS, SP, RL, N/D, Lisboa, Av. Álvares Cabral, 84 - 2º, N/D, +351213703600, apv-12020l@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/, sociedade)
+        
+2025-06-05 12:05:50,001 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (ALVES, MARTINS BRAZ & ASSOCIADOS - SOCIEDADE DE ADVOGADOS, SP, RL, N/D, Lisboa, Rua Rodrigues Sampaio, n.º 21, 4.º-A, N/D, +351211992168, info@amb-advogados.pt, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/, sociedade)
+        
+2025-06-05 12:05:50,017 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (ALVES, TEIXEIRA & ASSOCIADOS - SOCIEDADE DE ADVOGADOS, SP, RL, N/D, Lisboa, Avenida Defensores de Chaves, n.º 52 - 4º, N/D, +351217803010, geral@lisbonlegal.com, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/, sociedade)
+        
+2025-06-05 12:05:50,024 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (AMA - ANA MERELO, JOAQUIM VERÍSSIMO & ASSOCIADOS, SOCIEDADE DE ADVOGADOS, SP, RL, N/D, Lisboa, Av. da República, 49 - 1º. esqº., N/D, +351217979388, geral@amaadvogados.net, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/, sociedade)
+        
+2025-06-05 12:05:50,030 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (AMARAL BLANCO, PORTELA DUARTE & ASSOCIADOS-SOCIEDADE ADVOGADOS RL, N/D, Lisboa, Lg. 25 de Abril, 5 - 2º.  Sala  3, N/D, +351262086709, abpd@abpd.pt, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/, sociedade)
+        
+2025-06-05 12:05:50,037 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (AMARAL CABRAL & ASSOCIADOS - SOCIEDADE DE ADVOGADOS, SP, RL, N/D, Lisboa, Avª. Sidónio Pais, 26 - R/C, Direito, N/D, +351213192670, geral@amaralcabraladvogados.pt, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/, sociedade)
+        
+2025-06-05 12:06:01,135 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-05 12:06:12,621 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (ANA BRUNO & ASSOCIADOS-SOCIEDADE DE ADVOGADOS, SP, RL, N/D, Lisboa, Av Engenheiro Duarte Pacheco, 19 - 1º, N/D, +351213713350, susana.cunha@anabruno.pt, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/, sociedade)
+        
+2025-06-05 12:06:12,628 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (ANA CORREIA & Mª DA LUZ BIZARRO - SOCIEDADE DE ADVOGADOS, SP, RI, N/D, Lisboa, Av de Santa Maria, 14 - 10º, N/D, +351212168895, am.correia-7664l@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/, sociedade)
+        
+2025-06-05 12:06:12,634 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (ANA CRISTINA OLIVEIRA & ASSOCIADOS-SOCIEDADE DE ADVOGADOS RL, N/D, Lisboa, Rua Pinheiro Chagas, n.º 48, 1º, N/D, +351218824470, acoliveira-10860l@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/, sociedade)
+        
+2025-06-05 12:06:12,640 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (ANA CRISTINA PIMENTEL & ASSOCIADOS - SOCIEDADE DE ADVOGADOS, SP, RL, N/D, Lisboa, Av Elias Garcia, 176 - 2º esq, N/D, +351217819990, ah.acp@netcabo.pt, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/, sociedade)
+        
+2025-06-05 12:06:12,647 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (ANA MARGARIDA SANTOS & ASSOCIADOS-SOCIEDADE DE ADVOGADOS, SP, RL, N/D, Lisboa, Av. Engenheiro Duarte Pacheco, Amoreiras Torre 2, 7º andar, esc. 9, N/D, +351213303636, spereira@amsadvogados.pt, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/, sociedade)
+        
+2025-06-05 12:06:12,654 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (ANA MENDES CASACA & ASSOCIADOS - SOCIEDADE DE ADVOGADOS, RL, N/D, Lisboa, Praça Francisco Sá Carneiro, 2 - 5º esq., N/D, +351217579189, geral@amcadvogados.pt, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/, sociedade)
+        
+2025-06-05 12:06:12,660 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (ANA MORAIS MARTINS, ANTÓNIO GAMEIRO & ASSOCIADOS-SOCIEDADE DE ADVOGADOS RL, N/D, Lisboa, Av.  5  de Outubro, 52 - 1º. esqº., N/D, N/D, N/D, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/, sociedade)
+        
+2025-06-05 12:06:12,666 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (ANA TEGETHOFF SERENO E ALEXANDRA GÓIS - SOCIEDADE DE ADVOGADOS, SP, RL, N/D, Lisboa, Rua Latino Coelho, n.º 87, N/D, N/D, anategethoffsereno-51300L@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/, sociedade)
+        
+2025-06-05 12:06:12,673 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (ANDERSEN TAX & LEGAL IBERIA SLP –  SUCURSAL EM PORTUGAL, N/D, Lisboa, Avenida Alexandre Herculano, 38 - 3º, N/D, N/D, jose.soares@pt.Andersen.com, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/, sociedade)
+        
+2025-06-05 12:06:12,680 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (ANDRADE DE MATOS & ASSOCIADOS, SOCIEDADE DE ADVOGADOS, SP RL, N/D, Lisboa, Rua Alexandre Herculano, n.º 23 - r/c, N/D, +351213585400, geral@andradedematos.com, https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/, sociedade)
+        
+2025-06-05 12:06:12,692 - INFO - Dados salvos em CSV: dados_pesquisa-de-sociedades-de-advogados_20250605_120612.csv
+2025-06-05 12:06:12,692 - INFO - coletar_sociedades completado com 60 registros
+2025-06-05 12:06:12,692 - INFO - Iniciando: coletar_estagiarios
+2025-06-05 12:06:12,692 - INFO - Iniciando scraping de estagiários...
+2025-06-05 12:06:20,792 - ERROR - Erro ao clicar no botão de pesquisa para https://portal.oa.pt/advogados/pesquisa-de-advogados-estagiarios/: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x893763+63299]
+	GetHandleVerifier [0x0x8937a4+63364]
+	(No symbol) [0x0x6c0f70]
+	(No symbol) [0x0x6fc9a8]
+	(No symbol) [0x0x72e436]
+	(No symbol) [0x0x729f05]
+	(No symbol) [0x0x729486]
+	(No symbol) [0x0x693a05]
+	(No symbol) [0x0x693f5e]
+	(No symbol) [0x0x6943ed]
+	GetHandleVerifier [0x0xaee033+2531347]
+	GetHandleVerifier [0x0xae9332+2511634]
+	GetHandleVerifier [0x0x8b9eda+220858]
+	GetHandleVerifier [0x0x8aa528+156936]
+	GetHandleVerifier [0x0x8b0c5d+183357]
+	(No symbol) [0x0x6936d0]
+	(No symbol) [0x0x692edd]
+	GetHandleVerifier [0x0xc27edc+3817148]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-05 12:06:20,794 - ERROR - Erro ao processar página 1: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x893763+63299]
+	GetHandleVerifier [0x0x8937a4+63364]
+	(No symbol) [0x0x6c0f70]
+	(No symbol) [0x0x6fc9a8]
+	(No symbol) [0x0x72e436]
+	(No symbol) [0x0x729f05]
+	(No symbol) [0x0x729486]
+	(No symbol) [0x0x693a05]
+	(No symbol) [0x0x693f5e]
+	(No symbol) [0x0x6943ed]
+	GetHandleVerifier [0x0xaee033+2531347]
+	GetHandleVerifier [0x0xae9332+2511634]
+	GetHandleVerifier [0x0x8b9eda+220858]
+	GetHandleVerifier [0x0x8aa528+156936]
+	GetHandleVerifier [0x0x8b0c5d+183357]
+	(No symbol) [0x0x6936d0]
+	(No symbol) [0x0x692edd]
+	GetHandleVerifier [0x0xc27edc+3817148]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-05 12:06:20,794 - ERROR - Erro ao processar página 2: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x893763+63299]
+	GetHandleVerifier [0x0x8937a4+63364]
+	(No symbol) [0x0x6c0f70]
+	(No symbol) [0x0x6fc9a8]
+	(No symbol) [0x0x72e436]
+	(No symbol) [0x0x729f05]
+	(No symbol) [0x0x729486]
+	(No symbol) [0x0x693a05]
+	(No symbol) [0x0x693f5e]
+	(No symbol) [0x0x6943ed]
+	GetHandleVerifier [0x0xaee033+2531347]
+	GetHandleVerifier [0x0xae9332+2511634]
+	GetHandleVerifier [0x0x8b9eda+220858]
+	GetHandleVerifier [0x0x8aa528+156936]
+	GetHandleVerifier [0x0x8b0c5d+183357]
+	(No symbol) [0x0x6936d0]
+	(No symbol) [0x0x692edd]
+	GetHandleVerifier [0x0xc27edc+3817148]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-05 12:06:20,796 - ERROR - Erro ao processar página 3: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x893763+63299]
+	GetHandleVerifier [0x0x8937a4+63364]
+	(No symbol) [0x0x6c0f70]
+	(No symbol) [0x0x6fc9a8]
+	(No symbol) [0x0x72e436]
+	(No symbol) [0x0x729f05]
+	(No symbol) [0x0x729486]
+	(No symbol) [0x0x693a05]
+	(No symbol) [0x0x693f5e]
+	(No symbol) [0x0x6943ed]
+	GetHandleVerifier [0x0xaee033+2531347]
+	GetHandleVerifier [0x0xae9332+2511634]
+	GetHandleVerifier [0x0x8b9eda+220858]
+	GetHandleVerifier [0x0x8aa528+156936]
+	GetHandleVerifier [0x0x8b0c5d+183357]
+	(No symbol) [0x0x6936d0]
+	(No symbol) [0x0x692edd]
+	GetHandleVerifier [0x0xc27edc+3817148]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-05 12:06:20,796 - WARNING - coletar_estagiarios retornou 0 registros
+2025-06-05 12:06:20,796 - INFO - Iniciando: coletar_tribunais
+2025-06-05 12:06:20,796 - INFO - Iniciando scraping de tribunais...
+2025-06-05 12:06:20,796 - ERROR - Erro em coletar_tribunais: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x893763+63299]
+	GetHandleVerifier [0x0x8937a4+63364]
+	(No symbol) [0x0x6c0f70]
+	(No symbol) [0x0x6fc9a8]
+	(No symbol) [0x0x72e436]
+	(No symbol) [0x0x729f05]
+	(No symbol) [0x0x729486]
+	(No symbol) [0x0x693a05]
+	(No symbol) [0x0x693f5e]
+	(No symbol) [0x0x6943ed]
+	GetHandleVerifier [0x0xaee033+2531347]
+	GetHandleVerifier [0x0xae9332+2511634]
+	GetHandleVerifier [0x0x8b9eda+220858]
+	GetHandleVerifier [0x0x8aa528+156936]
+	GetHandleVerifier [0x0x8b0c5d+183357]
+	(No symbol) [0x0x6936d0]
+	(No symbol) [0x0x692edd]
+	GetHandleVerifier [0x0xc27edc+3817148]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-05 12:06:20,797 - INFO - Iniciando: coletar_julgados
+2025-06-05 12:06:20,797 - INFO - Iniciando scraping de julgados de paz...
+2025-06-05 12:06:20,798 - ERROR - Erro em coletar_julgados: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x893763+63299]
+	GetHandleVerifier [0x0x8937a4+63364]
+	(No symbol) [0x0x6c0f70]
+	(No symbol) [0x0x6fc9a8]
+	(No symbol) [0x0x72e436]
+	(No symbol) [0x0x729f05]
+	(No symbol) [0x0x729486]
+	(No symbol) [0x0x693a05]
+	(No symbol) [0x0x693f5e]
+	(No symbol) [0x0x6943ed]
+	GetHandleVerifier [0x0xaee033+2531347]
+	GetHandleVerifier [0x0xae9332+2511634]
+	GetHandleVerifier [0x0x8b9eda+220858]
+	GetHandleVerifier [0x0x8aa528+156936]
+	GetHandleVerifier [0x0x8b0c5d+183357]
+	(No symbol) [0x0x6936d0]
+	(No symbol) [0x0x692edd]
+	GetHandleVerifier [0x0xc27edc+3817148]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-05 12:06:20,799 - INFO - Iniciando: coletar_osae
+2025-06-05 12:06:20,799 - INFO - Iniciando scraping do OSAE...
+2025-06-05 12:06:20,799 - ERROR - Erro em coletar_osae: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x893763+63299]
+	GetHandleVerifier [0x0x8937a4+63364]
+	(No symbol) [0x0x6c0f70]
+	(No symbol) [0x0x6fc9a8]
+	(No symbol) [0x0x72e436]
+	(No symbol) [0x0x729f05]
+	(No symbol) [0x0x729486]
+	(No symbol) [0x0x693a05]
+	(No symbol) [0x0x693f5e]
+	(No symbol) [0x0x6943ed]
+	GetHandleVerifier [0x0xaee033+2531347]
+	GetHandleVerifier [0x0xae9332+2511634]
+	GetHandleVerifier [0x0x8b9eda+220858]
+	GetHandleVerifier [0x0x8aa528+156936]
+	GetHandleVerifier [0x0x8b0c5d+183357]
+	(No symbol) [0x0x6936d0]
+	(No symbol) [0x0x692edd]
+	GetHandleVerifier [0x0xc27edc+3817148]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-05 12:06:20,799 - INFO - Iniciando: coletar_advogados_angola
+2025-06-05 12:06:20,799 - INFO - Iniciando scraping de advogados de Angola...
+2025-06-05 12:06:20,800 - ERROR - Erro em coletar_advogados_angola: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x893763+63299]
+	GetHandleVerifier [0x0x8937a4+63364]
+	(No symbol) [0x0x6c0f70]
+	(No symbol) [0x0x6fc9a8]
+	(No symbol) [0x0x72e436]
+	(No symbol) [0x0x729f05]
+	(No symbol) [0x0x729486]
+	(No symbol) [0x0x693a05]
+	(No symbol) [0x0x693f5e]
+	(No symbol) [0x0x6943ed]
+	GetHandleVerifier [0x0xaee033+2531347]
+	GetHandleVerifier [0x0xae9332+2511634]
+	GetHandleVerifier [0x0x8b9eda+220858]
+	GetHandleVerifier [0x0x8aa528+156936]
+	GetHandleVerifier [0x0x8b0c5d+183357]
+	(No symbol) [0x0x6936d0]
+	(No symbol) [0x0x692edd]
+	GetHandleVerifier [0x0xc27edc+3817148]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-05 12:06:20,800 - INFO - Iniciando: coletar_camaras_municipais
+2025-06-05 12:06:20,800 - INFO - Iniciando scraping de câmaras municipais...
+2025-06-05 12:06:20,800 - ERROR - Erro em coletar_camaras_municipais: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x893763+63299]
+	GetHandleVerifier [0x0x8937a4+63364]
+	(No symbol) [0x0x6c0f70]
+	(No symbol) [0x0x6fc9a8]
+	(No symbol) [0x0x72e436]
+	(No symbol) [0x0x729f05]
+	(No symbol) [0x0x729486]
+	(No symbol) [0x0x693a05]
+	(No symbol) [0x0x693f5e]
+	(No symbol) [0x0x6943ed]
+	GetHandleVerifier [0x0xaee033+2531347]
+	GetHandleVerifier [0x0xae9332+2511634]
+	GetHandleVerifier [0x0x8b9eda+220858]
+	GetHandleVerifier [0x0x8aa528+156936]
+	GetHandleVerifier [0x0x8b0c5d+183357]
+	(No symbol) [0x0x6936d0]
+	(No symbol) [0x0x692edd]
+	GetHandleVerifier [0x0xc27edc+3817148]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-05 12:06:20,800 - INFO - Iniciando: coletar_atlas_cplp
+2025-06-05 12:06:20,801 - INFO - Iniciando scraping do Atlas CPLP...
+2025-06-05 12:06:20,802 - ERROR - Erro em coletar_atlas_cplp: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x893763+63299]
+	GetHandleVerifier [0x0x8937a4+63364]
+	(No symbol) [0x0x6c0f70]
+	(No symbol) [0x0x6fc9a8]
+	(No symbol) [0x0x72e436]
+	(No symbol) [0x0x729f05]
+	(No symbol) [0x0x729486]
+	(No symbol) [0x0x693a05]
+	(No symbol) [0x0x693f5e]
+	(No symbol) [0x0x6943ed]
+	GetHandleVerifier [0x0xaee033+2531347]
+	GetHandleVerifier [0x0xae9332+2511634]
+	GetHandleVerifier [0x0x8b9eda+220858]
+	GetHandleVerifier [0x0x8aa528+156936]
+	GetHandleVerifier [0x0x8b0c5d+183357]
+	(No symbol) [0x0x6936d0]
+	(No symbol) [0x0x692edd]
+	GetHandleVerifier [0x0xc27edc+3817148]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-05 12:06:20,803 - INFO - Dados salvos em CSV: todos_dados_20250605_120620.csv
+2025-06-05 12:06:20,803 - INFO - Todos os dados salvos em CSV com timestamp: 20250605_120620
+2025-06-05 12:06:20,803 - INFO - Conexão com o banco de dados fechada.
+2025-06-05 12:06:22,845 - INFO - Navegador fechado.

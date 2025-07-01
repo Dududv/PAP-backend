@@ -1,0 +1,400 @@
+2025-06-04 23:54:42,640 - INFO - Iniciando o script de scraping...
+2025-06-04 23:54:42,660 - INFO - Conexão com o banco de dados estabelecida!
+2025-06-04 23:54:42,718 - INFO - ====== WebDriver manager ======
+2025-06-04 23:54:43,952 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-04 23:54:43,990 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-04 23:54:44,025 - INFO - Driver [C:\Users\david\.wdm\drivers\chromedriver\win64\137.0.7151.68\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-04 23:54:56,299 - INFO - Iniciando: coletar_advogados
+2025-06-04 23:54:56,299 - INFO - Iniciando scraping de advogados...
+2025-06-04 23:55:37,563 - WARNING - Erro ao marcar 'Apenas Ativos' (continuando sem marcar): Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x503763+63299]
+	GetHandleVerifier [0x0x5037a4+63364]
+	(No symbol) [0x0x331113]
+	(No symbol) [0x0x37987e]
+	(No symbol) [0x0x379c1b]
+	(No symbol) [0x0x3c2212]
+	(No symbol) [0x0x39e5c4]
+	(No symbol) [0x0x3bfa4a]
+	(No symbol) [0x0x39e376]
+	(No symbol) [0x0x36d6e0]
+	(No symbol) [0x0x36e544]
+	GetHandleVerifier [0x0x75e033+2531347]
+	GetHandleVerifier [0x0x759332+2511634]
+	GetHandleVerifier [0x0x529eda+220858]
+	GetHandleVerifier [0x0x51a528+156936]
+	GetHandleVerifier [0x0x520c5d+183357]
+	GetHandleVerifier [0x0x50b6c8+95912]
+	GetHandleVerifier [0x0x50b870+96336]
+	GetHandleVerifier [0x0x4f664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-04 23:55:47,773 - WARNING - Erro ao clicar no botão de pesquisa: Message: 
+
+2025-06-04 23:55:47,779 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-04 23:56:02,897 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Aldelina Lopes Monteiro, 5772L, Lisboa, N/D, Inativo, N/D, N/D, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-04 23:56:02,909 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Ana Isabel Navarro, 14598L, Lisboa, Av Duque de Loulé, 5 -5º A, Activo, +351210961080, anaisabelnavarro-14598l@advogados.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-04 23:56:02,915 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Ana Maria Montenegro Vicente, 7548L, Lisboa, N/D, Inativo, N/D, N/D, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-04 23:56:02,926 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Ana Patrícia Lopes, 15487L, Lisboa, R da Liberdade, 67 - 3º Dto, Activo, N/D, anapatricialopes-15487l@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-04 23:56:02,939 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Anacleto Gomes, 5430L, Lisboa, R António Luís Inácio, 48 - RC Esq, Activo, +351966167220, anacletogomes-5430l@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-04 23:56:02,946 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Andrea Castro de Sousa, 17557L, Lisboa, Av Duque de Loulé, 5 - 4º C, Activo, +351210163559, andreasousa-17557l@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-04 23:56:02,953 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Andrea K Barnes, 45338L, Lisboa, Av da Liberdade, 38 - 4º, Activo, N/D, N/D, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-04 23:56:02,960 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (António Lemos Godinho, 16777L, Lisboa, Av Álvares Cabral, 84-1º Dto, Activo, +351213703600, alg-16777l@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-04 23:56:02,967 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (António Napoleão, 12958L, Lisboa, N/D, Inativo, N/D, N/D, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-04 23:56:02,974 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Carlos Bernardino, 6622L, Lisboa, N/D, Inativo, N/D, N/D, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-04 23:56:02,988 - INFO - Dados salvos em CSV: dados_pesquisa-de-advogados_20250604_235602.csv
+2025-06-04 23:56:02,989 - INFO - coletar_advogados completado com 10 registros
+2025-06-04 23:56:02,989 - INFO - Iniciando: coletar_sociedades
+2025-06-04 23:56:02,989 - INFO - Iniciando scraping de sociedades de advogados...
+2025-06-04 23:56:13,587 - ERROR - Erro ao clicar no botão de pesquisa para https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/: 'NoneType' object has no attribute 'is_displayed'
+2025-06-04 23:56:13,588 - ERROR - Erro ao processar página 1: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.57)
+Stacktrace:
+	GetHandleVerifier [0x0x503763+63299]
+	GetHandleVerifier [0x0x5037a4+63364]
+	(No symbol) [0x0x331113]
+	(No symbol) [0x0x30ff69]
+	(No symbol) [0x0x3a4fce]
+	(No symbol) [0x0x3bf359]
+	(No symbol) [0x0x39e376]
+	(No symbol) [0x0x36d6e0]
+	(No symbol) [0x0x36e544]
+	GetHandleVerifier [0x0x75e033+2531347]
+	GetHandleVerifier [0x0x759332+2511634]
+	GetHandleVerifier [0x0x529eda+220858]
+	GetHandleVerifier [0x0x51a528+156936]
+	GetHandleVerifier [0x0x520c5d+183357]
+	GetHandleVerifier [0x0x50b6c8+95912]
+	GetHandleVerifier [0x0x50b870+96336]
+	GetHandleVerifier [0x0x4f664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-04 23:56:13,589 - ERROR - Erro ao processar página 2: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.57)
+Stacktrace:
+	GetHandleVerifier [0x0x503763+63299]
+	GetHandleVerifier [0x0x5037a4+63364]
+	(No symbol) [0x0x331113]
+	(No symbol) [0x0x30ff69]
+	(No symbol) [0x0x3a4fce]
+	(No symbol) [0x0x3bf359]
+	(No symbol) [0x0x39e376]
+	(No symbol) [0x0x36d6e0]
+	(No symbol) [0x0x36e544]
+	GetHandleVerifier [0x0x75e033+2531347]
+	GetHandleVerifier [0x0x759332+2511634]
+	GetHandleVerifier [0x0x529eda+220858]
+	GetHandleVerifier [0x0x51a528+156936]
+	GetHandleVerifier [0x0x520c5d+183357]
+	GetHandleVerifier [0x0x50b6c8+95912]
+	GetHandleVerifier [0x0x50b870+96336]
+	GetHandleVerifier [0x0x4f664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-04 23:56:13,590 - ERROR - Erro ao processar página 3: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.57)
+Stacktrace:
+	GetHandleVerifier [0x0x503763+63299]
+	GetHandleVerifier [0x0x5037a4+63364]
+	(No symbol) [0x0x331113]
+	(No symbol) [0x0x30ff69]
+	(No symbol) [0x0x3a4fce]
+	(No symbol) [0x0x3bf359]
+	(No symbol) [0x0x39e376]
+	(No symbol) [0x0x36d6e0]
+	(No symbol) [0x0x36e544]
+	GetHandleVerifier [0x0x75e033+2531347]
+	GetHandleVerifier [0x0x759332+2511634]
+	GetHandleVerifier [0x0x529eda+220858]
+	GetHandleVerifier [0x0x51a528+156936]
+	GetHandleVerifier [0x0x520c5d+183357]
+	GetHandleVerifier [0x0x50b6c8+95912]
+	GetHandleVerifier [0x0x50b870+96336]
+	GetHandleVerifier [0x0x4f664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-04 23:56:13,590 - WARNING - coletar_sociedades retornou 0 registros
+2025-06-04 23:56:13,590 - INFO - Iniciando: coletar_estagiarios
+2025-06-04 23:56:13,590 - INFO - Iniciando scraping de estagiários...
+2025-06-04 23:56:13,591 - ERROR - Erro em coletar_estagiarios: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.57)
+Stacktrace:
+	GetHandleVerifier [0x0x503763+63299]
+	GetHandleVerifier [0x0x5037a4+63364]
+	(No symbol) [0x0x331113]
+	(No symbol) [0x0x30ff69]
+	(No symbol) [0x0x3a4fce]
+	(No symbol) [0x0x3bf359]
+	(No symbol) [0x0x39e376]
+	(No symbol) [0x0x36d6e0]
+	(No symbol) [0x0x36e544]
+	GetHandleVerifier [0x0x75e033+2531347]
+	GetHandleVerifier [0x0x759332+2511634]
+	GetHandleVerifier [0x0x529eda+220858]
+	GetHandleVerifier [0x0x51a528+156936]
+	GetHandleVerifier [0x0x520c5d+183357]
+	GetHandleVerifier [0x0x50b6c8+95912]
+	GetHandleVerifier [0x0x50b870+96336]
+	GetHandleVerifier [0x0x4f664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-04 23:56:13,591 - INFO - Iniciando: coletar_tribunais
+2025-06-04 23:56:13,591 - INFO - Iniciando scraping de tribunais...
+2025-06-04 23:56:13,592 - ERROR - Erro em coletar_tribunais: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.57)
+Stacktrace:
+	GetHandleVerifier [0x0x503763+63299]
+	GetHandleVerifier [0x0x5037a4+63364]
+	(No symbol) [0x0x331113]
+	(No symbol) [0x0x30ff69]
+	(No symbol) [0x0x3a4fce]
+	(No symbol) [0x0x3bf359]
+	(No symbol) [0x0x39e376]
+	(No symbol) [0x0x36d6e0]
+	(No symbol) [0x0x36e544]
+	GetHandleVerifier [0x0x75e033+2531347]
+	GetHandleVerifier [0x0x759332+2511634]
+	GetHandleVerifier [0x0x529eda+220858]
+	GetHandleVerifier [0x0x51a528+156936]
+	GetHandleVerifier [0x0x520c5d+183357]
+	GetHandleVerifier [0x0x50b6c8+95912]
+	GetHandleVerifier [0x0x50b870+96336]
+	GetHandleVerifier [0x0x4f664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-04 23:56:13,592 - INFO - Iniciando: coletar_julgados
+2025-06-04 23:56:13,592 - INFO - Iniciando scraping de julgados de paz...
+2025-06-04 23:56:13,593 - ERROR - Erro em coletar_julgados: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.57)
+Stacktrace:
+	GetHandleVerifier [0x0x503763+63299]
+	GetHandleVerifier [0x0x5037a4+63364]
+	(No symbol) [0x0x331113]
+	(No symbol) [0x0x30ff69]
+	(No symbol) [0x0x3a4fce]
+	(No symbol) [0x0x3bf359]
+	(No symbol) [0x0x39e376]
+	(No symbol) [0x0x36d6e0]
+	(No symbol) [0x0x36e544]
+	GetHandleVerifier [0x0x75e033+2531347]
+	GetHandleVerifier [0x0x759332+2511634]
+	GetHandleVerifier [0x0x529eda+220858]
+	GetHandleVerifier [0x0x51a528+156936]
+	GetHandleVerifier [0x0x520c5d+183357]
+	GetHandleVerifier [0x0x50b6c8+95912]
+	GetHandleVerifier [0x0x50b870+96336]
+	GetHandleVerifier [0x0x4f664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-04 23:56:13,593 - INFO - Iniciando: coletar_osae
+2025-06-04 23:56:13,593 - INFO - Iniciando scraping do OSAE...
+2025-06-04 23:56:13,593 - ERROR - Erro ao carregar dados do OSAE: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.57)
+Stacktrace:
+	GetHandleVerifier [0x0x503763+63299]
+	GetHandleVerifier [0x0x5037a4+63364]
+	(No symbol) [0x0x331113]
+	(No symbol) [0x0x30ff69]
+	(No symbol) [0x0x3a4fce]
+	(No symbol) [0x0x3bf359]
+	(No symbol) [0x0x39e376]
+	(No symbol) [0x0x36d6e0]
+	(No symbol) [0x0x36e544]
+	GetHandleVerifier [0x0x75e033+2531347]
+	GetHandleVerifier [0x0x759332+2511634]
+	GetHandleVerifier [0x0x529eda+220858]
+	GetHandleVerifier [0x0x51a528+156936]
+	GetHandleVerifier [0x0x520c5d+183357]
+	GetHandleVerifier [0x0x50b6c8+95912]
+	GetHandleVerifier [0x0x50b870+96336]
+	GetHandleVerifier [0x0x4f664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-04 23:56:13,595 - ERROR - Erro em coletar_osae: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.57)
+Stacktrace:
+	GetHandleVerifier [0x0x503763+63299]
+	GetHandleVerifier [0x0x5037a4+63364]
+	(No symbol) [0x0x331113]
+	(No symbol) [0x0x30ff69]
+	(No symbol) [0x0x3a4fce]
+	(No symbol) [0x0x3bf359]
+	(No symbol) [0x0x39e376]
+	(No symbol) [0x0x36d6e0]
+	(No symbol) [0x0x36e544]
+	GetHandleVerifier [0x0x75e033+2531347]
+	GetHandleVerifier [0x0x759332+2511634]
+	GetHandleVerifier [0x0x529eda+220858]
+	GetHandleVerifier [0x0x51a528+156936]
+	GetHandleVerifier [0x0x520c5d+183357]
+	GetHandleVerifier [0x0x50b6c8+95912]
+	GetHandleVerifier [0x0x50b870+96336]
+	GetHandleVerifier [0x0x4f664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-04 23:56:13,595 - INFO - Iniciando: coletar_advogados_angola
+2025-06-04 23:56:13,595 - INFO - Iniciando scraping de advogados de Angola...
+2025-06-04 23:56:13,596 - ERROR - Erro ao carregar dados de advogados de Angola: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.57)
+Stacktrace:
+	GetHandleVerifier [0x0x503763+63299]
+	GetHandleVerifier [0x0x5037a4+63364]
+	(No symbol) [0x0x331113]
+	(No symbol) [0x0x30ff69]
+	(No symbol) [0x0x3a4fce]
+	(No symbol) [0x0x3bf359]
+	(No symbol) [0x0x39e376]
+	(No symbol) [0x0x36d6e0]
+	(No symbol) [0x0x36e544]
+	GetHandleVerifier [0x0x75e033+2531347]
+	GetHandleVerifier [0x0x759332+2511634]
+	GetHandleVerifier [0x0x529eda+220858]
+	GetHandleVerifier [0x0x51a528+156936]
+	GetHandleVerifier [0x0x520c5d+183357]
+	GetHandleVerifier [0x0x50b6c8+95912]
+	GetHandleVerifier [0x0x50b870+96336]
+	GetHandleVerifier [0x0x4f664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-04 23:56:13,597 - ERROR - Erro em coletar_advogados_angola: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.57)
+Stacktrace:
+	GetHandleVerifier [0x0x503763+63299]
+	GetHandleVerifier [0x0x5037a4+63364]
+	(No symbol) [0x0x331113]
+	(No symbol) [0x0x30ff69]
+	(No symbol) [0x0x3a4fce]
+	(No symbol) [0x0x3bf359]
+	(No symbol) [0x0x39e376]
+	(No symbol) [0x0x36d6e0]
+	(No symbol) [0x0x36e544]
+	GetHandleVerifier [0x0x75e033+2531347]
+	GetHandleVerifier [0x0x759332+2511634]
+	GetHandleVerifier [0x0x529eda+220858]
+	GetHandleVerifier [0x0x51a528+156936]
+	GetHandleVerifier [0x0x520c5d+183357]
+	GetHandleVerifier [0x0x50b6c8+95912]
+	GetHandleVerifier [0x0x50b870+96336]
+	GetHandleVerifier [0x0x4f664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-04 23:56:13,597 - INFO - Iniciando: coletar_camaras_municipais
+2025-06-04 23:56:13,598 - INFO - Iniciando scraping de câmaras municipais...
+2025-06-04 23:56:13,598 - ERROR - Erro em coletar_camaras_municipais: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.57)
+Stacktrace:
+	GetHandleVerifier [0x0x503763+63299]
+	GetHandleVerifier [0x0x5037a4+63364]
+	(No symbol) [0x0x331113]
+	(No symbol) [0x0x30ff69]
+	(No symbol) [0x0x3a4fce]
+	(No symbol) [0x0x3bf359]
+	(No symbol) [0x0x39e376]
+	(No symbol) [0x0x36d6e0]
+	(No symbol) [0x0x36e544]
+	GetHandleVerifier [0x0x75e033+2531347]
+	GetHandleVerifier [0x0x759332+2511634]
+	GetHandleVerifier [0x0x529eda+220858]
+	GetHandleVerifier [0x0x51a528+156936]
+	GetHandleVerifier [0x0x520c5d+183357]
+	GetHandleVerifier [0x0x50b6c8+95912]
+	GetHandleVerifier [0x0x50b870+96336]
+	GetHandleVerifier [0x0x4f664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-04 23:56:13,599 - INFO - Iniciando: coletar_atlas_cplp
+2025-06-04 23:56:13,600 - INFO - Iniciando scraping do Atlas CPLP...
+2025-06-04 23:56:13,600 - ERROR - Erro em coletar_atlas_cplp: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.57)
+Stacktrace:
+	GetHandleVerifier [0x0x503763+63299]
+	GetHandleVerifier [0x0x5037a4+63364]
+	(No symbol) [0x0x331113]
+	(No symbol) [0x0x30ff69]
+	(No symbol) [0x0x3a4fce]
+	(No symbol) [0x0x3bf359]
+	(No symbol) [0x0x39e376]
+	(No symbol) [0x0x36d6e0]
+	(No symbol) [0x0x36e544]
+	GetHandleVerifier [0x0x75e033+2531347]
+	GetHandleVerifier [0x0x759332+2511634]
+	GetHandleVerifier [0x0x529eda+220858]
+	GetHandleVerifier [0x0x51a528+156936]
+	GetHandleVerifier [0x0x520c5d+183357]
+	GetHandleVerifier [0x0x50b6c8+95912]
+	GetHandleVerifier [0x0x50b870+96336]
+	GetHandleVerifier [0x0x4f664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-04 23:56:13,601 - INFO - Dados salvos em CSV: todos_dados_20250604_235613.csv
+2025-06-04 23:56:13,601 - INFO - Todos os dados salvos em CSV com timestamp: 20250604_235613
+2025-06-04 23:56:13,601 - INFO - Conexão com o banco de dados fechada.
+2025-06-04 23:56:15,784 - INFO - Navegador fechado.

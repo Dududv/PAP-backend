@@ -1,0 +1,78 @@
+2025-06-05 12:10:58,392 - INFO - Iniciando o script de scraping...
+2025-06-05 12:10:58,400 - INFO - Conexão com o banco de dados estabelecida!
+2025-06-05 12:10:58,400 - INFO - ====== WebDriver manager ======
+2025-06-05 12:10:59,233 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-05 12:10:59,268 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-05 12:10:59,299 - INFO - Driver [C:\Users\david\.wdm\drivers\chromedriver\win64\137.0.7151.68\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-05 12:11:00,429 - INFO - Iniciando: coletar_advogados
+2025-06-05 12:11:00,429 - INFO - Iniciando scraping de advogados...
+2025-06-05 12:11:41,842 - WARNING - Erro ao marcar 'Apenas Ativos' (continuando sem marcar): Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x893763+63299]
+	GetHandleVerifier [0x0x8937a4+63364]
+	(No symbol) [0x0x6c1113]
+	(No symbol) [0x0x70987e]
+	(No symbol) [0x0x709c1b]
+	(No symbol) [0x0x752212]
+	(No symbol) [0x0x72e5c4]
+	(No symbol) [0x0x74fa4a]
+	(No symbol) [0x0x72e376]
+	(No symbol) [0x0x6fd6e0]
+	(No symbol) [0x0x6fe544]
+	GetHandleVerifier [0x0xaee033+2531347]
+	GetHandleVerifier [0x0xae9332+2511634]
+	GetHandleVerifier [0x0x8b9eda+220858]
+	GetHandleVerifier [0x0x8aa528+156936]
+	GetHandleVerifier [0x0x8b0c5d+183357]
+	GetHandleVerifier [0x0x89b6c8+95912]
+	GetHandleVerifier [0x0x89b870+96336]
+	GetHandleVerifier [0x0x88664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-05 12:11:52,006 - WARNING - Erro ao clicar no botão de pesquisa: Message: 
+
+2025-06-05 12:11:52,012 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-05 12:12:07,508 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Alcidio Castro Rocha, 4178L, Lisboa, R Paulo Renato, 2 - Qta da Morgadinha, Activo, +351212723630, alcidio.castro.rocha-4178l@advogados.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-05 12:12:07,515 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Allison Costa, 54753L, Lisboa, R Mar da China, 1, Escr 0.1, Activo, +351+351916558900, allisoncosta-54753L@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-05 12:12:07,522 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Ana Beatriz Gonçalves, 66543L, Lisboa, R Garrett, 64, Activo, N/D, beatrizgoncalves-66543L@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-05 12:12:07,528 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Ana Gonçalves Coelho, 21056L, Lisboa, R Vitória Almeida, 9 A - Bolembre, Activo, +351219610644, anagoncalvescoelho-21056l@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-05 12:12:07,535 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Ana Luz, 15550L, Lisboa, R Dr Manuel Pacheco Nobre, 85 - Rc Esq, Activo, +351212160301, ana.luz-15550l@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-05 12:12:07,542 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (António Gameiro, 3779C, Lisboa, R Luciana Stegagno Picchio, 1 - 4º A, Activo, N/D, argameiro-3779c@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-05 12:12:07,548 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Beatriz Lopes Duarte, 66691L, Lisboa, R Mário Costa Ferreira Lima, 3  - Portela de Sintra, Activo, +351965525331, beatrizlopes.d-66691L@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-05 12:12:07,554 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Cândida Lima, 1268E, Lisboa, R Qta do Almeida, 4 A - Casal do Marco, Activo, N/D, candidalima-1268e@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-05 12:12:07,560 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Carolina Inverno Branco, 64477L, Lisboa, Av Fontes Pereira de Melo, 43, Activo, +351213197424, carolina.invernobranco-64477L@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-05 12:12:07,567 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Catarina Russo, 10468L, Lisboa, R Guerra Junqueiro, 40 - 1º Esq, Activo, +351969173515, catarina.russo-10468l@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-05 12:12:18,970 - INFO - Conexão com o banco de dados fechada.
+2025-06-05 12:12:23,077 - INFO - Navegador fechado.

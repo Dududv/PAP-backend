@@ -1,0 +1,975 @@
+2025-06-23 19:50:57,892 - INFO - Iniciando o script de scraping...
+2025-06-23 19:50:57,959 - INFO - Conexão com o banco de dados estabelecida!
+2025-06-23 19:50:58,082 - INFO - Tabela 'advogados' recriada com sucesso!
+2025-06-23 19:50:58,084 - INFO - Tabela 'sociedades' verificada/criada com sucesso!
+2025-06-23 19:50:58,086 - INFO - Tabela 'estagiarios' verificada/criada com sucesso!
+2025-06-23 19:50:58,087 - INFO - Tabela 'estagiarios' verificada/criada com sucesso!
+2025-06-23 19:50:58,087 - INFO - Tabela 'agentes_execucao' verificada/criada com sucesso!
+2025-06-23 19:50:58,087 - INFO - ====== WebDriver manager ======
+2025-06-23 19:50:59,201 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-23 19:51:00,463 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-23 19:51:00,499 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-23 19:51:00,735 - INFO - WebDriver version 137.0.7151.119 selected
+2025-06-23 19:51:00,737 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/137.0.7151.119/win32/chromedriver-win32.zip
+2025-06-23 19:51:00,738 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/137.0.7151.119/win32/chromedriver-win32.zip
+2025-06-23 19:51:00,856 - INFO - Driver downloading response is 200
+2025-06-23 19:51:01,069 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-23 19:51:01,753 - INFO - Driver has been saved in cache [C:\Users\david\.wdm\drivers\chromedriver\win64\137.0.7151.119]
+2025-06-23 19:51:05,557 - INFO - Iniciando: coletar_advogados_lisboa
+2025-06-23 19:51:05,557 - INFO - Iniciando scraping de advogados...
+2025-06-23 19:51:44,390 - WARNING - Erro ao marcar 'Apenas Ativos' (continuando sem marcar): Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xb53b03+62899]
+	GetHandleVerifier [0x0xb53b44+62964]
+	(No symbol) [0x0x9810f3]
+	(No symbol) [0x0x9c980e]
+	(No symbol) [0x0x9c9bab]
+	(No symbol) [0x0xa125c2]
+	(No symbol) [0x0x9ee554]
+	(No symbol) [0x0xa0fd81]
+	(No symbol) [0x0x9ee306]
+	(No symbol) [0x0x9bd670]
+	(No symbol) [0x0x9be4e4]
+	GetHandleVerifier [0x0xdb4793+2556483]
+	GetHandleVerifier [0x0xdafd02+2537394]
+	GetHandleVerifier [0x0xb7a2fa+220586]
+	GetHandleVerifier [0x0xb6aae8+157080]
+	GetHandleVerifier [0x0xb7141d+184013]
+	GetHandleVerifier [0x0xb5ba68+95512]
+	GetHandleVerifier [0x0xb5bc10+95936]
+	GetHandleVerifier [0x0xb46b5a+9738]
+	BaseThreadInitThunk [0x0x76515d49+25]
+	RtlInitializeExceptionChain [0x0x77add09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x77add021+561]
+
+2025-06-23 19:51:54,628 - WARNING - Erro ao clicar no botão de pesquisa: Message: 
+
+2025-06-23 19:51:54,635 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-23 19:52:26,001 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (A Almeida Gonçalves, 56087L, Lisboa, N/D, Inativo, N/D, N/D, advogado, N/D, N/D, N/D, N/D, N/D)
+        
+2025-06-23 19:52:26,017 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Ana Cristina Pires Silva, 21942L, Lisboa, Av das Acácias, 18 - Lj 1, Activo, N/D, N/D, advogado, ODIVELAS, 2675-686 ODIVELAS, +351219332819, 14-07-2006, N/D)
+        
+2025-06-23 19:52:26,029 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (André Gaspar Martins, 45444L, Lisboa, R D Luís I, 28, Activo, N/D, N/D, advogado, LISBOA, 1200-151 LISBOA, +351213113400, 26-09-2007, N/D)
+        
+2025-06-23 19:52:26,046 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Antonieta Almeida Rocha, 7157L, Lisboa, N/D, Inativo, N/D, N/D, advogado, N/D, N/D, N/D, N/D, N/D)
+        
+2025-06-23 19:52:26,055 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (António Lopes Lourenço, 14505L, Lisboa, N/D, Inativo, N/D, N/D, advogado, N/D, N/D, N/D, N/D, N/D)
+        
+2025-06-23 19:52:26,061 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Bárbara Roque, 61259L, Lisboa, Av António Augusto de Aguiar, 148 - 4º A, Activo, N/D, N/D, advogado, LISBOA, 1050-021 LISBOA, +351919963405, 03-09-2019, N/D)
+        
+2025-06-23 19:52:26,070 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Beatriz Ferreira Faria, 69428L, Lisboa, R Alexandre Herculano, 38 - 3º, Activo, N/D, N/D, advogado, LISBOA, 1250-011 LISBOA, +351924428286, 20-10-2023, N/D)
+        
+2025-06-23 19:52:26,077 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Bruno de Matos, 48780L, Lisboa, Av 5 de Outubro, 359 C - Piso 1, Escr 2, Activo, N/D, N/D, advogado, LISBOA, 1600-036 LISBOA, +351213539345, 02-07-2010, N/D)
+        
+2025-06-23 19:52:26,084 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Câmia Bonfim, 44401L, Lisboa, N/D, Inativo, N/D, N/D, advogado, N/D, N/D, N/D, N/D, N/D)
+        
+2025-06-23 19:52:26,090 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Chi Neng Tam, 56117L, Lisboa, N/D, Inativo, N/D, N/D, advogado, N/D, N/D, N/D, N/D, N/D)
+        
+2025-06-23 19:52:42,876 - ERROR - Erro ao processar página 2: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=137.0.7151.120)
+Stacktrace:
+	GetHandleVerifier [0x0xb53b03+62899]
+	GetHandleVerifier [0x0xb53b44+62964]
+	(No symbol) [0x0x9810f3]
+	(No symbol) [0x0x9708c0]
+	(No symbol) [0x0x98e87f]
+	(No symbol) [0x0x9f514c]
+	(No symbol) [0x0xa0f6a9]
+	(No symbol) [0x0x9ee306]
+	(No symbol) [0x0x9bd670]
+	(No symbol) [0x0x9be4e4]
+	GetHandleVerifier [0x0xdb4793+2556483]
+	GetHandleVerifier [0x0xdafd02+2537394]
+	GetHandleVerifier [0x0xb7a2fa+220586]
+	GetHandleVerifier [0x0xb6aae8+157080]
+	GetHandleVerifier [0x0xb7141d+184013]
+	GetHandleVerifier [0x0xb5ba68+95512]
+	GetHandleVerifier [0x0xb5bc10+95936]
+	GetHandleVerifier [0x0xb46b5a+9738]
+	BaseThreadInitThunk [0x0x76515d49+25]
+	RtlInitializeExceptionChain [0x0x77add09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x77add021+561]
+
+2025-06-23 19:52:42,946 - ERROR - Erro ao processar página 3: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0xb53b03+62899]
+	GetHandleVerifier [0x0xb53b44+62964]
+	(No symbol) [0x0x980f50]
+	(No symbol) [0x0x9bc938]
+	(No symbol) [0x0x9ee3c6]
+	(No symbol) [0x0x9e9e72]
+	(No symbol) [0x0x9e9406]
+	(No symbol) [0x0x953a05]
+	(No symbol) [0x0x953f5e]
+	(No symbol) [0x0x9543fd]
+	GetHandleVerifier [0x0xdb4793+2556483]
+	GetHandleVerifier [0x0xdafd02+2537394]
+	GetHandleVerifier [0x0xb7a2fa+220586]
+	GetHandleVerifier [0x0xb6aae8+157080]
+	GetHandleVerifier [0x0xb7141d+184013]
+	(No symbol) [0x0x9536d0]
+	(No symbol) [0x0x952f47]
+	GetHandleVerifier [0x0xeeaa2c+3826908]
+	BaseThreadInitThunk [0x0x76515d49+25]
+	RtlInitializeExceptionChain [0x0x77add09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x77add021+561]
+
+2025-06-23 19:52:42,947 - ERROR - Erro ao processar página 4: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0xb53b03+62899]
+	GetHandleVerifier [0x0xb53b44+62964]
+	(No symbol) [0x0x980f50]
+	(No symbol) [0x0x9bc938]
+	(No symbol) [0x0x9ee3c6]
+	(No symbol) [0x0x9e9e72]
+	(No symbol) [0x0x9e9406]
+	(No symbol) [0x0x953a05]
+	(No symbol) [0x0x953f5e]
+	(No symbol) [0x0x9543fd]
+	GetHandleVerifier [0x0xdb4793+2556483]
+	GetHandleVerifier [0x0xdafd02+2537394]
+	GetHandleVerifier [0x0xb7a2fa+220586]
+	GetHandleVerifier [0x0xb6aae8+157080]
+	GetHandleVerifier [0x0xb7141d+184013]
+	(No symbol) [0x0x9536d0]
+	(No symbol) [0x0x952f47]
+	GetHandleVerifier [0x0xeeaa2c+3826908]
+	BaseThreadInitThunk [0x0x76515d49+25]
+	RtlInitializeExceptionChain [0x0x77add09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x77add021+561]
+
+2025-06-23 19:52:42,948 - INFO - Dados salvos em CSV: dados_pesquisa-de-advogados_20250623_195242.csv
+2025-06-23 19:52:42,948 - INFO - coletar_advogados_lisboa completado com 10 registros
+2025-06-23 19:52:42,948 - INFO - Iniciando: coletar_advogados_porto
+2025-06-23 19:52:42,948 - INFO - Iniciando scraping de advogados...
+2025-06-23 19:52:42,948 - ERROR - Erro em coletar_advogados_porto: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0xb53b03+62899]
+	GetHandleVerifier [0x0xb53b44+62964]
+	(No symbol) [0x0x980f50]
+	(No symbol) [0x0x9bc938]
+	(No symbol) [0x0x9ee3c6]
+	(No symbol) [0x0x9e9e72]
+	(No symbol) [0x0x9e9406]
+	(No symbol) [0x0x953a05]
+	(No symbol) [0x0x953f5e]
+	(No symbol) [0x0x9543fd]
+	GetHandleVerifier [0x0xdb4793+2556483]
+	GetHandleVerifier [0x0xdafd02+2537394]
+	GetHandleVerifier [0x0xb7a2fa+220586]
+	GetHandleVerifier [0x0xb6aae8+157080]
+	GetHandleVerifier [0x0xb7141d+184013]
+	(No symbol) [0x0x9536d0]
+	(No symbol) [0x0x952f47]
+	GetHandleVerifier [0x0xeeaa2c+3826908]
+	BaseThreadInitThunk [0x0x76515d49+25]
+	RtlInitializeExceptionChain [0x0x77add09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x77add021+561]
+
+2025-06-23 19:52:42,948 - INFO - Iniciando: coletar_advogados_coimbra
+2025-06-23 19:52:42,948 - INFO - Iniciando scraping de advogados...
+2025-06-23 19:52:42,949 - ERROR - Erro em coletar_advogados_coimbra: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0xb53b03+62899]
+	GetHandleVerifier [0x0xb53b44+62964]
+	(No symbol) [0x0x980f50]
+	(No symbol) [0x0x9bc938]
+	(No symbol) [0x0x9ee3c6]
+	(No symbol) [0x0x9e9e72]
+	(No symbol) [0x0x9e9406]
+	(No symbol) [0x0x953a05]
+	(No symbol) [0x0x953f5e]
+	(No symbol) [0x0x9543fd]
+	GetHandleVerifier [0x0xdb4793+2556483]
+	GetHandleVerifier [0x0xdafd02+2537394]
+	GetHandleVerifier [0x0xb7a2fa+220586]
+	GetHandleVerifier [0x0xb6aae8+157080]
+	GetHandleVerifier [0x0xb7141d+184013]
+	(No symbol) [0x0x9536d0]
+	(No symbol) [0x0x952f47]
+	GetHandleVerifier [0x0xeeaa2c+3826908]
+	BaseThreadInitThunk [0x0x76515d49+25]
+	RtlInitializeExceptionChain [0x0x77add09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x77add021+561]
+
+2025-06-23 19:52:42,949 - INFO - Iniciando: coletar_advogados_evora
+2025-06-23 19:52:42,949 - INFO - Iniciando scraping de advogados...
+2025-06-23 19:52:42,950 - ERROR - Erro em coletar_advogados_evora: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0xb53b03+62899]
+	GetHandleVerifier [0x0xb53b44+62964]
+	(No symbol) [0x0x980f50]
+	(No symbol) [0x0x9bc938]
+	(No symbol) [0x0x9ee3c6]
+	(No symbol) [0x0x9e9e72]
+	(No symbol) [0x0x9e9406]
+	(No symbol) [0x0x953a05]
+	(No symbol) [0x0x953f5e]
+	(No symbol) [0x0x9543fd]
+	GetHandleVerifier [0x0xdb4793+2556483]
+	GetHandleVerifier [0x0xdafd02+2537394]
+	GetHandleVerifier [0x0xb7a2fa+220586]
+	GetHandleVerifier [0x0xb6aae8+157080]
+	GetHandleVerifier [0x0xb7141d+184013]
+	(No symbol) [0x0x9536d0]
+	(No symbol) [0x0x952f47]
+	GetHandleVerifier [0x0xeeaa2c+3826908]
+	BaseThreadInitThunk [0x0x76515d49+25]
+	RtlInitializeExceptionChain [0x0x77add09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x77add021+561]
+
+2025-06-23 19:52:42,950 - INFO - Iniciando: coletar_advogados_faro
+2025-06-23 19:52:42,950 - INFO - Iniciando scraping de advogados...
+2025-06-23 19:52:42,950 - ERROR - Erro em coletar_advogados_faro: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0xb53b03+62899]
+	GetHandleVerifier [0x0xb53b44+62964]
+	(No symbol) [0x0x980f50]
+	(No symbol) [0x0x9bc938]
+	(No symbol) [0x0x9ee3c6]
+	(No symbol) [0x0x9e9e72]
+	(No symbol) [0x0x9e9406]
+	(No symbol) [0x0x953a05]
+	(No symbol) [0x0x953f5e]
+	(No symbol) [0x0x9543fd]
+	GetHandleVerifier [0x0xdb4793+2556483]
+	GetHandleVerifier [0x0xdafd02+2537394]
+	GetHandleVerifier [0x0xb7a2fa+220586]
+	GetHandleVerifier [0x0xb6aae8+157080]
+	GetHandleVerifier [0x0xb7141d+184013]
+	(No symbol) [0x0x9536d0]
+	(No symbol) [0x0x952f47]
+	GetHandleVerifier [0x0xeeaa2c+3826908]
+	BaseThreadInitThunk [0x0x76515d49+25]
+	RtlInitializeExceptionChain [0x0x77add09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x77add021+561]
+
+2025-06-23 19:52:42,950 - INFO - Iniciando: coletar_advogados_madeira
+2025-06-23 19:52:42,950 - INFO - Iniciando scraping de advogados...
+2025-06-23 19:52:42,951 - ERROR - Erro em coletar_advogados_madeira: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0xb53b03+62899]
+	GetHandleVerifier [0x0xb53b44+62964]
+	(No symbol) [0x0x980f50]
+	(No symbol) [0x0x9bc938]
+	(No symbol) [0x0x9ee3c6]
+	(No symbol) [0x0x9e9e72]
+	(No symbol) [0x0x9e9406]
+	(No symbol) [0x0x953a05]
+	(No symbol) [0x0x953f5e]
+	(No symbol) [0x0x9543fd]
+	GetHandleVerifier [0x0xdb4793+2556483]
+	GetHandleVerifier [0x0xdafd02+2537394]
+	GetHandleVerifier [0x0xb7a2fa+220586]
+	GetHandleVerifier [0x0xb6aae8+157080]
+	GetHandleVerifier [0x0xb7141d+184013]
+	(No symbol) [0x0x9536d0]
+	(No symbol) [0x0x952f47]
+	GetHandleVerifier [0x0xeeaa2c+3826908]
+	BaseThreadInitThunk [0x0x76515d49+25]
+	RtlInitializeExceptionChain [0x0x77add09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x77add021+561]
+
+2025-06-23 19:52:42,951 - INFO - Iniciando: coletar_advogados_acores
+2025-06-23 19:52:42,951 - INFO - Iniciando scraping de advogados...
+2025-06-23 19:52:42,952 - ERROR - Erro em coletar_advogados_acores: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0xb53b03+62899]
+	GetHandleVerifier [0x0xb53b44+62964]
+	(No symbol) [0x0x980f50]
+	(No symbol) [0x0x9bc938]
+	(No symbol) [0x0x9ee3c6]
+	(No symbol) [0x0x9e9e72]
+	(No symbol) [0x0x9e9406]
+	(No symbol) [0x0x953a05]
+	(No symbol) [0x0x953f5e]
+	(No symbol) [0x0x9543fd]
+	GetHandleVerifier [0x0xdb4793+2556483]
+	GetHandleVerifier [0x0xdafd02+2537394]
+	GetHandleVerifier [0x0xb7a2fa+220586]
+	GetHandleVerifier [0x0xb6aae8+157080]
+	GetHandleVerifier [0x0xb7141d+184013]
+	(No symbol) [0x0x9536d0]
+	(No symbol) [0x0x952f47]
+	GetHandleVerifier [0x0xeeaa2c+3826908]
+	BaseThreadInitThunk [0x0x76515d49+25]
+	RtlInitializeExceptionChain [0x0x77add09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x77add021+561]
+
+2025-06-23 19:52:42,952 - INFO - Iniciando: coletar_julgados
+2025-06-23 19:52:42,952 - INFO - Iniciando scraping de julgados de paz detalhados...
+2025-06-23 19:52:42,953 - ERROR - Erro em coletar_julgados: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0xb53b03+62899]
+	GetHandleVerifier [0x0xb53b44+62964]
+	(No symbol) [0x0x980f50]
+	(No symbol) [0x0x9bc938]
+	(No symbol) [0x0x9ee3c6]
+	(No symbol) [0x0x9e9e72]
+	(No symbol) [0x0x9e9406]
+	(No symbol) [0x0x953a05]
+	(No symbol) [0x0x953f5e]
+	(No symbol) [0x0x9543fd]
+	GetHandleVerifier [0x0xdb4793+2556483]
+	GetHandleVerifier [0x0xdafd02+2537394]
+	GetHandleVerifier [0x0xb7a2fa+220586]
+	GetHandleVerifier [0x0xb6aae8+157080]
+	GetHandleVerifier [0x0xb7141d+184013]
+	(No symbol) [0x0x9536d0]
+	(No symbol) [0x0x952f47]
+	GetHandleVerifier [0x0xeeaa2c+3826908]
+	BaseThreadInitThunk [0x0x76515d49+25]
+	RtlInitializeExceptionChain [0x0x77add09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x77add021+561]
+
+2025-06-23 19:52:42,953 - INFO - Iniciando: coletar_advogados_angola
+2025-06-23 19:52:42,953 - INFO - Iniciando scraping de advogados de Angola...
+2025-06-23 19:52:42,953 - ERROR - Erro ao processar letra A: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0xb53b03+62899]
+	GetHandleVerifier [0x0xb53b44+62964]
+	(No symbol) [0x0x980f50]
+	(No symbol) [0x0x9bc938]
+	(No symbol) [0x0x9ee3c6]
+	(No symbol) [0x0x9e9e72]
+	(No symbol) [0x0x9e9406]
+	(No symbol) [0x0x953a05]
+	(No symbol) [0x0x953f5e]
+	(No symbol) [0x0x9543fd]
+	GetHandleVerifier [0x0xdb4793+2556483]
+	GetHandleVerifier [0x0xdafd02+2537394]
+	GetHandleVerifier [0x0xb7a2fa+220586]
+	GetHandleVerifier [0x0xb6aae8+157080]
+	GetHandleVerifier [0x0xb7141d+184013]
+	(No symbol) [0x0x9536d0]
+	(No symbol) [0x0x952f47]
+	GetHandleVerifier [0x0xeeaa2c+3826908]
+	BaseThreadInitThunk [0x0x76515d49+25]
+	RtlInitializeExceptionChain [0x0x77add09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x77add021+561]
+
+2025-06-23 19:52:42,954 - ERROR - Erro ao processar letra B: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0xb53b03+62899]
+	GetHandleVerifier [0x0xb53b44+62964]
+	(No symbol) [0x0x980f50]
+	(No symbol) [0x0x9bc938]
+	(No symbol) [0x0x9ee3c6]
+	(No symbol) [0x0x9e9e72]
+	(No symbol) [0x0x9e9406]
+	(No symbol) [0x0x953a05]
+	(No symbol) [0x0x953f5e]
+	(No symbol) [0x0x9543fd]
+	GetHandleVerifier [0x0xdb4793+2556483]
+	GetHandleVerifier [0x0xdafd02+2537394]
+	GetHandleVerifier [0x0xb7a2fa+220586]
+	GetHandleVerifier [0x0xb6aae8+157080]
+	GetHandleVerifier [0x0xb7141d+184013]
+	(No symbol) [0x0x9536d0]
+	(No symbol) [0x0x952f47]
+	GetHandleVerifier [0x0xeeaa2c+3826908]
+	BaseThreadInitThunk [0x0x76515d49+25]
+	RtlInitializeExceptionChain [0x0x77add09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x77add021+561]
+
+2025-06-23 19:52:42,955 - ERROR - Erro ao processar letra C: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0xb53b03+62899]
+	GetHandleVerifier [0x0xb53b44+62964]
+	(No symbol) [0x0x980f50]
+	(No symbol) [0x0x9bc938]
+	(No symbol) [0x0x9ee3c6]
+	(No symbol) [0x0x9e9e72]
+	(No symbol) [0x0x9e9406]
+	(No symbol) [0x0x953a05]
+	(No symbol) [0x0x953f5e]
+	(No symbol) [0x0x9543fd]
+	GetHandleVerifier [0x0xdb4793+2556483]
+	GetHandleVerifier [0x0xdafd02+2537394]
+	GetHandleVerifier [0x0xb7a2fa+220586]
+	GetHandleVerifier [0x0xb6aae8+157080]
+	GetHandleVerifier [0x0xb7141d+184013]
+	(No symbol) [0x0x9536d0]
+	(No symbol) [0x0x952f47]
+	GetHandleVerifier [0x0xeeaa2c+3826908]
+	BaseThreadInitThunk [0x0x76515d49+25]
+	RtlInitializeExceptionChain [0x0x77add09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x77add021+561]
+
+2025-06-23 19:52:42,956 - ERROR - Erro ao processar letra D: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0xb53b03+62899]
+	GetHandleVerifier [0x0xb53b44+62964]
+	(No symbol) [0x0x980f50]
+	(No symbol) [0x0x9bc938]
+	(No symbol) [0x0x9ee3c6]
+	(No symbol) [0x0x9e9e72]
+	(No symbol) [0x0x9e9406]
+	(No symbol) [0x0x953a05]
+	(No symbol) [0x0x953f5e]
+	(No symbol) [0x0x9543fd]
+	GetHandleVerifier [0x0xdb4793+2556483]
+	GetHandleVerifier [0x0xdafd02+2537394]
+	GetHandleVerifier [0x0xb7a2fa+220586]
+	GetHandleVerifier [0x0xb6aae8+157080]
+	GetHandleVerifier [0x0xb7141d+184013]
+	(No symbol) [0x0x9536d0]
+	(No symbol) [0x0x952f47]
+	GetHandleVerifier [0x0xeeaa2c+3826908]
+	BaseThreadInitThunk [0x0x76515d49+25]
+	RtlInitializeExceptionChain [0x0x77add09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x77add021+561]
+
+2025-06-23 19:52:42,956 - ERROR - Erro ao processar letra E: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0xb53b03+62899]
+	GetHandleVerifier [0x0xb53b44+62964]
+	(No symbol) [0x0x980f50]
+	(No symbol) [0x0x9bc938]
+	(No symbol) [0x0x9ee3c6]
+	(No symbol) [0x0x9e9e72]
+	(No symbol) [0x0x9e9406]
+	(No symbol) [0x0x953a05]
+	(No symbol) [0x0x953f5e]
+	(No symbol) [0x0x9543fd]
+	GetHandleVerifier [0x0xdb4793+2556483]
+	GetHandleVerifier [0x0xdafd02+2537394]
+	GetHandleVerifier [0x0xb7a2fa+220586]
+	GetHandleVerifier [0x0xb6aae8+157080]
+	GetHandleVerifier [0x0xb7141d+184013]
+	(No symbol) [0x0x9536d0]
+	(No symbol) [0x0x952f47]
+	GetHandleVerifier [0x0xeeaa2c+3826908]
+	BaseThreadInitThunk [0x0x76515d49+25]
+	RtlInitializeExceptionChain [0x0x77add09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x77add021+561]
+
+2025-06-23 19:52:42,957 - ERROR - Erro ao processar letra F: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0xb53b03+62899]
+	GetHandleVerifier [0x0xb53b44+62964]
+	(No symbol) [0x0x980f50]
+	(No symbol) [0x0x9bc938]
+	(No symbol) [0x0x9ee3c6]
+	(No symbol) [0x0x9e9e72]
+	(No symbol) [0x0x9e9406]
+	(No symbol) [0x0x953a05]
+	(No symbol) [0x0x953f5e]
+	(No symbol) [0x0x9543fd]
+	GetHandleVerifier [0x0xdb4793+2556483]
+	GetHandleVerifier [0x0xdafd02+2537394]
+	GetHandleVerifier [0x0xb7a2fa+220586]
+	GetHandleVerifier [0x0xb6aae8+157080]
+	GetHandleVerifier [0x0xb7141d+184013]
+	(No symbol) [0x0x9536d0]
+	(No symbol) [0x0x952f47]
+	GetHandleVerifier [0x0xeeaa2c+3826908]
+	BaseThreadInitThunk [0x0x76515d49+25]
+	RtlInitializeExceptionChain [0x0x77add09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x77add021+561]
+
+2025-06-23 19:52:42,957 - ERROR - Erro ao processar letra G: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0xb53b03+62899]
+	GetHandleVerifier [0x0xb53b44+62964]
+	(No symbol) [0x0x980f50]
+	(No symbol) [0x0x9bc938]
+	(No symbol) [0x0x9ee3c6]
+	(No symbol) [0x0x9e9e72]
+	(No symbol) [0x0x9e9406]
+	(No symbol) [0x0x953a05]
+	(No symbol) [0x0x953f5e]
+	(No symbol) [0x0x9543fd]
+	GetHandleVerifier [0x0xdb4793+2556483]
+	GetHandleVerifier [0x0xdafd02+2537394]
+	GetHandleVerifier [0x0xb7a2fa+220586]
+	GetHandleVerifier [0x0xb6aae8+157080]
+	GetHandleVerifier [0x0xb7141d+184013]
+	(No symbol) [0x0x9536d0]
+	(No symbol) [0x0x952f47]
+	GetHandleVerifier [0x0xeeaa2c+3826908]
+	BaseThreadInitThunk [0x0x76515d49+25]
+	RtlInitializeExceptionChain [0x0x77add09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x77add021+561]
+
+2025-06-23 19:52:42,958 - ERROR - Erro ao processar letra H: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0xb53b03+62899]
+	GetHandleVerifier [0x0xb53b44+62964]
+	(No symbol) [0x0x980f50]
+	(No symbol) [0x0x9bc938]
+	(No symbol) [0x0x9ee3c6]
+	(No symbol) [0x0x9e9e72]
+	(No symbol) [0x0x9e9406]
+	(No symbol) [0x0x953a05]
+	(No symbol) [0x0x953f5e]
+	(No symbol) [0x0x9543fd]
+	GetHandleVerifier [0x0xdb4793+2556483]
+	GetHandleVerifier [0x0xdafd02+2537394]
+	GetHandleVerifier [0x0xb7a2fa+220586]
+	GetHandleVerifier [0x0xb6aae8+157080]
+	GetHandleVerifier [0x0xb7141d+184013]
+	(No symbol) [0x0x9536d0]
+	(No symbol) [0x0x952f47]
+	GetHandleVerifier [0x0xeeaa2c+3826908]
+	BaseThreadInitThunk [0x0x76515d49+25]
+	RtlInitializeExceptionChain [0x0x77add09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x77add021+561]
+
+2025-06-23 19:52:42,959 - ERROR - Erro ao processar letra I: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0xb53b03+62899]
+	GetHandleVerifier [0x0xb53b44+62964]
+	(No symbol) [0x0x980f50]
+	(No symbol) [0x0x9bc938]
+	(No symbol) [0x0x9ee3c6]
+	(No symbol) [0x0x9e9e72]
+	(No symbol) [0x0x9e9406]
+	(No symbol) [0x0x953a05]
+	(No symbol) [0x0x953f5e]
+	(No symbol) [0x0x9543fd]
+	GetHandleVerifier [0x0xdb4793+2556483]
+	GetHandleVerifier [0x0xdafd02+2537394]
+	GetHandleVerifier [0x0xb7a2fa+220586]
+	GetHandleVerifier [0x0xb6aae8+157080]
+	GetHandleVerifier [0x0xb7141d+184013]
+	(No symbol) [0x0x9536d0]
+	(No symbol) [0x0x952f47]
+	GetHandleVerifier [0x0xeeaa2c+3826908]
+	BaseThreadInitThunk [0x0x76515d49+25]
+	RtlInitializeExceptionChain [0x0x77add09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x77add021+561]
+
+2025-06-23 19:52:42,959 - ERROR - Erro ao processar letra J: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0xb53b03+62899]
+	GetHandleVerifier [0x0xb53b44+62964]
+	(No symbol) [0x0x980f50]
+	(No symbol) [0x0x9bc938]
+	(No symbol) [0x0x9ee3c6]
+	(No symbol) [0x0x9e9e72]
+	(No symbol) [0x0x9e9406]
+	(No symbol) [0x0x953a05]
+	(No symbol) [0x0x953f5e]
+	(No symbol) [0x0x9543fd]
+	GetHandleVerifier [0x0xdb4793+2556483]
+	GetHandleVerifier [0x0xdafd02+2537394]
+	GetHandleVerifier [0x0xb7a2fa+220586]
+	GetHandleVerifier [0x0xb6aae8+157080]
+	GetHandleVerifier [0x0xb7141d+184013]
+	(No symbol) [0x0x9536d0]
+	(No symbol) [0x0x952f47]
+	GetHandleVerifier [0x0xeeaa2c+3826908]
+	BaseThreadInitThunk [0x0x76515d49+25]
+	RtlInitializeExceptionChain [0x0x77add09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x77add021+561]
+
+2025-06-23 19:52:42,960 - ERROR - Erro ao processar letra K: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0xb53b03+62899]
+	GetHandleVerifier [0x0xb53b44+62964]
+	(No symbol) [0x0x980f50]
+	(No symbol) [0x0x9bc938]
+	(No symbol) [0x0x9ee3c6]
+	(No symbol) [0x0x9e9e72]
+	(No symbol) [0x0x9e9406]
+	(No symbol) [0x0x953a05]
+	(No symbol) [0x0x953f5e]
+	(No symbol) [0x0x9543fd]
+	GetHandleVerifier [0x0xdb4793+2556483]
+	GetHandleVerifier [0x0xdafd02+2537394]
+	GetHandleVerifier [0x0xb7a2fa+220586]
+	GetHandleVerifier [0x0xb6aae8+157080]
+	GetHandleVerifier [0x0xb7141d+184013]
+	(No symbol) [0x0x9536d0]
+	(No symbol) [0x0x952f47]
+	GetHandleVerifier [0x0xeeaa2c+3826908]
+	BaseThreadInitThunk [0x0x76515d49+25]
+	RtlInitializeExceptionChain [0x0x77add09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x77add021+561]
+
+2025-06-23 19:52:42,960 - ERROR - Erro ao processar letra L: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0xb53b03+62899]
+	GetHandleVerifier [0x0xb53b44+62964]
+	(No symbol) [0x0x980f50]
+	(No symbol) [0x0x9bc938]
+	(No symbol) [0x0x9ee3c6]
+	(No symbol) [0x0x9e9e72]
+	(No symbol) [0x0x9e9406]
+	(No symbol) [0x0x953a05]
+	(No symbol) [0x0x953f5e]
+	(No symbol) [0x0x9543fd]
+	GetHandleVerifier [0x0xdb4793+2556483]
+	GetHandleVerifier [0x0xdafd02+2537394]
+	GetHandleVerifier [0x0xb7a2fa+220586]
+	GetHandleVerifier [0x0xb6aae8+157080]
+	GetHandleVerifier [0x0xb7141d+184013]
+	(No symbol) [0x0x9536d0]
+	(No symbol) [0x0x952f47]
+	GetHandleVerifier [0x0xeeaa2c+3826908]
+	BaseThreadInitThunk [0x0x76515d49+25]
+	RtlInitializeExceptionChain [0x0x77add09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x77add021+561]
+
+2025-06-23 19:52:42,961 - ERROR - Erro ao processar letra M: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0xb53b03+62899]
+	GetHandleVerifier [0x0xb53b44+62964]
+	(No symbol) [0x0x980f50]
+	(No symbol) [0x0x9bc938]
+	(No symbol) [0x0x9ee3c6]
+	(No symbol) [0x0x9e9e72]
+	(No symbol) [0x0x9e9406]
+	(No symbol) [0x0x953a05]
+	(No symbol) [0x0x953f5e]
+	(No symbol) [0x0x9543fd]
+	GetHandleVerifier [0x0xdb4793+2556483]
+	GetHandleVerifier [0x0xdafd02+2537394]
+	GetHandleVerifier [0x0xb7a2fa+220586]
+	GetHandleVerifier [0x0xb6aae8+157080]
+	GetHandleVerifier [0x0xb7141d+184013]
+	(No symbol) [0x0x9536d0]
+	(No symbol) [0x0x952f47]
+	GetHandleVerifier [0x0xeeaa2c+3826908]
+	BaseThreadInitThunk [0x0x76515d49+25]
+	RtlInitializeExceptionChain [0x0x77add09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x77add021+561]
+
+2025-06-23 19:52:42,962 - ERROR - Erro ao processar letra N: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0xb53b03+62899]
+	GetHandleVerifier [0x0xb53b44+62964]
+	(No symbol) [0x0x980f50]
+	(No symbol) [0x0x9bc938]
+	(No symbol) [0x0x9ee3c6]
+	(No symbol) [0x0x9e9e72]
+	(No symbol) [0x0x9e9406]
+	(No symbol) [0x0x953a05]
+	(No symbol) [0x0x953f5e]
+	(No symbol) [0x0x9543fd]
+	GetHandleVerifier [0x0xdb4793+2556483]
+	GetHandleVerifier [0x0xdafd02+2537394]
+	GetHandleVerifier [0x0xb7a2fa+220586]
+	GetHandleVerifier [0x0xb6aae8+157080]
+	GetHandleVerifier [0x0xb7141d+184013]
+	(No symbol) [0x0x9536d0]
+	(No symbol) [0x0x952f47]
+	GetHandleVerifier [0x0xeeaa2c+3826908]
+	BaseThreadInitThunk [0x0x76515d49+25]
+	RtlInitializeExceptionChain [0x0x77add09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x77add021+561]
+
+2025-06-23 19:52:42,962 - ERROR - Erro ao processar letra O: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0xb53b03+62899]
+	GetHandleVerifier [0x0xb53b44+62964]
+	(No symbol) [0x0x980f50]
+	(No symbol) [0x0x9bc938]
+	(No symbol) [0x0x9ee3c6]
+	(No symbol) [0x0x9e9e72]
+	(No symbol) [0x0x9e9406]
+	(No symbol) [0x0x953a05]
+	(No symbol) [0x0x953f5e]
+	(No symbol) [0x0x9543fd]
+	GetHandleVerifier [0x0xdb4793+2556483]
+	GetHandleVerifier [0x0xdafd02+2537394]
+	GetHandleVerifier [0x0xb7a2fa+220586]
+	GetHandleVerifier [0x0xb6aae8+157080]
+	GetHandleVerifier [0x0xb7141d+184013]
+	(No symbol) [0x0x9536d0]
+	(No symbol) [0x0x952f47]
+	GetHandleVerifier [0x0xeeaa2c+3826908]
+	BaseThreadInitThunk [0x0x76515d49+25]
+	RtlInitializeExceptionChain [0x0x77add09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x77add021+561]
+
+2025-06-23 19:52:42,963 - ERROR - Erro ao processar letra P: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0xb53b03+62899]
+	GetHandleVerifier [0x0xb53b44+62964]
+	(No symbol) [0x0x980f50]
+	(No symbol) [0x0x9bc938]
+	(No symbol) [0x0x9ee3c6]
+	(No symbol) [0x0x9e9e72]
+	(No symbol) [0x0x9e9406]
+	(No symbol) [0x0x953a05]
+	(No symbol) [0x0x953f5e]
+	(No symbol) [0x0x9543fd]
+	GetHandleVerifier [0x0xdb4793+2556483]
+	GetHandleVerifier [0x0xdafd02+2537394]
+	GetHandleVerifier [0x0xb7a2fa+220586]
+	GetHandleVerifier [0x0xb6aae8+157080]
+	GetHandleVerifier [0x0xb7141d+184013]
+	(No symbol) [0x0x9536d0]
+	(No symbol) [0x0x952f47]
+	GetHandleVerifier [0x0xeeaa2c+3826908]
+	BaseThreadInitThunk [0x0x76515d49+25]
+	RtlInitializeExceptionChain [0x0x77add09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x77add021+561]
+
+2025-06-23 19:52:42,963 - ERROR - Erro ao processar letra Q: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0xb53b03+62899]
+	GetHandleVerifier [0x0xb53b44+62964]
+	(No symbol) [0x0x980f50]
+	(No symbol) [0x0x9bc938]
+	(No symbol) [0x0x9ee3c6]
+	(No symbol) [0x0x9e9e72]
+	(No symbol) [0x0x9e9406]
+	(No symbol) [0x0x953a05]
+	(No symbol) [0x0x953f5e]
+	(No symbol) [0x0x9543fd]
+	GetHandleVerifier [0x0xdb4793+2556483]
+	GetHandleVerifier [0x0xdafd02+2537394]
+	GetHandleVerifier [0x0xb7a2fa+220586]
+	GetHandleVerifier [0x0xb6aae8+157080]
+	GetHandleVerifier [0x0xb7141d+184013]
+	(No symbol) [0x0x9536d0]
+	(No symbol) [0x0x952f47]
+	GetHandleVerifier [0x0xeeaa2c+3826908]
+	BaseThreadInitThunk [0x0x76515d49+25]
+	RtlInitializeExceptionChain [0x0x77add09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x77add021+561]
+
+2025-06-23 19:52:42,964 - ERROR - Erro ao processar letra R: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0xb53b03+62899]
+	GetHandleVerifier [0x0xb53b44+62964]
+	(No symbol) [0x0x980f50]
+	(No symbol) [0x0x9bc938]
+	(No symbol) [0x0x9ee3c6]
+	(No symbol) [0x0x9e9e72]
+	(No symbol) [0x0x9e9406]
+	(No symbol) [0x0x953a05]
+	(No symbol) [0x0x953f5e]
+	(No symbol) [0x0x9543fd]
+	GetHandleVerifier [0x0xdb4793+2556483]
+	GetHandleVerifier [0x0xdafd02+2537394]
+	GetHandleVerifier [0x0xb7a2fa+220586]
+	GetHandleVerifier [0x0xb6aae8+157080]
+	GetHandleVerifier [0x0xb7141d+184013]
+	(No symbol) [0x0x9536d0]
+	(No symbol) [0x0x952f47]
+	GetHandleVerifier [0x0xeeaa2c+3826908]
+	BaseThreadInitThunk [0x0x76515d49+25]
+	RtlInitializeExceptionChain [0x0x77add09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x77add021+561]
+
+2025-06-23 19:52:42,964 - ERROR - Erro ao processar letra S: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0xb53b03+62899]
+	GetHandleVerifier [0x0xb53b44+62964]
+	(No symbol) [0x0x980f50]
+	(No symbol) [0x0x9bc938]
+	(No symbol) [0x0x9ee3c6]
+	(No symbol) [0x0x9e9e72]
+	(No symbol) [0x0x9e9406]
+	(No symbol) [0x0x953a05]
+	(No symbol) [0x0x953f5e]
+	(No symbol) [0x0x9543fd]
+	GetHandleVerifier [0x0xdb4793+2556483]
+	GetHandleVerifier [0x0xdafd02+2537394]
+	GetHandleVerifier [0x0xb7a2fa+220586]
+	GetHandleVerifier [0x0xb6aae8+157080]
+	GetHandleVerifier [0x0xb7141d+184013]
+	(No symbol) [0x0x9536d0]
+	(No symbol) [0x0x952f47]
+	GetHandleVerifier [0x0xeeaa2c+3826908]
+	BaseThreadInitThunk [0x0x76515d49+25]
+	RtlInitializeExceptionChain [0x0x77add09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x77add021+561]
+
+2025-06-23 19:52:42,965 - ERROR - Erro ao processar letra T: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0xb53b03+62899]
+	GetHandleVerifier [0x0xb53b44+62964]
+	(No symbol) [0x0x980f50]
+	(No symbol) [0x0x9bc938]
+	(No symbol) [0x0x9ee3c6]
+	(No symbol) [0x0x9e9e72]
+	(No symbol) [0x0x9e9406]
+	(No symbol) [0x0x953a05]
+	(No symbol) [0x0x953f5e]
+	(No symbol) [0x0x9543fd]
+	GetHandleVerifier [0x0xdb4793+2556483]
+	GetHandleVerifier [0x0xdafd02+2537394]
+	GetHandleVerifier [0x0xb7a2fa+220586]
+	GetHandleVerifier [0x0xb6aae8+157080]
+	GetHandleVerifier [0x0xb7141d+184013]
+	(No symbol) [0x0x9536d0]
+	(No symbol) [0x0x952f47]
+	GetHandleVerifier [0x0xeeaa2c+3826908]
+	BaseThreadInitThunk [0x0x76515d49+25]
+	RtlInitializeExceptionChain [0x0x77add09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x77add021+561]
+
+2025-06-23 19:52:42,965 - ERROR - Erro ao processar letra U: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0xb53b03+62899]
+	GetHandleVerifier [0x0xb53b44+62964]
+	(No symbol) [0x0x980f50]
+	(No symbol) [0x0x9bc938]
+	(No symbol) [0x0x9ee3c6]
+	(No symbol) [0x0x9e9e72]
+	(No symbol) [0x0x9e9406]
+	(No symbol) [0x0x953a05]
+	(No symbol) [0x0x953f5e]
+	(No symbol) [0x0x9543fd]
+	GetHandleVerifier [0x0xdb4793+2556483]
+	GetHandleVerifier [0x0xdafd02+2537394]
+	GetHandleVerifier [0x0xb7a2fa+220586]
+	GetHandleVerifier [0x0xb6aae8+157080]
+	GetHandleVerifier [0x0xb7141d+184013]
+	(No symbol) [0x0x9536d0]
+	(No symbol) [0x0x952f47]
+	GetHandleVerifier [0x0xeeaa2c+3826908]
+	BaseThreadInitThunk [0x0x76515d49+25]
+	RtlInitializeExceptionChain [0x0x77add09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x77add021+561]
+
+2025-06-23 19:52:42,966 - ERROR - Erro ao processar letra V: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0xb53b03+62899]
+	GetHandleVerifier [0x0xb53b44+62964]
+	(No symbol) [0x0x980f50]
+	(No symbol) [0x0x9bc938]
+	(No symbol) [0x0x9ee3c6]
+	(No symbol) [0x0x9e9e72]
+	(No symbol) [0x0x9e9406]
+	(No symbol) [0x0x953a05]
+	(No symbol) [0x0x953f5e]
+	(No symbol) [0x0x9543fd]
+	GetHandleVerifier [0x0xdb4793+2556483]
+	GetHandleVerifier [0x0xdafd02+2537394]
+	GetHandleVerifier [0x0xb7a2fa+220586]
+	GetHandleVerifier [0x0xb6aae8+157080]
+	GetHandleVerifier [0x0xb7141d+184013]
+	(No symbol) [0x0x9536d0]
+	(No symbol) [0x0x952f47]
+	GetHandleVerifier [0x0xeeaa2c+3826908]
+	BaseThreadInitThunk [0x0x76515d49+25]
+	RtlInitializeExceptionChain [0x0x77add09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x77add021+561]
+
+2025-06-23 19:52:42,967 - ERROR - Erro ao processar letra W: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0xb53b03+62899]
+	GetHandleVerifier [0x0xb53b44+62964]
+	(No symbol) [0x0x980f50]
+	(No symbol) [0x0x9bc938]
+	(No symbol) [0x0x9ee3c6]
+	(No symbol) [0x0x9e9e72]
+	(No symbol) [0x0x9e9406]
+	(No symbol) [0x0x953a05]
+	(No symbol) [0x0x953f5e]
+	(No symbol) [0x0x9543fd]
+	GetHandleVerifier [0x0xdb4793+2556483]
+	GetHandleVerifier [0x0xdafd02+2537394]
+	GetHandleVerifier [0x0xb7a2fa+220586]
+	GetHandleVerifier [0x0xb6aae8+157080]
+	GetHandleVerifier [0x0xb7141d+184013]
+	(No symbol) [0x0x9536d0]
+	(No symbol) [0x0x952f47]
+	GetHandleVerifier [0x0xeeaa2c+3826908]
+	BaseThreadInitThunk [0x0x76515d49+25]
+	RtlInitializeExceptionChain [0x0x77add09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x77add021+561]
+
+2025-06-23 19:52:42,967 - ERROR - Erro ao processar letra X: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0xb53b03+62899]
+	GetHandleVerifier [0x0xb53b44+62964]
+	(No symbol) [0x0x980f50]
+	(No symbol) [0x0x9bc938]
+	(No symbol) [0x0x9ee3c6]
+	(No symbol) [0x0x9e9e72]
+	(No symbol) [0x0x9e9406]
+	(No symbol) [0x0x953a05]
+	(No symbol) [0x0x953f5e]
+	(No symbol) [0x0x9543fd]
+	GetHandleVerifier [0x0xdb4793+2556483]
+	GetHandleVerifier [0x0xdafd02+2537394]
+	GetHandleVerifier [0x0xb7a2fa+220586]
+	GetHandleVerifier [0x0xb6aae8+157080]
+	GetHandleVerifier [0x0xb7141d+184013]
+	(No symbol) [0x0x9536d0]
+	(No symbol) [0x0x952f47]
+	GetHandleVerifier [0x0xeeaa2c+3826908]
+	BaseThreadInitThunk [0x0x76515d49+25]
+	RtlInitializeExceptionChain [0x0x77add09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x77add021+561]
+
+2025-06-23 19:52:42,967 - ERROR - Erro ao processar letra Y: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0xb53b03+62899]
+	GetHandleVerifier [0x0xb53b44+62964]
+	(No symbol) [0x0x980f50]
+	(No symbol) [0x0x9bc938]
+	(No symbol) [0x0x9ee3c6]
+	(No symbol) [0x0x9e9e72]
+	(No symbol) [0x0x9e9406]
+	(No symbol) [0x0x953a05]
+	(No symbol) [0x0x953f5e]
+	(No symbol) [0x0x9543fd]
+	GetHandleVerifier [0x0xdb4793+2556483]
+	GetHandleVerifier [0x0xdafd02+2537394]
+	GetHandleVerifier [0x0xb7a2fa+220586]
+	GetHandleVerifier [0x0xb6aae8+157080]
+	GetHandleVerifier [0x0xb7141d+184013]
+	(No symbol) [0x0x9536d0]
+	(No symbol) [0x0x952f47]
+	GetHandleVerifier [0x0xeeaa2c+3826908]
+	BaseThreadInitThunk [0x0x76515d49+25]
+	RtlInitializeExceptionChain [0x0x77add09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x77add021+561]
+
+2025-06-23 19:52:42,969 - ERROR - Erro ao processar letra Z: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0xb53b03+62899]
+	GetHandleVerifier [0x0xb53b44+62964]
+	(No symbol) [0x0x980f50]
+	(No symbol) [0x0x9bc938]
+	(No symbol) [0x0x9ee3c6]
+	(No symbol) [0x0x9e9e72]
+	(No symbol) [0x0x9e9406]
+	(No symbol) [0x0x953a05]
+	(No symbol) [0x0x953f5e]
+	(No symbol) [0x0x9543fd]
+	GetHandleVerifier [0x0xdb4793+2556483]
+	GetHandleVerifier [0x0xdafd02+2537394]
+	GetHandleVerifier [0x0xb7a2fa+220586]
+	GetHandleVerifier [0x0xb6aae8+157080]
+	GetHandleVerifier [0x0xb7141d+184013]
+	(No symbol) [0x0x9536d0]
+	(No symbol) [0x0x952f47]
+	GetHandleVerifier [0x0xeeaa2c+3826908]
+	BaseThreadInitThunk [0x0x76515d49+25]
+	RtlInitializeExceptionChain [0x0x77add09b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x77add021+561]
+
+2025-06-23 19:52:42,969 - WARNING - coletar_advogados_angola retornou 0 registros
+2025-06-23 19:52:42,969 - INFO - Dados salvos em CSV: todos_dados_20250623_195242.csv
+2025-06-23 19:52:42,969 - INFO - Todos os dados salvos em CSV com timestamp: 20250623_195242
+2025-06-23 19:52:45,007 - INFO - Conexão com o banco de dados fechada.

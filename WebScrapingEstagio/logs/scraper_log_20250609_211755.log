@@ -1,0 +1,1475 @@
+2025-06-09 21:17:55,010 - INFO - Iniciando o script de scraping...
+2025-06-09 21:17:55,018 - INFO - Conexão com o banco de dados estabelecida!
+2025-06-09 21:17:55,018 - INFO - Tabela 'advogados' recriada com sucesso!
+2025-06-09 21:17:55,019 - INFO - Tabela 'sociedades' verificada/criada com sucesso!
+2025-06-09 21:17:55,019 - INFO - Tabela 'estagiarios' verificada/criada com sucesso!
+2025-06-09 21:17:55,019 - INFO - Tabela 'agentes_execucao' verificada/criada com sucesso!
+2025-06-09 21:17:55,019 - INFO - ====== WebDriver manager ======
+2025-06-09 21:17:55,912 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-09 21:17:55,947 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-09 21:17:55,981 - INFO - Driver [C:\Users\david\.wdm\drivers\chromedriver\win64\137.0.7151.68\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-09 21:17:57,144 - INFO - Iniciando: coletar_advogados_lisboa
+2025-06-09 21:17:57,144 - INFO - Iniciando scraping de advogados...
+2025-06-09 21:18:21,522 - WARNING - Erro ao marcar 'Apenas Ativos' (continuando sem marcar): Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x2f3763+63299]
+	GetHandleVerifier [0x0x2f37a4+63364]
+	(No symbol) [0x0x121113]
+	(No symbol) [0x0x16987e]
+	(No symbol) [0x0x169c1b]
+	(No symbol) [0x0x1b2212]
+	(No symbol) [0x0x18e5c4]
+	(No symbol) [0x0x1afa4a]
+	(No symbol) [0x0x18e376]
+	(No symbol) [0x0x15d6e0]
+	(No symbol) [0x0x15e544]
+	GetHandleVerifier [0x0x54e033+2531347]
+	GetHandleVerifier [0x0x549332+2511634]
+	GetHandleVerifier [0x0x319eda+220858]
+	GetHandleVerifier [0x0x30a528+156936]
+	GetHandleVerifier [0x0x310c5d+183357]
+	GetHandleVerifier [0x0x2fb6c8+95912]
+	GetHandleVerifier [0x0x2fb870+96336]
+	GetHandleVerifier [0x0x2e664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+	(No symbol) [0x0]
+
+2025-06-09 21:18:31,788 - WARNING - Erro ao clicar no botão de pesquisa: Message: 
+
+2025-06-09 21:18:31,793 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-09 21:18:46,379 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Alexandra Marques, 17304L, Lisboa, R Antero de Quental, 7 - 3º Esq, Activo, alexandramarques-17304l@adv.oa.pt, N/D, advogado, ODIVELAS, 2675-481 ODIVELAS, +351914333207, 29-11-2001, N/D)
+        
+2025-06-09 21:18:46,380 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:18:46,381 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:18:46,381 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Andréa Maturano, 50826L, Lisboa, Av Miguel Bombarda, 42 - 4º D, Activo, N/D, N/D, advogado, LISBOA, 1050-166 LISBOA, +351217978152, 15-03-2012, N/D)
+        
+2025-06-09 21:18:46,381 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:18:46,381 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:18:46,381 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Antero dos Santos Monteiro, 4782L, Lisboa, Av da República, 47 - 7º Esq, Activo, antero.monteiro-4782l@adv.oa.pt, N/D, advogado, LISBOA, 1050-188 LISBOA, +351217979252, 16-03-1981, N/D)
+        
+2025-06-09 21:18:46,383 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:18:46,383 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:18:46,383 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (António Sena Esteves, 9173L, Lisboa, Av Estados Unidos da América, 53 - 12º Dto, Activo, asenaesteves-9173l@adv.oa.pt, N/D, advogado, LISBOA, 1700-165 LISBOA, N/D, 25-06-1991, N/D)
+        
+2025-06-09 21:18:46,383 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:18:46,383 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:18:46,384 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Beatriz Caro de Sousa, 56618L, Lisboa, Av Conde Valbom, 96/98, Activo, bcs-56618L@adv.oa.pt, N/D, advogado, LISBOA, 1050-070 LISBOA, +351213714940, 15-03-2017, N/D)
+        
+2025-06-09 21:18:46,384 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:18:46,384 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:18:46,385 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Bruno Miguel Bastos, 53524L, Lisboa, R das Rosas, 2, Activo, bastos-53524L@adv.oa.pt, N/D, advogado, AGUALVA-CACÉM, 2735-329 AGUALVA-CACÉM, +351219131037, 15-10-2014, N/D)
+        
+2025-06-09 21:18:46,385 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:18:46,385 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:18:46,385 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Camila Belo Maciel, 70369L, Lisboa, Av Eng Duarte Pacheco, Tr 2 - 16º A - Amoreiras, Activo, camilabelomaciel-70369L@adv.oa.pt, N/D, advogado, LISBOA, 1070-102 LISBOA, +351213513580, 16-10-2024, N/D)
+        
+2025-06-09 21:18:46,385 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:18:46,386 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:18:46,386 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Camilla Benevides, 64217L, Lisboa, R Actriz Palmira Bastos, 8 - 3º A, Activo, camilla.benevides-64217L@adv.oa.pt, N/D, advogado, LISBOA, 1950-004 LISBOA, +351218007459, 04-06-2021, N/D)
+        
+2025-06-09 21:18:46,386 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:18:46,386 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:18:46,387 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Carine Attou, 55611L, Lisboa, R Hermano Neves, 18 - 3º, Esc 7, Activo, carine.attou-55611L@adv.oa.pt, N/D, advogado, LISBOA, 1600-477 LISBOA, +351964738522, 29-06-2016, N/D)
+        
+2025-06-09 21:18:46,387 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:18:46,387 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:18:46,387 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Carlos Barbosa, 63139L, Lisboa, Av Costa Pinto, 483 - Rc Esq, Activo, barbosa-63139L@adv.oa.pt, N/D, advogado, CASCAIS, 2750-329 CASCAIS, +351215894175, 02-12-2020, N/D)
+        
+2025-06-09 21:18:46,388 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:18:46,388 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:19:03,395 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-09 21:19:17,779 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Carlos Neves Jerónimo, 18638L, Lisboa, Lg do Ferreiro, 18 - Assafora, Activo, carlos.neves.jeronimo-18638l@adv.oa.pt, N/D, advogado, SÃO JOÃO DAS LAMPAS, 2705-474 SÃO JOÃO DAS LAMPAS, +351964424227, 11-03-2003, N/D)
+        
+2025-06-09 21:19:17,781 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:19:17,781 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:19:17,782 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Carolina Felix, 59434L, Lisboa, Campo Grande, 12 - 2º, Sl 16, Activo, carolinafelix-59434L@adv.oa.pt, N/D, advogado, LISBOA, 1700-092 LISBOA, +351912239019, 05-09-2018, N/D)
+        
+2025-06-09 21:19:17,782 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:19:17,782 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:19:17,782 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Catarina A Martins, 56497L, Lisboa, Campo Pequeno, 48 - 2º Esq - Edf Taurus, Activo, catarinamartins-56497L@adv.oa.pt, N/D, advogado, LISBOA, 1000-081 LISBOA, +351964950631, 07-03-2017, N/D)
+        
+2025-06-09 21:19:17,783 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:19:17,783 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:19:17,783 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Catarina Almeida Garrett, 7130P, Lisboa, R da Artilharia 1, 51 - 2º - Páteo Bagatela, Activo, cag-7130p@adv.oa.pt, N/D, advogado, LISBOA, 1250-038 LISBOA, +351919251597, 29-10-1998, N/D)
+        
+2025-06-09 21:19:17,784 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:19:17,784 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:19:17,784 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Célia Vieira de Freitas, 20221L, Lisboa, Avenida Fontes Pereira de Melo 43, Activo, celia.vieirafreitas-20221l@adv.oa.pt, N/D, advogado, LISBOA, 1050-119 LISBOA, +351213197300, 11-11-2004, N/D)
+        
+2025-06-09 21:19:17,784 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:19:17,784 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:19:17,785 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Cláudia Castro Santos, 21809L, Lisboa, R A Gazeta de Oeiras, 2 - 1º C - Edf Horizonte, Activo, ccs-21809l@adv.oa.pt, N/D, advogado, OEIRAS, 2780-171 OEIRAS, +351214114198, 16-03-2006, N/D)
+        
+2025-06-09 21:19:17,785 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:19:17,785 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:19:17,785 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Conceição Silvestre, 51579L, Lisboa, Av Columbano Bordalo Pinheiro, 74 - 4º Esq, Activo, conceicao.silvestre-51579L@adv.oa.pt, N/D, advogado, LISBOA, 1070-064 LISBOA, +351217267419, 09-01-2013, N/D)
+        
+2025-06-09 21:19:17,786 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:19:17,786 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:19:17,786 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Cristina Mendes Pires, 12510L, Lisboa, Av Eng Duarte Pacheco, 7 - 7º, Activo, cmp-12510l@adv.oa.pt, N/D, advogado, LISBOA, 1070-100 LISBOA, +35121 924 50 10, 07-11-1995, N/D)
+        
+2025-06-09 21:19:17,786 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:19:17,786 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:19:17,787 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Filipa Vaz, 61815L, Lisboa, R Calvet de Magalhães, 242, Activo, filipavaz-61815L@adv.oa.pt, N/D, advogado, PAÇO DE ARCOS, 2770-022 PAÇO DE ARCOS, +351214179457, 01-10-2019, N/D)
+        
+2025-06-09 21:19:17,787 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:19:17,787 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:19:17,787 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Francisca Costa, 69996L, Lisboa, Pc Marquês de Pombal, 12, Activo, francisca.costa-69996L@adv.oa.pt, N/D, advogado, LISBOA, 1250-162 LISBOA, +351213114379, 17-09-2024, N/D)
+        
+2025-06-09 21:19:17,788 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:19:17,788 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:19:32,537 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-09 21:19:47,666 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Francisca Sá Carneiro, 58046L, Lisboa, Doca de Alcântara Norte - Edf Diogo Cão, Activo, franciscasacarneiro-58046L@adv.oa.pt, N/D, advogado, LISBOA, 1350-352 LISBOA, +351213 223 590, 14-11-2017, N/D)
+        
+2025-06-09 21:19:47,666 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:19:47,666 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:19:47,667 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Gracinda Vargas, 20624L, Lisboa, Av Costa Pinto, 483 - Rc Esq, Activo, gracinda.vargas-20624l@adv.oa.pt, N/D, advogado, CASCAIS, 2750-329 CASCAIS, N/D, 28-02-2005, N/D)
+        
+2025-06-09 21:19:47,667 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:19:47,667 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:19:47,667 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Inês Patrícia Cardoso, 49296L, Lisboa, R Mártir S Sebastião, 11 - Charneca, Activo, inespcardoso-49296L@adv.oa.pt, N/D, advogado, VENDA DO PINHEIRO, 2665-506 VENDA DO PINHEIRO, +351911866283, 08-10-2010, N/D)
+        
+2025-06-09 21:19:47,668 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:19:47,668 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:19:47,668 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (João Fonseca Augusto, 54117L, Lisboa, R Castilho, 1 - 4º Dto, Activo, jfa-54117L@adv.oa.pt, N/D, advogado, LISBOA, 1250-066 LISBOA, +351917111887, 15-04-2015, N/D)
+        
+2025-06-09 21:19:47,668 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:19:47,668 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:19:47,669 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Ladislau Gomes, 65257L, Lisboa, Av Miguel Bombarda, 4 - 1º  - MB4, Activo, ladislaugomes-65257L@adv.oa.pt, N/D, advogado, LISBOA, 1000-208 LISBOA, +351916834429, 09-03-2022, N/D)
+        
+2025-06-09 21:19:47,669 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:19:47,669 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:19:47,669 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Lília Carvalho, 56633C, Lisboa, Av de Berna, 11 - 3º, Activo, lilia.carvalho-56633c@adv.oa.pt, N/D, advogado, LISBOA, 1050-036 LISBOA, +351913979085, 17-03-2017, N/D)
+        
+2025-06-09 21:19:47,669 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:19:47,670 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:19:47,670 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Luísa Empis, 19940L, Lisboa, Av Almirante Reis, 84 - Sobreloja, Activo, luisaempis-19940l@adv.oa.pt, N/D, advogado, LISBOA, 1150-021 LISBOA, N/D, 05-07-2004, N/D)
+        
+2025-06-09 21:19:47,670 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:19:47,670 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:19:47,670 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Maria Carolina Gonçalves, 55128L, Lisboa, R Castilho, 165, Activo, mariacarolinagoncalves-55128L@adv.oa.pt, N/D, advogado, LISBOA, 1070-050 LISBOA, +351213817400, 04-02-2016, N/D)
+        
+2025-06-09 21:19:47,672 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:19:47,672 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:19:47,672 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Maria Carvalho Martins, 20411L, Lisboa, Av Sidónio Pais, 16 - 2º Esq, Activo, mariacmartins-20411l@adv.oa.pt, N/D, advogado, LISBOA, 1050-215 LISBOA, +351211634000, 16-12-2004, N/D)
+        
+2025-06-09 21:19:47,672 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:19:47,672 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:19:47,673 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Maria Forte Vaz, 17218L, Lisboa, R Nova da Trindade, 1 - 3º Dto, Activo, mfv-17218l@adv.oa.pt, N/D, advogado, LISBOA, 1200-301 LISBOA, +351213224930, 16-11-2001, N/D)
+        
+2025-06-09 21:19:47,673 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:19:47,673 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:20:03,000 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-09 21:20:18,886 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Marta Machado de Almeida, 21390L, Lisboa, Av da Liberdade, 136 - 4º, Activo, marta.almeida-21390l@adv.oa.pt, N/D, advogado, LISBOA, 1250-146 LISBOA, +351215 915 220, 11-10-2005, N/D)
+        
+2025-06-09 21:20:18,887 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:20:18,887 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:20:18,887 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Miguel Aidos, 14570L, Lisboa, R da Holanda, 21 - 3º Esq, Activo, miguelaidos-14570l@adv.oa.pt, N/D, advogado, CARCAVELOS, 2775-405 CARCAVELOS, +351214579466, 17-11-1998, N/D)
+        
+2025-06-09 21:20:18,888 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:20:18,888 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:20:18,888 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Miguel Araújo Pereira, 8777L, Lisboa, Campo dos Mártires da Pátria, 59 - 1º Esq, Activo, miguel.araujo.pereira-8777l@adv.oa.pt, N/D, advogado, LISBOA, 1150-226 LISBOA, +351218228360, 21-11-1990, N/D)
+        
+2025-06-09 21:20:18,888 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:20:18,888 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:20:18,890 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Miguel Macedo, 9315L, Lisboa, Estr de Benfica, 450-2º Dto, Activo, miguelmacedo-9315l@adv.oa.pt, N/D, advogado, LISBOA, 1500-103 LISBOA, +351217142217, 05-09-1991, N/D)
+        
+2025-06-09 21:20:18,890 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:20:18,890 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:20:18,890 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Octavio Santos, 12099L, Lisboa, R Mouzinho da Silveira, 27 - 3º C, Activo, octavio.santos-12099l@advogados.oa.pt, N/D, advogado, LISBOA, 1250-166 LISBOA, +351213426323, 12-09-1995, N/D)
+        
+2025-06-09 21:20:18,891 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:20:18,891 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:20:18,891 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Paloma Albuquerque, 65883L, Lisboa, R Pinheiro Chagas, 17 - 5º, Activo, paloma-65883L@adv.oa.pt, N/D, advogado, LISBOA, 1050-174 LISBOA, +351920272392, 24-05-2022, N/D)
+        
+2025-06-09 21:20:18,891 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:20:18,891 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:20:18,892 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Paulo Cruz Almeida, 9377L, Lisboa, Av Eng Duarte Pachaco, Tr 1 - Piso 5, Sl 5, Activo, pcruzalmeida-9377l@adv.oa.pt, N/D, advogado, LISBOA, 1070-101 LISBOA, +351213243690, 15-10-1991, N/D)
+        
+2025-06-09 21:20:18,892 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:20:18,892 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:20:18,892 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Paulo Rodrigues, 53123L, Lisboa, R Garcia de Resende, 18 - 3º Dto, Activo, paulorodrigues-53123L@adv.oa.pt, N/D, advogado, LAVRADIO, 2835-436 LAVRADIO, N/D, 13-03-2014, N/D)
+        
+2025-06-09 21:20:18,893 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:20:18,893 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:20:18,893 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Pedro Dias Ferreira, 11297L, Lisboa, R Marquês de Fronteira, 117 - 4º Dto, Activo, pedro.dias.ferreira-11297l@adv.oa.pt, N/D, advogado, LISBOA, 1070-292 LISBOA, +351213850482, 12-07-1994, N/D)
+        
+2025-06-09 21:20:18,893 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:20:18,893 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:20:18,894 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Priscila Rodrigues Ferreira, 50825L, Lisboa, R Sto António de Lisboa, AGS nº 01 - Cave Esq, Activo, priscilaferreira-50825l@adv.oa.pt, N/D, advogado, AMADORA, 2700-743 AMADORA, +351214751097, 15-03-2012, N/D)
+        
+2025-06-09 21:20:18,894 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:20:18,894 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:20:32,885 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-09 21:20:47,723 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Rafaela Silva, 5952C, Lisboa, Estr da Luz, 90 - 4º G, Activo, rsilva@rafaelasilva.pt, N/D, advogado, LISBOA, 1600-160 LISBOA, +351210992844, 14-05-2006, N/D)
+        
+2025-06-09 21:20:47,723 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:20:47,723 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:20:47,724 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Regina Santos, 6679L, Lisboa, Av Eng Adelino Amaro da Costa, 189 - 1º, Escr 4 - Edf Central Office, Activo, reginasantos-6679l@adv.oa.pt, N/D, advogado, CASCAIS, 2750-279 CASCAIS, +351214848281, 30-07-1986, N/D)
+        
+2025-06-09 21:20:47,724 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:20:47,724 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:20:47,724 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Rita do Rosário, 59049L, Lisboa, Av da República, 2 - 3º, Activo, ritadorosario-59049L@adv.oa.pt, N/D, advogado, LISBOA, 1050-191 LISBOA, +351+351213180370, 08-06-2018, N/D)
+        
+2025-06-09 21:20:47,725 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:20:47,725 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:20:47,725 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Rita Oliveira Ferreira, 69040L, Lisboa, Av Manuel Alpedrinha, 9, Activo, rita.ferreira-69040L@adv.oa.pt, N/D, advogado, AMADORA, 2720-351 AMADORA, +351210517774, 04-10-2023, N/D)
+        
+2025-06-09 21:20:47,725 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:20:47,725 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:20:47,726 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Rogéria Francisco, 11380L, Lisboa, Av 25 de Abril, 34 - Bl F, 1º Esq - Porto Alto, Activo, rogeria.francisco-11380l@adv.oa.pt, N/D, advogado, SAMORA CORREIA, 2135-148 SAMORA CORREIA, +351967029464, 08-08-1994, N/D)
+        
+2025-06-09 21:20:47,726 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:20:47,726 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:20:47,726 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Rui Andrade, 11642L, Lisboa, R D Luís I, 28, Activo, rsa@vda.pt, N/D, advogado, LISBOA, 1200-151 LISBOA, +351213113400, 14-11-1994, N/D)
+        
+2025-06-09 21:20:47,726 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:20:47,727 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:20:47,727 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Rui Monteirinho Gonçalves, 12282L, Lisboa, R Manuel Marques,  12 - L, - Azinhaga de Entre Muros - Alto do Lumiar, Activo, rmg-12282l@adv.oa.pt, N/D, advogado, LISBOA, 1750-171 LISBOA, N/D, 03-11-1995, N/D)
+        
+2025-06-09 21:20:47,727 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:20:47,727 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:20:47,728 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Rui Salinas, 1786L, Lisboa, Av Sidónio Pais,  8-4º Dto, Activo, ruisalinas-1786l@adv.oa.pt, N/D, advogado, LISBOA, 1050-214 LISBOA, +351213154023, 29-02-1956, N/D)
+        
+2025-06-09 21:20:47,728 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:20:47,728 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:20:47,728 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Sandra Alves Lourenço, 18793L, Lisboa, Av Padre Alberto Neto, 9 - 2º Dto, Activo, sal-18793l@adv.oa.pt, N/D, advogado, RIO DE MOURO, 2635-346 RIO DE MOURO, +351219176560, 19-03-2003, N/D)
+        
+2025-06-09 21:20:47,728 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:20:47,728 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:20:47,729 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Sandra Tomé, 50727L, Lisboa, Av António Augusto de Aguiar, 32 - 7º, Activo, sandra.tome-50727L@adv.oa.pt, N/D, advogado, LISBOA, 1050-016 LISBOA, +351213523355, 10-01-2012, N/D)
+        
+2025-06-09 21:20:47,729 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:20:47,729 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:20:58,906 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-09 21:21:14,959 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Sara Oliveira Faria, 55595L, Lisboa, Av José Gomes Ferreira, 9 - Sl 01 - Miraflores, Activo, saraoliveirafaria-55595L@adv.oa.pt, N/D, advogado, ALGÉS, 1495-139 ALGÉS, +351214126851, 21-06-2016, N/D)
+        
+2025-06-09 21:21:14,959 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:21:14,959 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:21:14,959 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Sónia Moreira Figueira, 45385L, Lisboa, Av 25 de Abril, 721 - 2º, Activo, smf-45385L@adv.oa.pt, N/D, advogado, CASCAIS, 2750-511 CASCAIS, +351211358201, 10-07-2007, N/D)
+        
+2025-06-09 21:21:14,960 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:21:14,960 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:21:14,960 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Teresa Gonzalez, 17682L, Lisboa, Av 5 de Outubro, 114 - 2º Esq, Activo, teresagonzalez-17682l@adv.oa.pt, N/D, advogado, LISBOA, 1050-060 LISBOA, +351217827260, 01-03-2002, N/D)
+        
+2025-06-09 21:21:14,960 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:21:14,960 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:21:14,961 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Tomás Gonçalves Batarda, 57961L, Lisboa, R Manuel Augusto Pacheco, 1 - 2º Dto, Activo, tomas_batarda-57961L@adv.oa.pt, N/D, advogado, LOURES, 2670-450 LOURES, +351925138616, 14-11-2017, N/D)
+        
+2025-06-09 21:21:14,961 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:21:14,961 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:21:14,961 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Vânia Brito Gonçalves, 19654L, Lisboa, R Dr Manuel Arriaga, 28 - 2º, Activo, vaniabgoncalves-19654l@adv.oa.pt, N/D, advogado, LOURES, 2670-451 LOURES, +351219823378, 09-03-2004, N/D)
+        
+2025-06-09 21:21:14,962 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:21:14,962 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:21:14,962 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Vasco Gouveia Vidal, 4276C, Lisboa, R Henrique António da Mota, 9 - 1º Dto, Activo, vascogouveiavidal-4276c@adv.oa.pt, N/D, advogado, CARCAVELOS, 2775-700 CARCAVELOS, +351216005822, 29-12-1999, N/D)
+        
+2025-06-09 21:21:14,962 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:21:14,962 - ERROR - Erro ao processar item: 1054 (42S22): Unknown column 'fax' in 'field list'
+2025-06-09 21:21:14,967 - WARNING - coletar_advogados_lisboa retornou 0 registros
+2025-06-09 21:21:14,967 - INFO - Iniciando: coletar_advogados_porto
+2025-06-09 21:21:14,967 - INFO - Iniciando scraping de advogados...
+2025-06-09 21:21:32,282 - WARNING - Erro ao marcar 'Apenas Ativos' (continuando sem marcar): Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x2f3763+63299]
+	GetHandleVerifier [0x0x2f37a4+63364]
+	(No symbol) [0x0x121113]
+	(No symbol) [0x0x16987e]
+	(No symbol) [0x0x169c1b]
+	(No symbol) [0x0x1b2212]
+	(No symbol) [0x0x18e5c4]
+	(No symbol) [0x0x1afa4a]
+	(No symbol) [0x0x18e376]
+	(No symbol) [0x0x15d6e0]
+	(No symbol) [0x0x15e544]
+	GetHandleVerifier [0x0x54e033+2531347]
+	GetHandleVerifier [0x0x549332+2511634]
+	GetHandleVerifier [0x0x319eda+220858]
+	GetHandleVerifier [0x0x30a528+156936]
+	GetHandleVerifier [0x0x310c5d+183357]
+	GetHandleVerifier [0x0x2fb6c8+95912]
+	GetHandleVerifier [0x0x2fb870+96336]
+	GetHandleVerifier [0x0x2e664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+	(No symbol) [0x0]
+
+2025-06-09 21:21:43,477 - WARNING - Erro ao clicar no botão de pesquisa: Message: 
+
+2025-06-09 21:21:43,603 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-09 21:22:22,635 - ERROR - Tentativa 1 falhou: Message: 
+
+2025-06-09 21:22:56,149 - ERROR - Tentativa 2 falhou: Message: 
+
+2025-06-09 21:23:30,024 - ERROR - Tentativa 3 falhou: Message: 
+
+2025-06-09 21:23:32,330 - ERROR - Não foi possível carregar a página 1
+2025-06-09 21:23:32,344 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-09 21:24:11,241 - ERROR - Tentativa 1 falhou: Message: 
+
+2025-06-09 21:24:44,839 - ERROR - Tentativa 2 falhou: Message: 
+
+2025-06-09 21:25:17,834 - ERROR - Tentativa 3 falhou: Message: 
+
+2025-06-09 21:25:20,729 - ERROR - Não foi possível carregar a página 2
+2025-06-09 21:25:20,749 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-09 21:26:00,120 - ERROR - Tentativa 1 falhou: Message: 
+
+2025-06-09 21:26:32,888 - ERROR - Tentativa 2 falhou: Message: 
+
+2025-06-09 21:27:05,713 - ERROR - Tentativa 3 falhou: Message: 
+
+2025-06-09 21:27:09,245 - ERROR - Não foi possível carregar a página 3
+2025-06-09 21:27:09,260 - WARNING - coletar_advogados_porto retornou 0 registros
+2025-06-09 21:27:09,260 - INFO - Iniciando: coletar_advogados_coimbra
+2025-06-09 21:27:09,260 - INFO - Iniciando scraping de advogados...
+2025-06-09 21:27:25,599 - WARNING - Erro ao marcar 'Apenas Ativos' (continuando sem marcar): Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x2f3763+63299]
+	GetHandleVerifier [0x0x2f37a4+63364]
+	(No symbol) [0x0x121113]
+	(No symbol) [0x0x16987e]
+	(No symbol) [0x0x169c1b]
+	(No symbol) [0x0x1b2212]
+	(No symbol) [0x0x18e5c4]
+	(No symbol) [0x0x1afa4a]
+	(No symbol) [0x0x18e376]
+	(No symbol) [0x0x15d6e0]
+	(No symbol) [0x0x15e544]
+	GetHandleVerifier [0x0x54e033+2531347]
+	GetHandleVerifier [0x0x549332+2511634]
+	GetHandleVerifier [0x0x319eda+220858]
+	GetHandleVerifier [0x0x30a528+156936]
+	GetHandleVerifier [0x0x310c5d+183357]
+	GetHandleVerifier [0x0x2fb6c8+95912]
+	GetHandleVerifier [0x0x2fb870+96336]
+	GetHandleVerifier [0x0x2e664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+	(No symbol) [0x0]
+
+2025-06-09 21:27:35,866 - WARNING - Erro ao clicar no botão de pesquisa: Message: 
+
+2025-06-09 21:27:35,876 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-09 21:28:15,741 - ERROR - Tentativa 1 falhou: Message: 
+
+2025-06-09 21:28:50,228 - ERROR - Tentativa 2 falhou: Message: 
+
+2025-06-09 21:29:23,685 - ERROR - Tentativa 3 falhou: Message: 
+
+2025-06-09 21:29:25,824 - ERROR - Não foi possível carregar a página 1
+2025-06-09 21:29:25,854 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-09 21:30:06,711 - ERROR - Tentativa 1 falhou: Message: 
+
+2025-06-09 21:30:39,549 - ERROR - Tentativa 2 falhou: Message: 
+
+2025-06-09 21:31:13,204 - ERROR - Tentativa 3 falhou: Message: 
+
+2025-06-09 21:31:17,067 - ERROR - Não foi possível carregar a página 2
+2025-06-09 21:31:17,348 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-09 21:31:56,677 - ERROR - Tentativa 1 falhou: Message: 
+
+2025-06-09 21:32:29,823 - ERROR - Tentativa 2 falhou: Message: 
+
+2025-06-09 21:33:03,450 - ERROR - Tentativa 3 falhou: Message: 
+
+2025-06-09 21:33:06,879 - ERROR - Não foi possível carregar a página 3
+2025-06-09 21:33:06,908 - WARNING - coletar_advogados_coimbra retornou 0 registros
+2025-06-09 21:33:06,908 - INFO - Iniciando: coletar_advogados_evora
+2025-06-09 21:33:06,908 - INFO - Iniciando scraping de advogados...
+2025-06-09 21:33:22,815 - WARNING - Erro ao marcar 'Apenas Ativos' (continuando sem marcar): Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x2f3763+63299]
+	GetHandleVerifier [0x0x2f37a4+63364]
+	(No symbol) [0x0x121113]
+	(No symbol) [0x0x16987e]
+	(No symbol) [0x0x169c1b]
+	(No symbol) [0x0x1b2212]
+	(No symbol) [0x0x18e5c4]
+	(No symbol) [0x0x1afa4a]
+	(No symbol) [0x0x18e376]
+	(No symbol) [0x0x15d6e0]
+	(No symbol) [0x0x15e544]
+	GetHandleVerifier [0x0x54e033+2531347]
+	GetHandleVerifier [0x0x549332+2511634]
+	GetHandleVerifier [0x0x319eda+220858]
+	GetHandleVerifier [0x0x30a528+156936]
+	GetHandleVerifier [0x0x310c5d+183357]
+	GetHandleVerifier [0x0x2fb6c8+95912]
+	GetHandleVerifier [0x0x2fb870+96336]
+	GetHandleVerifier [0x0x2e664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+	(No symbol) [0x0]
+
+2025-06-09 21:33:33,075 - WARNING - Erro ao clicar no botão de pesquisa: Message: 
+
+2025-06-09 21:33:33,082 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-09 21:34:13,724 - ERROR - Tentativa 1 falhou: Message: 
+
+2025-06-09 21:34:46,428 - ERROR - Tentativa 2 falhou: Message: 
+
+2025-06-09 21:35:19,161 - ERROR - Tentativa 3 falhou: Message: 
+
+2025-06-09 21:35:21,802 - ERROR - Não foi possível carregar a página 1
+2025-06-09 21:35:21,825 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-09 21:36:02,621 - ERROR - Tentativa 1 falhou: Message: 
+
+2025-06-09 21:36:36,190 - ERROR - Tentativa 2 falhou: Message: 
+
+2025-06-09 21:37:08,595 - ERROR - Tentativa 3 falhou: Message: 
+
+2025-06-09 21:37:12,212 - ERROR - Não foi possível carregar a página 2
+2025-06-09 21:37:12,225 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-09 21:37:52,487 - ERROR - Tentativa 1 falhou: Message: 
+
+2025-06-09 21:38:25,240 - ERROR - Tentativa 2 falhou: Message: 
+
+2025-06-09 21:38:59,189 - ERROR - Tentativa 3 falhou: Message: 
+
+2025-06-09 21:39:01,553 - ERROR - Não foi possível carregar a página 3
+2025-06-09 21:39:01,563 - WARNING - coletar_advogados_evora retornou 0 registros
+2025-06-09 21:39:01,563 - INFO - Iniciando: coletar_advogados_faro
+2025-06-09 21:39:01,563 - INFO - Iniciando scraping de advogados...
+2025-06-09 21:39:17,299 - WARNING - Erro ao marcar 'Apenas Ativos' (continuando sem marcar): Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x2f3763+63299]
+	GetHandleVerifier [0x0x2f37a4+63364]
+	(No symbol) [0x0x121113]
+	(No symbol) [0x0x16987e]
+	(No symbol) [0x0x169c1b]
+	(No symbol) [0x0x1b2212]
+	(No symbol) [0x0x18e5c4]
+	(No symbol) [0x0x1afa4a]
+	(No symbol) [0x0x18e376]
+	(No symbol) [0x0x15d6e0]
+	(No symbol) [0x0x15e544]
+	GetHandleVerifier [0x0x54e033+2531347]
+	GetHandleVerifier [0x0x549332+2511634]
+	GetHandleVerifier [0x0x319eda+220858]
+	GetHandleVerifier [0x0x30a528+156936]
+	GetHandleVerifier [0x0x310c5d+183357]
+	GetHandleVerifier [0x0x2fb6c8+95912]
+	GetHandleVerifier [0x0x2fb870+96336]
+	GetHandleVerifier [0x0x2e664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+	(No symbol) [0x0]
+
+2025-06-09 21:39:27,381 - WARNING - Erro ao clicar no botão de pesquisa: Message: 
+
+2025-06-09 21:39:27,389 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-09 21:40:07,791 - ERROR - Tentativa 1 falhou: Message: 
+
+2025-06-09 21:40:41,348 - ERROR - Tentativa 2 falhou: Message: 
+
+2025-06-09 21:41:13,939 - ERROR - Tentativa 3 falhou: Message: 
+
+2025-06-09 21:41:17,604 - ERROR - Não foi possível carregar a página 1
+2025-06-09 21:41:17,638 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-09 21:41:57,431 - ERROR - Tentativa 1 falhou: Message: 
+
+2025-06-09 21:42:31,338 - ERROR - Tentativa 2 falhou: Message: 
+
+2025-06-09 21:43:05,194 - ERROR - Tentativa 3 falhou: Message: 
+
+2025-06-09 21:43:07,905 - ERROR - Não foi possível carregar a página 2
+2025-06-09 21:43:07,938 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-09 21:43:47,757 - ERROR - Tentativa 1 falhou: Message: 
+
+2025-06-09 21:44:20,568 - ERROR - Tentativa 2 falhou: Message: 
+
+2025-06-09 21:44:55,110 - ERROR - Tentativa 3 falhou: Message: 
+
+2025-06-09 21:44:57,521 - ERROR - Não foi possível carregar a página 3
+2025-06-09 21:44:57,532 - WARNING - coletar_advogados_faro retornou 0 registros
+2025-06-09 21:44:57,532 - INFO - Iniciando: coletar_advogados_madeira
+2025-06-09 21:44:57,533 - INFO - Iniciando scraping de advogados...
+2025-06-09 21:45:13,559 - WARNING - Erro ao marcar 'Apenas Ativos' (continuando sem marcar): Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x2f3763+63299]
+	GetHandleVerifier [0x0x2f37a4+63364]
+	(No symbol) [0x0x121113]
+	(No symbol) [0x0x16987e]
+	(No symbol) [0x0x169c1b]
+	(No symbol) [0x0x1b2212]
+	(No symbol) [0x0x18e5c4]
+	(No symbol) [0x0x1afa4a]
+	(No symbol) [0x0x18e376]
+	(No symbol) [0x0x15d6e0]
+	(No symbol) [0x0x15e544]
+	GetHandleVerifier [0x0x54e033+2531347]
+	GetHandleVerifier [0x0x549332+2511634]
+	GetHandleVerifier [0x0x319eda+220858]
+	GetHandleVerifier [0x0x30a528+156936]
+	GetHandleVerifier [0x0x310c5d+183357]
+	GetHandleVerifier [0x0x2fb6c8+95912]
+	GetHandleVerifier [0x0x2fb870+96336]
+	GetHandleVerifier [0x0x2e664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+	(No symbol) [0x0]
+
+2025-06-09 21:45:23,933 - WARNING - Erro ao clicar no botão de pesquisa: Message: 
+
+2025-06-09 21:45:23,939 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-09 21:46:04,102 - ERROR - Tentativa 1 falhou: Message: 
+
+2025-06-09 21:46:38,574 - ERROR - Tentativa 2 falhou: Message: 
+
+2025-06-09 21:47:11,373 - ERROR - Tentativa 3 falhou: Message: 
+
+2025-06-09 21:47:15,349 - ERROR - Não foi possível carregar a página 1
+2025-06-09 21:47:15,380 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-09 21:47:54,138 - ERROR - Tentativa 1 falhou: Message: 
+
+2025-06-09 21:48:28,502 - ERROR - Tentativa 2 falhou: Message: 
+
+2025-06-09 21:49:03,106 - ERROR - Tentativa 3 falhou: Message: 
+
+2025-06-09 21:49:05,562 - ERROR - Não foi possível carregar a página 2
+2025-06-09 21:49:05,577 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-09 21:49:45,873 - ERROR - Tentativa 1 falhou: Message: 
+
+2025-06-09 21:50:20,096 - ERROR - Tentativa 2 falhou: Message: 
+
+2025-06-09 21:50:52,749 - ERROR - Tentativa 3 falhou: Message: 
+
+2025-06-09 21:50:56,330 - ERROR - Não foi possível carregar a página 3
+2025-06-09 21:50:56,353 - WARNING - coletar_advogados_madeira retornou 0 registros
+2025-06-09 21:50:56,353 - INFO - Iniciando: coletar_advogados_acores
+2025-06-09 21:50:56,354 - INFO - Iniciando scraping de advogados...
+2025-06-09 21:51:11,802 - WARNING - Erro ao marcar 'Apenas Ativos' (continuando sem marcar): Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x2f3763+63299]
+	GetHandleVerifier [0x0x2f37a4+63364]
+	(No symbol) [0x0x121113]
+	(No symbol) [0x0x16987e]
+	(No symbol) [0x0x169c1b]
+	(No symbol) [0x0x1b2212]
+	(No symbol) [0x0x18e5c4]
+	(No symbol) [0x0x1afa4a]
+	(No symbol) [0x0x18e376]
+	(No symbol) [0x0x15d6e0]
+	(No symbol) [0x0x15e544]
+	GetHandleVerifier [0x0x54e033+2531347]
+	GetHandleVerifier [0x0x549332+2511634]
+	GetHandleVerifier [0x0x319eda+220858]
+	GetHandleVerifier [0x0x30a528+156936]
+	GetHandleVerifier [0x0x310c5d+183357]
+	GetHandleVerifier [0x0x2fb6c8+95912]
+	GetHandleVerifier [0x0x2fb870+96336]
+	GetHandleVerifier [0x0x2e664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+	(No symbol) [0x0]
+
+2025-06-09 21:51:22,182 - WARNING - Erro ao clicar no botão de pesquisa: Message: 
+
+2025-06-09 21:51:22,188 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-09 21:52:01,170 - ERROR - Tentativa 1 falhou: Message: 
+
+2025-06-09 21:52:34,681 - ERROR - Tentativa 2 falhou: Message: 
+
+2025-06-09 21:53:07,552 - ERROR - Tentativa 3 falhou: Message: 
+
+2025-06-09 21:53:11,407 - ERROR - Não foi possível carregar a página 1
+2025-06-09 21:53:11,425 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-09 21:53:51,398 - ERROR - Tentativa 1 falhou: Message: 
+
+2025-06-09 21:54:24,752 - ERROR - Tentativa 2 falhou: Message: 
+
+2025-06-09 21:54:57,484 - ERROR - Tentativa 3 falhou: Message: 
+
+2025-06-09 21:55:01,613 - ERROR - Não foi possível carregar a página 2
+2025-06-09 21:55:01,645 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-09 21:55:40,930 - ERROR - Tentativa 1 falhou: Message: 
+
+2025-06-09 21:56:14,133 - ERROR - Tentativa 2 falhou: Message: 
+
+2025-06-09 21:56:46,787 - ERROR - Tentativa 3 falhou: Message: 
+
+2025-06-09 21:56:50,478 - ERROR - Não foi possível carregar a página 3
+2025-06-09 21:56:50,485 - WARNING - coletar_advogados_acores retornou 0 registros
+2025-06-09 21:56:50,485 - INFO - Iniciando: coletar_advogados_braga
+2025-06-09 21:56:50,486 - INFO - Iniciando scraping de advogados...
+2025-06-09 21:57:06,197 - WARNING - Erro ao marcar 'Apenas Ativos' (continuando sem marcar): Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x2f3763+63299]
+	GetHandleVerifier [0x0x2f37a4+63364]
+	(No symbol) [0x0x121113]
+	(No symbol) [0x0x16987e]
+	(No symbol) [0x0x169c1b]
+	(No symbol) [0x0x1b2212]
+	(No symbol) [0x0x18e5c4]
+	(No symbol) [0x0x1afa4a]
+	(No symbol) [0x0x18e376]
+	(No symbol) [0x0x15d6e0]
+	(No symbol) [0x0x15e544]
+	GetHandleVerifier [0x0x54e033+2531347]
+	GetHandleVerifier [0x0x549332+2511634]
+	GetHandleVerifier [0x0x319eda+220858]
+	GetHandleVerifier [0x0x30a528+156936]
+	GetHandleVerifier [0x0x310c5d+183357]
+	GetHandleVerifier [0x0x2fb6c8+95912]
+	GetHandleVerifier [0x0x2fb870+96336]
+	GetHandleVerifier [0x0x2e664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+	(No symbol) [0x0]
+
+2025-06-09 21:57:16,509 - WARNING - Erro ao clicar no botão de pesquisa: Message: 
+
+2025-06-09 21:57:16,516 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-09 21:57:56,183 - ERROR - Tentativa 1 falhou: Message: 
+
+2025-06-09 21:58:29,395 - ERROR - Tentativa 2 falhou: Message: 
+
+2025-06-09 21:59:02,130 - ERROR - Tentativa 3 falhou: Message: 
+
+2025-06-09 21:59:04,876 - ERROR - Não foi possível carregar a página 1
+2025-06-09 21:59:04,887 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-09 21:59:44,119 - ERROR - Tentativa 1 falhou: Message: 
+
+2025-06-09 22:00:17,154 - ERROR - Tentativa 2 falhou: Message: 
+
+2025-06-09 22:00:50,058 - ERROR - Tentativa 3 falhou: Message: 
+
+2025-06-09 22:00:53,817 - ERROR - Não foi possível carregar a página 2
+2025-06-09 22:00:53,832 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-09 22:01:33,179 - ERROR - Tentativa 1 falhou: Message: 
+
+2025-06-09 22:02:05,521 - ERROR - Tentativa 2 falhou: Message: 
+
+2025-06-09 22:02:38,350 - ERROR - Tentativa 3 falhou: Message: 
+
+2025-06-09 22:02:41,308 - ERROR - Não foi possível carregar a página 3
+2025-06-09 22:02:41,314 - WARNING - coletar_advogados_braga retornou 0 registros
+2025-06-09 22:02:41,315 - INFO - Iniciando: coletar_sociedades_lisboa
+2025-06-09 22:02:41,316 - INFO - Iniciando scraping de sociedades de advogados de lisboa...
+2025-06-09 22:03:01,180 - ERROR - Erro ao clicar no botão de pesquisa para https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/?cg=L&r=&n=&lo=&m=&cp=&op=&o=0: Message: 
+
+2025-06-09 22:03:01,188 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-09 22:03:26,343 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-09 22:03:52,551 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-09 22:04:15,402 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-09 22:04:37,143 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-09 22:05:01,308 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-09 22:05:26,272 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-09 22:05:50,861 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-09 22:06:14,040 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-09 22:06:36,065 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-09 22:07:02,694 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-09 22:07:27,481 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-09 22:07:54,680 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-09 22:08:03,327 - ERROR - Tentativa 1 falhou: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0x2f3763+63299]
+	GetHandleVerifier [0x0x2f37a4+63364]
+	(No symbol) [0x0x121113]
+	(No symbol) [0x0xfff69]
+	(No symbol) [0x0x194fce]
+	(No symbol) [0x0x1af359]
+	(No symbol) [0x0x18e376]
+	(No symbol) [0x0x15d6e0]
+	(No symbol) [0x0x15e544]
+	GetHandleVerifier [0x0x54e033+2531347]
+	GetHandleVerifier [0x0x549332+2511634]
+	GetHandleVerifier [0x0x319eda+220858]
+	GetHandleVerifier [0x0x30a528+156936]
+	GetHandleVerifier [0x0x310c5d+183357]
+	GetHandleVerifier [0x0x2fb6c8+95912]
+	GetHandleVerifier [0x0x2fb870+96336]
+	GetHandleVerifier [0x0x2e664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+	(No symbol) [0x0]
+
+2025-06-09 22:08:03,328 - ERROR - Erro ao processar página 13: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0x2f3763+63299]
+	GetHandleVerifier [0x0x2f37a4+63364]
+	(No symbol) [0x0x121113]
+	(No symbol) [0x0xfff69]
+	(No symbol) [0x0x194fce]
+	(No symbol) [0x0x1af359]
+	(No symbol) [0x0x18e376]
+	(No symbol) [0x0x15d6e0]
+	(No symbol) [0x0x15e544]
+	GetHandleVerifier [0x0x54e033+2531347]
+	GetHandleVerifier [0x0x549332+2511634]
+	GetHandleVerifier [0x0x319eda+220858]
+	GetHandleVerifier [0x0x30a528+156936]
+	GetHandleVerifier [0x0x310c5d+183357]
+	GetHandleVerifier [0x0x2fb6c8+95912]
+	GetHandleVerifier [0x0x2fb870+96336]
+	GetHandleVerifier [0x0x2e664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+	(No symbol) [0x0]
+
+2025-06-09 22:08:03,337 - ERROR - Erro ao processar página 14: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0x2f3763+63299]
+	GetHandleVerifier [0x0x2f37a4+63364]
+	(No symbol) [0x0x121113]
+	(No symbol) [0x0xfff69]
+	(No symbol) [0x0x194fce]
+	(No symbol) [0x0x1af359]
+	(No symbol) [0x0x18e376]
+	(No symbol) [0x0x15d6e0]
+	(No symbol) [0x0x15e544]
+	GetHandleVerifier [0x0x54e033+2531347]
+	GetHandleVerifier [0x0x549332+2511634]
+	GetHandleVerifier [0x0x319eda+220858]
+	GetHandleVerifier [0x0x30a528+156936]
+	GetHandleVerifier [0x0x310c5d+183357]
+	GetHandleVerifier [0x0x2fb6c8+95912]
+	GetHandleVerifier [0x0x2fb870+96336]
+	GetHandleVerifier [0x0x2e664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+	(No symbol) [0x0]
+
+2025-06-09 22:08:03,338 - ERROR - Erro ao processar página 15: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0x2f3763+63299]
+	GetHandleVerifier [0x0x2f37a4+63364]
+	(No symbol) [0x0x121113]
+	(No symbol) [0x0xfff69]
+	(No symbol) [0x0x194fce]
+	(No symbol) [0x0x1af359]
+	(No symbol) [0x0x18e376]
+	(No symbol) [0x0x15d6e0]
+	(No symbol) [0x0x15e544]
+	GetHandleVerifier [0x0x54e033+2531347]
+	GetHandleVerifier [0x0x549332+2511634]
+	GetHandleVerifier [0x0x319eda+220858]
+	GetHandleVerifier [0x0x30a528+156936]
+	GetHandleVerifier [0x0x310c5d+183357]
+	GetHandleVerifier [0x0x2fb6c8+95912]
+	GetHandleVerifier [0x0x2fb870+96336]
+	GetHandleVerifier [0x0x2e664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+	(No symbol) [0x0]
+
+2025-06-09 22:08:03,346 - INFO - Dados salvos em CSV: dados_pesquisa-de-sociedades-de-advogados_20250609_220803.csv
+2025-06-09 22:08:03,348 - INFO - coletar_sociedades_lisboa completado com 120 registros
+2025-06-09 22:08:03,348 - INFO - Iniciando: coletar_sociedades_porto
+2025-06-09 22:08:03,348 - INFO - Iniciando scraping de sociedades de advogados do porto...
+2025-06-09 22:08:03,350 - ERROR - Erro em coletar_sociedades_porto: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0x2f3763+63299]
+	GetHandleVerifier [0x0x2f37a4+63364]
+	(No symbol) [0x0x121113]
+	(No symbol) [0x0xfff69]
+	(No symbol) [0x0x194fce]
+	(No symbol) [0x0x1af359]
+	(No symbol) [0x0x18e376]
+	(No symbol) [0x0x15d6e0]
+	(No symbol) [0x0x15e544]
+	GetHandleVerifier [0x0x54e033+2531347]
+	GetHandleVerifier [0x0x549332+2511634]
+	GetHandleVerifier [0x0x319eda+220858]
+	GetHandleVerifier [0x0x30a528+156936]
+	GetHandleVerifier [0x0x310c5d+183357]
+	GetHandleVerifier [0x0x2fb6c8+95912]
+	GetHandleVerifier [0x0x2fb870+96336]
+	GetHandleVerifier [0x0x2e664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+	(No symbol) [0x0]
+
+2025-06-09 22:08:03,350 - INFO - Iniciando: coletar_sociedades_coimbra
+2025-06-09 22:08:03,350 - INFO - Iniciando scraping de sociedades de advogados de coimbra...
+2025-06-09 22:08:03,351 - ERROR - Erro em coletar_sociedades_coimbra: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0x2f3763+63299]
+	GetHandleVerifier [0x0x2f37a4+63364]
+	(No symbol) [0x0x121113]
+	(No symbol) [0x0xfff69]
+	(No symbol) [0x0x194fce]
+	(No symbol) [0x0x1af359]
+	(No symbol) [0x0x18e376]
+	(No symbol) [0x0x15d6e0]
+	(No symbol) [0x0x15e544]
+	GetHandleVerifier [0x0x54e033+2531347]
+	GetHandleVerifier [0x0x549332+2511634]
+	GetHandleVerifier [0x0x319eda+220858]
+	GetHandleVerifier [0x0x30a528+156936]
+	GetHandleVerifier [0x0x310c5d+183357]
+	GetHandleVerifier [0x0x2fb6c8+95912]
+	GetHandleVerifier [0x0x2fb870+96336]
+	GetHandleVerifier [0x0x2e664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+	(No symbol) [0x0]
+
+2025-06-09 22:08:03,352 - INFO - Iniciando: coletar_sociedades_evora
+2025-06-09 22:08:03,352 - INFO - Iniciando scraping de sociedades de advogados de evora...
+2025-06-09 22:08:03,355 - ERROR - Erro em coletar_sociedades_evora: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0x2f3763+63299]
+	GetHandleVerifier [0x0x2f37a4+63364]
+	(No symbol) [0x0x121113]
+	(No symbol) [0x0xfff69]
+	(No symbol) [0x0x194fce]
+	(No symbol) [0x0x1af359]
+	(No symbol) [0x0x18e376]
+	(No symbol) [0x0x15d6e0]
+	(No symbol) [0x0x15e544]
+	GetHandleVerifier [0x0x54e033+2531347]
+	GetHandleVerifier [0x0x549332+2511634]
+	GetHandleVerifier [0x0x319eda+220858]
+	GetHandleVerifier [0x0x30a528+156936]
+	GetHandleVerifier [0x0x310c5d+183357]
+	GetHandleVerifier [0x0x2fb6c8+95912]
+	GetHandleVerifier [0x0x2fb870+96336]
+	GetHandleVerifier [0x0x2e664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+	(No symbol) [0x0]
+
+2025-06-09 22:08:03,356 - INFO - Iniciando: coletar_sociedades_faro
+2025-06-09 22:08:03,356 - INFO - Iniciando scraping de sociedades de advogados de faro...
+2025-06-09 22:08:03,359 - ERROR - Erro em coletar_sociedades_faro: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0x2f3763+63299]
+	GetHandleVerifier [0x0x2f37a4+63364]
+	(No symbol) [0x0x121113]
+	(No symbol) [0x0xfff69]
+	(No symbol) [0x0x194fce]
+	(No symbol) [0x0x1af359]
+	(No symbol) [0x0x18e376]
+	(No symbol) [0x0x15d6e0]
+	(No symbol) [0x0x15e544]
+	GetHandleVerifier [0x0x54e033+2531347]
+	GetHandleVerifier [0x0x549332+2511634]
+	GetHandleVerifier [0x0x319eda+220858]
+	GetHandleVerifier [0x0x30a528+156936]
+	GetHandleVerifier [0x0x310c5d+183357]
+	GetHandleVerifier [0x0x2fb6c8+95912]
+	GetHandleVerifier [0x0x2fb870+96336]
+	GetHandleVerifier [0x0x2e664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+	(No symbol) [0x0]
+
+2025-06-09 22:08:03,361 - INFO - Iniciando: coletar_sociedades_madeira
+2025-06-09 22:08:03,361 - INFO - Iniciando scraping de sociedades de advogados da madeira...
+2025-06-09 22:08:03,363 - ERROR - Erro em coletar_sociedades_madeira: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0x2f3763+63299]
+	GetHandleVerifier [0x0x2f37a4+63364]
+	(No symbol) [0x0x121113]
+	(No symbol) [0x0xfff69]
+	(No symbol) [0x0x194fce]
+	(No symbol) [0x0x1af359]
+	(No symbol) [0x0x18e376]
+	(No symbol) [0x0x15d6e0]
+	(No symbol) [0x0x15e544]
+	GetHandleVerifier [0x0x54e033+2531347]
+	GetHandleVerifier [0x0x549332+2511634]
+	GetHandleVerifier [0x0x319eda+220858]
+	GetHandleVerifier [0x0x30a528+156936]
+	GetHandleVerifier [0x0x310c5d+183357]
+	GetHandleVerifier [0x0x2fb6c8+95912]
+	GetHandleVerifier [0x0x2fb870+96336]
+	GetHandleVerifier [0x0x2e664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+	(No symbol) [0x0]
+
+2025-06-09 22:08:03,363 - INFO - Iniciando: coletar_sociedades_acores
+2025-06-09 22:08:03,363 - INFO - Iniciando scraping de sociedades de advogados da madeira...
+2025-06-09 22:08:03,364 - ERROR - Erro em coletar_sociedades_acores: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0x2f3763+63299]
+	GetHandleVerifier [0x0x2f37a4+63364]
+	(No symbol) [0x0x121113]
+	(No symbol) [0x0xfff69]
+	(No symbol) [0x0x194fce]
+	(No symbol) [0x0x1af359]
+	(No symbol) [0x0x18e376]
+	(No symbol) [0x0x15d6e0]
+	(No symbol) [0x0x15e544]
+	GetHandleVerifier [0x0x54e033+2531347]
+	GetHandleVerifier [0x0x549332+2511634]
+	GetHandleVerifier [0x0x319eda+220858]
+	GetHandleVerifier [0x0x30a528+156936]
+	GetHandleVerifier [0x0x310c5d+183357]
+	GetHandleVerifier [0x0x2fb6c8+95912]
+	GetHandleVerifier [0x0x2fb870+96336]
+	GetHandleVerifier [0x0x2e664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+	(No symbol) [0x0]
+
+2025-06-09 22:08:03,364 - INFO - Iniciando: coletar_sociedades_braga
+2025-06-09 22:08:03,364 - INFO - Iniciando scraping de sociedades de advogados da madeira...
+2025-06-09 22:08:03,365 - ERROR - Erro em coletar_sociedades_braga: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0x2f3763+63299]
+	GetHandleVerifier [0x0x2f37a4+63364]
+	(No symbol) [0x0x121113]
+	(No symbol) [0x0xfff69]
+	(No symbol) [0x0x194fce]
+	(No symbol) [0x0x1af359]
+	(No symbol) [0x0x18e376]
+	(No symbol) [0x0x15d6e0]
+	(No symbol) [0x0x15e544]
+	GetHandleVerifier [0x0x54e033+2531347]
+	GetHandleVerifier [0x0x549332+2511634]
+	GetHandleVerifier [0x0x319eda+220858]
+	GetHandleVerifier [0x0x30a528+156936]
+	GetHandleVerifier [0x0x310c5d+183357]
+	GetHandleVerifier [0x0x2fb6c8+95912]
+	GetHandleVerifier [0x0x2fb870+96336]
+	GetHandleVerifier [0x0x2e664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+	(No symbol) [0x0]
+
+2025-06-09 22:08:03,365 - INFO - Iniciando: coletar_estagiarios_lisboa
+2025-06-09 22:08:03,366 - INFO - Iniciando scraping de estagiários...
+2025-06-09 22:08:03,366 - ERROR - Erro em coletar_estagiarios_lisboa: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0x2f3763+63299]
+	GetHandleVerifier [0x0x2f37a4+63364]
+	(No symbol) [0x0x121113]
+	(No symbol) [0x0xfff69]
+	(No symbol) [0x0x194fce]
+	(No symbol) [0x0x1af359]
+	(No symbol) [0x0x18e376]
+	(No symbol) [0x0x15d6e0]
+	(No symbol) [0x0x15e544]
+	GetHandleVerifier [0x0x54e033+2531347]
+	GetHandleVerifier [0x0x549332+2511634]
+	GetHandleVerifier [0x0x319eda+220858]
+	GetHandleVerifier [0x0x30a528+156936]
+	GetHandleVerifier [0x0x310c5d+183357]
+	GetHandleVerifier [0x0x2fb6c8+95912]
+	GetHandleVerifier [0x0x2fb870+96336]
+	GetHandleVerifier [0x0x2e664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+	(No symbol) [0x0]
+
+2025-06-09 22:08:03,375 - INFO - Iniciando: coletar_estagiarios_porto
+2025-06-09 22:08:03,375 - INFO - Iniciando scraping de estagiários...
+2025-06-09 22:08:03,378 - ERROR - Erro em coletar_estagiarios_porto: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0x2f3763+63299]
+	GetHandleVerifier [0x0x2f37a4+63364]
+	(No symbol) [0x0x121113]
+	(No symbol) [0x0xfff69]
+	(No symbol) [0x0x194fce]
+	(No symbol) [0x0x1af359]
+	(No symbol) [0x0x18e376]
+	(No symbol) [0x0x15d6e0]
+	(No symbol) [0x0x15e544]
+	GetHandleVerifier [0x0x54e033+2531347]
+	GetHandleVerifier [0x0x549332+2511634]
+	GetHandleVerifier [0x0x319eda+220858]
+	GetHandleVerifier [0x0x30a528+156936]
+	GetHandleVerifier [0x0x310c5d+183357]
+	GetHandleVerifier [0x0x2fb6c8+95912]
+	GetHandleVerifier [0x0x2fb870+96336]
+	GetHandleVerifier [0x0x2e664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+	(No symbol) [0x0]
+
+2025-06-09 22:08:03,378 - INFO - Iniciando: coletar_estagiarios_coimbra
+2025-06-09 22:08:03,378 - INFO - Iniciando scraping de estagiários...
+2025-06-09 22:08:03,379 - ERROR - Erro em coletar_estagiarios_coimbra: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0x2f3763+63299]
+	GetHandleVerifier [0x0x2f37a4+63364]
+	(No symbol) [0x0x121113]
+	(No symbol) [0x0xfff69]
+	(No symbol) [0x0x194fce]
+	(No symbol) [0x0x1af359]
+	(No symbol) [0x0x18e376]
+	(No symbol) [0x0x15d6e0]
+	(No symbol) [0x0x15e544]
+	GetHandleVerifier [0x0x54e033+2531347]
+	GetHandleVerifier [0x0x549332+2511634]
+	GetHandleVerifier [0x0x319eda+220858]
+	GetHandleVerifier [0x0x30a528+156936]
+	GetHandleVerifier [0x0x310c5d+183357]
+	GetHandleVerifier [0x0x2fb6c8+95912]
+	GetHandleVerifier [0x0x2fb870+96336]
+	GetHandleVerifier [0x0x2e664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+	(No symbol) [0x0]
+
+2025-06-09 22:08:03,380 - INFO - Iniciando: coletar_estagiarios_evora
+2025-06-09 22:08:03,380 - INFO - Iniciando scraping de estagiários...
+2025-06-09 22:08:03,382 - ERROR - Erro em coletar_estagiarios_evora: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0x2f3763+63299]
+	GetHandleVerifier [0x0x2f37a4+63364]
+	(No symbol) [0x0x121113]
+	(No symbol) [0x0xfff69]
+	(No symbol) [0x0x194fce]
+	(No symbol) [0x0x1af359]
+	(No symbol) [0x0x18e376]
+	(No symbol) [0x0x15d6e0]
+	(No symbol) [0x0x15e544]
+	GetHandleVerifier [0x0x54e033+2531347]
+	GetHandleVerifier [0x0x549332+2511634]
+	GetHandleVerifier [0x0x319eda+220858]
+	GetHandleVerifier [0x0x30a528+156936]
+	GetHandleVerifier [0x0x310c5d+183357]
+	GetHandleVerifier [0x0x2fb6c8+95912]
+	GetHandleVerifier [0x0x2fb870+96336]
+	GetHandleVerifier [0x0x2e664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+	(No symbol) [0x0]
+
+2025-06-09 22:08:03,382 - INFO - Iniciando: coletar_estagiarios_faro
+2025-06-09 22:08:03,382 - INFO - Iniciando scraping de estagiários...
+2025-06-09 22:08:03,383 - ERROR - Erro em coletar_estagiarios_faro: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0x2f3763+63299]
+	GetHandleVerifier [0x0x2f37a4+63364]
+	(No symbol) [0x0x121113]
+	(No symbol) [0x0xfff69]
+	(No symbol) [0x0x194fce]
+	(No symbol) [0x0x1af359]
+	(No symbol) [0x0x18e376]
+	(No symbol) [0x0x15d6e0]
+	(No symbol) [0x0x15e544]
+	GetHandleVerifier [0x0x54e033+2531347]
+	GetHandleVerifier [0x0x549332+2511634]
+	GetHandleVerifier [0x0x319eda+220858]
+	GetHandleVerifier [0x0x30a528+156936]
+	GetHandleVerifier [0x0x310c5d+183357]
+	GetHandleVerifier [0x0x2fb6c8+95912]
+	GetHandleVerifier [0x0x2fb870+96336]
+	GetHandleVerifier [0x0x2e664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+	(No symbol) [0x0]
+
+2025-06-09 22:08:03,390 - INFO - Iniciando: coletar_estagiarios_madeira
+2025-06-09 22:08:03,391 - INFO - Iniciando scraping de estagiários...
+2025-06-09 22:08:03,392 - ERROR - Erro em coletar_estagiarios_madeira: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0x2f3763+63299]
+	GetHandleVerifier [0x0x2f37a4+63364]
+	(No symbol) [0x0x121113]
+	(No symbol) [0x0xfff69]
+	(No symbol) [0x0x194fce]
+	(No symbol) [0x0x1af359]
+	(No symbol) [0x0x18e376]
+	(No symbol) [0x0x15d6e0]
+	(No symbol) [0x0x15e544]
+	GetHandleVerifier [0x0x54e033+2531347]
+	GetHandleVerifier [0x0x549332+2511634]
+	GetHandleVerifier [0x0x319eda+220858]
+	GetHandleVerifier [0x0x30a528+156936]
+	GetHandleVerifier [0x0x310c5d+183357]
+	GetHandleVerifier [0x0x2fb6c8+95912]
+	GetHandleVerifier [0x0x2fb870+96336]
+	GetHandleVerifier [0x0x2e664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+	(No symbol) [0x0]
+
+2025-06-09 22:08:03,393 - INFO - Iniciando: coletar_estagiarios_acores
+2025-06-09 22:08:03,393 - INFO - Iniciando scraping de estagiários...
+2025-06-09 22:08:03,394 - ERROR - Erro em coletar_estagiarios_acores: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0x2f3763+63299]
+	GetHandleVerifier [0x0x2f37a4+63364]
+	(No symbol) [0x0x121113]
+	(No symbol) [0x0xfff69]
+	(No symbol) [0x0x194fce]
+	(No symbol) [0x0x1af359]
+	(No symbol) [0x0x18e376]
+	(No symbol) [0x0x15d6e0]
+	(No symbol) [0x0x15e544]
+	GetHandleVerifier [0x0x54e033+2531347]
+	GetHandleVerifier [0x0x549332+2511634]
+	GetHandleVerifier [0x0x319eda+220858]
+	GetHandleVerifier [0x0x30a528+156936]
+	GetHandleVerifier [0x0x310c5d+183357]
+	GetHandleVerifier [0x0x2fb6c8+95912]
+	GetHandleVerifier [0x0x2fb870+96336]
+	GetHandleVerifier [0x0x2e664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+	(No symbol) [0x0]
+
+2025-06-09 22:08:03,394 - INFO - Iniciando: coletar_estagiarios_braga
+2025-06-09 22:08:03,394 - INFO - Iniciando scraping de estagiários...
+2025-06-09 22:08:03,398 - ERROR - Erro em coletar_estagiarios_braga: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0x2f3763+63299]
+	GetHandleVerifier [0x0x2f37a4+63364]
+	(No symbol) [0x0x121113]
+	(No symbol) [0x0xfff69]
+	(No symbol) [0x0x194fce]
+	(No symbol) [0x0x1af359]
+	(No symbol) [0x0x18e376]
+	(No symbol) [0x0x15d6e0]
+	(No symbol) [0x0x15e544]
+	GetHandleVerifier [0x0x54e033+2531347]
+	GetHandleVerifier [0x0x549332+2511634]
+	GetHandleVerifier [0x0x319eda+220858]
+	GetHandleVerifier [0x0x30a528+156936]
+	GetHandleVerifier [0x0x310c5d+183357]
+	GetHandleVerifier [0x0x2fb6c8+95912]
+	GetHandleVerifier [0x0x2fb870+96336]
+	GetHandleVerifier [0x0x2e664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+	(No symbol) [0x0]
+
+2025-06-09 22:08:03,398 - INFO - Iniciando: scrape_osae
+2025-06-09 22:08:03,398 - INFO - Iniciando scraping de agentes de execução...
+2025-06-09 22:08:03,400 - ERROR - Erro durante o scraping: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0x2f3763+63299]
+	GetHandleVerifier [0x0x2f37a4+63364]
+	(No symbol) [0x0x121113]
+	(No symbol) [0x0xfff69]
+	(No symbol) [0x0x194fce]
+	(No symbol) [0x0x1af359]
+	(No symbol) [0x0x18e376]
+	(No symbol) [0x0x15d6e0]
+	(No symbol) [0x0x15e544]
+	GetHandleVerifier [0x0x54e033+2531347]
+	GetHandleVerifier [0x0x549332+2511634]
+	GetHandleVerifier [0x0x319eda+220858]
+	GetHandleVerifier [0x0x30a528+156936]
+	GetHandleVerifier [0x0x310c5d+183357]
+	GetHandleVerifier [0x0x2fb6c8+95912]
+	GetHandleVerifier [0x0x2fb870+96336]
+	GetHandleVerifier [0x0x2e664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+	(No symbol) [0x0]
+
+2025-06-09 22:08:03,409 - ERROR - Erro em scrape_osae: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0x2f3763+63299]
+	GetHandleVerifier [0x0x2f37a4+63364]
+	(No symbol) [0x0x121113]
+	(No symbol) [0x0xfff69]
+	(No symbol) [0x0x194fce]
+	(No symbol) [0x0x1af359]
+	(No symbol) [0x0x18e376]
+	(No symbol) [0x0x15d6e0]
+	(No symbol) [0x0x15e544]
+	GetHandleVerifier [0x0x54e033+2531347]
+	GetHandleVerifier [0x0x549332+2511634]
+	GetHandleVerifier [0x0x319eda+220858]
+	GetHandleVerifier [0x0x30a528+156936]
+	GetHandleVerifier [0x0x310c5d+183357]
+	GetHandleVerifier [0x0x2fb6c8+95912]
+	GetHandleVerifier [0x0x2fb870+96336]
+	GetHandleVerifier [0x0x2e664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+	(No symbol) [0x0]
+
+2025-06-09 22:08:03,409 - INFO - Iniciando: scrape_osae_sociedades
+2025-06-09 22:08:03,409 - INFO - Iniciando scraping de sociedades de execução...
+2025-06-09 22:08:03,410 - ERROR - Erro durante o scraping de sociedades: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0x2f3763+63299]
+	GetHandleVerifier [0x0x2f37a4+63364]
+	(No symbol) [0x0x121113]
+	(No symbol) [0x0xfff69]
+	(No symbol) [0x0x194fce]
+	(No symbol) [0x0x1af359]
+	(No symbol) [0x0x18e376]
+	(No symbol) [0x0x15d6e0]
+	(No symbol) [0x0x15e544]
+	GetHandleVerifier [0x0x54e033+2531347]
+	GetHandleVerifier [0x0x549332+2511634]
+	GetHandleVerifier [0x0x319eda+220858]
+	GetHandleVerifier [0x0x30a528+156936]
+	GetHandleVerifier [0x0x310c5d+183357]
+	GetHandleVerifier [0x0x2fb6c8+95912]
+	GetHandleVerifier [0x0x2fb870+96336]
+	GetHandleVerifier [0x0x2e664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+	(No symbol) [0x0]
+
+2025-06-09 22:08:03,414 - ERROR - Erro em scrape_osae_sociedades: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0x2f3763+63299]
+	GetHandleVerifier [0x0x2f37a4+63364]
+	(No symbol) [0x0x121113]
+	(No symbol) [0x0xfff69]
+	(No symbol) [0x0x194fce]
+	(No symbol) [0x0x1af359]
+	(No symbol) [0x0x18e376]
+	(No symbol) [0x0x15d6e0]
+	(No symbol) [0x0x15e544]
+	GetHandleVerifier [0x0x54e033+2531347]
+	GetHandleVerifier [0x0x549332+2511634]
+	GetHandleVerifier [0x0x319eda+220858]
+	GetHandleVerifier [0x0x30a528+156936]
+	GetHandleVerifier [0x0x310c5d+183357]
+	GetHandleVerifier [0x0x2fb6c8+95912]
+	GetHandleVerifier [0x0x2fb870+96336]
+	GetHandleVerifier [0x0x2e664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+	(No symbol) [0x0]
+
+2025-06-09 22:08:03,417 - INFO - Iniciando: coletar_advogados_angola
+2025-06-09 22:08:03,417 - INFO - Iniciando scraping de advogados de Angola...
+2025-06-09 22:08:03,418 - ERROR - Erro ao carregar dados de advogados de Angola: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0x2f3763+63299]
+	GetHandleVerifier [0x0x2f37a4+63364]
+	(No symbol) [0x0x121113]
+	(No symbol) [0x0xfff69]
+	(No symbol) [0x0x194fce]
+	(No symbol) [0x0x1af359]
+	(No symbol) [0x0x18e376]
+	(No symbol) [0x0x15d6e0]
+	(No symbol) [0x0x15e544]
+	GetHandleVerifier [0x0x54e033+2531347]
+	GetHandleVerifier [0x0x549332+2511634]
+	GetHandleVerifier [0x0x319eda+220858]
+	GetHandleVerifier [0x0x30a528+156936]
+	GetHandleVerifier [0x0x310c5d+183357]
+	GetHandleVerifier [0x0x2fb6c8+95912]
+	GetHandleVerifier [0x0x2fb870+96336]
+	GetHandleVerifier [0x0x2e664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+	(No symbol) [0x0]
+
+2025-06-09 22:08:03,424 - ERROR - Erro em coletar_advogados_angola: Message: no such window: target window already closed
+from unknown error: web view not found
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0x2f3763+63299]
+	GetHandleVerifier [0x0x2f37a4+63364]
+	(No symbol) [0x0x121113]
+	(No symbol) [0x0xfff69]
+	(No symbol) [0x0x194fce]
+	(No symbol) [0x0x1af359]
+	(No symbol) [0x0x18e376]
+	(No symbol) [0x0x15d6e0]
+	(No symbol) [0x0x15e544]
+	GetHandleVerifier [0x0x54e033+2531347]
+	GetHandleVerifier [0x0x549332+2511634]
+	GetHandleVerifier [0x0x319eda+220858]
+	GetHandleVerifier [0x0x30a528+156936]
+	GetHandleVerifier [0x0x310c5d+183357]
+	GetHandleVerifier [0x0x2fb6c8+95912]
+	GetHandleVerifier [0x0x2fb870+96336]
+	GetHandleVerifier [0x0x2e664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+	(No symbol) [0x0]
+
+2025-06-09 22:08:03,428 - INFO - Dados salvos em CSV: todos_dados_20250609_220803.csv
+2025-06-09 22:08:03,428 - INFO - Todos os dados salvos em CSV com timestamp: 20250609_220803

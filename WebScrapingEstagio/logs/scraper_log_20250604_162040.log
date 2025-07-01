@@ -1,0 +1,89 @@
+2025-06-04 16:20:40,075 - INFO - Iniciando o script de scraping...
+2025-06-04 16:20:40,084 - INFO - Conexão com o banco de dados estabelecida!
+2025-06-04 16:20:40,135 - INFO - ====== WebDriver manager ======
+2025-06-04 16:20:40,936 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-04 16:20:40,971 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-04 16:20:41,006 - INFO - Driver [C:\Users\david\.wdm\drivers\chromedriver\win64\137.0.7151.68\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-04 16:20:47,973 - INFO - Iniciando: coletar_advogados
+2025-06-04 16:20:47,973 - INFO - Iniciando scraping de advogados...
+2025-06-04 16:21:29,269 - WARNING - Erro ao marcar 'Apenas Ativos' (continuando sem marcar): Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x5e3763+63299]
+	GetHandleVerifier [0x0x5e37a4+63364]
+	(No symbol) [0x0x411113]
+	(No symbol) [0x0x45987e]
+	(No symbol) [0x0x459c1b]
+	(No symbol) [0x0x4a2212]
+	(No symbol) [0x0x47e5c4]
+	(No symbol) [0x0x49fa4a]
+	(No symbol) [0x0x47e376]
+	(No symbol) [0x0x44d6e0]
+	(No symbol) [0x0x44e544]
+	GetHandleVerifier [0x0x83e033+2531347]
+	GetHandleVerifier [0x0x839332+2511634]
+	GetHandleVerifier [0x0x609eda+220858]
+	GetHandleVerifier [0x0x5fa528+156936]
+	GetHandleVerifier [0x0x600c5d+183357]
+	GetHandleVerifier [0x0x5eb6c8+95912]
+	GetHandleVerifier [0x0x5eb870+96336]
+	GetHandleVerifier [0x0x5d664a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-04 16:21:39,463 - WARNING - Erro ao clicar no botão de pesquisa: Message: 
+
+2025-06-04 16:21:39,469 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-04 16:21:54,708 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (A Espírito Santo, 18821L, Lisboa, N/D, Inativo, N/D, N/D, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-04 16:21:54,715 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Adriana Duarte Rosa, 56918L, Lisboa, R Julieta Ferrão, 12 - Tr A, Sl 803 -, Activo, +351926024207, duarte-56918L@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-04 16:21:54,721 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Ana Helena Barbosa, 14367L, Lisboa, N/D, Inativo, N/D, N/D, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-04 16:21:54,733 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Ana Vitória Gonçalves, 6472L, Lisboa, R dos Anjos, 80 - 3º E, Activo, +351912726992, anavitoria.goncalves-6472l@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-04 16:21:54,744 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Arlete Domingues, 3795L, Lisboa, Av Defensores de Chaves, 51 - 3º A, Activo, +351213903580, arletedomingues-3795l@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-04 16:21:54,750 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Braz Labanca, 58827L, Lisboa, R José Joaquim Marques, 113 - 1º Dto -, Activo, +351913748223, brazlabanca-58827L@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-04 16:21:54,757 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Camilla Galvão, 66408L, Lisboa, N/D, Inativo, N/D, N/D, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-04 16:21:54,768 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Carla Maria da Costa, 17855L, Lisboa, R C, Edf 25 - 7º, Sl 739  - Aeroporto de Lisboa, Activo, +351928122301, carlamariadacosta-17855l@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-04 16:21:54,774 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Carolina Montalto, 7055L, Lisboa, N/D, Inativo, N/D, N/D, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-04 16:21:54,781 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, telefone, email, site, tipo)
+            VALUES (Catarina Higino Almeida, 17345L, Lisboa, Av Barbosa du Bocage, 34 - Rc Esq, Activo, +351217964515, catarinaalmeida-17345l@adv.oa.pt, https://portal.oa.pt/advogados/pesquisa-de-advogados/, advogado)
+        
+2025-06-04 16:21:54,801 - ERROR - Erro geral ao processar https://portal.oa.pt/advogados/pesquisa-de-advogados/: argument of type 'NoneType' is not iterable
+2025-06-04 16:21:54,809 - INFO - Dados salvos em CSV: dados_pesquisa-de-advogados_20250604_162154.csv
+2025-06-04 16:21:54,809 - INFO - coletar_advogados completado com 10 registros
+2025-06-04 16:21:54,809 - INFO - Iniciando: coletar_sociedades
+2025-06-04 16:21:54,809 - INFO - Iniciando scraping de sociedades de advogados...
+2025-06-04 16:22:14,571 - ERROR - Erro ao clicar no botão de pesquisa para https://portal.oa.pt/advogados/pesquisa-de-sociedades-de-advogados/: Message: 
+
+2025-06-04 16:22:14,579 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-04 16:22:57,261 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-04 16:23:38,886 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-04 16:23:45,327 - INFO - Conexão com o banco de dados fechada.
+2025-06-04 16:23:45,330 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'Uma ligação existente foi forçada a fechar pelo anfitrião remoto', None, 10054, None)': /session/439418070d7cd1d8da3e41c2764a417f
+2025-06-04 16:23:49,427 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001B541C18C50>: Failed to establish a new connection: [WinError 10061] Nenhuma ligação pôde ser feita porque o computador de destino\r\nas recusou ativamente')': /session/439418070d7cd1d8da3e41c2764a417f

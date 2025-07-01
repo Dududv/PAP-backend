@@ -1,0 +1,428 @@
+2025-06-11 03:08:29,185 - INFO - Iniciando o script de scraping...
+2025-06-11 03:08:29,255 - INFO - Conexão com o banco de dados estabelecida!
+2025-06-11 03:08:29,261 - INFO - Tabela 'advogados' verificada/recriada com sucesso!
+2025-06-11 03:08:29,261 - INFO - Tabela 'sociedades' verificada/criada com sucesso!
+2025-06-11 03:08:29,262 - INFO - Tabela 'estagiarios' verificada/criada com sucesso!
+2025-06-11 03:08:29,262 - INFO - Tabela 'agentes_execucao' verificada/criada com sucesso!
+2025-06-11 03:08:29,262 - INFO - ====== WebDriver manager ======
+2025-06-11 03:08:31,144 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-11 03:08:31,236 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-11 03:08:31,272 - INFO - Driver [C:\Users\david\.wdm\drivers\chromedriver\win64\137.0.7151.70\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-11 03:08:34,989 - INFO - Iniciando: coletar_advogados_porto
+2025-06-11 03:08:34,989 - INFO - Iniciando scraping de advogados...
+2025-06-11 03:09:08,882 - WARNING - Erro ao marcar 'Apenas Ativos' (continuando sem marcar): Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x883783+63299]
+	GetHandleVerifier [0x0x8837c4+63364]
+	(No symbol) [0x0x6b1113]
+	(No symbol) [0x0x6f987e]
+	(No symbol) [0x0x6f9c1b]
+	(No symbol) [0x0x742212]
+	(No symbol) [0x0x71e5c4]
+	(No symbol) [0x0x73fa4a]
+	(No symbol) [0x0x71e376]
+	(No symbol) [0x0x6ed6e0]
+	(No symbol) [0x0x6ee544]
+	GetHandleVerifier [0x0xade073+2531379]
+	GetHandleVerifier [0x0xad9372+2511666]
+	GetHandleVerifier [0x0x8a9efa+220858]
+	GetHandleVerifier [0x0x89a548+156936]
+	GetHandleVerifier [0x0x8a0c7d+183357]
+	GetHandleVerifier [0x0x88b6e8+95912]
+	GetHandleVerifier [0x0x88b890+96336]
+	GetHandleVerifier [0x0x87666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 03:09:19,332 - WARNING - Erro ao clicar no botão de pesquisa: Message: 
+
+2025-06-11 03:09:19,337 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-11 03:09:38,707 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Alberto Costa, 5600P, Porto, N/D, Inativo, N/D, N/D, advogado, N/D, N/D, N/D, N/D, N/D)
+        
+2025-06-11 03:09:38,737 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Alberto Martins Ribeiro, 45977P, Porto, R do Raio, 288 - 1º L, Activo, N/D, N/D, advogado, BRAGA, 4710-924 BRAGA, +351253254072, 03-04-2008, +351253254095)
+        
+2025-06-11 03:09:38,744 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Alberto Melo e Sousa, 60160P, Porto, R Fonte de Honor, 15 - Rc, Activo, N/D, N/D, advogado, PENAFIEL, 4560-525 PENAFIEL, +351255711646, 09-01-2019, +351255713209)
+        
+2025-06-11 03:09:38,757 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Albino Leão, 2901P, Porto, N/D, Inativo, N/D, N/D, advogado, N/D, N/D, N/D, N/D, N/D)
+        
+2025-06-11 03:09:38,764 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Ana Espírito Santo, 9594P, Porto, Pct D Nuno Alvares Pereira, 20 - 2º Sl C/D, Activo, N/D, N/D, advogado, MATOSINHOS, 4450-218 MATOSINHOS, +351223285117, 22-11-2002, +351223285117)
+        
+2025-06-11 03:09:38,771 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Ana Isabel Marinho, 51129P, Porto, N/D, Inativo, N/D, N/D, advogado, N/D, N/D, N/D, N/D, N/D)
+        
+2025-06-11 03:09:38,780 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Anabela Cardoso da Fonseca, 63900P, Porto, N/D, Inativo, N/D, N/D, advogado, N/D, N/D, N/D, N/D, N/D)
+        
+2025-06-11 03:09:38,787 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Andreia Pinto Coelho, 56280P, Porto, R Simão Bolívar, 311 - Sl 2, Activo, N/D, N/D, advogado, MAIA, 4470-214 MAIA, N/D, 13-12-2016, +351221103277)
+        
+2025-06-11 03:09:38,795 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Angela Cerdeira, 6131P, Porto, N/D, Inativo, N/D, N/D, advogado, N/D, N/D, N/D, N/D, N/D)
+        
+2025-06-11 03:09:38,801 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (António Tavares, 3638P, Porto, R Eugénio de Castro, 248 - 1º Sl 150, Activo, N/D, N/D, advogado, PORTO, 4100-225 PORTO, +351226076100, 09-07-1990, +351226076109)
+        
+2025-06-11 03:09:45,144 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-11 03:10:05,885 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Beatriz Catanho Pinto, 70065P, Porto, Av Sidónio Pais, 153 - Piso 0 Dto - Porto Office Park, Activo, N/D, N/D, advogado, PORTO, 4100-467 PORTO, +351221129175, 30-09-2024, N/D)
+        
+2025-06-11 03:10:05,893 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Carla Pinheiro Morais, 10857P, Porto, N/D, Inativo, N/D, N/D, advogado, N/D, N/D, N/D, N/D, N/D)
+        
+2025-06-11 03:10:05,900 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Clara Longras, 47662P, Porto, R António Barroso, 138 - 1º Esq, Activo, N/D, N/D, advogado, BARCELOS, 4750-258 BARCELOS, N/D, 15-07-2009, N/D)
+        
+2025-06-11 03:10:05,907 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Cristina O Alves, 7108P, Porto, N/D, Inativo, N/D, N/D, advogado, N/D, N/D, N/D, N/D, N/D)
+        
+2025-06-11 03:10:05,914 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Daniel de Sousa Rodrigues, 9186P, Porto, Lg da República do Brasil, 44 - 1º Esq C, Activo, N/D, N/D, advogado, GUIMARÃES, 4810-446 GUIMARÃES, +351253423630, 21-12-2001, +351253423639)
+        
+2025-06-11 03:10:05,922 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Douglas D'Agostini, 64338P, Porto, Av da Boavista, 1015 - 6º, Sl 606, Activo, N/D, N/D, advogado, PORTO, 4100-128 PORTO, N/D, 22-07-2021, N/D)
+        
+2025-06-11 03:10:05,929 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Dulce Camões, 8317P, Porto, N/D, Inativo, N/D, N/D, advogado, N/D, N/D, N/D, N/D, N/D)
+        
+2025-06-11 03:10:05,937 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Eduardo Maciel, 11392P, Porto, Av António Feijó, 50 - Fracção B, Cv - Prédio Avenida, Activo, N/D, N/D, advogado, PONTE DE LIMA, 4990-029 PONTE DE LIMA, +351258753385, 29-12-2005, +351258753386)
+        
+2025-06-11 03:10:05,944 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Elisabete Castro, 8257P, Porto, R Dr Avelino Pereira de Carvalho, Lj 91 - Rc, Activo, N/D, N/D, advogado, PÓVOA DE LANHOSO, 4830-552 PÓVOA DE LANHOSO, +351253738056, 22-09-2000, +351253738056)
+        
+2025-06-11 03:10:05,951 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Estrela Lima Santos, 5764P, Porto, R Pádua Correia, 191, sl 5.1, Activo, N/D, N/D, advogado, VILA NOVA DE GAIA, 4400-238 VILA NOVA DE GAIA, +351223798015, 13-11-1995, +351223798015)
+        
+2025-06-11 03:10:13,413 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-11 03:10:32,946 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Fátima Araújo de Mesquita, 5003P, Porto, Pc Filipa de Lencastre, 22 - 4º, Sl 66, Activo, N/D, N/D, advogado, PORTO, 4050-259 PORTO, +351222004592, 22-02-1994, +351222004592)
+        
+2025-06-11 03:10:32,958 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Filipa Frade Teixeira, 46853P, Porto, R S Gonçalo, 35 - 3º, Activo, N/D, N/D, advogado, BRAGA, 4710-310 BRAGA, +351253617903, 29-12-2008, +351253617903)
+        
+2025-06-11 03:10:32,965 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Filipa Gomes dos Santos, 59496P, Porto, N/D, Inativo, N/D, N/D, advogado, N/D, N/D, N/D, N/D, N/D)
+        
+2025-06-11 03:10:32,972 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Gabriela Cabianca, 68779P, Porto, R Senhora da Penha, 293 - A02, Activo, N/D, N/D, advogado, SENHORA DA HORA, 4460-282 SENHORA DA HORA, N/D, 26-09-2023, N/D)
+        
+2025-06-11 03:10:32,979 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Henrique Barros, 4383P, Porto, N/D, Inativo, N/D, N/D, advogado, N/D, N/D, N/D, N/D, N/D)
+        
+2025-06-11 03:10:32,985 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Higor Fabrício de Oliveira, 54389L, Porto, R Pinto Bessa, 522 - Rc, Activo, N/D, N/D, advogado, PORTO, 4300-428 PORTO, N/D, 18-09-2015, N/D)
+        
+2025-06-11 03:10:32,992 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Isabel Azevedo Ferreira, 56457L, Porto, N/D, Inativo, N/D, N/D, advogado, N/D, N/D, N/D, N/D, N/D)
+        
+2025-06-11 03:10:32,999 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Joana Soares Ribeiro, 9012P, Porto, N/D, Inativo, N/D, N/D, advogado, N/D, N/D, N/D, N/D, N/D)
+        
+2025-06-11 03:10:33,007 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (João Veiga Carvalho, 63478P, Porto, R Monte Crasto, 48 - 1º, Sl 8.5 - S. Cosme, Activo, N/D, N/D, advogado, GONDOMAR, 4420-210 GONDOMAR, +351914195071, 16-03-2021, N/D)
+        
+2025-06-11 03:10:33,013 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Jorge F Coelho, 59013P, Porto, N/D, Inativo, N/D, N/D, advogado, N/D, N/D, N/D, N/D, N/D)
+        
+2025-06-11 03:10:40,174 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-11 03:10:59,225 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (José Pinto Junior, 2166P, Porto, R Gonçalo Sampaio, 271-3º Esq, Activo, N/D, N/D, advogado, PORTO, 4150-367 PORTO, +351226051970, 07-12-1981, +351226051979)
+        
+2025-06-11 03:10:59,233 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Laura Magalhães, 3838P, Porto, N/D, Inativo, N/D, N/D, advogado, N/D, N/D, N/D, N/D, N/D)
+        
+2025-06-11 03:10:59,238 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Luis Mota e Costa, 5453P, Porto, R do Paço, 13, Activo, N/D, N/D, advogado, PENAFIEL, 4560-485 PENAFIEL, +351255711267, 24-02-1995, +351255711267)
+        
+2025-06-11 03:10:59,246 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Madalena Nascimento, 53999P, Porto, N/D, Inativo, N/D, N/D, advogado, N/D, N/D, N/D, N/D, N/D)
+        
+2025-06-11 03:10:59,254 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Manuel Jorge Franca Moreira, 2747P, Porto, N/D, Inativo, N/D, N/D, advogado, N/D, N/D, N/D, N/D, N/D)
+        
+2025-06-11 03:10:59,262 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Manuela Paula Marques, 3846P, Porto, N/D, Inativo, N/D, N/D, advogado, N/D, N/D, N/D, N/D, N/D)
+        
+2025-06-11 03:10:59,271 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Marco Ferreira, 11215P, Porto, R Conde Alto Mearim, 1133 - 5º, Sl 51, Activo, N/D, N/D, advogado, MATOSINHOS, 4450-036 MATOSINHOS, +351969185160, 24-11-2005, N/D)
+        
+2025-06-11 03:10:59,280 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Maria Carla Rocha, 6762P, Porto, R Fonte do Cuco, 756, Activo, N/D, N/D, advogado, SENHORA DA HORA, 4460-321 SENHORA DA HORA, N/D, 20-01-1998, N/D)
+        
+2025-06-11 03:10:59,288 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Maria Natália Santos, 2715P, Porto, R Fonte Infesta,  28, Activo, N/D, N/D, advogado, RIO MEÃO, 4520-463 RIO MEÃO, +3512567452821, 10-07-1986, N/D)
+        
+2025-06-11 03:10:59,300 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Marinho Magina, 1600P, Porto, N/D, Inativo, N/D, N/D, advogado, N/D, N/D, N/D, N/D, N/D)
+        
+2025-06-11 03:11:05,270 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-11 03:11:25,847 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Mário Amorim Barbosa, 65567P, Porto, Av da Boavista, 1203 - L2, Activo, N/D, N/D, advogado, PORTO, 4100-130 PORTO, +351967104026, 05-04-2022, N/D)
+        
+2025-06-11 03:11:25,854 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Marta Mesquita, 4759P, Porto, R Sá da Bandeira, 706 - 3º Dto, Activo, N/D, N/D, advogado, PORTO, 4000-432 PORTO, +351223394000, 19-07-1993, N/D)
+        
+2025-06-11 03:11:25,861 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Paula Valinhas Reis, 6280P, Porto, N/D, Inativo, N/D, N/D, advogado, N/D, N/D, N/D, N/D, N/D)
+        
+2025-06-11 03:11:25,868 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Paulo Correia de Oliveira, 2666C, Porto, Lg Cons Ant Candido, 1 - 1º Dto, Activo, N/D, N/D, advogado, AMARANTE, 4600-029 AMARANTE, +351967058985, 06-09-1991, +351255422300)
+        
+2025-06-11 03:11:25,875 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Raquel Bastos Gonçalves, 46925P, Porto, Av Marechal Gomes da Costa, 1131, Activo, N/D, N/D, advogado, PORTO, 4150-360 PORTO, +351220308800, 29-12-2008, N/D)
+        
+2025-06-11 03:11:25,881 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Raquel Soares, 54933P, Porto, N/D, Inativo, N/D, N/D, advogado, N/D, N/D, N/D, N/D, N/D)
+        
+2025-06-11 03:11:25,888 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Rita Borges de Araújo, 47149P, Porto, Lg Condessa do Juncal, 40 - 2º Dto Sl 1, Activo, N/D, N/D, advogado, GUIMARÃES, 4800-159 GUIMARÃES, +351253433355, 06-03-2009, N/D)
+        
+2025-06-11 03:11:25,895 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Rita Maria Ferreira, 59516P, Porto, N/D, Inativo, N/D, N/D, advogado, N/D, N/D, N/D, N/D, N/D)
+        
+2025-06-11 03:11:25,902 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Rogério Meirinhos, 53166P, Porto, R Palmira Meireles, 812 - 1º Frt, Activo, N/D, N/D, advogado, LOUSADA, 4620-668 LOUSADA, +351255814956, 18-03-2014, N/D)
+        
+2025-06-11 03:11:25,908 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Sandra Neiva, 11281P, Porto, N/D, Inativo, N/D, N/D, advogado, N/D, N/D, N/D, N/D, N/D)
+        
+2025-06-11 03:11:32,198 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-11 03:11:50,996 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Sérgio Luiz Martins, 59030P, Porto, Av da República, 105 - 1º Esq, Activo, N/D, N/D, advogado, MATOSINHOS, 4450-241 MATOSINHOS, +351910631664, 01-06-2018, N/D)
+        
+2025-06-11 03:11:51,004 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Sofia Tavares Nogueira, 58509P, Porto, N/D, Inativo, N/D, N/D, advogado, N/D, N/D, N/D, N/D, N/D)
+        
+2025-06-11 03:11:51,010 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Susana Costa Almeida, 7589P, Porto, N/D, Inativo, N/D, N/D, advogado, N/D, N/D, N/D, N/D, N/D)
+        
+2025-06-11 03:11:51,017 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Susana Sykes, 6666P, Porto, N/D, Inativo, N/D, N/D, advogado, N/D, N/D, N/D, N/D, N/D)
+        
+2025-06-11 03:11:51,024 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Thiago Barelli Bet, 62396L, Porto, R Gonçalo Sampaio, 271 - 2º Esq, Activo, N/D, N/D, advogado, PORTO, 4150-367 PORTO, +351911844283, 28-02-2020, N/D)
+        
+2025-06-11 03:11:51,031 - INFO - Executando query: 
+            INSERT INTO advogados (name, cedula, conselho, morada, estado, email, site, tipo, localidade, codigo_postal, telefone, data_inscricao, fax)
+            VALUES (Vitor Teixeira Alves, 5611P, Porto, Av da República, 47 - 1º Dto - Britelo, Activo, N/D, N/D, advogado, CELORICO DE BASTO, 4890-231 CELORICO DE BASTO, +351255 322093, 20-07-1995, +351255 322093)
+        
+2025-06-11 03:11:51,044 - INFO - Dados salvos em CSV: dados_pesquisa-de-advogados_20250611_031151.csv
+2025-06-11 03:11:51,044 - INFO - coletar_advogados_porto completado com 56 registros
+2025-06-11 03:11:51,044 - INFO - Iniciando: coletar_advogados_coimbra
+2025-06-11 03:11:51,044 - INFO - Iniciando scraping de advogados...
+2025-06-11 03:12:08,445 - WARNING - Erro ao marcar 'Apenas Ativos' (continuando sem marcar): Message: 
+Stacktrace:
+	GetHandleVerifier [0x0x883783+63299]
+	GetHandleVerifier [0x0x8837c4+63364]
+	(No symbol) [0x0x6b1113]
+	(No symbol) [0x0x6f987e]
+	(No symbol) [0x0x6f9c1b]
+	(No symbol) [0x0x742212]
+	(No symbol) [0x0x71e5c4]
+	(No symbol) [0x0x73fa4a]
+	(No symbol) [0x0x71e376]
+	(No symbol) [0x0x6ed6e0]
+	(No symbol) [0x0x6ee544]
+	GetHandleVerifier [0x0xade073+2531379]
+	GetHandleVerifier [0x0xad9372+2511666]
+	GetHandleVerifier [0x0x8a9efa+220858]
+	GetHandleVerifier [0x0x89a548+156936]
+	GetHandleVerifier [0x0x8a0c7d+183357]
+	GetHandleVerifier [0x0x88b6e8+95912]
+	GetHandleVerifier [0x0x88b890+96336]
+	GetHandleVerifier [0x0x87666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 03:12:18,806 - WARNING - Erro ao clicar no botão de pesquisa: Message: 
+
+2025-06-11 03:12:19,074 - WARNING - Não foi possível determinar o total de páginas.
+2025-06-11 03:12:56,902 - ERROR - Tentativa 1 falhou: Message: 
+
+2025-06-11 03:13:28,548 - ERROR - Tentativa 2 falhou: Message: 
+
+2025-06-11 03:13:46,499 - ERROR - Tentativa 3 falhou: Message: invalid session id: session deleted as the browser has closed the connection
+from disconnected: not connected to DevTools
+  (Session info: chrome=137.0.7151.69)
+Stacktrace:
+	GetHandleVerifier [0x0x883783+63299]
+	GetHandleVerifier [0x0x8837c4+63364]
+	(No symbol) [0x0x6b1113]
+	(No symbol) [0x0x6a08a0]
+	(No symbol) [0x0x6be8c2]
+	(No symbol) [0x0x72519c]
+	(No symbol) [0x0x73f359]
+	(No symbol) [0x0x71e376]
+	(No symbol) [0x0x6ed6e0]
+	(No symbol) [0x0x6ee544]
+	GetHandleVerifier [0x0xade073+2531379]
+	GetHandleVerifier [0x0xad9372+2511666]
+	GetHandleVerifier [0x0x8a9efa+220858]
+	GetHandleVerifier [0x0x89a548+156936]
+	GetHandleVerifier [0x0x8a0c7d+183357]
+	GetHandleVerifier [0x0x88b6e8+95912]
+	GetHandleVerifier [0x0x88b890+96336]
+	GetHandleVerifier [0x0x87666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 03:13:46,583 - ERROR - Erro ao processar página 1: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x883783+63299]
+	GetHandleVerifier [0x0x8837c4+63364]
+	(No symbol) [0x0x6b0f70]
+	(No symbol) [0x0x6ed2fc]
+	(No symbol) [0x0x6ee544]
+	GetHandleVerifier [0x0xade073+2531379]
+	GetHandleVerifier [0x0xad9372+2511666]
+	GetHandleVerifier [0x0x8a9efa+220858]
+	GetHandleVerifier [0x0x89a548+156936]
+	GetHandleVerifier [0x0x8a0c7d+183357]
+	GetHandleVerifier [0x0x88b6e8+95912]
+	GetHandleVerifier [0x0x88b890+96336]
+	GetHandleVerifier [0x0x87666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 03:13:46,584 - ERROR - Erro ao processar página 2: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x883783+63299]
+	GetHandleVerifier [0x0x8837c4+63364]
+	(No symbol) [0x0x6b0f70]
+	(No symbol) [0x0x6ec9a8]
+	(No symbol) [0x0x71e436]
+	(No symbol) [0x0x719f05]
+	(No symbol) [0x0x719486]
+	(No symbol) [0x0x683a05]
+	(No symbol) [0x0x683f5e]
+	(No symbol) [0x0x6843ed]
+	GetHandleVerifier [0x0xade073+2531379]
+	GetHandleVerifier [0x0xad9372+2511666]
+	GetHandleVerifier [0x0x8a9efa+220858]
+	GetHandleVerifier [0x0x89a548+156936]
+	GetHandleVerifier [0x0x8a0c7d+183357]
+	(No symbol) [0x0x6836d0]
+	(No symbol) [0x0x682edd]
+	GetHandleVerifier [0x0xc17f1c+3817180]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 03:13:46,584 - ERROR - Erro ao processar página 3: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x883783+63299]
+	GetHandleVerifier [0x0x8837c4+63364]
+	(No symbol) [0x0x6b0f70]
+	(No symbol) [0x0x6ec9a8]
+	(No symbol) [0x0x71e436]
+	(No symbol) [0x0x719f05]
+	(No symbol) [0x0x719486]
+	(No symbol) [0x0x683a05]
+	(No symbol) [0x0x683f5e]
+	(No symbol) [0x0x6843ed]
+	GetHandleVerifier [0x0xade073+2531379]
+	GetHandleVerifier [0x0xad9372+2511666]
+	GetHandleVerifier [0x0x8a9efa+220858]
+	GetHandleVerifier [0x0x89a548+156936]
+	GetHandleVerifier [0x0x8a0c7d+183357]
+	(No symbol) [0x0x6836d0]
+	(No symbol) [0x0x682edd]
+	GetHandleVerifier [0x0xc17f1c+3817180]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 03:13:46,584 - WARNING - coletar_advogados_coimbra retornou 0 registros
+2025-06-11 03:13:46,585 - INFO - Iniciando: coletar_tribunais
+2025-06-11 03:13:46,585 - INFO - Iniciando scraping de tribunais...
+2025-06-11 03:13:46,585 - ERROR - Erro em coletar_tribunais: Message: invalid session id
+Stacktrace:
+	GetHandleVerifier [0x0x883783+63299]
+	GetHandleVerifier [0x0x8837c4+63364]
+	(No symbol) [0x0x6b0f70]
+	(No symbol) [0x0x6ec9a8]
+	(No symbol) [0x0x71e436]
+	(No symbol) [0x0x719f05]
+	(No symbol) [0x0x719486]
+	(No symbol) [0x0x683a05]
+	(No symbol) [0x0x683f5e]
+	(No symbol) [0x0x6843ed]
+	GetHandleVerifier [0x0xade073+2531379]
+	GetHandleVerifier [0x0xad9372+2511666]
+	GetHandleVerifier [0x0x8a9efa+220858]
+	GetHandleVerifier [0x0x89a548+156936]
+	GetHandleVerifier [0x0x8a0c7d+183357]
+	(No symbol) [0x0x6836d0]
+	(No symbol) [0x0x682edd]
+	GetHandleVerifier [0x0xc17f1c+3817180]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 03:13:46,586 - INFO - Dados salvos em CSV: todos_dados_20250611_031346.csv
+2025-06-11 03:13:46,586 - INFO - Todos os dados salvos em CSV com timestamp: 20250611_031346
+2025-06-11 03:13:48,630 - INFO - Conexão com o banco de dados fechada.

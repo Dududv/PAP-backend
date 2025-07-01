@@ -1,0 +1,10 @@
+2025-06-05 12:12:24,594 - INFO - Iniciando o script de scraping...
+2025-06-05 12:12:24,602 - INFO - Conexão com o banco de dados estabelecida!
+2025-06-05 12:12:24,603 - INFO - ====== WebDriver manager ======
+2025-06-05 12:12:25,514 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-05 12:12:25,548 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-05 12:12:25,584 - INFO - Driver [C:\Users\david\.wdm\drivers\chromedriver\win64\137.0.7151.68\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-05 12:12:26,697 - INFO - Iniciando: coletar_advogados
+2025-06-05 12:12:26,697 - INFO - Iniciando scraping de advogados...
+2025-06-05 12:12:43,380 - INFO - Conexão com o banco de dados fechada.
+2025-06-05 12:12:43,383 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'Uma ligação existente foi forçada a fechar pelo anfitrião remoto', None, 10054, None)': /session/f2827486f9ae2f9f2834900d07501ac2

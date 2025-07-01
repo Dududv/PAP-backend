@@ -1,0 +1,90 @@
+2025-05-28 21:59:18,792 - INFO - Iniciando o script de scraping...
+2025-05-28 21:59:18,900 - INFO - Conexão com o banco de dados estabelecida!
+2025-05-28 21:59:18,909 - INFO - ====== WebDriver manager ======
+2025-05-28 21:59:21,105 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-28 21:59:21,152 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-28 21:59:21,190 - INFO - There is no [win64] chromedriver "136.0.7103.113" for browser google-chrome "136.0.7103" in cache
+2025-05-28 21:59:21,190 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-28 21:59:21,276 - INFO - WebDriver version 136.0.7103.113 selected
+2025-05-28 21:59:21,278 - INFO - Modern chrome version https://storage.googleapis.com/chrome-for-testing-public/136.0.7103.113/win32/chromedriver-win32.zip
+2025-05-28 21:59:21,279 - INFO - About to download new driver from https://storage.googleapis.com/chrome-for-testing-public/136.0.7103.113/win32/chromedriver-win32.zip
+2025-05-28 21:59:21,374 - INFO - Driver downloading response is 200
+2025-05-28 21:59:21,572 - INFO - Get LATEST chromedriver version for google-chrome
+2025-05-28 21:59:22,310 - INFO - Driver has been saved in cache [C:\Users\david\.wdm\drivers\chromedriver\win64\136.0.7103.113]
+2025-05-28 21:59:25,989 - INFO - Iniciando: coletar_advogados
+2025-05-28 21:59:25,990 - INFO - Iniciando scraping de advogados...
+2025-05-28 22:00:12,501 - WARNING - Erro ao marcar 'Apenas Ativos' (continuando sem marcar): Message: 
+Stacktrace:
+	GetHandleVerifier [0x0035FC03+61635]
+	GetHandleVerifier [0x0035FC44+61700]
+	(No symbol) [0x001805D3]
+	(No symbol) [0x001C899E]
+	(No symbol) [0x001C8D3B]
+	(No symbol) [0x00210E12]
+	(No symbol) [0x001ED2E4]
+	(No symbol) [0x0020E61B]
+	(No symbol) [0x001ED096]
+	(No symbol) [0x001BC840]
+	(No symbol) [0x001BD6A4]
+	GetHandleVerifier [0x005E4523+2701795]
+	GetHandleVerifier [0x005DFCA6+2683238]
+	GetHandleVerifier [0x005FA9EE+2793134]
+	GetHandleVerifier [0x003768C5+155013]
+	GetHandleVerifier [0x0037CFAD+181357]
+	GetHandleVerifier [0x00367458+92440]
+	GetHandleVerifier [0x00367600+92864]
+	GetHandleVerifier [0x00351FF0+5296]
+	BaseThreadInitThunk [0x75975D49+25]
+	RtlInitializeExceptionChain [0x77BDD03B+107]
+	RtlGetAppContainerNamedObjectPath [0x77BDCFC1+561]
+	(No symbol) [0x00000000]
+
+2025-05-28 22:00:22,787 - WARNING - Erro ao clicar no botão de pesquisa: Message: 
+
+2025-05-28 22:00:22,800 - WARNING - Não foi possível determinar o total de páginas.
+2025-05-28 22:01:10,407 - INFO - Inserindo dados para A P Colaço (Cédula: 1519L)
+2025-05-28 22:01:10,429 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'name' in 'field list'
+2025-05-28 22:01:10,430 - INFO - Inserindo dados para Álvaro Capelo (Cédula: 19441L)
+2025-05-28 22:01:10,430 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'name' in 'field list'
+2025-05-28 22:01:10,431 - INFO - Inserindo dados para Ana do Souto Rocha (Cédula: 19753L)
+2025-05-28 22:01:10,431 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'name' in 'field list'
+2025-05-28 22:01:10,431 - INFO - Inserindo dados para Ana Filipa Morais Antunes (Cédula: 21014L)
+2025-05-28 22:01:10,431 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'name' in 'field list'
+2025-05-28 22:01:10,432 - INFO - Inserindo dados para Ana Rita Barreiros (Cédula: 8646L)
+2025-05-28 22:01:10,432 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'name' in 'field list'
+2025-05-28 22:01:10,432 - INFO - Inserindo dados para Anelize Santos (Cédula: 64363L)
+2025-05-28 22:01:10,432 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'name' in 'field list'
+2025-05-28 22:01:10,433 - INFO - Inserindo dados para António Henriques Costa Novo (Cédula: 6361L)
+2025-05-28 22:01:10,433 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'name' in 'field list'
+2025-05-28 22:01:10,434 - INFO - Inserindo dados para Bruna Dias dos Santos (Cédula: 70534L)
+2025-05-28 22:01:10,434 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'name' in 'field list'
+2025-05-28 22:01:10,434 - INFO - Inserindo dados para Carlos Fernandes (Cédula: 1494L)
+2025-05-28 22:01:10,434 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'name' in 'field list'
+2025-05-28 22:01:10,435 - INFO - Inserindo dados para Catarina Santos Soares (Cédula: 61251L)
+2025-05-28 22:01:10,435 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'name' in 'field list'
+2025-05-28 22:01:17,596 - WARNING - Não foi possível determinar o total de páginas.
+2025-05-28 22:02:03,362 - INFO - Inserindo dados para Clara Neves (Cédula: 10491L)
+2025-05-28 22:02:03,362 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'name' in 'field list'
+2025-05-28 22:02:03,363 - INFO - Inserindo dados para Cristina Dias Moura (Cédula: 14535L)
+2025-05-28 22:02:03,363 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'name' in 'field list'
+2025-05-28 22:02:03,363 - INFO - Inserindo dados para Cristina Vala (Cédula: 9484L)
+2025-05-28 22:02:03,363 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'name' in 'field list'
+2025-05-28 22:02:03,364 - INFO - Inserindo dados para De Santana (Cédula: 65842L)
+2025-05-28 22:02:03,364 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'name' in 'field list'
+2025-05-28 22:02:03,364 - INFO - Inserindo dados para Décio Freire (Cédula: 51055L)
+2025-05-28 22:02:03,364 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'name' in 'field list'
+2025-05-28 22:02:03,365 - INFO - Inserindo dados para Elsa Capucho (Cédula: 19014L)
+2025-05-28 22:02:03,365 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'name' in 'field list'
+2025-05-28 22:02:03,365 - INFO - Inserindo dados para Eurico Igreja (Cédula: 48438L)
+2025-05-28 22:02:03,365 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'name' in 'field list'
+2025-05-28 22:02:03,365 - INFO - Inserindo dados para Fernando Regueira Gama (Cédula: 5408L)
+2025-05-28 22:02:03,366 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'name' in 'field list'
+2025-05-28 22:02:03,366 - INFO - Inserindo dados para Francisca Parreira (Cédula: 10451L)
+2025-05-28 22:02:03,367 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'name' in 'field list'
+2025-05-28 22:02:03,367 - INFO - Inserindo dados para Francisco Bártolo (Cédula: 53442L)
+2025-05-28 22:02:03,367 - ERROR - Erro ao inserir advogado no banco de dados: 1054 (42S22): Unknown column 'name' in 'field list'
+2025-05-28 22:02:11,414 - WARNING - Não foi possível determinar o total de páginas.
+2025-05-28 22:02:30,579 - INFO - Conexão com o banco de dados fechada.
+2025-05-28 22:02:30,589 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'Uma ligação existente foi forçada a fechar pelo anfitrião remoto', None, 10054, None)': /session/d18fdeffb6dfff2593aab43e38611e5d
+2025-05-28 22:02:34,682 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000001371374FC80>: Failed to establish a new connection: [WinError 10061] Nenhuma ligação pôde ser feita porque o computador de destino\r\nas recusou ativamente')': /session/d18fdeffb6dfff2593aab43e38611e5d
+2025-05-28 22:02:38,779 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x0000013713580080>: Failed to establish a new connection: [WinError 10061] Nenhuma ligação pôde ser feita porque o computador de destino\r\nas recusou ativamente')': /session/d18fdeffb6dfff2593aab43e38611e5d

@@ -1,0 +1,13 @@
+2025-06-06 16:35:12,703 - INFO - Iniciando o script de scraping...
+2025-06-06 16:35:12,711 - INFO - Conexão com o banco de dados estabelecida!
+2025-06-06 16:35:12,711 - INFO - Tabela 'advogados' verificada/criada com sucesso!
+2025-06-06 16:35:12,711 - INFO - Tabela 'sociedades' verificada/criada com sucesso!
+2025-06-06 16:35:12,711 - INFO - Tabela 'estagiarios' verificada/criada com sucesso!
+2025-06-06 16:35:12,712 - INFO - ====== WebDriver manager ======
+2025-06-06 16:35:13,547 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-06 16:35:13,583 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-06 16:35:13,620 - INFO - Driver [C:\Users\david\.wdm\drivers\chromedriver\win64\137.0.7151.68\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-06 16:35:14,726 - INFO - Iniciando: coletar_advogados_lisboa
+2025-06-06 16:35:14,726 - INFO - Iniciando scraping de advogados...
+2025-06-06 16:35:32,877 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'Uma ligação existente foi forçada a fechar pelo anfitrião remoto', None, 10054, None)': /session/2d4295ea6abbced47a4681ab68fd43fc
+2025-06-06 16:35:36,936 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x00000237AE7FD970>: Failed to establish a new connection: [WinError 10061] Nenhuma ligação pôde ser feita porque o computador de destino\r\nas recusou ativamente')': /session/2d4295ea6abbced47a4681ab68fd43fc

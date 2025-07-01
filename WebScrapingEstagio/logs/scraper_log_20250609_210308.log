@@ -1,0 +1,16 @@
+2025-06-09 21:03:08,022 - INFO - Iniciando o script de scraping...
+2025-06-09 21:03:08,032 - INFO - Conexão com o banco de dados estabelecida!
+2025-06-09 21:03:08,087 - INFO - Tabela 'advogados' recriada com sucesso!
+2025-06-09 21:03:08,087 - INFO - Tabela 'sociedades' verificada/criada com sucesso!
+2025-06-09 21:03:08,088 - INFO - Tabela 'estagiarios' verificada/criada com sucesso!
+2025-06-09 21:03:08,088 - INFO - Tabela 'agentes_execucao' verificada/criada com sucesso!
+2025-06-09 21:03:08,088 - INFO - ====== WebDriver manager ======
+2025-06-09 21:03:08,977 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-09 21:03:09,066 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-09 21:03:09,100 - INFO - Driver [C:\Users\david\.wdm\drivers\chromedriver\win64\137.0.7151.68\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-09 21:03:10,789 - INFO - Iniciando: coletar_advogados_lisboa
+2025-06-09 21:03:10,789 - INFO - Iniciando scraping de advogados...
+2025-06-09 21:03:42,600 - WARNING - Retrying (Retry(total=2, connect=None, read=None, redirect=None, status=None)) after connection broken by 'ConnectionResetError(10054, 'Uma ligação existente foi forçada a fechar pelo anfitrião remoto', None, 10054, None)': /session/21e1220b4df71e8b71b949bc4ba4472f
+2025-06-09 21:03:46,686 - WARNING - Retrying (Retry(total=1, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002D6BCCBFE00>: Failed to establish a new connection: [WinError 10061] Nenhuma ligação pôde ser feita porque o computador de destino\r\nas recusou ativamente')': /session/21e1220b4df71e8b71b949bc4ba4472f
+2025-06-09 21:03:50,795 - WARNING - Retrying (Retry(total=0, connect=None, read=None, redirect=None, status=None)) after connection broken by 'NewConnectionError('<urllib3.connection.HTTPConnection object at 0x000002D6BCCBFE90>: Failed to establish a new connection: [WinError 10061] Nenhuma ligação pôde ser feita porque o computador de destino\r\nas recusou ativamente')': /session/21e1220b4df71e8b71b949bc4ba4472f
+2025-06-09 21:03:54,904 - INFO - Conexão com o banco de dados fechada.

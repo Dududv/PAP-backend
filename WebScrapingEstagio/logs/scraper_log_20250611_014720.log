@@ -1,0 +1,40 @@
+2025-06-11 01:47:20,525 - INFO - Iniciando o script de scraping...
+2025-06-11 01:47:20,534 - INFO - Conexão com o banco de dados estabelecida!
+2025-06-11 01:47:20,535 - INFO - Tabela 'advogados' verificada/recriada com sucesso!
+2025-06-11 01:47:20,535 - INFO - Tabela 'sociedades' verificada/criada com sucesso!
+2025-06-11 01:47:20,535 - INFO - Tabela 'estagiarios' verificada/criada com sucesso!
+2025-06-11 01:47:20,535 - INFO - Tabela 'agentes_execucao' verificada/criada com sucesso!
+2025-06-11 01:47:20,535 - INFO - ====== WebDriver manager ======
+2025-06-11 01:47:21,388 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-11 01:47:21,433 - INFO - Get LATEST chromedriver version for google-chrome
+2025-06-11 01:47:21,465 - INFO - Driver [C:\Users\david\.wdm\drivers\chromedriver\win64\137.0.7151.70\chromedriver-win32/chromedriver.exe] found in cache
+2025-06-11 01:47:22,849 - INFO - Iniciando: coletar_tribunais
+2025-06-11 01:47:22,849 - INFO - Iniciando scraping de tribunais...
+2025-06-11 01:47:58,555 - ERROR - Erro ao carregar página de tribunais: Message: 
+Stacktrace:
+	GetHandleVerifier [0x0xb53783+63299]
+	GetHandleVerifier [0x0xb537c4+63364]
+	(No symbol) [0x0x981113]
+	(No symbol) [0x0x9c987e]
+	(No symbol) [0x0x9c9c1b]
+	(No symbol) [0x0xa12212]
+	(No symbol) [0x0x9ee5c4]
+	(No symbol) [0x0xa0fa4a]
+	(No symbol) [0x0x9ee376]
+	(No symbol) [0x0x9bd6e0]
+	(No symbol) [0x0x9be544]
+	GetHandleVerifier [0x0xdae073+2531379]
+	GetHandleVerifier [0x0xda9372+2511666]
+	GetHandleVerifier [0x0xb79efa+220858]
+	GetHandleVerifier [0x0xb6a548+156936]
+	GetHandleVerifier [0x0xb70c7d+183357]
+	GetHandleVerifier [0x0xb5b6e8+95912]
+	GetHandleVerifier [0x0xb5b890+96336]
+	GetHandleVerifier [0x0xb4666a+9770]
+	BaseThreadInitThunk [0x0x76235d49+25]
+	RtlInitializeExceptionChain [0x0x7716d03b+107]
+	RtlGetAppContainerNamedObjectPath [0x0x7716cfc1+561]
+
+2025-06-11 01:47:58,585 - INFO - Total de tribunais processados: 0
+2025-06-11 01:47:58,585 - WARNING - coletar_tribunais retornou 0 registros
+2025-06-11 01:48:00,926 - INFO - Conexão com o banco de dados fechada.
